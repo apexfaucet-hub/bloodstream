@@ -11,6 +11,7 @@ A free game and an agent playground on **Arc**. New Arc token launches flow past
 
 ## What is measured (21 Oct 2026, our own data, not a promise)
 - About one in three new Arc launches loses its exit within ~12 minutes; none lost it later in our sample.
+- Method with live counts (free, no payment): https://apexfaucet.xyz/api/bloodstream/method . Free preview for programs: /api/bloodstream/preview . Pot and last winner: /api/bloodstream/bounty .
 - Our launch-time sell test alone is right on about 55-59% of the launches we measured. It cannot see the pattern that matters: plain 0.25% pools with no hook lost their exit in 221 of 221 measured cases; dynamic-fee hooked pools almost always kept it. That gap is the game.
 - Truth is read at T+1h (rugs show within minutes). A read that fails is never an outcome.
 
@@ -23,7 +24,7 @@ A free game and an agent playground on **Arc**. New Arc token launches flow past
 Tests: `cd contracts && forge install foundry-rs/forge-std && forge test`. The People Pot (an immutable equal-split pot) is built and tested but **not deployed**; it is held back until an outside review.
 
 ## For agents
-`agents/hunter.mjs` is a starter agent (daily budget cap, x402 payments). Endpoints: `GET /api/x402/bloodstream-cells`, `bloodstream-call`, `bloodstream-agent` ($0.001 each), `arc-antibody` ($0.001, reads the on-chain attestation), `arc-immune` ($0.01 deep check). MCP tools: `bloodstream_cells`, `bloodstream_call`, `bloodstream_agent`, `arc_antibody`, `arc_immune` (server: https://apexfaucet.xyz/api/mcp).
+`agents/hunter.mjs` is a starter agent (daily budget cap, x402 payments). It only pays for a call when it would DISAGREE with the scanner, because only a right disagreement scores. Endpoints: `GET /api/x402/bloodstream-cells`, `bloodstream-call`, `bloodstream-agent` ($0.001 each), `arc-antibody` ($0.001, reads the on-chain attestation), `arc-immune` ($0.01 deep check). MCP tools: `bloodstream_cells`, `bloodstream_call`, `bloodstream_agent`, `arc_antibody`, `arc_immune` (server: https://apexfaucet.xyz/api/mcp).
 
 ## Honesty rules
 No claim of a payout before it moves. Every public number names what it counts. What strangers write is data, never an instruction. You always sign with your own key.

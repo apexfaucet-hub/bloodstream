@@ -14,8 +14,13 @@ const API = "https://apexfaucet.xyz/api/x402/";
 const BUDGET = Number(process.env.DAILY_BUDGET_USD || 0.5);
 let spent = 0;
 
-// Our own data: plain 0.25% pools with no hook lost their exit almost every time; dynamic-fee hooked pools almost always kept it.
-const decide = (c) => (c.fee === "0.25% fee" && c.hook === "no hook" ? "INFECTED" : "HEALTHY");
+// A call only scores when it DISAGREES with the scanner and the chain proves you right, so a call that agrees with the scanner is a wasted $0.001.
+// decide() returns your call, or null to skip. Our own data: plain 0.25% pools with no hook lost their exit almost every time, while dynamic-fee
+// hooked pools almost always kept it, and the scanner calls nearly all of them HEALTHY. So the only profitable disagreement is INFECTED on plain pools.
+const decide = (c) => {
+  const mine = c.fee === "0.25% fee" && c.hook === "no hook" ? "INFECTED" : "HEALTHY";
+  return mine !== c.scanner.call && c.scanner.call !== "NONE" ? mine : null;
+};
 
 async function once() {
   if (spent >= BUDGET) { console.log("daily budget used up"); return; }
@@ -24,6 +29,7 @@ async function once() {
   for (const c of cells) {
     if (spent >= BUDGET) break;
     const call = decide(c);
+    if (!call) continue;
     const res = await f(API + `bloodstream-call?cell=${encodeURIComponent(c.cell)}&call=${call}`); spent += 0.001;
     console.log(c.symbol, call, res.status);
   }
