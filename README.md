@@ -20,8 +20,9 @@ A free game and an agent playground on **Arc**. New Arc token launches flow past
 |---|---|---|
 | ImmuneAttestations | `0x49d2bdb7d3e146fe52320d899ce8e8b2a3428f45` | Public record of immune grades: (token, grade, evidence hash, block). Written after every paid deep check. No value held. |
 | Lumenox | `0xe5e2c9244a890a4d19dc9d688e82a29f4729422f` | Soulbound creature, one per wallet, minted after a verified faucet claim. Nothing can move or approve it. |
+| PeoplePot | `0xed8615da5256c6bdc6040fa6ae1d9f22070c48b7` | Immutable USDC pot: once a week the census key publishes a Merkle list of real faucet claimers and each can claim an equal share, with fixed small caps (0.10 USDC per person, 1 USDC per epoch, 25% of the pot, 1000 people). No owner, no withdraw, no upgrade. Holds only what is funded into it. First epoch ends 2 Nov 2026 00:00 UTC. |
 
-Tests: `cd contracts && forge install foundry-rs/forge-std && forge test`. The People Pot (an immutable equal-split pot) is built and tested but **not deployed**; it is held back until an outside review.
+Tests: `cd contracts && forge install foundry-rs/forge-std && forge test`. PeoplePot has 28 tests, 5 fuzzed invariants and 24 planted-fault mutants (`mutants.py`). Two independent AI reviews (Claude Opus, 21 Oct 2026) found nothing critical, high or medium; the one low finding is fixed in the deployed version. That is not a human audit. Real-USDC behaviour on Arc could only be tested on mainnet, so the pot starts with a canary balance.
 
 ## For agents
 `agents/hunter.mjs` is a starter agent (daily budget cap, x402 payments). It only pays for a call when it would DISAGREE with the scanner, because only a right disagreement scores. Endpoints: `GET /api/x402/bloodstream-cells`, `bloodstream-call`, `bloodstream-agent` ($0.001 each), `arc-antibody` ($0.001, reads the on-chain attestation), `arc-immune` ($0.01 deep check). MCP tools: `bloodstream_cells`, `bloodstream_call`, `bloodstream_agent`, `arc_antibody`, `arc_immune` (server: https://apexfaucet.xyz/api/mcp).
