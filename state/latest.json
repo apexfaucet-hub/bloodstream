@@ -1,16 +1,29 @@
 {
- "at": "2026-10-27T14:05:04Z",
+ "at": "2026-10-27T14:35:12Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 8.926896,
-  "open_positions": [],
+  "account_value": 8.663237,
+  "open_positions": [
+   {
+    "coin": "kPEPE",
+    "szi": "-6028.0",
+    "entry": "0.004388",
+    "upnl": "-0.132616"
+   },
+   {
+    "coin": "XMR",
+    "szi": "-0.022",
+    "entry": "591.81",
+    "upnl": "-0.0099"
+   }
+  ],
   "deposited_usdc": 8.974045,
   "floor_usdc": 7.0
  },
  "last_24h": {
-  "closed_pnl": 0.14614,
-  "fees": 0.19329,
-  "fills": 22
+  "closed_pnl": 0.07908,
+  "fees": 0.24737,
+  "fills": 28
  },
  "per_coin_7d": {
   "NIL": {
@@ -20,10 +33,10 @@
    "net": -0.1176
   },
   "XMR": {
-   "fills": 4,
-   "closed_pnl": -0.01952,
-   "fees": 0.02405,
-   "net": -0.04357
+   "fills": 7,
+   "closed_pnl": -0.03263,
+   "fees": 0.0421,
+   "net": -0.07473
   },
   "DOGE": {
    "fills": 2,
@@ -43,23 +56,29 @@
    "fees": 0.01082,
    "net": -0.01934
   },
+  "kPEPE": {
+   "fills": 1,
+   "closed_pnl": 0.0,
+   "fees": 0.0119,
+   "net": -0.0119
+  },
   "SOL": {
    "fills": 4,
    "closed_pnl": 0.051,
    "fees": 0.05413,
    "net": -0.00313
   },
+  "FARTCOIN": {
+   "fills": 4,
+   "closed_pnl": 0.08593,
+   "fees": 0.04789,
+   "net": 0.03803
+  },
   "WLD": {
    "fills": 2,
    "closed_pnl": 0.11624,
    "fees": 0.02378,
    "net": 0.09245
-  },
-  "FARTCOIN": {
-   "fills": 2,
-   "closed_pnl": 0.13988,
-   "fees": 0.02377,
-   "net": 0.11611
   }
  },
  "scalper_exits_recent": {
@@ -74,8 +93,8 @@
    "avg_held_s": 0
   },
   "time": {
-   "n": 3,
-   "pnl_gross": -0.08252,
+   "n": 5,
+   "pnl_gross": -0.14958,
    "avg_held_s": 301
   },
   "tp": {
@@ -85,76 +104,6 @@
   }
  },
  "scalper_last_events": [
-  {
-   "event": "start",
-   "coins": 40,
-   "floor": 7.0,
-   "rule": {
-    "z": 6.0,
-    "tp": 0.8,
-    "sl": 1.0,
-    "hold_s": 300,
-    "notional": 12.0,
-    "lev": 10
-   },
-   "at": "2026-10-27T13:02:14Z",
-   "dry": true
-  },
-  {
-   "event": "start",
-   "coins": 40,
-   "floor": 7.0,
-   "rule": {
-    "z": 6.0,
-    "tp": 0.8,
-    "sl": 1.0,
-    "hold_s": 300,
-    "notional": 12.0,
-    "lev": 10
-   },
-   "at": "2026-10-27T13:05:48Z"
-  },
-  {
-   "event": "entry",
-   "coin": "NIL",
-   "side": "long",
-   "px": 0.094401,
-   "sz": 127.0,
-   "move60s": -0.00792,
-   "base": 0.0012675154618529416,
-   "at": "2026-10-27T13:08:29Z"
-  },
-  {
-   "event": "exit",
-   "coin": "NIL",
-   "why": "sl",
-   "entry": 0.094401,
-   "exit": 0.093698,
-   "sz": 127.0,
-   "pnl_gross": -0.08928,
-   "held_s": 117,
-   "at": "2026-10-27T13:10:26Z"
-  },
-  {
-   "event": "entry",
-   "coin": "ZRO",
-   "side": "short",
-   "px": 1.6929,
-   "sz": 7.1,
-   "move60s": 0.00549,
-   "base": 0.0008734675163355465,
-   "at": "2026-10-27T13:12:07Z"
-  },
-  {
-   "event": "entry",
-   "coin": "HYPE",
-   "side": "short",
-   "px": 78.734,
-   "sz": 0.15,
-   "move60s": 0.00293,
-   "base": 0.000431294208905475,
-   "at": "2026-10-27T13:12:10Z"
-  },
   {
    "event": "entry",
    "coin": "NIL",
@@ -430,6 +379,84 @@
     "lev": 50
    },
    "at": "2026-10-27T14:01:25Z"
+  },
+  {
+   "event": "entry",
+   "coin": "FARTCOIN",
+   "side": "short",
+   "px": 0.12908,
+   "sz": 207.5,
+   "lev": 10,
+   "notional": 26.78,
+   "move60s": 0.00663,
+   "base": 0.0007772137468583518,
+   "backstop": 0.13293,
+   "backstop_oid": 587334440013,
+   "at": "2026-10-27T14:05:28Z"
+  },
+  {
+   "event": "exit",
+   "coin": "FARTCOIN",
+   "why": "time",
+   "entry": 0.12908,
+   "exit": 0.12934,
+   "sz": 207.5,
+   "pnl_gross": -0.05395,
+   "held_s": 301,
+   "at": "2026-10-27T14:10:28Z"
+  },
+  {
+   "event": "entry",
+   "coin": "XMR",
+   "side": "long",
+   "px": 589.43,
+   "sz": 0.023,
+   "lev": 5,
+   "notional": 13.56,
+   "move60s": -0.00218,
+   "base": 0.000260340866567621,
+   "backstop": 583.65,
+   "backstop_oid": 587345642535,
+   "at": "2026-10-27T14:15:43Z"
+  },
+  {
+   "event": "exit",
+   "coin": "XMR",
+   "why": "time",
+   "entry": 589.43,
+   "exit": 588.86,
+   "sz": 0.023,
+   "pnl_gross": -0.01311,
+   "held_s": 301,
+   "at": "2026-10-27T14:20:44Z"
+  },
+  {
+   "event": "entry",
+   "coin": "kPEPE",
+   "side": "short",
+   "px": 0.004388,
+   "sz": 6028.0,
+   "lev": 10,
+   "notional": 26.45,
+   "move60s": 0.00575,
+   "base": 0.0009214466712740288,
+   "backstop": 0.004502,
+   "backstop_oid": 587362802251,
+   "at": "2026-10-27T14:32:28Z"
+  },
+  {
+   "event": "entry",
+   "coin": "XMR",
+   "side": "short",
+   "px": 591.81,
+   "sz": 0.022,
+   "lev": 5,
+   "notional": 13.02,
+   "move60s": 0.0021,
+   "base": 0.0003813882532417434,
+   "backstop": 597.41,
+   "backstop_oid": 587363085724,
+   "at": "2026-10-27T14:32:45Z"
   }
  ],
  "scalper_params_now": {
