@@ -1,1 +1,1 @@
-{"z": 8, "tp": 1.2, "sl": 3.0, "hold_s": 300, "notional": 30, "max_pos": 3, "confirm_s": 180, "paused": false, "block_coins": [], "why": "start: v3 settings chosen 27 Oct from 3.5 d x 40 coins backtest"}
+{"z": 8, "tp": 1.2, "sl": 3.0, "hold_s": 300, "notional": 30, "max_pos": 3, "confirm_s": 180, "paused": false, "block_coins": ["NIL"], "why": "NIL net -0.1176 over 4 fills 7d (rule 3); only ~5 exits since v3 restart at 13:16, so no other change"}

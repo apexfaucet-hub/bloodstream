@@ -1,16 +1,35 @@
 {
- "at": "2026-10-27T13:33:40Z",
+ "at": "2026-10-27T13:34:50Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 8.773964,
-  "open_positions": [],
+  "account_value": 8.964625,
+  "open_positions": [
+   {
+    "coin": "SOL",
+    "szi": "0.3",
+    "entry": "100.14",
+    "upnl": "0.054"
+   },
+   {
+    "coin": "WLD",
+    "szi": "61.5",
+    "entry": "0.42872",
+    "upnl": "0.097785"
+   },
+   {
+    "coin": "FARTCOIN",
+    "szi": "205.7",
+    "entry": "0.12803",
+    "upnl": "0.076109"
+   }
+  ],
   "deposited_usdc": 8.974045,
   "floor_usdc": 7.0
  },
  "last_24h": {
   "closed_pnl": -0.14533,
-  "fees": 0.05476,
-  "fills": 10
+  "fees": 0.09199,
+  "fills": 13
  },
  "per_coin_7d": {
   "NIL": {
@@ -36,6 +55,24 @@
    "closed_pnl": -0.00852,
    "fees": 0.01082,
    "net": -0.01934
+  },
+  "SOL": {
+   "fills": 1,
+   "closed_pnl": 0.0,
+   "fees": 0.01352,
+   "net": -0.01352
+  },
+  "WLD": {
+   "fills": 1,
+   "closed_pnl": 0.0,
+   "fees": 0.01186,
+   "net": -0.01186
+  },
+  "FARTCOIN": {
+   "fills": 1,
+   "closed_pnl": 0.0,
+   "fees": 0.01185,
+   "net": -0.01185
   }
  },
  "scalper_exits_recent": {
@@ -227,6 +264,42 @@
    "pnl_gross": -0.01584,
    "held_s": 301,
    "at": "2026-10-27T13:33:34Z"
+  },
+  {
+   "event": "entry",
+   "coin": "FARTCOIN",
+   "side": "long",
+   "px": 0.12803,
+   "sz": 205.7,
+   "lev": 10,
+   "notional": 26.34,
+   "move60s": -0.00521,
+   "base": 0.0005850908136336708,
+   "at": "2026-10-27T13:33:55Z"
+  },
+  {
+   "event": "entry",
+   "coin": "SOL",
+   "side": "long",
+   "px": 100.14,
+   "sz": 0.3,
+   "lev": 20,
+   "notional": 30.04,
+   "move60s": -0.00279,
+   "base": 0.0002993713321522429,
+   "at": "2026-10-27T13:34:06Z"
+  },
+  {
+   "event": "entry",
+   "coin": "WLD",
+   "side": "long",
+   "px": 0.42872,
+   "sz": 61.5,
+   "lev": 10,
+   "notional": 26.37,
+   "move60s": -0.00914,
+   "base": 0.0008307519768593341,
+   "at": "2026-10-27T13:34:09Z"
   }
  ],
  "scalper_params_now": {
@@ -238,8 +311,10 @@
   "max_pos": 3,
   "confirm_s": 180,
   "paused": false,
-  "block_coins": [],
-  "why": "start: v3 settings chosen 27 Oct from 3.5 d x 40 coins backtest"
+  "block_coins": [
+   "NIL"
+  ],
+  "why": "NIL net -0.1176 over 4 fills 7d (rule 3); only ~5 exits since v3 restart at 13:16, so no other change"
  },
  "money_desk": "MONEY DESK 2026-10-27\nOutside income: 24 h $0.024 (~0.02 EUR), 7 d $0.113 from 14 payers (9 new), 30 d $3.05\nTop products 7 d: chat-completions $0.018 (2 payers), web-search $0.015 (1 payers), arc-immune $0.01 (1 payers), flight-deals $0.01 (1 payers), arc-gas $0.008 (1 payers)\nCosts 7 d: spent outside $0.034, Arc faucet payouts $0.66 + gas $0.141. Net 7 d: $-0.722\nBazaar ranks: token verdict 15; base token verdict 4; decode transaction 9; web search 17; honeypot check base 1; token price not in top 20\nExperiment post-verdict: running (judge on 2026-10-28)\nExperiment relist-all-cdp: running (judge on 2026-10-28)\nExperiment listing-text: running (judge on 2026-10-28)\nExperiment base-price: running (judge on 2026-10-28)\nExperiment multichain-verdict: running (judge on 2026-10-28)\nExperiment payai-listing: running (judge on 2026-10-28)\nFree capital: $5.36. Hyperliquid carry (no price risk): BTC 11% APR ($0.0008/day), SOL 11% APR ($0.0008/day), ENA 11% APR ($0.0008/day)\nArc launches: 64.7% lost their exit (4392 settled)\nBusiest paid agent markets: www.ax1.vc 1107 payers $497.84/day; keyring-agent.blockchhub.link 51 payers $54.6/day; blockrun.ai 34 payers $32.02/day; api.botpay.network 26 payers $30.53/day\n",
  "x1_dip_trader": {
@@ -263,5 +338,5 @@
   ],
   "realised_xnt": 0
  },
- "last_apply": "unchanged"
+ "last_apply": "applied {\"z\": 8, \"tp\": 1.2, \"sl\": 3.0, \"hold_s\": 300, \"notional\": 30, \"max_pos\": 3, \"confirm_s\": 180, \"paused\": false, \"block_coins\": [\"NIL\"], \"why\": \"NIL net -0.1176 over 4 fills 7d (rule 3); only ~5 exits since v3 restart at 13:16, so no other change\"}"
 }
