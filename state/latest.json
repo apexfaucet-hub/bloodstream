@@ -1,23 +1,16 @@
 {
- "at": "2026-10-27T18:35:04Z",
+ "at": "2026-10-27T19:05:06Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 8.428491,
-  "open_positions": [
-   {
-    "coin": "CRV",
-    "szi": "75.1",
-    "entry": "0.33745",
-    "upnl": "-0.003004"
-   }
-  ],
+  "account_value": 8.404281,
+  "open_positions": [],
   "deposited_usdc": 8.974045,
   "floor_usdc": 7.0
  },
  "last_24h": {
-  "closed_pnl": 0.4267,
-  "fees": 0.96957,
-  "fills": 111
+  "closed_pnl": 0.42229,
+  "fees": 0.99237,
+  "fills": 114
  },
  "per_coin_7d": {
   "kPEPE": {
@@ -57,10 +50,10 @@
    "net": -0.0676
   },
   "CRV": {
-   "fills": 5,
-   "closed_pnl": -0.00651,
-   "fees": 0.05734,
-   "net": -0.06385
+   "fills": 6,
+   "closed_pnl": 0.01077,
+   "fees": 0.06875,
+   "net": -0.05799
   },
   "MON": {
    "fills": 2,
@@ -86,6 +79,12 @@
    "fees": 0.01064,
    "net": -0.03554
   },
+  "STRK": {
+   "fills": 8,
+   "closed_pnl": 0.01944,
+   "fees": 0.04583,
+   "net": -0.02639
+  },
   "ETH": {
    "fills": 2,
    "closed_pnl": 0.01024,
@@ -97,12 +96,6 @@
    "closed_pnl": 0.051,
    "fees": 0.05413,
    "net": -0.00313
-  },
-  "STRK": {
-   "fills": 6,
-   "closed_pnl": 0.04113,
-   "fees": 0.03444,
-   "net": 0.00669
   },
   "ZEC": {
    "fills": 2,
@@ -165,8 +158,8 @@
    "avg_held_s": 0
   },
   "time": {
-   "n": 36,
-   "pnl_gross": -0.37547,
+   "n": 38,
+   "pnl_gross": -0.37989,
    "avg_held_s": 301
   },
   "tp": {
@@ -181,40 +174,6 @@
   }
  },
  "scalper_last_events": [
-  {
-   "event": "exit",
-   "coin": "FARTCOIN",
-   "why": "time",
-   "entry": 0.13036,
-   "exit": 0.12998,
-   "sz": 194.5,
-   "pnl_gross": 0.07391,
-   "held_s": 301,
-   "at": "2026-10-27T17:30:45Z"
-  },
-  {
-   "event": "entry",
-   "coin": "XMR",
-   "side": "long",
-   "px": 600.95,
-   "sz": 0.021,
-   "lev": 5,
-   "notional": 12.62,
-   "move60s": -0.0016,
-   "base": 0.0005529444290847119,
-   "backstop": 596.62,
-   "backstop_oid": 587506580828,
-   "at": "2026-10-27T17:31:47Z"
-  },
-  {
-   "event": "exit",
-   "coin": "BNB",
-   "why": "restart",
-   "exit": 751.17,
-   "sz": "0.034",
-   "pnl_gross": -0.01224,
-   "at": "2026-10-27T17:33:54Z"
-  },
   {
    "event": "exit",
    "coin": "XMR",
@@ -577,6 +536,44 @@
    "tp_px": 0.338,
    "tp_oid": 587543961933,
    "at": "2026-10-27T18:33:43Z"
+  },
+  {
+   "event": "exit",
+   "coin": "CRV",
+   "why": "time",
+   "entry": 0.33745,
+   "exit": 0.33768,
+   "sz": 75.1,
+   "pnl_gross": 0.01727,
+   "held_s": 300,
+   "at": "2026-10-27T18:38:43Z"
+  },
+  {
+   "event": "entry",
+   "coin": "STRK",
+   "side": "long",
+   "px": 0.04672,
+   "sz": 271.1,
+   "lev": 5,
+   "notional": 12.67,
+   "move60s": -0.00534,
+   "base": 0.0006468305304010435,
+   "backstop": 0.0456,
+   "backstop_oid": 587552706610,
+   "tp_px": 0.04692,
+   "tp_oid": 587552710375,
+   "at": "2026-10-27T18:49:13Z"
+  },
+  {
+   "event": "exit",
+   "coin": "STRK",
+   "why": "time",
+   "entry": 0.04672,
+   "exit": 0.04664,
+   "sz": 271.1,
+   "pnl_gross": -0.02169,
+   "held_s": 300,
+   "at": "2026-10-27T18:54:13Z"
   }
  ],
  "scalper_params_now": {
@@ -722,5 +719,5 @@
   ],
   "realised_xnt": 0
  },
- "last_apply": "applied {\"z\": 8, \"tp\": 0.8, \"sl\": 3.0, \"hold_s\": 300, \"notional\": 30, \"max_pos\": 3, \"confirm_s\": 180, \"paused\": false, \"block_coins\": [\"NIL\", \"kPEPE\", \"XMR\", \"ZRO\", \"DOGE\"], \"why\": \"no change: only ~5 exits since the tp 0.8 change at 17:35 (<20), no unblocked coin has net < -0.05 over >= 4 fills; acct 8.573"
+ "last_apply": "unchanged"
 }
