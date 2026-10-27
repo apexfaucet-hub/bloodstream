@@ -1,26 +1,26 @@
 {
- "at": "2026-10-27T13:34:50Z",
+ "at": "2026-10-27T13:35:06Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 8.964625,
+  "account_value": 8.975033,
   "open_positions": [
    {
     "coin": "SOL",
     "szi": "0.3",
     "entry": "100.14",
-    "upnl": "0.054"
+    "upnl": "0.072"
    },
    {
     "coin": "WLD",
     "szi": "61.5",
     "entry": "0.42872",
-    "upnl": "0.097785"
+    "upnl": "0.09225"
    },
    {
     "coin": "FARTCOIN",
     "szi": "205.7",
     "entry": "0.12803",
-    "upnl": "0.076109"
+    "upnl": "0.074052"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -338,5 +338,5 @@
   ],
   "realised_xnt": 0
  },
- "last_apply": "applied {\"z\": 8, \"tp\": 1.2, \"sl\": 3.0, \"hold_s\": 300, \"notional\": 30, \"max_pos\": 3, \"confirm_s\": 180, \"paused\": false, \"block_coins\": [\"NIL\"], \"why\": \"NIL net -0.1176 over 4 fills 7d (rule 3); only ~5 exits since v3 restart at 13:16, so no other change\"}"
+ "last_apply": "unchanged"
 }
