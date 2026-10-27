@@ -1,16 +1,16 @@
 {
- "at": "2026-10-27T19:05:06Z",
+ "at": "2026-10-27T19:35:09Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 8.404281,
+  "account_value": 8.26205,
   "open_positions": [],
   "deposited_usdc": 8.974045,
   "floor_usdc": 7.0
  },
  "last_24h": {
-  "closed_pnl": 0.42229,
-  "fees": 0.99237,
-  "fills": 114
+  "closed_pnl": 0.30265,
+  "fees": 1.01496,
+  "fills": 118
  },
  "per_coin_7d": {
   "kPEPE": {
@@ -24,6 +24,12 @@
    "closed_pnl": -0.15208,
    "fees": 0.11696,
    "net": -0.26904
+  },
+  "STRK": {
+   "fills": 12,
+   "closed_pnl": -0.1002,
+   "fees": 0.06842,
+   "net": -0.16862
   },
   "NIL": {
    "fills": 4,
@@ -78,12 +84,6 @@
    "closed_pnl": -0.0249,
    "fees": 0.01064,
    "net": -0.03554
-  },
-  "STRK": {
-   "fills": 8,
-   "closed_pnl": 0.01944,
-   "fees": 0.04583,
-   "net": -0.02639
   },
   "ETH": {
    "fills": 2,
@@ -158,8 +158,8 @@
    "avg_held_s": 0
   },
   "time": {
-   "n": 38,
-   "pnl_gross": -0.37989,
+   "n": 40,
+   "pnl_gross": -0.49953,
    "avg_held_s": 301
   },
   "tp": {
@@ -174,61 +174,6 @@
   }
  },
  "scalper_last_events": [
-  {
-   "event": "exit",
-   "coin": "XMR",
-   "why": "restart",
-   "exit": 601.69,
-   "sz": "0.021",
-   "pnl_gross": 0.01575,
-   "at": "2026-10-27T17:33:56Z"
-  },
-  {
-   "event": "start",
-   "coins": 40,
-   "floor": 7.0,
-   "rule": {
-    "z": 8.0,
-    "tp": 1.2,
-    "sl": 3.0,
-    "hold_s": 300.0,
-    "notional": 30.0,
-    "lev": 50
-   },
-   "at": "2026-10-27T17:33:56Z"
-  },
-  {
-   "event": "entry",
-   "coin": "LIT",
-   "side": "short",
-   "px": 3.1252,
-   "sz": 4.0,
-   "lev": 5,
-   "notional": 12.5,
-   "move60s": 0.00987,
-   "base": 0.0010224498470778887,
-   "backstop": 3.264,
-   "backstop_oid": 587514503496,
-   "tp_px": 3.1005,
-   "tp_oid": 587514515675,
-   "at": "2026-10-27T17:45:05Z"
-  },
-  {
-   "event": "entry",
-   "coin": "MON",
-   "side": "short",
-   "px": 0.021595,
-   "sz": 596.0,
-   "lev": 5,
-   "notional": 12.87,
-   "move60s": 0.00928,
-   "base": 0.0009066736696835553,
-   "backstop": 0.022497,
-   "backstop_oid": 587515351536,
-   "tp_px": 0.021435,
-   "tp_oid": 587515356283,
-   "at": "2026-10-27T17:46:27Z"
-  },
   {
    "event": "exit",
    "coin": "LIT",
@@ -574,6 +519,60 @@
    "pnl_gross": -0.02169,
    "held_s": 300,
    "at": "2026-10-27T18:54:13Z"
+  },
+  {
+   "event": "entry",
+   "coin": "STRK",
+   "side": "short",
+   "px": 0.04734,
+   "sz": 266.2,
+   "lev": 5,
+   "notional": 12.6,
+   "move60s": 0.0073,
+   "base": 0.0008554319931566301,
+   "backstop": 0.04889,
+   "backstop_oid": 587565529816,
+   "tp_px": 0.04706,
+   "tp_oid": 587565536408,
+   "at": "2026-10-27T19:11:34Z"
+  },
+  {
+   "event": "exit",
+   "coin": "STRK",
+   "why": "time",
+   "entry": 0.04734,
+   "exit": 0.04748,
+   "sz": 266.2,
+   "pnl_gross": -0.03727,
+   "held_s": 302,
+   "at": "2026-10-27T19:16:37Z"
+  },
+  {
+   "event": "entry",
+   "coin": "STRK",
+   "side": "long",
+   "px": 0.04716,
+   "sz": 265.7,
+   "lev": 5,
+   "notional": 12.53,
+   "move60s": -0.00693,
+   "base": 0.0008554319931566301,
+   "backstop": 0.04569,
+   "backstop_oid": 587571772375,
+   "tp_px": 0.04742,
+   "tp_oid": 587571777168,
+   "at": "2026-10-27T19:21:40Z"
+  },
+  {
+   "event": "exit",
+   "coin": "STRK",
+   "why": "time",
+   "entry": 0.04716,
+   "exit": 0.04685,
+   "sz": 265.7,
+   "pnl_gross": -0.08237,
+   "held_s": 302,
+   "at": "2026-10-27T19:26:44Z"
   }
  ],
  "scalper_params_now": {
@@ -590,9 +589,11 @@
    "kPEPE",
    "XMR",
    "ZRO",
-   "DOGE"
+   "DOGE",
+   "TRUMP",
+   "CRV"
   ],
-  "why": "no change: only ~5 exits since the tp 0.8 change at 17:35 (<20), no unblocked coin has net < -0.05 over >= 4 fills; acct 8.573 > 7.6"
+  "why": "rule 3: 7d net TRUMP -0.083/7 fills and CRV -0.058/6 fills blocked; only ~14 exits since tp 0.8 (<20, gross +0.14) so nothing else changed; acct 8.404 > 7.6"
  },
  "money_desk": "MONEY DESK 2026-10-27\nOutside income: 24 h $0.024 (~0.02 EUR), 7 d $0.113 from 14 payers (9 new), 30 d $3.05\nTop products 7 d: chat-completions $0.018 (2 payers), web-search $0.015 (1 payers), arc-immune $0.01 (1 payers), flight-deals $0.01 (1 payers), arc-gas $0.008 (1 payers)\nCosts 7 d: spent outside $0.034, Arc faucet payouts $0.66 + gas $0.141. Net 7 d: $-0.722\nBazaar ranks: token verdict 9; base token verdict 4; decode transaction 7; web search 17; honeypot check base 2; token price not in top 20\nExperiment post-verdict: running (judge on 2026-10-28)\nExperiment relist-all-cdp: running (judge on 2026-10-28)\nExperiment listing-text: running (judge on 2026-10-28)\nExperiment base-price: running (judge on 2026-10-28)\nExperiment multichain-verdict: running (judge on 2026-10-28)\nExperiment payai-listing: running (judge on 2026-10-28)\nExperiment chat-listing-words: running (judge on 2026-10-28)\nTrading 24 h, Hyperliquid scalper: net $0.045 after fees (~0.04 EUR), 9 closes, 3 wins\nTrading 24 h, X1 dip trader: 0 sells, realised 0 XNT (before tx fees)\nFree capital: $5.36. Hyperliquid carry (no price risk): BTC 11% APR ($0.0008/day), SOL 11% APR ($0.0008/day), ENA 11% APR ($0.0008/day)\nArc launches: 64.7% lost their exit (4392 settled)\nBusiest paid agent markets: www.ax1.vc 1107 payers $497.84/day; keyring-agent.blockchhub.link 51 payers $54.6/day; blockrun.ai 34 payers $32.02/day; api.botpay.network 26 payers $30.53/day\n",
  "x1_dip_trader": {
@@ -719,5 +720,5 @@
   ],
   "realised_xnt": 0
  },
- "last_apply": "unchanged"
+ "last_apply": "applied {\"z\": 8, \"tp\": 0.8, \"sl\": 3.0, \"hold_s\": 300, \"notional\": 30, \"max_pos\": 3, \"confirm_s\": 180, \"paused\": false, \"block_coins\": [\"NIL\", \"kPEPE\", \"XMR\", \"ZRO\", \"DOGE\", \"TRUMP\", \"CRV\"], \"why\": \"rule 3: 7d net TRUMP -0.083/7 fills and CRV -0.058/6 fills blocked; only ~14 exits since tp 0.8 (<20, gross +0"
 }
