@@ -21,7 +21,10 @@ Hard floor: account < 7 USDC closes everything and stops. You cannot change the 
 3. Coins with net < −0.05 USD over ≥ 4 fills go into `block_coins`. If stops dominate and later prices recovered (sl exits with short hold), widen `sl`
    or raise `confirm_s`. If time exits dominate, lower `tp`. If net is negative after fees across ≥ 40 exits, raise `z` (fewer, bigger moves).
 4. If the account is below 7.6 USDC, set `max_pos` 1 and `notional` 10.5. Never set `paused` without a reason in `why`.
-5. Change one or two settings per run, never all. Keep a log: append one line per run to `decisions/log.md` (UTC time, what you saw in numbers,
+5. SCALE signal: when net after fees is positive over >= 100 closes AND over the last 3 days of history, start your LOG line with "SCALE:"
+   and the numbers. Adding capital is decided by a human-led session; you only raise the flag. If net is negative over >= 100 closes, start
+   with "WEAK:" and propose the one change you believe in most.
+6. Change one or two settings per run, never all. Keep a log: append one line per run to `decisions/log.md` (UTC time, what you saw in numbers,
    what you changed, what would prove you wrong).
 
 ## How to write (GitHub push is NOT available to you: the Claude app has read-only access)
