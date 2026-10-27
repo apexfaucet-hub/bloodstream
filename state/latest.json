@@ -1,23 +1,16 @@
 {
- "at": "2026-10-27T13:31:46Z",
+ "at": "2026-10-27T13:33:40Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 8.80932,
-  "open_positions": [
-   {
-    "coin": "XMR",
-    "szi": "0.022",
-    "entry": "594.32",
-    "upnl": "0.01364"
-   }
-  ],
+  "account_value": 8.773964,
+  "open_positions": [],
   "deposited_usdc": 8.974045,
   "floor_usdc": 7.0
  },
  "last_24h": {
-  "closed_pnl": -0.12949,
-  "fees": 0.04888,
-  "fills": 9
+  "closed_pnl": -0.14533,
+  "fees": 0.05476,
+  "fills": 10
  },
  "per_coin_7d": {
   "NIL": {
@@ -32,17 +25,17 @@
    "fees": 0.01064,
    "net": -0.03554
   },
+  "XMR": {
+   "fills": 2,
+   "closed_pnl": -0.01584,
+   "fees": 0.01176,
+   "net": -0.0276
+  },
   "ZRO": {
    "fills": 2,
    "closed_pnl": -0.00852,
    "fees": 0.01082,
    "net": -0.01934
-  },
-  "XMR": {
-   "fills": 1,
-   "closed_pnl": 0.0,
-   "fees": 0.00588,
-   "net": -0.00588
   }
  },
  "scalper_exits_recent": {
@@ -55,6 +48,11 @@
    "n": 3,
    "pnl_gross": -0.03013,
    "avg_held_s": 0
+  },
+  "time": {
+   "n": 1,
+   "pnl_gross": -0.01584,
+   "avg_held_s": 301
   }
  },
  "scalper_last_events": [
@@ -218,6 +216,17 @@
    "move60s": -0.00243,
    "base": 5.0446881231125396e-05,
    "at": "2026-10-27T13:28:34Z"
+  },
+  {
+   "event": "exit",
+   "coin": "XMR",
+   "why": "time",
+   "entry": 594.32,
+   "exit": 593.6,
+   "sz": 0.022,
+   "pnl_gross": -0.01584,
+   "held_s": 301,
+   "at": "2026-10-27T13:33:34Z"
   }
  ],
  "scalper_params_now": {
