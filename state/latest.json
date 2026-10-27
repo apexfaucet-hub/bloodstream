@@ -1,36 +1,23 @@
 {
- "at": "2026-10-27T15:35:10Z",
+ "at": "2026-10-27T16:05:04Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 8.429127,
-  "open_positions": [
-   {
-    "coin": "CRV",
-    "szi": "76.2",
-    "entry": "0.3344",
-    "upnl": "-0.02667"
-   },
-   {
-    "coin": "XMR",
-    "szi": "0.022",
-    "entry": "591.72",
-    "upnl": "-0.0198"
-   }
-  ],
+  "account_value": 8.465972,
+  "open_positions": [],
   "deposited_usdc": 8.974045,
   "floor_usdc": 7.0
  },
  "last_24h": {
-  "closed_pnl": -0.12044,
-  "fees": 0.37801,
-  "fills": 45
+  "closed_pnl": -0.11274,
+  "fees": 0.39533,
+  "fills": 47
  },
  "per_coin_7d": {
   "XMR": {
-   "fills": 13,
-   "closed_pnl": -0.10985,
-   "fees": 0.07722,
-   "net": -0.18707
+   "fills": 14,
+   "closed_pnl": -0.13339,
+   "fees": 0.08307,
+   "net": -0.21646
   },
   "kPEPE": {
    "fills": 2,
@@ -68,12 +55,6 @@
    "fees": 0.02704,
    "net": -0.0168
   },
-  "CRV": {
-   "fills": 1,
-   "closed_pnl": 0.0,
-   "fees": 0.01147,
-   "net": -0.01147
-  },
   "LIT": {
    "fills": 4,
    "closed_pnl": 0.014,
@@ -85,6 +66,12 @@
    "closed_pnl": 0.051,
    "fees": 0.05413,
    "net": -0.00313
+  },
+  "CRV": {
+   "fills": 2,
+   "closed_pnl": 0.03124,
+   "fees": 0.02295,
+   "net": 0.0083
   },
   "FARTCOIN": {
    "fills": 4,
@@ -111,8 +98,8 @@
    "avg_held_s": 0
   },
   "time": {
-   "n": 13,
-   "pnl_gross": -0.3491,
+   "n": 15,
+   "pnl_gross": -0.3414,
    "avg_held_s": 301
   },
   "tp": {
@@ -122,29 +109,6 @@
   }
  },
  "scalper_last_events": [
-  {
-   "event": "exit",
-   "coin": "FARTCOIN",
-   "why": "restart",
-   "exit": 0.12871,
-   "sz": "205.7",
-   "pnl_gross": 0.117249,
-   "at": "2026-10-27T13:36:40Z"
-  },
-  {
-   "event": "start",
-   "coins": 40,
-   "floor": 7.0,
-   "rule": {
-    "z": 8.0,
-    "tp": 1.2,
-    "sl": 3.0,
-    "hold_s": 300.0,
-    "notional": 30.0,
-    "lev": 50
-   },
-   "at": "2026-10-27T13:36:40Z"
-  },
   {
    "event": "start",
    "coins": 40,
@@ -496,6 +460,28 @@
    "backstop": 0.32826,
    "backstop_oid": 587418675574,
    "at": "2026-10-27T15:32:02Z"
+  },
+  {
+   "event": "exit",
+   "coin": "XMR",
+   "why": "time",
+   "entry": 591.72,
+   "exit": 590.65,
+   "sz": 0.022,
+   "pnl_gross": -0.02354,
+   "held_s": 300,
+   "at": "2026-10-27T15:36:59Z"
+  },
+  {
+   "event": "exit",
+   "coin": "CRV",
+   "why": "time",
+   "entry": 0.3344,
+   "exit": 0.33481,
+   "sz": 76.2,
+   "pnl_gross": 0.03124,
+   "held_s": 300,
+   "at": "2026-10-27T15:37:02Z"
   }
  ],
  "scalper_params_now": {
