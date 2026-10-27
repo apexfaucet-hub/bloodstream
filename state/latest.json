@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T23:05:03Z",
+ "at": "2026-10-27T23:35:06Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 8.186987,
@@ -623,16 +623,7 @@
  },
  "money_desk": "MONEY DESK 2026-10-27\nOutside income: 24 h $0.023 (~0.02 EUR), 7 d $0.091 from 14 payers (9 new), 30 d $3.042\nTop products 7 d: chat-completions $0.016 (2 payers), web-search $0.015 (1 payers), arc-gas $0.008 (1 payers), arc-agent-watch $0.008 (1 payers), x1-payment $0.006 (2 payers)\nCosts 7 d: spent outside $0.034, Arc faucet payouts $0.75 + gas $0.166. Net 7 d: $-0.859\nBazaar ranks: token verdict 9; base token verdict 4; decode transaction 7; web search 17; honeypot check base 2; token price not in top 20\nExperiment post-verdict: running (judge on 2026-10-28)\nExperiment relist-all-cdp: running (judge on 2026-10-28)\nExperiment listing-text: running (judge on 2026-10-28)\nExperiment base-price: running (judge on 2026-10-28)\nExperiment multichain-verdict: running (judge on 2026-10-28)\nExperiment payai-listing: running (judge on 2026-10-28)\nExperiment chat-listing-words: running (judge on 2026-10-28)\nTrading 24 h, Hyperliquid scalper: net $-0.705 after fees (~-0.61 EUR), 61 closes, 28 wins\nTrading 24 h, X1 dip trader: 0 sells, realised 0 XNT (before tx fees)\nFree capital: $5.36. Hyperliquid carry (no price risk): BTC 11% APR ($0.0008/day), SOL 11% APR ($0.0008/day), ENA 11% APR ($0.0008/day)\nArc launches: 64.7% lost their exit (4392 settled)\nBusiest paid agent markets: www.ax1.vc 1107 payers $497.84/day; keyring-agent.blockchhub.link 51 payers $54.6/day; blockrun.ai 34 payers $32.02/day; api.botpay.network 26 payers $30.53/day\n",
  "x1_dip_trader": {
-  "open": {
-   "GwwCyLS4VEeZXyPWPYRNiVSuVur6ntioxBmjDQHHHv9x": {
-    "mint": "EFPkbXTdr3c7aRbCEKoJDYdbbzgzVDBShYGybP3gQwmy",
-    "tokRaw": 4710647828725,
-    "costLamports": 2000000000,
-    "t": 1793121572616,
-    "entry": 0.00042346268197965297,
-    "sig": "62ASJwQ7wUqS65K4vJw9z3EJ48oMTR1Ha1zNBSJaVUWsMywMpZPVCFC7y8S93RNLoJ8DnAMVBXGh9qfHK3VALFGd"
-   }
-  },
+  "open": {},
   "last_trades": [
    {
     "event": "start",
@@ -781,9 +772,35 @@
     "pnlPct": 8.5,
     "sig": "5snVvtLVRt9gdfUiuGDhQDzEXzcj1tbrauNNDckjN7A6Qe943PRPt4P5vkNvBjH3LVWJZryPFn9S4NLfm4VQECyR",
     "at": "2026-10-27T22:26:08.790Z"
+   },
+   {
+    "event": "start",
+    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
+    "pools": 9,
+    "rule": {
+     "BUY_XNT": 2,
+     "MAX_POS": 4,
+     "RESERVE_XNT": 10,
+     "DIP_PCT": 6,
+     "TP_PCT": 8,
+     "SL_PCT": 12,
+     "MAX_HOLD_H": 72
+    },
+    "at": "2026-10-27T23:08:17.988Z"
+   },
+   {
+    "event": "sell",
+    "why": "blacklist",
+    "pool": "GwwCyLS4VEeZXyPWPYRNiVSuVur6ntioxBmjDQHHHv9x",
+    "mint": "EFPkbXTdr3c7aRbCEKoJDYdbbzgzVDBShYGybP3gQwmy",
+    "xntBack": 2.02191378,
+    "cost": 2,
+    "pnlPct": 1.1,
+    "sig": "33tTqK4wGx76Aq5R2CiV7o2dxV7hSyN2fzxV1ZBVA8vkuycT6xRiuATBWf9YeXiVWcRZKsEBHAWhL54SAqVgK42i",
+    "at": "2026-10-27T23:08:19.105Z"
    }
   ],
-  "realised_xnt": 1.75981
+  "realised_xnt": 1.78173
  },
  "last_apply": "unchanged"
 }
