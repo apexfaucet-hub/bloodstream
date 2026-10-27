@@ -1,16 +1,23 @@
 {
- "at": "2026-10-27T13:22:55Z",
+ "at": "2026-10-27T13:31:46Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 8.801563,
-  "open_positions": [],
+  "account_value": 8.80932,
+  "open_positions": [
+   {
+    "coin": "XMR",
+    "szi": "0.022",
+    "entry": "594.32",
+    "upnl": "0.01364"
+   }
+  ],
   "deposited_usdc": 8.974045,
   "floor_usdc": 7.0
  },
  "last_24h": {
   "closed_pnl": -0.12949,
-  "fees": 0.043,
-  "fills": 8
+  "fees": 0.04888,
+  "fills": 9
  },
  "per_coin_7d": {
   "NIL": {
@@ -30,6 +37,12 @@
    "closed_pnl": -0.00852,
    "fees": 0.01082,
    "net": -0.01934
+  },
+  "XMR": {
+   "fills": 1,
+   "closed_pnl": 0.0,
+   "fees": 0.00588,
+   "net": -0.00588
   }
  },
  "scalper_exits_recent": {
@@ -193,6 +206,18 @@
     "lev": 50
    },
    "at": "2026-10-27T13:22:27Z"
+  },
+  {
+   "event": "entry",
+   "coin": "XMR",
+   "side": "long",
+   "px": 594.32,
+   "sz": 0.022,
+   "lev": 5,
+   "notional": 13.08,
+   "move60s": -0.00243,
+   "base": 5.0446881231125396e-05,
+   "at": "2026-10-27T13:28:34Z"
   }
  ],
  "scalper_params_now": {
@@ -208,5 +233,26 @@
   "why": "start: v3 settings chosen 27 Oct from 3.5 d x 40 coins backtest"
  },
  "money_desk": "MONEY DESK 2026-10-27\nOutside income: 24 h $0.024 (~0.02 EUR), 7 d $0.113 from 14 payers (9 new), 30 d $3.05\nTop products 7 d: chat-completions $0.018 (2 payers), web-search $0.015 (1 payers), arc-immune $0.01 (1 payers), flight-deals $0.01 (1 payers), arc-gas $0.008 (1 payers)\nCosts 7 d: spent outside $0.034, Arc faucet payouts $0.66 + gas $0.141. Net 7 d: $-0.722\nBazaar ranks: token verdict 15; base token verdict 4; decode transaction 9; web search 17; honeypot check base 1; token price not in top 20\nExperiment post-verdict: running (judge on 2026-10-28)\nExperiment relist-all-cdp: running (judge on 2026-10-28)\nExperiment listing-text: running (judge on 2026-10-28)\nExperiment base-price: running (judge on 2026-10-28)\nExperiment multichain-verdict: running (judge on 2026-10-28)\nExperiment payai-listing: running (judge on 2026-10-28)\nFree capital: $5.36. Hyperliquid carry (no price risk): BTC 11% APR ($0.0008/day), SOL 11% APR ($0.0008/day), ENA 11% APR ($0.0008/day)\nArc launches: 64.7% lost their exit (4392 settled)\nBusiest paid agent markets: www.ax1.vc 1107 payers $497.84/day; keyring-agent.blockchhub.link 51 payers $54.6/day; blockrun.ai 34 payers $32.02/day; api.botpay.network 26 payers $30.53/day\n",
- "last_apply": "applied {\"z\": 8, \"tp\": 1.2, \"sl\": 3.0, \"hold_s\": 300, \"notional\": 30, \"max_pos\": 3, \"confirm_s\": 180, \"paused\": false, \"block_coins\": [], \"why\": \"start: v3 settings chosen 27 Oct from 3.5 d x 40 coins backtest\"}"
+ "x1_dip_trader": {
+  "open": {},
+  "last_trades": [
+   {
+    "event": "start",
+    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
+    "pools": 9,
+    "rule": {
+     "BUY_XNT": 2,
+     "MAX_POS": 4,
+     "RESERVE_XNT": 10,
+     "DIP_PCT": 6,
+     "TP_PCT": 8,
+     "SL_PCT": 12,
+     "MAX_HOLD_H": 72
+    },
+    "at": "2026-10-27T13:31:19.123Z"
+   }
+  ],
+  "realised_xnt": 0
+ },
+ "last_apply": "unchanged"
 }
