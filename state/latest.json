@@ -1,23 +1,35 @@
 {
- "at": "2026-10-27T21:05:02Z",
+ "at": "2026-10-27T21:35:08Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 8.26052,
+  "account_value": 8.142223,
   "open_positions": [
    {
-    "coin": "NEAR",
-    "szi": "-5.4",
-    "entry": "4.6298",
-    "upnl": "0.00972"
+    "coin": "BTC",
+    "szi": "-0.00037",
+    "entry": "81122.0",
+    "upnl": "-0.03034"
+   },
+   {
+    "coin": "BNB",
+    "szi": "-0.033",
+    "entry": "749.07",
+    "upnl": "-0.01287"
+   },
+   {
+    "coin": "ARB",
+    "szi": "-146.6",
+    "entry": "0.16805",
+    "upnl": "-0.083562"
    }
   ],
   "deposited_usdc": 8.974045,
   "floor_usdc": 7.0
  },
  "last_24h": {
-  "closed_pnl": 0.30265,
-  "fees": 1.02621,
-  "fills": 119
+  "closed_pnl": 0.39037,
+  "fees": 1.09574,
+  "fills": 125
  },
  "per_coin_7d": {
   "kPEPE": {
@@ -68,6 +80,12 @@
    "fees": 0.06875,
    "net": -0.05799
   },
+  "BNB": {
+   "fills": 3,
+   "closed_pnl": -0.01292,
+   "fees": 0.03411,
+   "net": -0.04703
+  },
   "MON": {
    "fills": 2,
    "closed_pnl": -0.02801,
@@ -79,12 +97,6 @@
    "closed_pnl": 0.02303,
    "fees": 0.06125,
    "net": -0.03822
-  },
-  "BNB": {
-   "fills": 2,
-   "closed_pnl": -0.01292,
-   "fees": 0.02299,
-   "net": -0.03591
   },
   "HYPE": {
    "fills": 2,
@@ -98,23 +110,29 @@
    "fees": 0.02704,
    "net": -0.0168
   },
+  "BTC": {
+   "fills": 1,
+   "closed_pnl": 0.0,
+   "fees": 0.01351,
+   "net": -0.01351
+  },
   "SOL": {
    "fills": 4,
    "closed_pnl": 0.051,
    "fees": 0.05413,
    "net": -0.00313
   },
+  "ARB": {
+   "fills": 3,
+   "closed_pnl": 0.05517,
+   "fees": 0.02614,
+   "net": 0.02902
+  },
   "ZEC": {
    "fills": 2,
    "closed_pnl": 0.06,
    "fees": 0.02352,
    "net": 0.03648
-  },
-  "ARB": {
-   "fills": 2,
-   "closed_pnl": 0.05517,
-   "fees": 0.01506,
-   "net": 0.04011
   },
   "XRP": {
    "fills": 2,
@@ -123,10 +141,16 @@
    "net": 0.04161
   },
   "NEAR": {
-   "fills": 5,
-   "closed_pnl": 0.1276,
-   "fees": 0.05698,
-   "net": 0.07062
+   "fills": 6,
+   "closed_pnl": 0.11842,
+   "fees": 0.06823,
+   "net": 0.05019
+  },
+  "AAVE": {
+   "fills": 2,
+   "closed_pnl": 0.0969,
+   "fees": 0.02256,
+   "net": 0.07434
   },
   "WLD": {
    "fills": 2,
@@ -165,8 +189,8 @@
    "avg_held_s": 0
   },
   "time": {
-   "n": 40,
-   "pnl_gross": -0.49953,
+   "n": 42,
+   "pnl_gross": -0.41181,
    "avg_held_s": 301
   },
   "tp": {
@@ -181,92 +205,6 @@
   }
  },
  "scalper_last_events": [
-  {
-   "event": "exit",
-   "coin": "MON",
-   "why": "time",
-   "entry": 0.021595,
-   "exit": 0.021642,
-   "sz": 596.0,
-   "pnl_gross": -0.02801,
-   "held_s": 300,
-   "at": "2026-10-27T17:51:27Z"
-  },
-  {
-   "event": "entry",
-   "coin": "XRP",
-   "side": "long",
-   "px": 1.3177,
-   "sz": 23.0,
-   "lev": 20,
-   "notional": 30.31,
-   "move60s": -0.00242,
-   "base": 0.00030228605931159613,
-   "backstop": 1.3033,
-   "backstop_oid": 587525281463,
-   "tp_px": 1.3203,
-   "tp_oid": 587525286992,
-   "at": "2026-10-27T18:02:11Z"
-  },
-  {
-   "event": "entry",
-   "coin": "STRK",
-   "side": "long",
-   "px": 0.0461,
-   "sz": 279.0,
-   "lev": 5,
-   "notional": 12.86,
-   "move60s": -0.00368,
-   "base": 0.0004336513443190526,
-   "backstop": 0.04534,
-   "backstop_oid": 587527617784,
-   "tp_px": 0.04624,
-   "tp_oid": 587527623487,
-   "at": "2026-10-27T18:05:35Z"
-  },
-  {
-   "event": "entry",
-   "coin": "ADA",
-   "side": "short",
-   "px": 0.20452,
-   "sz": 126.0,
-   "lev": 10,
-   "notional": 25.77,
-   "move60s": 0.00157,
-   "base": 0.0001950981587610645,
-   "backstop": 0.20596,
-   "backstop_oid": 587528578967,
-   "tp_px": 0.20426,
-   "tp_oid": 587528587072,
-   "at": "2026-10-27T18:07:08Z"
-  },
-  {
-   "event": "exit",
-   "coin": "XRP",
-   "why": "tp-maker",
-   "entry": 1.3177,
-   "exit": 1.3203,
-   "sz": 23.0,
-   "pnl_gross": 0.0598,
-   "held_s": 301,
-   "at": "2026-10-27T18:07:10Z"
-  },
-  {
-   "event": "entry",
-   "coin": "TRUMP",
-   "side": "short",
-   "px": 1.692,
-   "sz": 15.2,
-   "lev": 10,
-   "notional": 25.72,
-   "move60s": 0.00151,
-   "base": 0.00011805678531362496,
-   "backstop": 1.7035,
-   "backstop_oid": 587528885164,
-   "tp_px": 1.69,
-   "tp_oid": 587528891038,
-   "at": "2026-10-27T18:07:37Z"
-  },
   {
    "event": "exit",
    "coin": "STRK",
@@ -585,6 +523,92 @@
    "tp_px": 4.6228,
    "tp_oid": 587631077421,
    "at": "2026-10-27T21:02:24Z"
+  },
+  {
+   "event": "exit",
+   "coin": "NEAR",
+   "why": "time",
+   "entry": 4.6298,
+   "exit": 4.6315,
+   "sz": 5.4,
+   "pnl_gross": -0.00918,
+   "held_s": 302,
+   "at": "2026-10-27T21:07:26Z"
+  },
+  {
+   "event": "entry",
+   "coin": "AAVE",
+   "side": "long",
+   "px": 131.66,
+   "sz": 0.19,
+   "lev": 10,
+   "notional": 25.02,
+   "move60s": -0.00367,
+   "base": 0.0004524886877828038,
+   "backstop": 129.48,
+   "backstop_oid": 587642006146,
+   "tp_px": 132.05,
+   "tp_oid": 587642011358,
+   "at": "2026-10-27T21:26:38Z"
+  },
+  {
+   "event": "exit",
+   "coin": "AAVE",
+   "why": "time",
+   "entry": 131.66,
+   "exit": 132.17,
+   "sz": 0.19,
+   "pnl_gross": 0.0969,
+   "held_s": 300,
+   "at": "2026-10-27T21:31:39Z"
+  },
+  {
+   "event": "entry",
+   "coin": "BTC",
+   "side": "short",
+   "px": 81122.0,
+   "sz": 0.00037,
+   "lev": 40,
+   "notional": 30.02,
+   "move60s": 0.00359,
+   "base": 0.0001611473692690879,
+   "backstop": 82434.0,
+   "backstop_oid": 587646104967,
+   "tp_px": 80889.0,
+   "tp_oid": 587646128877,
+   "at": "2026-10-27T21:32:53Z"
+  },
+  {
+   "event": "entry",
+   "coin": "BNB",
+   "side": "short",
+   "px": 749.07,
+   "sz": 0.033,
+   "lev": 10,
+   "notional": 24.72,
+   "move60s": 0.00188,
+   "base": 0.0001004358917704451,
+   "backstop": 755.39,
+   "backstop_oid": 587646190330,
+   "tp_px": 747.95,
+   "tp_oid": 587646197022,
+   "at": "2026-10-27T21:32:57Z"
+  },
+  {
+   "event": "entry",
+   "coin": "ARB",
+   "side": "short",
+   "px": 0.16805,
+   "sz": 146.6,
+   "lev": 10,
+   "notional": 24.64,
+   "move60s": 0.00403,
+   "base": 0.0003592169071424678,
+   "backstop": 0.1711,
+   "backstop_oid": 587647284885,
+   "tp_px": 0.16751,
+   "tp_oid": 587647291657,
+   "at": "2026-10-27T21:33:56Z"
   }
  ],
  "scalper_params_now": {
