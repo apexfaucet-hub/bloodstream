@@ -1,35 +1,16 @@
 {
- "at": "2026-10-27T21:35:08Z",
+ "at": "2026-10-27T22:05:02Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 8.142223,
-  "open_positions": [
-   {
-    "coin": "BTC",
-    "szi": "-0.00037",
-    "entry": "81122.0",
-    "upnl": "-0.03034"
-   },
-   {
-    "coin": "BNB",
-    "szi": "-0.033",
-    "entry": "749.07",
-    "upnl": "-0.01287"
-   },
-   {
-    "coin": "ARB",
-    "szi": "-146.6",
-    "entry": "0.16805",
-    "upnl": "-0.083562"
-   }
-  ],
+  "account_value": 8.186987,
+  "open_positions": [],
   "deposited_usdc": 8.974045,
   "floor_usdc": 7.0
  },
  "last_24h": {
-  "closed_pnl": 0.39037,
-  "fees": 1.09574,
-  "fills": 125
+  "closed_pnl": 0.41006,
+  "fees": 1.19754,
+  "fills": 137
  },
  "per_coin_7d": {
   "kPEPE": {
@@ -56,6 +37,12 @@
    "fees": 0.02154,
    "net": -0.1176
   },
+  "ARB": {
+   "fills": 4,
+   "closed_pnl": -0.06065,
+   "fees": 0.03728,
+   "net": -0.09793
+  },
   "ZRO": {
    "fills": 4,
    "closed_pnl": -0.06702,
@@ -74,17 +61,23 @@
    "fees": 0.04773,
    "net": -0.0676
   },
+  "BNB": {
+   "fills": 4,
+   "closed_pnl": -0.02117,
+   "fees": 0.04524,
+   "net": -0.06641
+  },
   "CRV": {
    "fills": 6,
    "closed_pnl": 0.01077,
    "fees": 0.06875,
    "net": -0.05799
   },
-  "BNB": {
-   "fills": 3,
-   "closed_pnl": -0.01292,
-   "fees": 0.03411,
-   "net": -0.04703
+  "BTC": {
+   "fills": 2,
+   "closed_pnl": -0.02627,
+   "fees": 0.02702,
+   "net": -0.05329
   },
   "MON": {
    "fills": 2,
@@ -104,17 +97,11 @@
    "fees": 0.01064,
    "net": -0.03554
   },
-  "ETH": {
-   "fills": 2,
-   "closed_pnl": 0.01024,
-   "fees": 0.02704,
-   "net": -0.0168
-  },
-  "BTC": {
-   "fills": 1,
-   "closed_pnl": 0.0,
-   "fees": 0.01351,
-   "net": -0.01351
+  "ENA": {
+   "fills": 3,
+   "closed_pnl": -0.0109,
+   "fees": 0.02216,
+   "net": -0.03307
   },
   "SOL": {
    "fills": 4,
@@ -122,11 +109,11 @@
    "fees": 0.05413,
    "net": -0.00313
   },
-  "ARB": {
-   "fills": 3,
-   "closed_pnl": 0.05517,
-   "fees": 0.02614,
-   "net": 0.02902
+  "ETH": {
+   "fills": 4,
+   "closed_pnl": 0.05596,
+   "fees": 0.04501,
+   "net": 0.01095
   },
   "ZEC": {
    "fills": 2,
@@ -139,12 +126,6 @@
    "closed_pnl": 0.0598,
    "fees": 0.01819,
    "net": 0.04161
-  },
-  "NEAR": {
-   "fills": 6,
-   "closed_pnl": 0.11842,
-   "fees": 0.06823,
-   "net": 0.05019
   },
   "AAVE": {
    "fills": 2,
@@ -164,6 +145,12 @@
    "fees": 0.02261,
    "net": 0.11678
   },
+  "NEAR": {
+   "fills": 8,
+   "closed_pnl": 0.22603,
+   "fees": 0.08287,
+   "net": 0.14316
+  },
   "FARTCOIN": {
    "fills": 10,
    "closed_pnl": 0.26818,
@@ -171,10 +158,10 @@
    "net": 0.15221
   },
   "LIT": {
-   "fills": 8,
-   "closed_pnl": 0.1968,
-   "fees": 0.04049,
-   "net": 0.15631
+   "fills": 10,
+   "closed_pnl": 0.2244,
+   "fees": 0.05174,
+   "net": 0.17266
   }
  },
  "scalper_exits_recent": {
@@ -189,8 +176,8 @@
    "avg_held_s": 0
   },
   "time": {
-   "n": 42,
-   "pnl_gross": -0.41181,
+   "n": 45,
+   "pnl_gross": -0.56214,
    "avg_held_s": 301
   },
   "tp": {
@@ -199,142 +186,12 @@
    "avg_held_s": 152
   },
   "tp-maker": {
-   "n": 5,
-   "pnl_gross": 0.27509,
-   "avg_held_s": 254
+   "n": 7,
+   "pnl_gross": 0.42842,
+   "avg_held_s": 200
   }
  },
  "scalper_last_events": [
-  {
-   "event": "exit",
-   "coin": "STRK",
-   "why": "time",
-   "entry": 0.0461,
-   "exit": 0.04607,
-   "sz": 279.0,
-   "pnl_gross": -0.00837,
-   "held_s": 301,
-   "at": "2026-10-27T18:10:36Z"
-  },
-  {
-   "event": "exit",
-   "coin": "ADA",
-   "why": "time",
-   "entry": 0.20452,
-   "exit": 0.20446,
-   "sz": 126.0,
-   "pnl_gross": 0.00756,
-   "held_s": 301,
-   "at": "2026-10-27T18:12:08Z"
-  },
-  {
-   "event": "exit",
-   "coin": "TRUMP",
-   "why": "time",
-   "entry": 1.692,
-   "exit": 1.6931,
-   "sz": 15.2,
-   "pnl_gross": -0.01672,
-   "held_s": 300,
-   "at": "2026-10-27T18:12:37Z"
-  },
-  {
-   "event": "entry",
-   "coin": "TRUMP",
-   "side": "short",
-   "px": 1.6971,
-   "sz": 15.1,
-   "lev": 10,
-   "notional": 25.63,
-   "move60s": 0.00165,
-   "base": 0.00011805678531362496,
-   "backstop": 1.7097,
-   "backstop_oid": 587533736506,
-   "tp_px": 1.6949,
-   "tp_oid": 587533745808,
-   "at": "2026-10-27T18:16:13Z"
-  },
-  {
-   "event": "entry",
-   "coin": "CRV",
-   "side": "short",
-   "px": 0.33816,
-   "sz": 75.5,
-   "lev": 10,
-   "notional": 25.53,
-   "move60s": 0.00225,
-   "base": 0.00023708621047335843,
-   "backstop": 0.34159,
-   "backstop_oid": 587533973294,
-   "tp_px": 0.33755,
-   "tp_oid": 587533979969,
-   "at": "2026-10-27T18:16:37Z"
-  },
-  {
-   "event": "entry",
-   "coin": "ADA",
-   "side": "short",
-   "px": 0.20492,
-   "sz": 125.0,
-   "lev": 10,
-   "notional": 25.61,
-   "move60s": 0.00156,
-   "base": 0.0001950981587610645,
-   "backstop": 0.20636,
-   "backstop_oid": 587534007915,
-   "tp_px": 0.20466,
-   "tp_oid": 587534013061,
-   "at": "2026-10-27T18:16:41Z"
-  },
-  {
-   "event": "exit",
-   "coin": "TRUMP",
-   "why": "time",
-   "entry": 1.6971,
-   "exit": 1.6994,
-   "sz": 15.1,
-   "pnl_gross": -0.03473,
-   "held_s": 300,
-   "at": "2026-10-27T18:21:14Z"
-  },
-  {
-   "event": "exit",
-   "coin": "CRV",
-   "why": "time",
-   "entry": 0.33816,
-   "exit": 0.33866,
-   "sz": 75.5,
-   "pnl_gross": -0.03775,
-   "held_s": 301,
-   "at": "2026-10-27T18:21:37Z"
-  },
-  {
-   "event": "exit",
-   "coin": "ADA",
-   "why": "time",
-   "entry": 0.20492,
-   "exit": 0.20505,
-   "sz": 125.0,
-   "pnl_gross": -0.01625,
-   "held_s": 301,
-   "at": "2026-10-27T18:21:42Z"
-  },
-  {
-   "event": "entry",
-   "coin": "ADA",
-   "side": "short",
-   "px": 0.20504,
-   "sz": 122.0,
-   "lev": 10,
-   "notional": 25.01,
-   "move60s": 0.00159,
-   "base": 0.0001950981587610645,
-   "backstop": 0.2065,
-   "backstop_oid": 587538766890,
-   "tp_px": 0.20478,
-   "tp_oid": 587538772447,
-   "at": "2026-10-27T18:24:39Z"
-  },
   {
    "event": "entry",
    "coin": "TRUMP",
@@ -609,6 +466,139 @@
    "tp_px": 0.16751,
    "tp_oid": 587647291657,
    "at": "2026-10-27T21:33:56Z"
+  },
+  {
+   "event": "exit",
+   "coin": "BTC",
+   "why": "time",
+   "entry": 81122.0,
+   "exit": 81193.0,
+   "sz": 0.00037,
+   "pnl_gross": -0.02627,
+   "held_s": 300,
+   "at": "2026-10-27T21:37:53Z"
+  },
+  {
+   "event": "exit",
+   "coin": "BNB",
+   "why": "time",
+   "entry": 749.07,
+   "exit": 749.32,
+   "sz": 0.033,
+   "pnl_gross": -0.00825,
+   "held_s": 300,
+   "at": "2026-10-27T21:37:57Z"
+  },
+  {
+   "event": "entry",
+   "coin": "LIT",
+   "side": "short",
+   "px": 3.1285,
+   "sz": 4.0,
+   "lev": 5,
+   "notional": 12.51,
+   "move60s": 0.00501,
+   "base": 0.00044423238289548195,
+   "backstop": 3.1991,
+   "backstop_oid": 587651109282,
+   "tp_px": 3.116,
+   "tp_oid": 587651113201,
+   "at": "2026-10-27T21:38:53Z"
+  },
+  {
+   "event": "exit",
+   "coin": "ARB",
+   "why": "time",
+   "entry": 0.16805,
+   "exit": 0.16884,
+   "sz": 146.6,
+   "pnl_gross": -0.11581,
+   "held_s": 301,
+   "at": "2026-10-27T21:38:57Z"
+  },
+  {
+   "event": "entry",
+   "coin": "ETH",
+   "side": "short",
+   "px": 2359.0,
+   "sz": 0.0127,
+   "lev": 25,
+   "notional": 29.96,
+   "move60s": 0.00191,
+   "base": 0.00021364325848693966,
+   "backstop": 2379.3,
+   "backstop_oid": 587651244414,
+   "tp_px": 2355.4,
+   "tp_oid": 587651248523,
+   "at": "2026-10-27T21:39:09Z"
+  },
+  {
+   "event": "entry",
+   "coin": "NEAR",
+   "side": "short",
+   "px": 4.79,
+   "sz": 5.1,
+   "lev": 10,
+   "notional": 24.43,
+   "move60s": 0.00552,
+   "base": 0.0005959281852361276,
+   "backstop": 4.9089,
+   "backstop_oid": 587651283010,
+   "tp_px": 4.7689,
+   "tp_oid": 587651288308,
+   "at": "2026-10-27T21:39:14Z"
+  },
+  {
+   "event": "exit",
+   "coin": "NEAR",
+   "why": "tp-maker",
+   "entry": 4.79,
+   "exit": 4.7689,
+   "sz": 5.1,
+   "pnl_gross": 0.10761,
+   "held_s": 49,
+   "at": "2026-10-27T21:40:02Z"
+  },
+  {
+   "event": "entry",
+   "coin": "ENA",
+   "side": "short",
+   "px": 0.212256,
+   "sz": 116.0,
+   "lev": 10,
+   "notional": 24.62,
+   "move60s": 0.00389,
+   "base": 0.0004329733240324707,
+   "backstop": 0.21597,
+   "backstop_oid": 587651885651,
+   "tp_px": 0.2116,
+   "tp_oid": 587651892580,
+   "at": "2026-10-27T21:40:07Z"
+  },
+  {
+   "event": "exit",
+   "coin": "ETH",
+   "why": "tp-maker",
+   "entry": 2359.0,
+   "exit": 2355.4,
+   "sz": 0.0127,
+   "pnl_gross": 0.04572,
+   "held_s": 81,
+   "at": "2026-10-27T21:40:27Z"
+  },
+  {
+   "event": "start",
+   "coins": 40,
+   "floor": 7.0,
+   "rule": {
+    "z": 8.0,
+    "tp": 0.8,
+    "sl": 3.0,
+    "hold_s": 300.0,
+    "notional": 30.0,
+    "lev": 50
+   },
+   "at": "2026-10-27T22:00:54Z"
   }
  ],
  "scalper_params_now": {
@@ -631,17 +621,9 @@
   ],
   "why": "rule 3: 7d net TRUMP -0.083/7 fills and CRV -0.058/6 fills blocked; only ~14 exits since tp 0.8 (<20, gross +0.14) so nothing else changed; acct 8.404 > 7.6"
  },
- "money_desk": "MONEY DESK 2026-10-27\nOutside income: 24 h $0.024 (~0.02 EUR), 7 d $0.113 from 14 payers (9 new), 30 d $3.05\nTop products 7 d: chat-completions $0.018 (2 payers), web-search $0.015 (1 payers), arc-immune $0.01 (1 payers), flight-deals $0.01 (1 payers), arc-gas $0.008 (1 payers)\nCosts 7 d: spent outside $0.034, Arc faucet payouts $0.66 + gas $0.141. Net 7 d: $-0.722\nBazaar ranks: token verdict 9; base token verdict 4; decode transaction 7; web search 17; honeypot check base 2; token price not in top 20\nExperiment post-verdict: running (judge on 2026-10-28)\nExperiment relist-all-cdp: running (judge on 2026-10-28)\nExperiment listing-text: running (judge on 2026-10-28)\nExperiment base-price: running (judge on 2026-10-28)\nExperiment multichain-verdict: running (judge on 2026-10-28)\nExperiment payai-listing: running (judge on 2026-10-28)\nExperiment chat-listing-words: running (judge on 2026-10-28)\nTrading 24 h, Hyperliquid scalper: net $0.045 after fees (~0.04 EUR), 9 closes, 3 wins\nTrading 24 h, X1 dip trader: 0 sells, realised 0 XNT (before tx fees)\nFree capital: $5.36. Hyperliquid carry (no price risk): BTC 11% APR ($0.0008/day), SOL 11% APR ($0.0008/day), ENA 11% APR ($0.0008/day)\nArc launches: 64.7% lost their exit (4392 settled)\nBusiest paid agent markets: www.ax1.vc 1107 payers $497.84/day; keyring-agent.blockchhub.link 51 payers $54.6/day; blockrun.ai 34 payers $32.02/day; api.botpay.network 26 payers $30.53/day\n",
+ "money_desk": "MONEY DESK 2026-10-27\nOutside income: 24 h $0.023 (~0.02 EUR), 7 d $0.091 from 14 payers (9 new), 30 d $3.042\nTop products 7 d: chat-completions $0.016 (2 payers), web-search $0.015 (1 payers), arc-gas $0.008 (1 payers), arc-agent-watch $0.008 (1 payers), x1-payment $0.006 (2 payers)\nCosts 7 d: spent outside $0.034, Arc faucet payouts $0.75 + gas $0.166. Net 7 d: $-0.859\nBazaar ranks: token verdict 9; base token verdict 4; decode transaction 7; web search 17; honeypot check base 2; token price not in top 20\nExperiment post-verdict: running (judge on 2026-10-28)\nExperiment relist-all-cdp: running (judge on 2026-10-28)\nExperiment listing-text: running (judge on 2026-10-28)\nExperiment base-price: running (judge on 2026-10-28)\nExperiment multichain-verdict: running (judge on 2026-10-28)\nExperiment payai-listing: running (judge on 2026-10-28)\nExperiment chat-listing-words: running (judge on 2026-10-28)\nTrading 24 h, Hyperliquid scalper: net $-0.705 after fees (~-0.61 EUR), 61 closes, 28 wins\nTrading 24 h, X1 dip trader: 0 sells, realised 0 XNT (before tx fees)\nFree capital: $5.36. Hyperliquid carry (no price risk): BTC 11% APR ($0.0008/day), SOL 11% APR ($0.0008/day), ENA 11% APR ($0.0008/day)\nArc launches: 64.7% lost their exit (4392 settled)\nBusiest paid agent markets: www.ax1.vc 1107 payers $497.84/day; keyring-agent.blockchhub.link 51 payers $54.6/day; blockrun.ai 34 payers $32.02/day; api.botpay.network 26 payers $30.53/day\n",
  "x1_dip_trader": {
   "open": {
-   "8EUkm5ChdmLm9pxKX3Q99APck1URfVqP9m9R3FQcP6Tb": {
-    "mint": "XNMbEwZFFBKQhqyW3taa8cAUp1xBUHfyzRFJQvZET4m",
-    "tokRaw": 820691320815,
-    "costLamports": 2000000000,
-    "t": 1793109487337,
-    "entry": 0.002429101517120323,
-    "sig": "61T6JC5HpXQC8PXp5ii16mEP2xZqqXGm9CHzavMtb4FkYagp43qB1U2yJUKjuZehqYoudhQZ3fFf1hQA9eMfBsQZ"
-   },
    "7deZorr98nLdZhpmSdUgu8WY4NAjSpeLDGxHzaTAxrUg": {
     "mint": "EpKRiKwbCKZDZE9pgH48HcXqQkBunXUK5axC1EHUBtPN",
     "tokRaw": 161916692298,
@@ -649,14 +631,6 @@
     "t": 1793109487337,
     "entry": 0.012319140367975127,
     "sig": "2dw7wntHHX3QGZ6TLAbEFM5XdAejJVRhavEMWSCduP5ThfxxVi4mA9z5TBTfDhbsvXivNgaMGdMoKU1NSHqi6FUU"
-   },
-   "42L71tiJR69Y8jDx9jGCivoxMkyS22LVAANeRS7smH5R": {
-    "mint": "XNMbEwZFFBKQhqyW3taa8cAUp1xBUHfyzRFJQvZET4m",
-    "tokRaw": 823913965264,
-    "costLamports": 2000000000,
-    "t": 1793109487337,
-    "entry": 0.0024155112838453734,
-    "sig": "rFMjpPyZKKneJZyAWnPfbE7N2egZ9fZMv9M2BGf8ckzZBqo6toYu74uymb4tzXSYfvSVPrtcL2V8seggByJNah3"
    },
    "GwwCyLS4VEeZXyPWPYRNiVSuVur6ntioxBmjDQHHHv9x": {
     "mint": "EFPkbXTdr3c7aRbCEKoJDYdbbzgzVDBShYGybP3gQwmy",
@@ -752,9 +726,61 @@
     "price": 0.00042346268197965297,
     "sig": "62ASJwQ7wUqS65K4vJw9z3EJ48oMTR1Ha1zNBSJaVUWsMywMpZPVCFC7y8S93RNLoJ8DnAMVBXGh9qfHK3VALFGd",
     "at": "2026-10-27T17:19:34.494Z"
+   },
+   {
+    "event": "start",
+    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
+    "pools": 9,
+    "rule": {
+     "BUY_XNT": 2,
+     "MAX_POS": 4,
+     "RESERVE_XNT": 10,
+     "DIP_PCT": 6,
+     "TP_PCT": 8,
+     "SL_PCT": 12,
+     "MAX_HOLD_H": 72
+    },
+    "at": "2026-10-27T21:55:38.752Z"
+   },
+   {
+    "event": "sell",
+    "why": "tp",
+    "pool": "8EUkm5ChdmLm9pxKX3Q99APck1URfVqP9m9R3FQcP6Tb",
+    "mint": "XNMbEwZFFBKQhqyW3taa8cAUp1xBUHfyzRFJQvZET4m",
+    "xntBack": 2.779693401,
+    "cost": 2,
+    "pnlPct": 38.98,
+    "sig": "2xYBeGEnT3EpQBNCXaB2EFkzYzRovLTY2HiQ3BZn9gqBJvukeJGCEtEkHxNSiHrKpPUWdnLMpP3hyv9fZWo323oC",
+    "at": "2026-10-27T21:55:39.842Z"
+   },
+   {
+    "event": "start",
+    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
+    "pools": 9,
+    "rule": {
+     "BUY_XNT": 2,
+     "MAX_POS": 4,
+     "RESERVE_XNT": 10,
+     "DIP_PCT": 6,
+     "TP_PCT": 8,
+     "SL_PCT": 12,
+     "MAX_HOLD_H": 72
+    },
+    "at": "2026-10-27T21:56:04.235Z"
+   },
+   {
+    "event": "sell",
+    "why": "tp",
+    "pool": "42L71tiJR69Y8jDx9jGCivoxMkyS22LVAANeRS7smH5R",
+    "mint": "XNMbEwZFFBKQhqyW3taa8cAUp1xBUHfyzRFJQvZET4m",
+    "xntBack": 2.81019795,
+    "cost": 2,
+    "pnlPct": 40.51,
+    "sig": "mNXRVx21RBfhPiNXt8DwRLQv7Zr2SZ6LMGADrDL5qVvvNALQ54SM5VNv58YDBwHsC93tfRPrDxnBRRBZWT3aVKu",
+    "at": "2026-10-27T21:56:07.863Z"
    }
   ],
-  "realised_xnt": 0
+  "realised_xnt": 1.58989
  },
  "last_apply": "unchanged"
 }
