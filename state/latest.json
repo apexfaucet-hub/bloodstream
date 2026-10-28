@@ -1,16 +1,23 @@
 {
- "at": "2026-10-28T07:35:10Z",
+ "at": "2026-10-28T08:05:04Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 8.186987,
-  "open_positions": [],
+  "account_value": 8.246868,
+  "open_positions": [
+   {
+    "coin": "BTC",
+    "szi": "0.0003",
+    "entry": "80902.0",
+    "upnl": "0.0711"
+   }
+  ],
   "deposited_usdc": 8.974045,
   "floor_usdc": 7.0
  },
  "last_24h": {
   "closed_pnl": 0.41006,
-  "fees": 1.19754,
-  "fills": 137
+  "fees": 1.20846,
+  "fills": 138
  },
  "per_coin_7d": {
   "kPEPE": {
@@ -67,17 +74,17 @@
    "fees": 0.04524,
    "net": -0.06641
   },
+  "BTC": {
+   "fills": 3,
+   "closed_pnl": -0.02627,
+   "fees": 0.03794,
+   "net": -0.06421
+  },
   "CRV": {
    "fills": 6,
    "closed_pnl": 0.01077,
    "fees": 0.06875,
    "net": -0.05799
-  },
-  "BTC": {
-   "fills": 2,
-   "closed_pnl": -0.02627,
-   "fees": 0.02702,
-   "net": -0.05329
   },
   "MON": {
    "fills": 2,
@@ -192,22 +199,6 @@
   }
  },
  "scalper_last_events": [
-  {
-   "event": "entry",
-   "coin": "TRUMP",
-   "side": "short",
-   "px": 1.6986,
-   "sz": 14.8,
-   "lev": 10,
-   "notional": 25.14,
-   "move60s": 0.0015,
-   "base": 0.00011805678531362496,
-   "backstop": 1.7101,
-   "backstop_oid": 587538795228,
-   "tp_px": 1.6966,
-   "tp_oid": 587538801935,
-   "at": "2026-10-27T18:24:43Z"
-  },
   {
    "event": "entry",
    "coin": "ARB",
@@ -599,6 +590,20 @@
     "lev": 50
    },
    "at": "2026-10-27T22:00:54Z"
+  },
+  {
+   "event": "start",
+   "coins": 39,
+   "floor": 7.0,
+   "rule": {
+    "z": 8.0,
+    "tp": 0.8,
+    "sl": 3.0,
+    "hold_s": 300.0,
+    "notional": 30.0,
+    "lev": 50
+   },
+   "at": "2026-10-28T07:49:25Z"
   }
  ],
  "scalper_params_now": {
@@ -621,7 +626,7 @@
   ],
   "why": "rule 3: 7d net TRUMP -0.083/7 fills and CRV -0.058/6 fills blocked; only ~14 exits since tp 0.8 (<20, gross +0.14) so nothing else changed; acct 8.404 > 7.6"
  },
- "money_desk": "MONEY DESK 2026-10-28\nOutside income: 24 h $0.054 (~0.05 EUR), 7 d $0.11 from 13 payers (8 new), 30 d $3.077\nTop products 7 d: web-search $0.015 (1 payers), chat-completions $0.014 (2 payers), flight-deals $0.01 (1 payers), page-extract $0.009 (1 payers), arc-gas $0.008 (1 payers)\nCosts 7 d: spent outside $0.034, Arc faucet payouts $0.67 + gas $0.146. Net 7 d: $-0.74\nBazaar ranks: token verdict 9; base token verdict 4; decode transaction 8; web search 17; honeypot check base 1; token price not in top 20\nExperiment post-verdict: running (judge on 2026-10-28)\nExperiment relist-all-cdp: running (judge on 2026-10-28)\nExperiment listing-text: running (judge on 2026-10-28)\nExperiment base-price: running (judge on 2026-10-28)\nExperiment multichain-verdict: running (judge on 2026-10-28)\nExperiment payai-listing: running (judge on 2026-10-28)\nExperiment chat-listing-words: running (judge on 2026-10-28)\nExperiment new-tools-listing-words: running (judge on 2026-10-28)\nTrading 24 h, Hyperliquid scalper: net $-0.787 after fees (~-0.68 EUR), 68 closes, 31 wins\nTrading 24 h, X1 dip trader: 4 sells, realised 1.782 XNT (before tx fees)\nFree capital: $5.36. Hyperliquid carry (no price risk): BTC 11% APR ($0.0008/day), SOL 11% APR ($0.0008/day), ENA 11% APR ($0.0008/day)\nArc launches: 64.7% lost their exit (4392 settled)\nBusiest paid agent markets: www.ax1.vc 1107 payers $497.84/day; keyring-agent.blockchhub.link 51 payers $54.6/day; blockrun.ai 34 payers $32.02/day; api.botpay.network 26 payers $30.53/day\n",
+ "money_desk": "MONEY DESK 2026-10-28\nOutside income: 24 h $0.054 (~0.05 EUR), 7 d $0.11 from 13 payers (8 new), 30 d $3.077\nTop products 7 d: web-search $0.015 (1 payers), chat-completions $0.014 (2 payers), flight-deals $0.01 (1 payers), page-extract $0.009 (1 payers), arc-gas $0.008 (1 payers)\nCosts 7 d: spent outside $0.034, Arc faucet payouts $0.67 + gas $0.146. Net 7 d: $-0.74\nBazaar ranks: token verdict 9; base token verdict could not read; decode transaction 8; web search 17; honeypot check base 1; token price not in top 20\nExperiment post-verdict: running (judge on 2026-10-28)\nExperiment relist-all-cdp: running (judge on 2026-10-28)\nExperiment listing-text: running (judge on 2026-10-28)\nExperiment base-price: running (judge on 2026-10-28)\nExperiment multichain-verdict: running (judge on 2026-10-28)\nExperiment payai-listing: running (judge on 2026-10-28)\nExperiment chat-listing-words: running (judge on 2026-10-28)\nExperiment new-tools-listing-words: running (judge on 2026-10-28)\nTrading 24 h, Hyperliquid (all bots, HL fills): net $-0.798 after fees (~-0.69 EUR), 68 closes, 31 wins\nTrading 24 h, X1 dip trader: 4 sells, realised 1.782 XNT (before tx fees)\nFree capital: $4.81. Hyperliquid carry (no price risk): BTC 11% APR ($0.0007/day), ETH 11% APR ($0.0007/day), SOL 11% APR ($0.0007/day)\nArc launches: 66.3% lost their exit (5037 settled)\nBusiest paid agent markets: www.ax1.vc 1107 payers $497.84/day; keyring-agent.blockchhub.link 51 payers $54.6/day; blockrun.ai 34 payers $32.02/day; api.botpay.network 26 payers $30.53/day\n",
  "x1_dip_trader": {
   "open": {},
   "last_trades": [
