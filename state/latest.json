@@ -1,23 +1,47 @@
 {
- "at": "2026-10-28T17:35:08Z",
+ "at": "2026-10-28T18:05:10Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 8.025389,
+  "account_value": 8.346689,
   "open_positions": [
    {
     "coin": "BTC",
     "szi": "0.0003",
     "entry": "80902.0",
-    "upnl": "-0.0804"
+    "upnl": "0.012"
+   },
+   {
+    "coin": "ARB",
+    "szi": "-65.3",
+    "entry": "0.16866",
+    "upnl": "0.062035"
+   },
+   {
+    "coin": "SUI",
+    "szi": "-11.8",
+    "entry": "0.93628",
+    "upnl": "0.05192"
+   },
+   {
+    "coin": "AAVE",
+    "szi": "-0.09",
+    "entry": "133.92",
+    "upnl": "0.0918"
+   },
+   {
+    "coin": "PUMP",
+    "szi": "-2574.0",
+    "entry": "0.004283",
+    "upnl": "0.043758"
    }
   ],
   "deposited_usdc": 8.974045,
   "floor_usdc": 7.0
  },
  "last_24h": {
-  "closed_pnl": 0.45712,
-  "fees": 0.85835,
-  "fills": 133
+  "closed_pnl": 0.38633,
+  "fees": 0.84595,
+  "fills": 132
  },
  "per_coin_7d": {
   "kPEPE": {
@@ -135,16 +159,16 @@
    "net": -0.01952
   },
   "SUI": {
-   "fills": 2,
+   "fills": 3,
    "closed_pnl": 0.03288,
-   "fees": 0.00993,
-   "net": 0.02295
+   "fees": 0.0149,
+   "net": 0.01798
   },
   "ARB": {
-   "fills": 8,
+   "fills": 9,
    "closed_pnl": 0.08416,
-   "fees": 0.05382,
-   "net": 0.03034
+   "fees": 0.05878,
+   "net": 0.02538
   },
   "HYPE": {
    "fills": 4,
@@ -159,10 +183,10 @@
    "net": 0.0428
   },
   "AAVE": {
-   "fills": 2,
+   "fills": 3,
    "closed_pnl": 0.0969,
-   "fees": 0.02256,
-   "net": 0.07434
+   "fees": 0.02798,
+   "net": 0.06892
   },
   "FARTCOIN": {
    "fills": 14,
@@ -182,17 +206,17 @@
    "fees": 0.10315,
    "net": 0.09456
   },
+  "PUMP": {
+   "fills": 3,
+   "closed_pnl": 0.13939,
+   "fees": 0.02757,
+   "net": 0.11182
+  },
   "SOL": {
    "fills": 12,
    "closed_pnl": 0.2061,
    "fees": 0.09146,
    "net": 0.11464
-  },
-  "PUMP": {
-   "fills": 2,
-   "closed_pnl": 0.13939,
-   "fees": 0.02261,
-   "net": 0.11678
   },
   "LIT": {
    "fills": 10,
