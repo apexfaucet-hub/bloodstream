@@ -1,53 +1,23 @@
 {
- "at": "2026-10-28T11:35:07Z",
+ "at": "2026-10-28T12:05:05Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 8.01252,
+  "account_value": 7.948818,
   "open_positions": [
    {
     "coin": "BTC",
     "szi": "0.0003",
     "entry": "80902.0",
-    "upnl": "0.156"
-   },
-   {
-    "coin": "ETH",
-    "szi": "0.0047",
-    "entry": "2361.6",
-    "upnl": "0.019364"
-   },
-   {
-    "coin": "SOL",
-    "szi": "0.11",
-    "entry": "102.71",
-    "upnl": "0.0198"
-   },
-   {
-    "coin": "WLD",
-    "szi": "25.4",
-    "entry": "0.43474",
-    "upnl": "0.06604"
-   },
-   {
-    "coin": "NEAR",
-    "szi": "2.4",
-    "entry": "4.6587",
-    "upnl": "0.0312"
-   },
-   {
-    "coin": "XPL",
-    "szi": "144.0",
-    "entry": "0.076563",
-    "upnl": "0.032112"
+    "upnl": "0.0804"
    }
   ],
   "deposited_usdc": 8.974045,
   "floor_usdc": 7.0
  },
  "last_24h": {
-  "closed_pnl": 0.27826,
-  "fees": 1.56178,
-  "fills": 209
+  "closed_pnl": 0.48411,
+  "fees": 1.58691,
+  "fills": 214
  },
  "per_coin_7d": {
   "kPEPE": {
@@ -110,12 +80,6 @@
    "fees": 0.06131,
    "net": -0.08316
   },
-  "XPL": {
-   "fills": 5,
-   "closed_pnl": -0.05581,
-   "fees": 0.02481,
-   "net": -0.08062
-  },
   "DOGE": {
    "fills": 7,
    "closed_pnl": -0.01931,
@@ -164,6 +128,12 @@
    "fees": 0.0116,
    "net": -0.03961
   },
+  "XPL": {
+   "fills": 6,
+   "closed_pnl": 0.01028,
+   "fees": 0.0298,
+   "net": -0.01952
+  },
   "SUI": {
    "fills": 2,
    "closed_pnl": 0.03288,
@@ -183,16 +153,10 @@
    "net": 0.03172
   },
   "ETH": {
-   "fills": 11,
-   "closed_pnl": 0.11471,
-   "fees": 0.08007,
-   "net": 0.03464
-  },
-  "NEAR": {
-   "fills": 11,
-   "closed_pnl": 0.16483,
-   "fees": 0.0981,
-   "net": 0.06673
+   "fills": 12,
+   "closed_pnl": 0.12787,
+   "fees": 0.08507,
+   "net": 0.0428
   },
   "AAVE": {
    "fills": 2,
@@ -206,11 +170,17 @@
    "fees": 0.13575,
    "net": 0.07689
   },
+  "NEAR": {
+   "fills": 12,
+   "closed_pnl": 0.19771,
+   "fees": 0.10315,
+   "net": 0.09456
+  },
   "SOL": {
-   "fills": 11,
-   "closed_pnl": 0.1863,
-   "fees": 0.08636,
-   "net": 0.09994
+   "fills": 12,
+   "closed_pnl": 0.2061,
+   "fees": 0.09146,
+   "net": 0.11464
   },
   "PUMP": {
    "fills": 2,
@@ -225,10 +195,10 @@
    "net": 0.17266
   },
   "WLD": {
-   "fills": 7,
-   "closed_pnl": 0.24695,
-   "fees": 0.04532,
-   "net": 0.20163
+   "fills": 8,
+   "closed_pnl": 0.32087,
+   "fees": 0.05032,
+   "net": 0.27054
   }
  },
  "scalper_exits_recent": {
