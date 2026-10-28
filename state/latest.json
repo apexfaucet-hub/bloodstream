@@ -1,53 +1,59 @@
 {
- "at": "2026-10-28T10:05:06Z",
+ "at": "2026-10-28T10:35:12Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 8.552386,
+  "account_value": 8.287878,
   "open_positions": [
    {
     "coin": "BTC",
     "szi": "0.0003",
     "entry": "80902.0",
-    "upnl": "0.18072"
+    "upnl": "0.1854"
    },
    {
     "coin": "ETH",
     "szi": "0.0047",
-    "entry": "2366.5",
-    "upnl": "0.02679"
+    "entry": "2370.1",
+    "upnl": "-0.00235"
    },
    {
-    "coin": "LINK",
-    "szi": "1.0",
-    "entry": "11.869",
-    "upnl": "0.00081"
+    "coin": "SOL",
+    "szi": "0.11",
+    "entry": "103.03",
+    "upnl": "0.0154"
    },
    {
-    "coin": "UNI",
-    "szi": "1.6",
-    "entry": "7.196",
-    "upnl": "0.00864"
+    "coin": "XRP",
+    "szi": "9.0",
+    "entry": "1.3303",
+    "upnl": "-0.0045"
    },
    {
-    "coin": "NEAR",
-    "szi": "2.4",
-    "entry": "4.7351",
-    "upnl": "-0.00672"
+    "coin": "WLD",
+    "szi": "25.2",
+    "entry": "0.43773",
+    "upnl": "0.012348"
    },
    {
-    "coin": "ZEC",
-    "szi": "0.01",
-    "entry": "1319.9",
-    "upnl": "0.008"
+    "coin": "ENA",
+    "szi": "54.0",
+    "entry": "0.20705",
+    "upnl": "-0.00162"
+   },
+   {
+    "coin": "XPL",
+    "szi": "144.0",
+    "entry": "0.07658",
+    "upnl": "-0.042192"
    }
   ],
   "deposited_usdc": 8.974045,
   "floor_usdc": 7.0
  },
  "last_24h": {
-  "closed_pnl": 0.75912,
-  "fees": 1.39714,
-  "fills": 177
+  "closed_pnl": 0.60733,
+  "fees": 1.4541,
+  "fills": 188
  },
  "per_coin_7d": {
   "kPEPE": {
@@ -104,6 +110,12 @@
    "fees": 0.05769,
    "net": -0.077
   },
+  "UNI": {
+   "fills": 4,
+   "closed_pnl": -0.044,
+   "fees": 0.02066,
+   "net": -0.06466
+  },
   "BTC": {
    "fills": 3,
    "closed_pnl": -0.02627,
@@ -117,16 +129,22 @@
    "net": -0.05799
   },
   "XPL": {
-   "fills": 2,
+   "fills": 3,
    "closed_pnl": -0.03781,
-   "fees": 0.00993,
-   "net": -0.04774
+   "fees": 0.01489,
+   "net": -0.05271
   },
   "XRP": {
-   "fills": 6,
+   "fills": 7,
    "closed_pnl": -0.005,
-   "fees": 0.03978,
-   "net": -0.04478
+   "fees": 0.04517,
+   "net": -0.05017
+  },
+  "LINK": {
+   "fills": 2,
+   "closed_pnl": -0.034,
+   "fees": 0.01067,
+   "net": -0.04467
   },
   "MON": {
    "fills": 2,
@@ -135,22 +153,16 @@
    "net": -0.03961
   },
   "ENA": {
-   "fills": 3,
+   "fills": 4,
    "closed_pnl": -0.0109,
-   "fees": 0.02216,
-   "net": -0.03307
+   "fees": 0.02719,
+   "net": -0.0381
   },
-  "UNI": {
-   "fills": 3,
-   "closed_pnl": -0.00384,
-   "fees": 0.0155,
-   "net": -0.01934
-  },
-  "LINK": {
-   "fills": 1,
-   "closed_pnl": 0.0,
-   "fees": 0.00534,
-   "net": -0.00534
+  "ZEC": {
+   "fills": 4,
+   "closed_pnl": 0.029,
+   "fees": 0.03539,
+   "net": -0.00639
   },
   "AVAX": {
    "fills": 2,
@@ -170,12 +182,6 @@
    "fees": 0.05382,
    "net": 0.03034
   },
-  "ZEC": {
-   "fills": 3,
-   "closed_pnl": 0.06,
-   "fees": 0.02946,
-   "net": 0.03054
-  },
   "HYPE": {
    "fills": 4,
    "closed_pnl": 0.05266,
@@ -183,10 +189,16 @@
    "net": 0.03172
   },
   "ETH": {
-   "fills": 7,
-   "closed_pnl": 0.09591,
-   "fees": 0.06004,
-   "net": 0.03587
+   "fills": 9,
+   "closed_pnl": 0.11048,
+   "fees": 0.07006,
+   "net": 0.04042
+  },
+  "NEAR": {
+   "fills": 10,
+   "closed_pnl": 0.16483,
+   "fees": 0.09307,
+   "net": 0.07176
   },
   "AAVE": {
    "fills": 2,
@@ -195,10 +207,10 @@
    "net": 0.07434
   },
   "SOL": {
-   "fills": 8,
+   "fills": 9,
    "closed_pnl": 0.1852,
-   "fees": 0.07108,
-   "net": 0.11412
+   "fees": 0.07618,
+   "net": 0.10902
   },
   "PUMP": {
    "fills": 2,
@@ -212,12 +224,6 @@
    "fees": 0.12587,
    "net": 0.13237
   },
-  "NEAR": {
-   "fills": 9,
-   "closed_pnl": 0.22603,
-   "fees": 0.08799,
-   "net": 0.13804
-  },
   "LIT": {
    "fills": 10,
    "closed_pnl": 0.2244,
@@ -225,10 +231,10 @@
    "net": 0.17266
   },
   "WLD": {
-   "fills": 4,
+   "fills": 5,
    "closed_pnl": 0.22654,
-   "fees": 0.03042,
-   "net": 0.19613
+   "fees": 0.03538,
+   "net": 0.19116
   }
  },
  "scalper_exits_recent": {
