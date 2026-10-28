@@ -1,23 +1,23 @@
 {
- "at": "2026-10-28T13:05:04Z",
+ "at": "2026-10-28T13:35:08Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 7.905665,
+  "account_value": 7.873295,
   "open_positions": [
    {
     "coin": "BTC",
     "szi": "0.0003",
     "entry": "80902.0",
-    "upnl": "-0.04773"
+    "upnl": "-0.0801"
    }
   ],
   "deposited_usdc": 8.974045,
   "floor_usdc": 7.0
  },
  "last_24h": {
-  "closed_pnl": 0.57942,
-  "fees": 1.59708,
-  "fills": 216
+  "closed_pnl": 0.72475,
+  "fees": 1.50509,
+  "fills": 203
  },
  "per_coin_7d": {
   "kPEPE": {
