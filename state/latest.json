@@ -1,14 +1,50 @@
 {
- "at": "2026-10-28T08:05:04Z",
+ "at": "2026-10-28T08:35:10Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 8.246868,
+  "account_value": 8.513946,
   "open_positions": [
    {
     "coin": "BTC",
     "szi": "0.0003",
     "entry": "80902.0",
-    "upnl": "0.0711"
+    "upnl": "0.1644"
+   },
+   {
+    "coin": "ETH",
+    "szi": "0.0047",
+    "entry": "2365.3",
+    "upnl": "0.03431"
+   },
+   {
+    "coin": "SOL",
+    "szi": "0.11",
+    "entry": "102.47",
+    "upnl": "0.055"
+   },
+   {
+    "coin": "AVAX",
+    "szi": "1.23",
+    "entry": "9.0087",
+    "upnl": "0.032226"
+   },
+   {
+    "coin": "ARB",
+    "szi": "65.3",
+    "entry": "0.16854",
+    "upnl": "0.052893"
+   },
+   {
+    "coin": "WLD",
+    "szi": "25.3",
+    "entry": "0.43618",
+    "upnl": "0.067551"
+   },
+   {
+    "coin": "XPL",
+    "szi": "146.0",
+    "entry": "0.075701",
+    "upnl": "-0.038252"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -16,8 +52,8 @@
  },
  "last_24h": {
   "closed_pnl": 0.41006,
-  "fees": 1.20846,
-  "fills": 138
+  "fees": 1.23841,
+  "fills": 144
  },
  "per_coin_7d": {
   "kPEPE": {
@@ -45,10 +81,10 @@
    "net": -0.1176
   },
   "ARB": {
-   "fills": 4,
+   "fills": 5,
    "closed_pnl": -0.06065,
-   "fees": 0.03728,
-   "net": -0.09793
+   "fees": 0.04223,
+   "net": -0.10288
   },
   "ZRO": {
    "fills": 4,
@@ -111,16 +147,28 @@
    "net": -0.03307
   },
   "SOL": {
-   "fills": 4,
+   "fills": 5,
    "closed_pnl": 0.051,
-   "fees": 0.05413,
-   "net": -0.00313
+   "fees": 0.0592,
+   "net": -0.0082
+  },
+  "AVAX": {
+   "fills": 1,
+   "closed_pnl": 0.0,
+   "fees": 0.00499,
+   "net": -0.00499
+  },
+  "XPL": {
+   "fills": 1,
+   "closed_pnl": 0.0,
+   "fees": 0.00497,
+   "net": -0.00497
   },
   "ETH": {
-   "fills": 4,
+   "fills": 5,
    "closed_pnl": 0.05596,
-   "fees": 0.04501,
-   "net": 0.01095
+   "fees": 0.05001,
+   "net": 0.00595
   },
   "ZEC": {
    "fills": 2,
@@ -141,10 +189,10 @@
    "net": 0.07434
   },
   "WLD": {
-   "fills": 2,
+   "fills": 3,
    "closed_pnl": 0.11624,
-   "fees": 0.02378,
-   "net": 0.09245
+   "fees": 0.02875,
+   "net": 0.08749
   },
   "PUMP": {
    "fills": 2,
