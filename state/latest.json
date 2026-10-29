@@ -1,23 +1,23 @@
 {
- "at": "2026-10-29T09:05:04Z",
+ "at": "2026-10-29T09:35:08Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 7.91822,
+  "account_value": 7.93772,
   "open_positions": [
    {
     "coin": "BTC",
     "szi": "0.0003",
     "entry": "80902.0",
-    "upnl": "-0.2592"
+    "upnl": "-0.2397"
    }
   ],
   "deposited_usdc": 8.974045,
   "floor_usdc": 7.0
  },
  "last_24h": {
-  "closed_pnl": 0.13107,
-  "fees": 0.40362,
-  "fills": 80
+  "closed_pnl": 0.22061,
+  "fees": 0.34759,
+  "fills": 69
  },
  "per_coin_7d": {
   "kPEPE": {
@@ -839,6 +839,21 @@
     "pnlPct": 1.1,
     "sig": "33tTqK4wGx76Aq5R2CiV7o2dxV7hSyN2fzxV1ZBVA8vkuycT6xRiuATBWf9YeXiVWcRZKsEBHAWhL54SAqVgK42i",
     "at": "2026-10-27T23:08:19.105Z"
+   },
+   {
+    "event": "start",
+    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
+    "pools": 8,
+    "rule": {
+     "BUY_XNT": 3,
+     "MAX_POS": 5,
+     "RESERVE_XNT": 10,
+     "DIP_PCT": 6,
+     "TP_PCT": 8,
+     "SL_PCT": 12,
+     "MAX_HOLD_H": 72
+    },
+    "at": "2026-10-29T09:32:11.487Z"
    }
   ],
   "realised_xnt": 1.78173
