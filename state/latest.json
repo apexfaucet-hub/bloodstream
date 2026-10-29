@@ -1,29 +1,29 @@
 {
- "at": "2026-10-29T15:35:06Z",
+ "at": "2026-10-29T16:05:07Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 8.090602,
+  "account_value": 8.191921,
   "open_positions": [
    {
     "coin": "BLUR",
     "szi": "1390.0",
     "entry": "0.007921",
-    "upnl": "0.14039"
+    "upnl": "0.18348"
    },
    {
-    "coin": "MON",
-    "szi": "535.0",
-    "entry": "0.020578",
-    "upnl": "0.378245"
+    "coin": "PYTH",
+    "szi": "152.0",
+    "entry": "0.072805",
+    "upnl": "-0.005016"
    }
   ],
   "deposited_usdc": 8.974045,
   "floor_usdc": 7.0
  },
  "last_24h": {
-  "closed_pnl": -0.2239,
-  "fees": 0.19229,
-  "fills": 31
+  "closed_pnl": 0.21641,
+  "fees": 0.19899,
+  "fills": 33
  },
  "per_coin_7d": {
   "HYPE": {
@@ -128,12 +128,6 @@
    "fees": 0.01067,
    "net": -0.04467
   },
-  "MON": {
-   "fills": 3,
-   "closed_pnl": -0.02801,
-   "fees": 0.01655,
-   "net": -0.04456
-  },
   "ENA": {
    "fills": 5,
    "closed_pnl": -0.00982,
@@ -145,6 +139,12 @@
    "closed_pnl": 0.01028,
    "fees": 0.0298,
    "net": -0.01952
+  },
+  "PYTH": {
+   "fills": 1,
+   "closed_pnl": 0.0,
+   "fees": 0.00498,
+   "net": -0.00498
   },
   "BLUR": {
    "fills": 1,
@@ -217,6 +217,12 @@
    "closed_pnl": 0.31191,
    "fees": 0.07031,
    "net": 0.2416
+  },
+  "MON": {
+   "fills": 4,
+   "closed_pnl": 0.41229,
+   "fees": 0.01827,
+   "net": 0.39403
   },
   "PURR": {
    "fills": 2,
