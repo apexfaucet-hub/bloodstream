@@ -1,14 +1,20 @@
 {
- "at": "2026-10-29T12:05:04Z",
+ "at": "2026-10-29T12:35:08Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 7.079907,
+  "account_value": 7.251315,
   "open_positions": [
    {
     "coin": "PURR",
     "szi": "98.0",
     "entry": "0.11271",
-    "upnl": "-0.019992"
+    "upnl": "0.13818"
+   },
+   {
+    "coin": "MON",
+    "szi": "535.0",
+    "entry": "0.020578",
+    "upnl": "0.01819"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -16,8 +22,8 @@
  },
  "last_24h": {
   "closed_pnl": -0.57057,
-  "fees": 0.19083,
-  "fills": 30
+  "fees": 0.19579,
+  "fills": 31
  },
  "per_coin_7d": {
   "HYPE": {
@@ -122,17 +128,17 @@
    "fees": 0.01067,
    "net": -0.04467
   },
+  "MON": {
+   "fills": 3,
+   "closed_pnl": -0.02801,
+   "fees": 0.01655,
+   "net": -0.04456
+  },
   "ENA": {
    "fills": 5,
    "closed_pnl": -0.00982,
    "fees": 0.03223,
    "net": -0.04205
-  },
-  "MON": {
-   "fills": 2,
-   "closed_pnl": -0.02801,
-   "fees": 0.0116,
-   "net": -0.03961
   },
   "XPL": {
    "fills": 6,
