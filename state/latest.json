@@ -1,26 +1,26 @@
 {
- "at": "2026-10-29T19:35:06Z",
+ "at": "2026-10-29T20:05:03Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 7.333899,
+  "account_value": 6.746876,
   "open_positions": [
    {
     "coin": "BLUR",
     "szi": "1390.0",
     "entry": "0.007921",
-    "upnl": "0.2085"
+    "upnl": "-0.0278"
    },
    {
     "coin": "PYTH",
     "szi": "152.0",
     "entry": "0.072805",
-    "upnl": "-0.660136"
+    "upnl": "-0.7486"
    },
    {
     "coin": "kBONK",
     "szi": "3442.0",
     "entry": "0.003195",
-    "upnl": "-0.24094"
+    "upnl": "-0.509416"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -271,55 +271,6 @@
   }
  },
  "scalper_last_events": [
-  {
-   "event": "entry",
-   "coin": "ARB",
-   "side": "short",
-   "px": 0.16842,
-   "sz": 149.1,
-   "lev": 10,
-   "notional": 25.11,
-   "move60s": 0.00274,
-   "base": 0.0002975304968759751,
-   "backstop": 0.17049,
-   "backstop_oid": 587538851670,
-   "tp_px": 0.16805,
-   "tp_oid": 587538856767,
-   "at": "2026-10-27T18:24:49Z"
-  },
-  {
-   "event": "exit",
-   "coin": "ARB",
-   "why": "tp-maker",
-   "entry": 0.16842,
-   "exit": 0.16805,
-   "sz": 149.1,
-   "pnl_gross": 0.05517,
-   "held_s": 251,
-   "at": "2026-10-27T18:28:56Z"
-  },
-  {
-   "event": "exit",
-   "coin": "TRUMP",
-   "why": "tp-maker",
-   "entry": 1.6986,
-   "exit": 1.6966,
-   "sz": 14.8,
-   "pnl_gross": 0.0296,
-   "held_s": 263,
-   "at": "2026-10-27T18:28:59Z"
-  },
-  {
-   "event": "exit",
-   "coin": "ADA",
-   "why": "tp-maker",
-   "entry": 0.20504,
-   "exit": 0.20478,
-   "sz": 122.0,
-   "pnl_gross": 0.03172,
-   "held_s": 269,
-   "at": "2026-10-27T18:29:06Z"
-  },
   {
    "event": "entry",
    "coin": "CRV",
@@ -676,6 +627,26 @@
     "lev": 50
    },
    "at": "2026-10-28T07:49:25Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.978048,
+   "at": "2026-10-29T20:03:29Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.884546,
+   "at": "2026-10-29T20:03:59Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.798048,
+   "at": "2026-10-29T20:04:29Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.791948,
+   "at": "2026-10-29T20:04:59Z"
   }
  ],
  "scalper_params_now": {
