@@ -1,20 +1,20 @@
 {
- "at": "2026-10-29T15:05:04Z",
+ "at": "2026-10-29T15:35:06Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 7.950897,
+  "account_value": 8.090602,
   "open_positions": [
    {
     "coin": "BLUR",
     "szi": "1390.0",
     "entry": "0.007921",
-    "upnl": "0.23769"
+    "upnl": "0.14039"
    },
    {
     "coin": "MON",
     "szi": "535.0",
     "entry": "0.020578",
-    "upnl": "0.14124"
+    "upnl": "0.378245"
    }
   ],
   "deposited_usdc": 8.974045,
