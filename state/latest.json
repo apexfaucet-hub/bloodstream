@@ -1,23 +1,23 @@
 {
- "at": "2026-10-29T01:35:06Z",
+ "at": "2026-10-29T02:05:03Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 8.273986,
+  "account_value": 8.008952,
   "open_positions": [
    {
     "coin": "BTC",
     "szi": "0.0003",
     "entry": "80902.0",
-    "upnl": "-0.0612"
+    "upnl": "-0.2481"
    }
   ],
   "deposited_usdc": 8.974045,
   "floor_usdc": 7.0
  },
  "last_24h": {
-  "closed_pnl": 0.61519,
-  "fees": 0.45994,
-  "fills": 91
+  "closed_pnl": 0.55729,
+  "fees": 0.47987,
+  "fills": 95
  },
  "per_coin_7d": {
   "kPEPE": {
@@ -33,10 +33,10 @@
    "net": -0.26904
   },
   "ADA": {
-   "fills": 10,
-   "closed_pnl": -0.11371,
-   "fees": 0.08104,
-   "net": -0.19475
+   "fills": 12,
+   "closed_pnl": -0.17419,
+   "fees": 0.09106,
+   "net": -0.26525
   },
   "STRK": {
    "fills": 12,
@@ -147,10 +147,10 @@
    "net": 0.0428
   },
   "FARTCOIN": {
-   "fills": 14,
-   "closed_pnl": 0.21265,
-   "fees": 0.13575,
-   "net": 0.07689
+   "fills": 16,
+   "closed_pnl": 0.21522,
+   "fees": 0.14566,
+   "net": 0.06957
   },
   "ONDO": {
    "fills": 2,
