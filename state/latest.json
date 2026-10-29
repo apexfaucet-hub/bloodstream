@@ -1,35 +1,35 @@
 {
- "at": "2026-10-29T18:05:04Z",
+ "at": "2026-10-29T18:35:05Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 7.587609,
+  "account_value": 7.157825,
   "open_positions": [
    {
     "coin": "BLUR",
     "szi": "1390.0",
     "entry": "0.007921",
-    "upnl": "0.14734"
+    "upnl": "0.09035"
    },
    {
     "coin": "PYTH",
     "szi": "152.0",
     "entry": "0.072805",
-    "upnl": "-0.453264"
+    "upnl": "-0.6574"
    },
    {
     "coin": "kBONK",
     "szi": "3442.0",
     "entry": "0.003195",
-    "upnl": "-0.127354"
+    "upnl": "-0.296012"
    }
   ],
   "deposited_usdc": 8.974045,
   "floor_usdc": 7.0
  },
  "last_24h": {
-  "closed_pnl": 0.05282,
-  "fees": 0.17364,
-  "fills": 28
+  "closed_pnl": -0.40198,
+  "fees": 0.14857,
+  "fills": 23
  },
  "per_coin_7d": {
   "HYPE": {
@@ -698,7 +698,7 @@
   ],
   "why": "rule 3: 7d net TRUMP -0.083/7 fills and CRV -0.058/6 fills blocked; only ~14 exits since tp 0.8 (<20, gross +0.14) so nothing else changed; acct 8.404 > 7.6"
  },
- "money_desk": "MONEY DESK 2026-10-29\nOutside income: 24 h $0.056 (~0.05 EUR), 7 d $0.159 from 14 payers (9 new), 30 d $3.109\nTop products 7 d: web-read $0.048 (2 payers), page-extract $0.018 (2 payers), web-search $0.015 (1 payers), chat-completions $0.01 (2 payers), flight-deals $0.01 (1 payers)\nCosts 7 d: spent outside $0.044, Arc faucet payouts $0.75 + gas $0.164. Net 7 d: $-0.799\nBazaar ranks: token verdict 9; base token verdict 4; decode transaction 7; web search not in top 20; honeypot check base 1; token price not in top 20\nExperiment post-verdict: no payers before or after: did not move money, try a different lever\nExperiment relist-all-cdp: too few payers to judge (1 -> 2): leave it as it is, no undo, no repeat\nExperiment listing-text: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment base-price: no payers before or after: did not move money, try a different lever\nExperiment multichain-verdict: no payers before or after: did not move money, try a different lever\nExperiment payai-listing: too few payers to judge (3 -> 1): leave it as it is, no undo, no repeat\nExperiment chat-listing-words: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment new-tools-listing-words: no payers before or after: did not move money, try a different lever\nExperiment prediction-tools: running (judge on 2026-11-04)\nExperiment rwa-tools: running (judge on 2026-11-04)\nExperiment web-listing-words: running (judge on 2026-11-04)\nTrading 24 h, Hyperliquid (all bots, HL fills): net $0.011 after fees (~0.01 EUR), 49 closes, 27 wins\nTrading 24 h, X1 dip trader: 0 sells, realised 0 XNT (before tx fees)\nFree capital: $0. Hyperliquid carry (no price risk): XPL 27.5% APR ($null/day), BTC 11% APR ($null/day), ETH 11% APR ($null/day)\nArc launches: 67.6% lost their exit (5588 settled)\nBusiest paid agent markets: www.ax1.vc 1107 payers $497.84/day; keyring-agent.blockchhub.link 51 payers $54.6/day; blockrun.ai 34 payers $32.02/day; api.botpay.network 26 payers $30.53/day\n",
+ "money_desk": "MONEY DESK 2026-10-29\nOutside income: 24 h $0.026 (~0.02 EUR), 7 d $0.173 from 18 payers (13 new), 30 d $3.123\nTop products 7 d: web-read $0.054 (2 payers), page-extract $0.018 (2 payers), web-search $0.015 (1 payers), chat-completions $0.012 (3 payers), flight-deals $0.01 (1 payers)\nCosts 7 d: spent outside $0.044, Arc faucet payouts $0.8 + gas $0.171. Net 7 d: $-0.842\nBazaar ranks: token verdict 9; base token verdict 4; decode transaction 7; web search not in top 20; honeypot check base 1; token price not in top 20\nExperiment post-verdict: no payers before or after: did not move money, try a different lever\nExperiment relist-all-cdp: too few payers to judge (1 -> 2): leave it as it is, no undo, no repeat\nExperiment listing-text: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment base-price: no payers before or after: did not move money, try a different lever\nExperiment multichain-verdict: no payers before or after: did not move money, try a different lever\nExperiment payai-listing: too few payers to judge (3 -> 1): leave it as it is, no undo, no repeat\nExperiment chat-listing-words: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment new-tools-listing-words: no payers before or after: did not move money, try a different lever\nExperiment prediction-tools: running (judge on 2026-11-04)\nExperiment rwa-tools: running (judge on 2026-11-04)\nExperiment web-listing-words: running (judge on 2026-11-04)\nExperiment prediction-names-fit-32: running (judge on 2026-10-30)\nTrading 24 h, Hyperliquid (all bots, HL fills): net $-0.556 after fees (~-0.48 EUR), 11 closes, 3 wins\nTrading 24 h, X1 dip trader: 1 sells, realised 0.273 XNT (before tx fees)\nFree capital: $0. Hyperliquid carry (no price risk): XPL 27.5% APR ($null/day), BTC 11% APR ($null/day), ETH 11% APR ($null/day)\nArc launches: 67.6% lost their exit (5588 settled)\nBusiest paid agent markets: www.ax1.vc 1107 payers $497.84/day; keyring-agent.blockchhub.link 51 payers $54.6/day; blockrun.ai 34 payers $32.02/day; api.botpay.network 26 payers $30.53/day\n",
  "x1_dip_trader": {
   "open": {
    "8hEhKFmb43qkcctdV94VjwQxUubZ7zCTyG7Hsb1BWcsq": {
@@ -708,24 +708,17 @@
     "t": 1793278918115,
     "entry": 4.09711430558478,
     "sig": "s5kv2nWoUFYc3sozGjHDchH4CJ8yonuFyffXoPDfRzGsAbZHvATWTCmPkzAcyctEYFrUxKRXMdJyE3nHQvTcBfB"
+   },
+   "7iWbFz8YRuDeL8wqBRTCJp8NrbRPnmCsF8833nkEXUH5": {
+    "mint": "2HsCLiaXm2efKzTfLD5hcVeiMU3txS7xFCQtGsmDzWLZ",
+    "tokRaw": 100233422,
+    "costLamports": 1938349680,
+    "t": 1793297189824,
+    "entry": 0.019005638968275243,
+    "sig": "3V41GFJULeXhqCJf7jgUY2pA2acKQo4ZABmUSTeNsPayiVVLTyDcU71SWTnaAkWAZfApAHSYso5A6YLGzNeXPef8"
    }
   },
   "last_trades": [
-   {
-    "event": "start",
-    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
-    "pools": 9,
-    "rule": {
-     "BUY_XNT": 2,
-     "MAX_POS": 4,
-     "RESERVE_XNT": 10,
-     "DIP_PCT": 6,
-     "TP_PCT": 8,
-     "SL_PCT": 12,
-     "MAX_HOLD_H": 72
-    },
-    "at": "2026-10-27T13:31:19.123Z"
-   },
    {
     "event": "start",
     "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
@@ -960,6 +953,16 @@
     "price": 4.09711430558478,
     "sig": "s5kv2nWoUFYc3sozGjHDchH4CJ8yonuFyffXoPDfRzGsAbZHvATWTCmPkzAcyctEYFrUxKRXMdJyE3nHQvTcBfB",
     "at": "2026-10-29T13:02:04.763Z"
+   },
+   {
+    "event": "buy",
+    "pool": "7iWbFz8YRuDeL8wqBRTCJp8NrbRPnmCsF8833nkEXUH5",
+    "mint": "2HsCLiaXm2efKzTfLD5hcVeiMU3txS7xFCQtGsmDzWLZ",
+    "xnt": 3,
+    "dipPct": 21.1,
+    "price": 0.019005638968275243,
+    "sig": "3V41GFJULeXhqCJf7jgUY2pA2acKQo4ZABmUSTeNsPayiVVLTyDcU71SWTnaAkWAZfApAHSYso5A6YLGzNeXPef8",
+    "at": "2026-10-29T18:06:34.629Z"
    }
   ],
   "realised_xnt": 2.05474
