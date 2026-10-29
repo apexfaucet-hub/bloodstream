@@ -1,23 +1,23 @@
 {
- "at": "2026-10-29T11:35:06Z",
+ "at": "2026-10-29T12:05:04Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 7.155107,
+  "account_value": 7.079907,
   "open_positions": [
    {
-    "coin": "BTC",
-    "szi": "0.0003",
-    "entry": "80902.0",
-    "upnl": "-0.2292"
+    "coin": "PURR",
+    "szi": "98.0",
+    "entry": "0.11271",
+    "upnl": "-0.019992"
    }
   ],
   "deposited_usdc": 8.974045,
   "floor_usdc": 7.0
  },
  "last_24h": {
-  "closed_pnl": -0.13972,
-  "fees": 0.15688,
-  "fills": 32
+  "closed_pnl": -0.57057,
+  "fees": 0.19083,
+  "fills": 30
  },
  "per_coin_7d": {
   "HYPE": {
@@ -31,6 +31,12 @@
    "closed_pnl": -0.29265,
    "fees": 0.11495,
    "net": -0.4076
+  },
+  "BTC": {
+   "fills": 5,
+   "closed_pnl": -0.25127,
+   "fees": 0.09206,
+   "net": -0.34333
   },
   "XMR": {
    "fills": 20,
@@ -98,12 +104,6 @@
    "fees": 0.02066,
    "net": -0.06466
   },
-  "BTC": {
-   "fills": 3,
-   "closed_pnl": -0.02627,
-   "fees": 0.03794,
-   "net": -0.06421
-  },
   "CRV": {
    "fills": 6,
    "closed_pnl": 0.01077,
@@ -139,6 +139,12 @@
    "closed_pnl": 0.01028,
    "fees": 0.0298,
    "net": -0.01952
+  },
+  "PURR": {
+   "fills": 1,
+   "closed_pnl": 0.0,
+   "fees": 0.00497,
+   "net": -0.00497
   },
   "NEAR": {
    "fills": 15,
@@ -869,6 +875,21 @@
      "MAX_HOLD_H": 72
     },
     "at": "2026-10-29T09:36:21.284Z"
+   },
+   {
+    "event": "start",
+    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
+    "pools": 24,
+    "rule": {
+     "BUY_XNT": 3,
+     "MAX_POS": 12,
+     "RESERVE_XNT": 4,
+     "DIP_PCT": 8,
+     "TP_PCT": 8,
+     "SL_PCT": 100,
+     "MAX_HOLD_H": 720
+    },
+    "at": "2026-10-29T11:42:51.293Z"
    }
   ],
   "realised_xnt": 1.78173
