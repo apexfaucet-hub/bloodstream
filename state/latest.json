@@ -1,26 +1,26 @@
 {
- "at": "2026-10-29T21:35:07Z",
+ "at": "2026-10-29T22:05:04Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 5.655658,
+  "account_value": 4.84679,
   "open_positions": [
    {
     "coin": "BLUR",
     "szi": "1390.0",
     "entry": "0.007921",
-    "upnl": "-0.3614"
+    "upnl": "-0.48928"
    },
    {
     "coin": "PYTH",
     "szi": "152.0",
     "entry": "0.072805",
-    "upnl": "-1.0488"
+    "upnl": "-1.378336"
    },
    {
     "coin": "kBONK",
     "szi": "3442.0",
     "entry": "0.003195",
-    "upnl": "-0.970644"
+    "upnl": "-1.32517"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -272,154 +272,163 @@
  },
  "scalper_last_events": [
   {
-   "event": "FLOOR_STOP",
-   "account": 5.666292,
-   "at": "2026-10-29T21:20:27Z"
+   "event": "start",
+   "coins": 40,
+   "floor": 7.0,
+   "rule": {
+    "z": 8.0,
+    "tp": 0.8,
+    "sl": 3.0,
+    "hold_s": 300.0,
+    "notional": 30.0,
+    "lev": 50
+   },
+   "at": "2026-10-29T21:50:33Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.619504,
-   "at": "2026-10-29T21:20:57Z"
+   "account": 5.22277,
+   "at": "2026-10-29T21:50:34Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.586612,
-   "at": "2026-10-29T21:21:27Z"
+   "account": 5.20151,
+   "at": "2026-10-29T21:51:04Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.573896,
-   "at": "2026-10-29T21:21:57Z"
+   "account": 5.14787,
+   "at": "2026-10-29T21:51:34Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.514352,
-   "at": "2026-10-29T21:22:28Z"
+   "account": 5.075428,
+   "at": "2026-10-29T21:52:04Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.51279,
-   "at": "2026-10-29T21:22:57Z"
+   "account": 5.093128,
+   "at": "2026-10-29T21:52:34Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.593562,
-   "at": "2026-10-29T21:23:27Z"
+   "account": 5.059056,
+   "at": "2026-10-29T21:53:04Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.585756,
-   "at": "2026-10-29T21:23:57Z"
+   "account": 5.075174,
+   "at": "2026-10-29T21:53:34Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.629708,
-   "at": "2026-10-29T21:24:27Z"
+   "account": 5.084122,
+   "at": "2026-10-29T21:54:04Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.599154,
-   "at": "2026-10-29T21:24:57Z"
+   "account": 5.073808,
+   "at": "2026-10-29T21:54:34Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.611302,
-   "at": "2026-10-29T21:25:27Z"
+   "account": 5.142874,
+   "at": "2026-10-29T21:55:04Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.595036,
-   "at": "2026-10-29T21:25:57Z"
+   "account": 5.13737,
+   "at": "2026-10-29T21:55:34Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.556242,
-   "at": "2026-10-29T21:26:27Z"
+   "account": 5.041284,
+   "at": "2026-10-29T21:56:04Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.456598,
-   "at": "2026-10-29T21:26:58Z"
+   "account": 5.083064,
+   "at": "2026-10-29T21:56:34Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.43638,
-   "at": "2026-10-29T21:27:28Z"
+   "account": 5.078348,
+   "at": "2026-10-29T21:57:05Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.435946,
-   "at": "2026-10-29T21:27:57Z"
+   "account": 5.213258,
+   "at": "2026-10-29T21:57:35Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.436056,
-   "at": "2026-10-29T21:28:27Z"
+   "account": 5.247158,
+   "at": "2026-10-29T21:58:05Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.512032,
-   "at": "2026-10-29T21:28:57Z"
+   "account": 5.228632,
+   "at": "2026-10-29T21:58:35Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.58313,
-   "at": "2026-10-29T21:29:30Z"
+   "account": 5.194126,
+   "at": "2026-10-29T21:59:07Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.595572,
-   "at": "2026-10-29T21:30:00Z"
+   "account": 5.076948,
+   "at": "2026-10-29T21:59:38Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.667298,
-   "at": "2026-10-29T21:30:30Z"
+   "account": 5.060392,
+   "at": "2026-10-29T22:00:10Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.694912,
-   "at": "2026-10-29T21:31:00Z"
+   "account": 4.969574,
+   "at": "2026-10-29T22:00:42Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.6841,
-   "at": "2026-10-29T21:31:30Z"
+   "account": 4.978108,
+   "at": "2026-10-29T22:01:12Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.650104,
-   "at": "2026-10-29T21:32:00Z"
+   "account": 5.031728,
+   "at": "2026-10-29T22:01:45Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.71294,
-   "at": "2026-10-29T21:32:30Z"
+   "account": 4.955656,
+   "at": "2026-10-29T22:02:15Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.733548,
-   "at": "2026-10-29T21:33:00Z"
+   "account": 5.049074,
+   "at": "2026-10-29T22:02:47Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.728464,
-   "at": "2026-10-29T21:33:30Z"
+   "account": 5.018788,
+   "at": "2026-10-29T22:03:17Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.736184,
-   "at": "2026-10-29T21:34:01Z"
+   "account": 4.953462,
+   "at": "2026-10-29T22:03:47Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.696466,
-   "at": "2026-10-29T21:34:30Z"
+   "account": 4.909224,
+   "at": "2026-10-29T22:04:17Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.672282,
-   "at": "2026-10-29T21:35:00Z"
+   "account": 4.862088,
+   "at": "2026-10-29T22:04:50Z"
   }
  ],
  "scalper_params_now": {
@@ -463,21 +472,6 @@
    }
   },
   "last_trades": [
-   {
-    "event": "start",
-    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
-    "pools": 9,
-    "rule": {
-     "BUY_XNT": 2,
-     "MAX_POS": 4,
-     "RESERVE_XNT": 10,
-     "DIP_PCT": 6,
-     "TP_PCT": 8,
-     "SL_PCT": 12,
-     "MAX_HOLD_H": 72
-    },
-    "at": "2026-10-27T13:42:23.322Z"
-   },
    {
     "event": "start",
     "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
@@ -707,6 +701,21 @@
     "price": 0.019005638968275243,
     "sig": "3V41GFJULeXhqCJf7jgUY2pA2acKQo4ZABmUSTeNsPayiVVLTyDcU71SWTnaAkWAZfApAHSYso5A6YLGzNeXPef8",
     "at": "2026-10-29T18:06:34.629Z"
+   },
+   {
+    "event": "start",
+    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
+    "pools": 24,
+    "rule": {
+     "BUY_XNT": 3,
+     "MAX_POS": 12,
+     "RESERVE_XNT": 4,
+     "DIP_PCT": 8,
+     "TP_PCT": 8,
+     "SL_PCT": 100,
+     "MAX_HOLD_H": 720
+    },
+    "at": "2026-10-29T21:49:59.258Z"
    }
   ],
   "realised_xnt": 2.05474
