@@ -1,26 +1,26 @@
 {
- "at": "2026-10-29T19:05:04Z",
+ "at": "2026-10-29T19:35:06Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 7.335633,
+  "account_value": 7.333899,
   "open_positions": [
    {
     "coin": "BLUR",
     "szi": "1390.0",
     "entry": "0.007921",
-    "upnl": "0.20155"
+    "upnl": "0.2085"
    },
    {
     "coin": "PYTH",
     "szi": "152.0",
     "entry": "0.072805",
-    "upnl": "-0.6308"
+    "upnl": "-0.660136"
    },
    {
     "coin": "kBONK",
     "szi": "3442.0",
     "entry": "0.003195",
-    "upnl": "-0.261592"
+    "upnl": "-0.24094"
    }
   ],
   "deposited_usdc": 8.974045,
