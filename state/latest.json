@@ -1,14 +1,14 @@
 {
- "at": "2026-10-29T02:05:03Z",
+ "at": "2026-10-29T02:35:06Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 8.008952,
+  "account_value": 7.937252,
   "open_positions": [
    {
     "coin": "BTC",
     "szi": "0.0003",
     "entry": "80902.0",
-    "upnl": "-0.2481"
+    "upnl": "-0.3198"
    }
   ],
   "deposited_usdc": 8.974045,
