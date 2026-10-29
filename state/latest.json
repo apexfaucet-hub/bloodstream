@@ -1,26 +1,26 @@
 {
- "at": "2026-10-29T20:05:03Z",
+ "at": "2026-10-29T20:35:06Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 6.746876,
+  "account_value": 6.50508,
   "open_positions": [
    {
     "coin": "BLUR",
     "szi": "1390.0",
     "entry": "0.007921",
-    "upnl": "-0.0278"
+    "upnl": "-0.07089"
    },
    {
     "coin": "PYTH",
     "szi": "152.0",
     "entry": "0.072805",
-    "upnl": "-0.7486"
+    "upnl": "-0.83372"
    },
    {
     "coin": "kBONK",
     "szi": "3442.0",
     "entry": "0.003195",
-    "upnl": "-0.509416"
+    "upnl": "-0.623002"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -272,381 +272,154 @@
  },
  "scalper_last_events": [
   {
-   "event": "entry",
-   "coin": "CRV",
-   "side": "long",
-   "px": 0.33745,
-   "sz": 75.1,
-   "lev": 10,
-   "notional": 25.34,
-   "move60s": -0.00204,
-   "base": 0.00023708621047335843,
-   "backstop": 0.33435,
-   "backstop_oid": 587543957682,
-   "tp_px": 0.338,
-   "tp_oid": 587543961933,
-   "at": "2026-10-27T18:33:43Z"
-  },
-  {
-   "event": "exit",
-   "coin": "CRV",
-   "why": "time",
-   "entry": 0.33745,
-   "exit": 0.33768,
-   "sz": 75.1,
-   "pnl_gross": 0.01727,
-   "held_s": 300,
-   "at": "2026-10-27T18:38:43Z"
-  },
-  {
-   "event": "entry",
-   "coin": "STRK",
-   "side": "long",
-   "px": 0.04672,
-   "sz": 271.1,
-   "lev": 5,
-   "notional": 12.67,
-   "move60s": -0.00534,
-   "base": 0.0006468305304010435,
-   "backstop": 0.0456,
-   "backstop_oid": 587552706610,
-   "tp_px": 0.04692,
-   "tp_oid": 587552710375,
-   "at": "2026-10-27T18:49:13Z"
-  },
-  {
-   "event": "exit",
-   "coin": "STRK",
-   "why": "time",
-   "entry": 0.04672,
-   "exit": 0.04664,
-   "sz": 271.1,
-   "pnl_gross": -0.02169,
-   "held_s": 300,
-   "at": "2026-10-27T18:54:13Z"
-  },
-  {
-   "event": "entry",
-   "coin": "STRK",
-   "side": "short",
-   "px": 0.04734,
-   "sz": 266.2,
-   "lev": 5,
-   "notional": 12.6,
-   "move60s": 0.0073,
-   "base": 0.0008554319931566301,
-   "backstop": 0.04889,
-   "backstop_oid": 587565529816,
-   "tp_px": 0.04706,
-   "tp_oid": 587565536408,
-   "at": "2026-10-27T19:11:34Z"
-  },
-  {
-   "event": "exit",
-   "coin": "STRK",
-   "why": "time",
-   "entry": 0.04734,
-   "exit": 0.04748,
-   "sz": 266.2,
-   "pnl_gross": -0.03727,
-   "held_s": 302,
-   "at": "2026-10-27T19:16:37Z"
-  },
-  {
-   "event": "entry",
-   "coin": "STRK",
-   "side": "long",
-   "px": 0.04716,
-   "sz": 265.7,
-   "lev": 5,
-   "notional": 12.53,
-   "move60s": -0.00693,
-   "base": 0.0008554319931566301,
-   "backstop": 0.04569,
-   "backstop_oid": 587571772375,
-   "tp_px": 0.04742,
-   "tp_oid": 587571777168,
-   "at": "2026-10-27T19:21:40Z"
-  },
-  {
-   "event": "exit",
-   "coin": "STRK",
-   "why": "time",
-   "entry": 0.04716,
-   "exit": 0.04685,
-   "sz": 265.7,
-   "pnl_gross": -0.08237,
-   "held_s": 302,
-   "at": "2026-10-27T19:26:44Z"
-  },
-  {
-   "event": "entry",
-   "coin": "NEAR",
-   "side": "short",
-   "px": 4.6298,
-   "sz": 5.4,
-   "lev": 10,
-   "notional": 25.0,
-   "move60s": 0.0019,
-   "base": 0.00022676226675888422,
-   "backstop": 4.6694,
-   "backstop_oid": 587631071245,
-   "tp_px": 4.6228,
-   "tp_oid": 587631077421,
-   "at": "2026-10-27T21:02:24Z"
-  },
-  {
-   "event": "exit",
-   "coin": "NEAR",
-   "why": "time",
-   "entry": 4.6298,
-   "exit": 4.6315,
-   "sz": 5.4,
-   "pnl_gross": -0.00918,
-   "held_s": 302,
-   "at": "2026-10-27T21:07:26Z"
-  },
-  {
-   "event": "entry",
-   "coin": "AAVE",
-   "side": "long",
-   "px": 131.66,
-   "sz": 0.19,
-   "lev": 10,
-   "notional": 25.02,
-   "move60s": -0.00367,
-   "base": 0.0004524886877828038,
-   "backstop": 129.48,
-   "backstop_oid": 587642006146,
-   "tp_px": 132.05,
-   "tp_oid": 587642011358,
-   "at": "2026-10-27T21:26:38Z"
-  },
-  {
-   "event": "exit",
-   "coin": "AAVE",
-   "why": "time",
-   "entry": 131.66,
-   "exit": 132.17,
-   "sz": 0.19,
-   "pnl_gross": 0.0969,
-   "held_s": 300,
-   "at": "2026-10-27T21:31:39Z"
-  },
-  {
-   "event": "entry",
-   "coin": "BTC",
-   "side": "short",
-   "px": 81122.0,
-   "sz": 0.00037,
-   "lev": 40,
-   "notional": 30.02,
-   "move60s": 0.00359,
-   "base": 0.0001611473692690879,
-   "backstop": 82434.0,
-   "backstop_oid": 587646104967,
-   "tp_px": 80889.0,
-   "tp_oid": 587646128877,
-   "at": "2026-10-27T21:32:53Z"
-  },
-  {
-   "event": "entry",
-   "coin": "BNB",
-   "side": "short",
-   "px": 749.07,
-   "sz": 0.033,
-   "lev": 10,
-   "notional": 24.72,
-   "move60s": 0.00188,
-   "base": 0.0001004358917704451,
-   "backstop": 755.39,
-   "backstop_oid": 587646190330,
-   "tp_px": 747.95,
-   "tp_oid": 587646197022,
-   "at": "2026-10-27T21:32:57Z"
-  },
-  {
-   "event": "entry",
-   "coin": "ARB",
-   "side": "short",
-   "px": 0.16805,
-   "sz": 146.6,
-   "lev": 10,
-   "notional": 24.64,
-   "move60s": 0.00403,
-   "base": 0.0003592169071424678,
-   "backstop": 0.1711,
-   "backstop_oid": 587647284885,
-   "tp_px": 0.16751,
-   "tp_oid": 587647291657,
-   "at": "2026-10-27T21:33:56Z"
-  },
-  {
-   "event": "exit",
-   "coin": "BTC",
-   "why": "time",
-   "entry": 81122.0,
-   "exit": 81193.0,
-   "sz": 0.00037,
-   "pnl_gross": -0.02627,
-   "held_s": 300,
-   "at": "2026-10-27T21:37:53Z"
-  },
-  {
-   "event": "exit",
-   "coin": "BNB",
-   "why": "time",
-   "entry": 749.07,
-   "exit": 749.32,
-   "sz": 0.033,
-   "pnl_gross": -0.00825,
-   "held_s": 300,
-   "at": "2026-10-27T21:37:57Z"
-  },
-  {
-   "event": "entry",
-   "coin": "LIT",
-   "side": "short",
-   "px": 3.1285,
-   "sz": 4.0,
-   "lev": 5,
-   "notional": 12.51,
-   "move60s": 0.00501,
-   "base": 0.00044423238289548195,
-   "backstop": 3.1991,
-   "backstop_oid": 587651109282,
-   "tp_px": 3.116,
-   "tp_oid": 587651113201,
-   "at": "2026-10-27T21:38:53Z"
-  },
-  {
-   "event": "exit",
-   "coin": "ARB",
-   "why": "time",
-   "entry": 0.16805,
-   "exit": 0.16884,
-   "sz": 146.6,
-   "pnl_gross": -0.11581,
-   "held_s": 301,
-   "at": "2026-10-27T21:38:57Z"
-  },
-  {
-   "event": "entry",
-   "coin": "ETH",
-   "side": "short",
-   "px": 2359.0,
-   "sz": 0.0127,
-   "lev": 25,
-   "notional": 29.96,
-   "move60s": 0.00191,
-   "base": 0.00021364325848693966,
-   "backstop": 2379.3,
-   "backstop_oid": 587651244414,
-   "tp_px": 2355.4,
-   "tp_oid": 587651248523,
-   "at": "2026-10-27T21:39:09Z"
-  },
-  {
-   "event": "entry",
-   "coin": "NEAR",
-   "side": "short",
-   "px": 4.79,
-   "sz": 5.1,
-   "lev": 10,
-   "notional": 24.43,
-   "move60s": 0.00552,
-   "base": 0.0005959281852361276,
-   "backstop": 4.9089,
-   "backstop_oid": 587651283010,
-   "tp_px": 4.7689,
-   "tp_oid": 587651288308,
-   "at": "2026-10-27T21:39:14Z"
-  },
-  {
-   "event": "exit",
-   "coin": "NEAR",
-   "why": "tp-maker",
-   "entry": 4.79,
-   "exit": 4.7689,
-   "sz": 5.1,
-   "pnl_gross": 0.10761,
-   "held_s": 49,
-   "at": "2026-10-27T21:40:02Z"
-  },
-  {
-   "event": "entry",
-   "coin": "ENA",
-   "side": "short",
-   "px": 0.212256,
-   "sz": 116.0,
-   "lev": 10,
-   "notional": 24.62,
-   "move60s": 0.00389,
-   "base": 0.0004329733240324707,
-   "backstop": 0.21597,
-   "backstop_oid": 587651885651,
-   "tp_px": 0.2116,
-   "tp_oid": 587651892580,
-   "at": "2026-10-27T21:40:07Z"
-  },
-  {
-   "event": "exit",
-   "coin": "ETH",
-   "why": "tp-maker",
-   "entry": 2359.0,
-   "exit": 2355.4,
-   "sz": 0.0127,
-   "pnl_gross": 0.04572,
-   "held_s": 81,
-   "at": "2026-10-27T21:40:27Z"
-  },
-  {
-   "event": "start",
-   "coins": 40,
-   "floor": 7.0,
-   "rule": {
-    "z": 8.0,
-    "tp": 0.8,
-    "sl": 3.0,
-    "hold_s": 300.0,
-    "notional": 30.0,
-    "lev": 50
-   },
-   "at": "2026-10-27T22:00:54Z"
-  },
-  {
-   "event": "start",
-   "coins": 39,
-   "floor": 7.0,
-   "rule": {
-    "z": 8.0,
-    "tp": 0.8,
-    "sl": 3.0,
-    "hold_s": 300.0,
-    "notional": 30.0,
-    "lev": 50
-   },
-   "at": "2026-10-28T07:49:25Z"
+   "event": "FLOOR_STOP",
+   "account": 6.96507,
+   "at": "2026-10-29T20:20:11Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.978048,
-   "at": "2026-10-29T20:03:29Z"
+   "account": 6.990652,
+   "at": "2026-10-29T20:20:41Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.884546,
-   "at": "2026-10-29T20:03:59Z"
+   "account": 6.996428,
+   "at": "2026-10-29T20:21:11Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.798048,
-   "at": "2026-10-29T20:04:29Z"
+   "account": 6.964854,
+   "at": "2026-10-29T20:21:41Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.791948,
-   "at": "2026-10-29T20:04:59Z"
+   "account": 6.92202,
+   "at": "2026-10-29T20:22:14Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.892226,
+   "at": "2026-10-29T20:22:46Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.924298,
+   "at": "2026-10-29T20:23:16Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.976656,
+   "at": "2026-10-29T20:23:46Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.971336,
+   "at": "2026-10-29T20:24:17Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.981076,
+   "at": "2026-10-29T20:24:46Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.9247,
+   "at": "2026-10-29T20:25:17Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.908606,
+   "at": "2026-10-29T20:25:47Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.874794,
+   "at": "2026-10-29T20:26:17Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.950248,
+   "at": "2026-10-29T20:26:47Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.919486,
+   "at": "2026-10-29T20:27:17Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.925056,
+   "at": "2026-10-29T20:27:47Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.9146,
+   "at": "2026-10-29T20:28:17Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.906108,
+   "at": "2026-10-29T20:28:47Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.84909,
+   "at": "2026-10-29T20:29:17Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.867906,
+   "at": "2026-10-29T20:29:50Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.875454,
+   "at": "2026-10-29T20:30:20Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.880808,
+   "at": "2026-10-29T20:30:50Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.8997,
+   "at": "2026-10-29T20:31:20Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.898256,
+   "at": "2026-10-29T20:31:50Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.852532,
+   "at": "2026-10-29T20:32:20Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.774474,
+   "at": "2026-10-29T20:32:50Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.611362,
+   "at": "2026-10-29T20:33:22Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.486138,
+   "at": "2026-10-29T20:33:53Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.3844,
+   "at": "2026-10-29T20:34:23Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.451016,
+   "at": "2026-10-29T20:34:53Z"
   }
  ],
  "scalper_params_now": {
