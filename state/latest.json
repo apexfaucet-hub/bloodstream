@@ -1,32 +1,32 @@
 {
- "at": "2026-10-30T16:35:09Z",
+ "at": "2026-10-30T17:05:03Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 6.379888,
+  "account_value": 6.241001,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.3",
     "entry": "8.4839",
-    "upnl": "-0.10049"
+    "upnl": "-0.16354"
    },
    {
     "coin": "ARB",
     "szi": "67.8",
     "entry": "0.16237",
-    "upnl": "0.039324"
+    "upnl": "0.037968"
    },
    {
     "coin": "PYTH",
     "szi": "152.0",
     "entry": "0.072805",
-    "upnl": "-1.723224"
+    "upnl": "-1.731888"
    },
    {
     "coin": "kBONK",
     "szi": "3442.0",
     "entry": "0.003195",
-    "upnl": "-0.77445"
+    "upnl": "-0.839848"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -253,153 +253,153 @@
  "scalper_last_events": [
   {
    "event": "FLOOR_STOP",
-   "account": 6.36774,
-   "at": "2026-10-30T16:20:07Z"
+   "account": 6.162204,
+   "at": "2026-10-30T16:50:15Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.378316,
-   "at": "2026-10-30T16:20:37Z"
+   "account": 6.143296,
+   "at": "2026-10-30T16:50:45Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.376388,
-   "at": "2026-10-30T16:21:07Z"
+   "account": 6.126298,
+   "at": "2026-10-30T16:51:15Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.317598,
-   "at": "2026-10-30T16:21:39Z"
+   "account": 6.103708,
+   "at": "2026-10-30T16:51:45Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.277976,
-   "at": "2026-10-30T16:22:11Z"
+   "account": 6.232916,
+   "at": "2026-10-30T16:52:15Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.226474,
-   "at": "2026-10-30T16:22:41Z"
+   "account": 6.21626,
+   "at": "2026-10-30T16:52:48Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.203492,
-   "at": "2026-10-30T16:23:11Z"
+   "account": 6.236104,
+   "at": "2026-10-30T16:53:20Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.265334,
-   "at": "2026-10-30T16:23:44Z"
+   "account": 6.216866,
+   "at": "2026-10-30T16:53:50Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.235876,
-   "at": "2026-10-30T16:24:16Z"
+   "account": 6.153398,
+   "at": "2026-10-30T16:54:20Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.23833,
-   "at": "2026-10-30T16:24:48Z"
+   "account": 6.154666,
+   "at": "2026-10-30T16:54:50Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.281546,
-   "at": "2026-10-30T16:25:19Z"
+   "account": 6.17225,
+   "at": "2026-10-30T16:55:22Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.29612,
-   "at": "2026-10-30T16:25:49Z"
+   "account": 6.127042,
+   "at": "2026-10-30T16:55:52Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.268252,
-   "at": "2026-10-30T16:26:19Z"
+   "account": 6.161426,
+   "at": "2026-10-30T16:56:22Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.260138,
-   "at": "2026-10-30T16:26:49Z"
+   "account": 6.148936,
+   "at": "2026-10-30T16:56:52Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.223412,
-   "at": "2026-10-30T16:27:19Z"
+   "account": 6.165842,
+   "at": "2026-10-30T16:57:22Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.31865,
-   "at": "2026-10-30T16:27:49Z"
+   "account": 6.171926,
+   "at": "2026-10-30T16:57:52Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.37726,
-   "at": "2026-10-30T16:28:20Z"
+   "account": 6.12291,
+   "at": "2026-10-30T16:58:22Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.378106,
-   "at": "2026-10-30T16:28:49Z"
+   "account": 6.145282,
+   "at": "2026-10-30T16:58:52Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.393164,
-   "at": "2026-10-30T16:29:19Z"
+   "account": 6.178244,
+   "at": "2026-10-30T16:59:22Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.397132,
-   "at": "2026-10-30T16:29:51Z"
+   "account": 6.21134,
+   "at": "2026-10-30T16:59:52Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.385526,
-   "at": "2026-10-30T16:30:22Z"
+   "account": 6.262213,
+   "at": "2026-10-30T17:00:25Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.328702,
-   "at": "2026-10-30T16:30:52Z"
+   "account": 6.341533,
+   "at": "2026-10-30T17:00:57Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.369616,
-   "at": "2026-10-30T16:31:22Z"
+   "account": 6.273403,
+   "at": "2026-10-30T17:01:27Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.333066,
-   "at": "2026-10-30T16:31:52Z"
+   "account": 6.248591,
+   "at": "2026-10-30T17:01:57Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.280874,
-   "at": "2026-10-30T16:32:22Z"
+   "account": 6.309717,
+   "at": "2026-10-30T17:02:30Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.357002,
-   "at": "2026-10-30T16:32:54Z"
+   "account": 6.274807,
+   "at": "2026-10-30T17:03:02Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.352084,
-   "at": "2026-10-30T16:33:26Z"
+   "account": 6.263919,
+   "at": "2026-10-30T17:03:32Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.321622,
-   "at": "2026-10-30T16:33:59Z"
+   "account": 6.264665,
+   "at": "2026-10-30T17:04:02Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.346284,
-   "at": "2026-10-30T16:34:29Z"
+   "account": 6.272707,
+   "at": "2026-10-30T17:04:32Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 6.35174,
-   "at": "2026-10-30T16:34:59Z"
+   "account": 6.244583,
+   "at": "2026-10-30T17:05:02Z"
   }
  ],
  "scalper_params_now": {
