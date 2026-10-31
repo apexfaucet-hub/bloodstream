@@ -1,38 +1,38 @@
 {
- "at": "2026-10-31T01:35:03Z",
+ "at": "2026-10-31T02:05:03Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 7.284865,
+  "account_value": 7.049048,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.3",
     "entry": "8.4839",
-    "upnl": "0.18408"
+    "upnl": "0.15938"
    },
    {
     "coin": "ARB",
     "szi": "67.8",
     "entry": "0.16237",
-    "upnl": "0.075258"
+    "upnl": "-0.036612"
    },
    {
     "coin": "WLD",
     "szi": "27.0",
     "entry": "0.40894",
-    "upnl": "-0.15579"
+    "upnl": "-0.26649"
    },
    {
     "coin": "PYTH",
     "szi": "152.0",
     "entry": "0.072805",
-    "upnl": "-1.167512"
+    "upnl": "-1.13848"
    },
    {
     "coin": "kBONK",
     "szi": "3442.0",
     "entry": "0.003195",
-    "upnl": "-0.581698"
+    "upnl": "-0.598908"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -259,11 +259,6 @@
  "scalper_last_events": [
   {
    "event": "FLOOR_STOP",
-   "account": 6.804793,
-   "at": "2026-10-30T22:58:48Z"
-  },
-  {
-   "event": "FLOOR_STOP",
    "account": 6.784243,
    "at": "2026-10-30T22:59:21Z"
   },
@@ -406,6 +401,11 @@
    "event": "FLOOR_STOP",
    "account": 6.970698,
    "at": "2026-10-30T23:27:27Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.976974,
+   "at": "2026-10-31T02:04:03Z"
   }
  ],
  "scalper_params_now": {
