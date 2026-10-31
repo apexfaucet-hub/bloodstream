@@ -1,38 +1,38 @@
 {
- "at": "2026-10-30T23:35:04Z",
+ "at": "2026-10-31T00:05:02Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 7.088706,
+  "account_value": 7.332899,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.3",
     "entry": "8.4839",
-    "upnl": "0.0676"
+    "upnl": "0.11609"
    },
    {
     "coin": "ARB",
     "szi": "67.8",
     "entry": "0.16237",
-    "upnl": "0.056952"
+    "upnl": "0.073902"
    },
    {
     "coin": "WLD",
     "szi": "27.0",
     "entry": "0.40894",
-    "upnl": "-0.04158"
+    "upnl": "-0.02322"
    },
    {
     "coin": "PYTH",
     "szi": "152.0",
     "entry": "0.072805",
-    "upnl": "-1.19928"
+    "upnl": "-1.12784"
    },
    {
     "coin": "kBONK",
     "szi": "3442.0",
     "entry": "0.003195",
-    "upnl": "-0.726262"
+    "upnl": "-0.63677"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -454,19 +454,17 @@
     "t": 1793346233714,
     "entry": 5.826362432547804e-11,
     "sig": "3HN6SMvJypJJmKtqFT7PbE2ANiZKVJHqNMLQ7AH99KsFCDzcCkpFaCXkEFQag9zB6LVtWAG3EnqEY8hySQuTJbw1"
+   },
+   "CJywFfsfgoo5GS4KeAtFfb1hqQbJuBRuTi3wD6tGP59u": {
+    "mint": "6To4f6r9X3WFsLwWLFdj7ju8BNquzZwupVHUc8oS5pgP",
+    "tokRaw": 284055061,
+    "costLamports": 3000000000,
+    "t": 1793405014446,
+    "entry": 1.0389803651469178e-06,
+    "sig": "5jD5Zur4R2ZUYZ91wPCP4yEtWsCi9HQy4wwbzLwmFH1Gs7QF7BKWRg93Da98CQivqvgiGvez6g8mVudNz1PaCFmQ"
    }
   },
   "last_trades": [
-   {
-    "event": "buy",
-    "pool": "8EUkm5ChdmLm9pxKX3Q99APck1URfVqP9m9R3FQcP6Tb",
-    "mint": "XNMbEwZFFBKQhqyW3taa8cAUp1xBUHfyzRFJQvZET4m",
-    "xnt": 2,
-    "dipPct": 36.26,
-    "price": 0.002429101517120323,
-    "sig": "61T6JC5HpXQC8PXp5ii16mEP2xZqqXGm9CHzavMtb4FkYagp43qB1U2yJUKjuZehqYoudhQZ3fFf1hQA9eMfBsQZ",
-    "at": "2026-10-27T13:58:09.680Z"
-   },
    {
     "event": "buy",
     "pool": "7deZorr98nLdZhpmSdUgu8WY4NAjSpeLDGxHzaTAxrUg",
@@ -696,6 +694,16 @@
     "price": 5.826362432547804e-11,
     "sig": "3HN6SMvJypJJmKtqFT7PbE2ANiZKVJHqNMLQ7AH99KsFCDzcCkpFaCXkEFQag9zB6LVtWAG3EnqEY8hySQuTJbw1",
     "at": "2026-10-30T07:43:58.078Z"
+   },
+   {
+    "event": "buy",
+    "pool": "CJywFfsfgoo5GS4KeAtFfb1hqQbJuBRuTi3wD6tGP59u",
+    "mint": "6To4f6r9X3WFsLwWLFdj7ju8BNquzZwupVHUc8oS5pgP",
+    "xnt": 3,
+    "dipPct": 19.95,
+    "price": 1.0389803651469178e-06,
+    "sig": "5jD5Zur4R2ZUYZ91wPCP4yEtWsCi9HQy4wwbzLwmFH1Gs7QF7BKWRg93Da98CQivqvgiGvez6g8mVudNz1PaCFmQ",
+    "at": "2026-10-31T00:03:41.888Z"
    }
   ],
   "realised_xnt": 2.05474
