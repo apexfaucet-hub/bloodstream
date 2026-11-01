@@ -1,38 +1,44 @@
 {
- "at": "2026-11-01T08:05:04Z",
+ "at": "2026-11-01T08:35:05Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 7.944069,
+  "account_value": 7.805489,
   "open_positions": [
+   {
+    "coin": "AVAX",
+    "szi": "1.25",
+    "entry": "8.8288",
+    "upnl": "0.001"
+   },
    {
     "coin": "ARB",
     "szi": "67.8",
     "entry": "0.16237",
-    "upnl": "0.126108"
+    "upnl": "0.134244"
    },
    {
     "coin": "WLD",
     "szi": "27.0",
     "entry": "0.40894",
-    "upnl": "-0.25839"
+    "upnl": "-0.2376"
    },
    {
     "coin": "PYTH",
     "szi": "152.0",
     "entry": "0.072805",
-    "upnl": "-0.889504"
+    "upnl": "-0.92112"
    },
    {
     "coin": "kBONK",
     "szi": "3442.0",
     "entry": "0.003195",
-    "upnl": "-0.832964"
+    "upnl": "-0.812312"
    },
    {
     "coin": "XPL",
     "szi": "149.0",
     "entry": "0.074326",
-    "upnl": "0.020264"
+    "upnl": "-0.132312"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -40,8 +46,8 @@
  },
  "last_24h": {
   "closed_pnl": 0.88104,
-  "fees": 0.01337,
-  "fills": 4
+  "fees": 0.01833,
+  "fills": 5
  },
  "per_coin_7d": {
   "HYPE": {
@@ -219,10 +225,10 @@
    "net": 0.23663
   },
   "AVAX": {
-   "fills": 6,
+   "fills": 7,
    "closed_pnl": 0.41226,
-   "fees": 0.02655,
-   "net": 0.38571
+   "fees": 0.03152,
+   "net": 0.38074
   },
   "MON": {
    "fills": 4,
