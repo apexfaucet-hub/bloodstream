@@ -1,47 +1,47 @@
 {
- "at": "2026-11-01T05:05:03Z",
+ "at": "2026-11-01T05:35:05Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 7.475772,
+  "account_value": 7.943176,
   "open_positions": [
    {
     "coin": "ARB",
     "szi": "67.8",
     "entry": "0.16237",
-    "upnl": "0.140346"
+    "upnl": "0.18645"
    },
    {
     "coin": "WLD",
     "szi": "27.0",
     "entry": "0.40894",
-    "upnl": "-0.25866"
+    "upnl": "-0.24651"
    },
    {
     "coin": "PYTH",
     "szi": "152.0",
     "entry": "0.072805",
-    "upnl": "-1.004568"
+    "upnl": "-0.952888"
    },
    {
     "coin": "kBONK",
     "szi": "3442.0",
     "entry": "0.003195",
-    "upnl": "-0.812312"
+    "upnl": "-0.80887"
    },
    {
     "coin": "XPL",
-    "szi": "154.0",
-    "entry": "0.07141",
-    "upnl": "0.063602"
+    "szi": "149.0",
+    "entry": "0.074326",
+    "upnl": "-0.015496"
    }
   ],
   "deposited_usdc": 8.974045,
   "floor_usdc": 7.0
  },
  "last_24h": {
-  "closed_pnl": 0.44122,
-  "fees": 0.00667,
-  "fills": 2
+  "closed_pnl": 0.88104,
+  "fees": 0.01337,
+  "fills": 4
  },
  "per_coin_7d": {
   "HYPE": {
@@ -146,12 +146,6 @@
    "fees": 0.03223,
    "net": -0.04205
   },
-  "XPL": {
-   "fills": 7,
-   "closed_pnl": 0.01028,
-   "fees": 0.03474,
-   "net": -0.02446
-  },
   "PYTH": {
    "fills": 1,
    "closed_pnl": 0.0,
@@ -235,6 +229,12 @@
    "closed_pnl": 0.41229,
    "fees": 0.01827,
    "net": 0.39403
+  },
+  "XPL": {
+   "fills": 9,
+   "closed_pnl": 0.45011,
+   "fees": 0.04144,
+   "net": 0.40866
   },
   "BLUR": {
    "fills": 2,
