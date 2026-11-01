@@ -1,38 +1,38 @@
 {
- "at": "2026-11-01T03:05:04Z",
+ "at": "2026-11-01T03:35:05Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 6.942815,
+  "account_value": 7.036847,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.3",
     "entry": "8.4839",
-    "upnl": "0.07332"
+    "upnl": "0.13429"
    },
    {
     "coin": "ARB",
     "szi": "67.8",
     "entry": "0.16237",
-    "upnl": "0.132888"
+    "upnl": "0.147804"
    },
    {
     "coin": "WLD",
     "szi": "27.0",
     "entry": "0.40894",
-    "upnl": "-0.27243"
+    "upnl": "-0.24003"
    },
    {
     "coin": "PYTH",
     "szi": "152.0",
     "entry": "0.072805",
-    "upnl": "-0.986024"
+    "upnl": "-1.017488"
    },
    {
     "coin": "kBONK",
     "szi": "3442.0",
     "entry": "0.003195",
-    "upnl": "-0.919014"
+    "upnl": "-0.901804"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -259,56 +259,6 @@
  "scalper_last_events": [
   {
    "event": "FLOOR_STOP",
-   "account": 6.873848,
-   "at": "2026-11-01T02:49:54Z"
-  },
-  {
-   "event": "FLOOR_STOP",
-   "account": 6.806994,
-   "at": "2026-11-01T02:50:24Z"
-  },
-  {
-   "event": "FLOOR_STOP",
-   "account": 6.82984,
-   "at": "2026-11-01T02:50:56Z"
-  },
-  {
-   "event": "FLOOR_STOP",
-   "account": 6.817196,
-   "at": "2026-11-01T02:51:26Z"
-  },
-  {
-   "event": "FLOOR_STOP",
-   "account": 6.769538,
-   "at": "2026-11-01T02:51:58Z"
-  },
-  {
-   "event": "FLOOR_STOP",
-   "account": 6.77211,
-   "at": "2026-11-01T02:52:28Z"
-  },
-  {
-   "event": "FLOOR_STOP",
-   "account": 6.774458,
-   "at": "2026-11-01T02:52:59Z"
-  },
-  {
-   "event": "FLOOR_STOP",
-   "account": 6.782998,
-   "at": "2026-11-01T02:53:28Z"
-  },
-  {
-   "event": "FLOOR_STOP",
-   "account": 6.8309,
-   "at": "2026-11-01T02:53:59Z"
-  },
-  {
-   "event": "FLOOR_STOP",
-   "account": 6.828534,
-   "at": "2026-11-01T02:54:28Z"
-  },
-  {
-   "event": "FLOOR_STOP",
    "account": 6.840272,
    "at": "2026-11-01T02:54:58Z"
   },
@@ -406,6 +356,56 @@
    "event": "FLOOR_STOP",
    "account": 6.940261,
    "at": "2026-11-01T03:04:36Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.941905,
+   "at": "2026-11-01T03:05:06Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.954041,
+   "at": "2026-11-01T03:05:36Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.969301,
+   "at": "2026-11-01T03:06:06Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.956109,
+   "at": "2026-11-01T03:06:36Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.990951,
+   "at": "2026-11-01T03:07:06Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.984431,
+   "at": "2026-11-01T03:07:39Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.981797,
+   "at": "2026-11-01T03:08:09Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.995957,
+   "at": "2026-11-01T03:08:41Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.996967,
+   "at": "2026-11-01T03:18:44Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 6.995765,
+   "at": "2026-11-01T03:21:14Z"
   }
  ],
  "scalper_params_now": {
@@ -431,14 +431,6 @@
  "money_desk": "MONEY DESK 2026-10-31\nOutside income: 24 h $0.05 (~0.04 EUR), 7 d $0.211 from 18 payers (12 new), 30 d $2.659\nTop products 7 d: web-read $0.054 (2 payers), page-markdown $0.036 (7 payers), page-extract $0.018 (2 payers), web-search $0.015 (1 payers), chat-completions $0.014 (4 payers)\nCosts 7 d: spent outside $0.044, Arc faucet payouts $0.76 + gas $0.155. Net 7 d: $-0.748\nBazaar ranks: token verdict 9; base token verdict 3; decode transaction 6; web search not in top 20; honeypot check base 5; token price not in top 20\nExperiment post-verdict: no payers before or after: did not move money, try a different lever\nExperiment relist-all-cdp: too few payers to judge (1 -> 2): leave it as it is, no undo, no repeat\nExperiment listing-text: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment base-price: no payers before or after: did not move money, try a different lever\nExperiment multichain-verdict: no payers before or after: did not move money, try a different lever\nExperiment payai-listing: too few payers to judge (3 -> 1): leave it as it is, no undo, no repeat\nExperiment chat-listing-words: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment new-tools-listing-words: no payers before or after: did not move money, try a different lever\nExperiment prediction-tools: running (judge on 2026-11-04)\nExperiment rwa-tools: running (judge on 2026-11-04)\nExperiment web-listing-words: running (judge on 2026-11-04)\nExperiment prediction-names-fit-32: no payers before or after: did not move money, try a different lever\nTrading 24 h, Hyperliquid (all bots, HL fills): net $0.858 after fees (~0.74 EUR), 2 closes, 2 wins\nTrading 24 h, X1 dip trader: 0 sells, realised 0 XNT (before tx fees)\n",
  "x1_dip_trader": {
   "open": {
-   "8hEhKFmb43qkcctdV94VjwQxUubZ7zCTyG7Hsb1BWcsq": {
-    "mint": "XBLKLmxhADMVX3DsdwymvHyYbBYfKa5eKhtpiQ2kj7T",
-    "tokRaw": 883310569,
-    "costLamports": 3635617667,
-    "t": 1793278918115,
-    "entry": 4.09711430558478,
-    "sig": "s5kv2nWoUFYc3sozGjHDchH4CJ8yonuFyffXoPDfRzGsAbZHvATWTCmPkzAcyctEYFrUxKRXMdJyE3nHQvTcBfB"
-   },
    "7iWbFz8YRuDeL8wqBRTCJp8NrbRPnmCsF8833nkEXUH5": {
     "mint": "2HsCLiaXm2efKzTfLD5hcVeiMU3txS7xFCQtGsmDzWLZ",
     "tokRaw": 100233422,
@@ -473,16 +465,6 @@
    }
   },
   "last_trades": [
-   {
-    "event": "buy",
-    "pool": "42L71tiJR69Y8jDx9jGCivoxMkyS22LVAANeRS7smH5R",
-    "mint": "XNMbEwZFFBKQhqyW3taa8cAUp1xBUHfyzRFJQvZET4m",
-    "xnt": 2,
-    "dipPct": 36.48,
-    "price": 0.0024155112838453734,
-    "sig": "rFMjpPyZKKneJZyAWnPfbE7N2egZ9fZMv9M2BGf8ckzZBqo6toYu74uymb4tzXSYfvSVPrtcL2V8seggByJNah3",
-    "at": "2026-10-27T13:58:12.293Z"
-   },
    {
     "event": "buy",
     "pool": "GwwCyLS4VEeZXyPWPYRNiVSuVur6ntioxBmjDQHHHv9x",
@@ -712,9 +694,20 @@
     "price": 1.0984519739773916e-06,
     "sig": "5oXVsbUvwgo7z6rJDHLE22xZtK78jB9WdJpDUzeU5PpHE78WshwkKhxo3mx7JkVajzdvAdZMDyARmPgjbyRaqX2B",
     "at": "2026-10-31T09:33:32.148Z"
+   },
+   {
+    "event": "sell",
+    "why": "tp",
+    "pool": "8hEhKFmb43qkcctdV94VjwQxUubZ7zCTyG7Hsb1BWcsq",
+    "mint": "XBLKLmxhADMVX3DsdwymvHyYbBYfKa5eKhtpiQ2kj7T",
+    "xntBack": 3.948135716,
+    "cost": 3.635617667,
+    "pnlPct": 8.6,
+    "sig": "5t12LjMDJzfBrXJ4N43RBqttvN6RkM74Eebq3MCpSzP1yCkjP7dhqSJhGWiZpPFVZbvZXccedMX9WeHQYzm2re9K",
+    "at": "2026-11-01T03:19:16.767Z"
    }
   ],
-  "realised_xnt": 2.05474
+  "realised_xnt": 2.36726
  },
  "last_apply": "unchanged"
 }
