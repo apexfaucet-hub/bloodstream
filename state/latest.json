@@ -1,44 +1,44 @@
 {
- "at": "2026-11-01T08:35:05Z",
+ "at": "2026-11-01T09:05:06Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 7.805489,
+  "account_value": 7.975964,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.25",
     "entry": "8.8288",
-    "upnl": "0.001"
+    "upnl": "-0.014875"
    },
    {
     "coin": "ARB",
     "szi": "67.8",
     "entry": "0.16237",
-    "upnl": "0.134244"
+    "upnl": "0.120006"
    },
    {
     "coin": "WLD",
     "szi": "27.0",
     "entry": "0.40894",
-    "upnl": "-0.2376"
+    "upnl": "-0.24948"
    },
    {
     "coin": "PYTH",
     "szi": "152.0",
     "entry": "0.072805",
-    "upnl": "-0.92112"
+    "upnl": "-0.954712"
    },
    {
     "coin": "kBONK",
     "szi": "3442.0",
     "entry": "0.003195",
-    "upnl": "-0.812312"
+    "upnl": "-0.784776"
    },
    {
     "coin": "XPL",
     "szi": "149.0",
     "entry": "0.074326",
-    "upnl": "-0.132312"
+    "upnl": "0.087016"
    }
   ],
   "deposited_usdc": 8.974045,
