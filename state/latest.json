@@ -1,44 +1,44 @@
 {
- "at": "2026-11-02T07:35:06Z",
+ "at": "2026-11-02T08:05:03Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 5.570483,
+  "account_value": 5.70988,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.25",
     "entry": "8.8288",
-    "upnl": "-0.36375"
+    "upnl": "-0.29975"
    },
    {
     "coin": "ARB",
     "szi": "67.8",
     "entry": "0.16237",
-    "upnl": "-0.120006"
+    "upnl": "-0.115938"
    },
    {
     "coin": "WLD",
     "szi": "27.0",
     "entry": "0.40894",
-    "upnl": "-0.65502"
+    "upnl": "-0.64989"
    },
    {
     "coin": "PYTH",
     "szi": "152.0",
     "entry": "0.072805",
-    "upnl": "-1.3338"
+    "upnl": "-1.297776"
    },
    {
     "coin": "kBONK",
     "szi": "3442.0",
     "entry": "0.003195",
-    "upnl": "-1.132418"
+    "upnl": "-1.108324"
    },
    {
     "coin": "XPL",
     "szi": "149.0",
     "entry": "0.074326",
-    "upnl": "-0.580057"
+    "upnl": "-0.573203"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -265,153 +265,153 @@
  "scalper_last_events": [
   {
    "event": "FLOOR_STOP",
-   "account": 5.699453,
-   "at": "2026-11-02T07:20:03Z"
+   "account": 5.561918,
+   "at": "2026-11-02T07:49:59Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.722247,
-   "at": "2026-11-02T07:20:33Z"
+   "account": 5.568691,
+   "at": "2026-11-02T07:50:29Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.748279,
-   "at": "2026-11-02T07:21:03Z"
+   "account": 5.56526,
+   "at": "2026-11-02T07:50:59Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.748876,
-   "at": "2026-11-02T07:21:33Z"
+   "account": 5.563904,
+   "at": "2026-11-02T07:51:29Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.738702,
-   "at": "2026-11-02T07:22:03Z"
+   "account": 5.581488,
+   "at": "2026-11-02T07:51:59Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.699931,
-   "at": "2026-11-02T07:22:33Z"
+   "account": 5.601429,
+   "at": "2026-11-02T07:52:30Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.666994,
-   "at": "2026-11-02T07:23:05Z"
+   "account": 5.610084,
+   "at": "2026-11-02T07:52:59Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.663087,
-   "at": "2026-11-02T07:23:35Z"
+   "account": 5.630597,
+   "at": "2026-11-02T07:53:32Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.67033,
-   "at": "2026-11-02T07:24:05Z"
+   "account": 5.62903,
+   "at": "2026-11-02T07:54:02Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.687054,
-   "at": "2026-11-02T07:24:35Z"
+   "account": 5.64006,
+   "at": "2026-11-02T07:54:32Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.681265,
-   "at": "2026-11-02T07:25:05Z"
+   "account": 5.642221,
+   "at": "2026-11-02T07:55:02Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.69252,
-   "at": "2026-11-02T07:25:35Z"
+   "account": 5.641332,
+   "at": "2026-11-02T07:55:32Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.655058,
-   "at": "2026-11-02T07:26:06Z"
+   "account": 5.645711,
+   "at": "2026-11-02T07:56:02Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.636543,
-   "at": "2026-11-02T07:26:36Z"
+   "account": 5.65298,
+   "at": "2026-11-02T07:56:32Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.642671,
-   "at": "2026-11-02T07:27:06Z"
+   "account": 5.66101,
+   "at": "2026-11-02T07:57:02Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.705633,
-   "at": "2026-11-02T07:27:36Z"
+   "account": 5.66792,
+   "at": "2026-11-02T07:57:32Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.699243,
-   "at": "2026-11-02T07:28:08Z"
+   "account": 5.701167,
+   "at": "2026-11-02T07:58:02Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.723209,
-   "at": "2026-11-02T07:28:38Z"
+   "account": 5.633143,
+   "at": "2026-11-02T07:58:32Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.733721,
-   "at": "2026-11-02T07:29:08Z"
+   "account": 5.628971,
+   "at": "2026-11-02T07:59:04Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.713546,
-   "at": "2026-11-02T07:29:38Z"
+   "account": 5.602417,
+   "at": "2026-11-02T07:59:34Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.720453,
-   "at": "2026-11-02T07:30:08Z"
+   "account": 5.592803,
+   "at": "2026-11-02T08:00:04Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.651238,
-   "at": "2026-11-02T07:30:38Z"
+   "account": 5.574927,
+   "at": "2026-11-02T08:00:35Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.671647,
-   "at": "2026-11-02T07:31:08Z"
+   "account": 5.583475,
+   "at": "2026-11-02T08:01:05Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.670734,
-   "at": "2026-11-02T07:31:39Z"
+   "account": 5.643925,
+   "at": "2026-11-02T08:01:35Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.677477,
-   "at": "2026-11-02T07:32:09Z"
+   "account": 5.697756,
+   "at": "2026-11-02T08:02:05Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.68677,
-   "at": "2026-11-02T07:32:39Z"
+   "account": 5.720613,
+   "at": "2026-11-02T08:02:35Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.677583,
-   "at": "2026-11-02T07:33:09Z"
+   "account": 5.724821,
+   "at": "2026-11-02T08:03:05Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.66149,
-   "at": "2026-11-02T07:33:39Z"
+   "account": 5.716748,
+   "at": "2026-11-02T08:03:38Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.617656,
-   "at": "2026-11-02T07:34:11Z"
+   "account": 5.689745,
+   "at": "2026-11-02T08:04:08Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 5.61129,
-   "at": "2026-11-02T07:34:41Z"
+   "account": 5.70128,
+   "at": "2026-11-02T08:04:38Z"
   }
  ],
  "scalper_params_now": {
@@ -434,7 +434,7 @@
   ],
   "why": "rule 3: 7d net TRUMP -0.083/7 fills and CRV -0.058/6 fills blocked; only ~14 exits since tp 0.8 (<20, gross +0.14) so nothing else changed; acct 8.404 > 7.6"
  },
- "money_desk": "MONEY DESK 2026-11-01\nOutside income: 24 h $0.047 (~0.04 EUR), 7 d $0.254 from 20 payers (14 new), 30 d $2.244\nTop products 7 d: page-markdown $0.06 (8 payers), web-read $0.054 (2 payers), page-extract $0.018 (2 payers), chat-completions $0.016 (5 payers), web-search $0.015 (1 payers)\nCosts 7 d: spent outside $0.068, Arc faucet payouts $0.77 + gas $0.16. Net 7 d: $-0.744\nBazaar ranks: token verdict 9; base token verdict 3; decode transaction 1; web search not in top 20; honeypot check base 3; token price not in top 20\nExperiment post-verdict: no payers before or after: did not move money, try a different lever\nExperiment relist-all-cdp: too few payers to judge (1 -> 2): leave it as it is, no undo, no repeat\nExperiment listing-text: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment base-price: no payers before or after: did not move money, try a different lever\nExperiment multichain-verdict: no payers before or after: did not move money, try a different lever\nExperiment payai-listing: too few payers to judge (3 -> 1): leave it as it is, no undo, no repeat\nExperiment chat-listing-words: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment new-tools-listing-words: no payers before or after: did not move money, try a different lever\nExperiment prediction-tools: running (judge on 2026-11-04)\nExperiment rwa-tools: running (judge on 2026-11-04)\nExperiment web-listing-words: running (judge on 2026-11-04)\nExperiment prediction-names-fit-32: no payers before or after: did not move money, try a different lever\nTrading 24 h, Hyperliquid (all bots, HL fills): net $0.868 after fees (~0.75 EUR), 2 closes, 2 wins\nTrading 24 h, X1 dip trader: 1 sells, realised 0.313 XNT (before tx fees)\n",
+ "money_desk": "MONEY DESK 2026-11-02\nOutside income: 24 h $0.023 (~0.02 EUR), 7 d $0.257 from 16 payers (10 new), 30 d $2.048\nTop products 7 d: page-markdown $0.06 (8 payers), web-read $0.054 (2 payers), page-extract $0.027 (3 payers), web-search $0.015 (1 payers), chat-completions $0.014 (4 payers)\nCosts 7 d: spent outside $0.068, Arc faucet payouts $0.87 + gas $0.182. Net 7 d: $-0.863\nBazaar ranks: token verdict 9; base token verdict 3; decode transaction 1; web search not in top 20; honeypot check base 6; token price not in top 20\nExperiment post-verdict: no payers before or after: did not move money, try a different lever\nExperiment relist-all-cdp: too few payers to judge (1 -> 2): leave it as it is, no undo, no repeat\nExperiment listing-text: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment base-price: no payers before or after: did not move money, try a different lever\nExperiment multichain-verdict: no payers before or after: did not move money, try a different lever\nExperiment payai-listing: too few payers to judge (3 -> 1): leave it as it is, no undo, no repeat\nExperiment chat-listing-words: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment new-tools-listing-words: no payers before or after: did not move money, try a different lever\nExperiment prediction-tools: running (judge on 2026-11-04)\nExperiment rwa-tools: running (judge on 2026-11-04)\nExperiment web-listing-words: running (judge on 2026-11-04)\nExperiment prediction-names-fit-32: no payers before or after: did not move money, try a different lever\nTrading 24 h, Hyperliquid (all bots, HL fills): net $-0.005 after fees (~-0.00 EUR), 0 closes, 0 wins\nTrading 24 h, X1 dip trader: 1 sells, realised 0.409 XNT (before tx fees)\n",
  "x1_dip_trader": {
   "open": {
    "7iWbFz8YRuDeL8wqBRTCJp8NrbRPnmCsF8833nkEXUH5": {
