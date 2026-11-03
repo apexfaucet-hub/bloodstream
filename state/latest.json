@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T17:05:03Z",
+ "at": "2026-11-03T17:35:04Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.416223,
@@ -73,6 +73,12 @@
    "fees": 0.02364,
    "net": -0.18764
   },
+  "STRK": {
+   "fills": 12,
+   "closed_pnl": -0.05976,
+   "fees": 0.06529,
+   "net": -0.12506
+  },
   "XRP": {
    "fills": 10,
    "closed_pnl": -0.059,
@@ -84,18 +90,6 @@
    "closed_pnl": -0.10136,
    "fees": 0.00994,
    "net": -0.1113
-  },
-  "STRK": {
-   "fills": 16,
-   "closed_pnl": -0.01027,
-   "fees": 0.08817,
-   "net": -0.09843
-  },
-  "BNB": {
-   "fills": 6,
-   "closed_pnl": -0.03557,
-   "fees": 0.05537,
-   "net": -0.09094
   },
   "TRUMP": {
    "fills": 7,
@@ -121,11 +115,11 @@
    "fees": 0.02066,
    "net": -0.06466
   },
-  "XMR": {
-   "fills": 6,
-   "closed_pnl": -0.01869,
-   "fees": 0.0339,
-   "net": -0.05259
+  "BNB": {
+   "fills": 4,
+   "closed_pnl": -0.02265,
+   "fees": 0.03238,
+   "net": -0.05503
   },
   "LINK": {
    "fills": 2,
@@ -175,6 +169,12 @@
    "fees": 0.00987,
    "net": 0.09824
   },
+  "LIT": {
+   "fills": 4,
+   "closed_pnl": 0.1264,
+   "fees": 0.01873,
+   "net": 0.10767
+  },
   "ETHFI": {
    "fills": 2,
    "closed_pnl": 0.12288,
@@ -193,12 +193,6 @@
    "fees": 0.01982,
    "net": 0.13838
   },
-  "LIT": {
-   "fills": 6,
-   "closed_pnl": 0.2104,
-   "fees": 0.02986,
-   "net": 0.18054
-  },
   "AAVE": {
    "fills": 4,
    "closed_pnl": 0.2373,
@@ -211,6 +205,12 @@
    "fees": 0.02818,
    "net": 0.31309
   },
+  "FARTCOIN": {
+   "fills": 8,
+   "closed_pnl": 0.38743,
+   "fees": 0.03635,
+   "net": 0.35108
+  },
   "BLUR": {
    "fills": 2,
    "closed_pnl": 0.44063,
@@ -222,12 +222,6 @@
    "closed_pnl": 0.44198,
    "fees": 0.00669,
    "net": 0.43529
-  },
-  "FARTCOIN": {
-   "fills": 12,
-   "closed_pnl": 0.53882,
-   "fees": 0.0818,
-   "net": 0.45702
   }
  },
  "scalper_exits_recent": {},
