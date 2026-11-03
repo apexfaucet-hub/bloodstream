@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T18:05:05Z",
+ "at": "2026-11-03T18:35:15Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.416223,
@@ -44,10 +44,10 @@
    "net": -0.68234
   },
   "ARB": {
-   "fills": 12,
-   "closed_pnl": -0.3054,
-   "fees": 0.07339,
-   "net": -0.37879
+   "fills": 10,
+   "closed_pnl": -0.36057,
+   "fees": 0.05833,
+   "net": -0.4189
   },
   "BTC": {
    "fills": 5,
@@ -55,17 +55,17 @@
    "fees": 0.09206,
    "net": -0.34333
   },
-  "ADA": {
-   "fills": 12,
-   "closed_pnl": -0.17419,
-   "fees": 0.09106,
-   "net": -0.26525
-  },
   "AVAX": {
    "fills": 8,
    "closed_pnl": -0.20237,
    "fees": 0.0362,
    "net": -0.23857
+  },
+  "ADA": {
+   "fills": 6,
+   "closed_pnl": -0.19722,
+   "fees": 0.02981,
+   "net": -0.22703
   },
   "ZEC": {
    "fills": 4,
@@ -73,11 +73,11 @@
    "fees": 0.02364,
    "net": -0.18764
   },
-  "STRK": {
-   "fills": 12,
-   "closed_pnl": -0.05976,
-   "fees": 0.06529,
-   "net": -0.12506
+  "XRP": {
+   "fills": 8,
+   "closed_pnl": -0.1188,
+   "fees": 0.04311,
+   "net": -0.16191
   },
   "RUNE": {
    "fills": 2,
@@ -85,23 +85,11 @@
    "fees": 0.00994,
    "net": -0.1113
   },
-  "XRP": {
-   "fills": 9,
-   "closed_pnl": -0.059,
-   "fees": 0.04767,
-   "net": -0.10667
-  },
-  "TRUMP": {
-   "fills": 7,
-   "closed_pnl": -0.02185,
-   "fees": 0.06131,
-   "net": -0.08316
-  },
-  "CRV": {
-   "fills": 4,
-   "closed_pnl": -0.02048,
-   "fees": 0.04581,
-   "net": -0.06628
+  "STRK": {
+   "fills": 10,
+   "closed_pnl": -0.0514,
+   "fees": 0.05372,
+   "net": -0.10512
   },
   "NEAR": {
    "fills": 11,
@@ -144,6 +132,12 @@
    "closed_pnl": 0.00055,
    "fees": 0.00996,
    "net": -0.0094
+  },
+  "CRV": {
+   "fills": 1,
+   "closed_pnl": 0.01727,
+   "fees": 0.01141,
+   "net": 0.00586
   },
   "WLFI": {
    "fills": 2,
