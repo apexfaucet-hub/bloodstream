@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T22:35:05Z",
+ "at": "2026-11-03T23:05:05Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.416223,
@@ -417,33 +417,9 @@
     "entry": 1.656478623042303e-06,
     "sig": "v1LrTjzGGbKEBU29AFMoRj2m4egAweviwfPh913r38RGaChkRLhWkJvu3G1bW2d5o8hCkxCjQaCVnhKBWtk2peQ",
     "poolXnt": 7579973793474
-   },
-   "F2hs1Tbc5CHk4vcda6UTQtaN8ZrbhuTt15MCPgDveU6G": {
-    "mint": "y1KEaaWVoEfX2gH7X1Vougmc9yD1Bi2c9VHeD7bDnNC",
-    "tokRaw": 99341500207793,
-    "costLamports": 3374286412,
-    "t": 1793745280145,
-    "entry": 3.3856100938982114e-10,
-    "sig": "rvnvh7wqtydKcKnzwqLQQsQBt6NbWHyQ5CeYWzeF2iUbLfgbAVNLr6PQAGavDSPoUKerLR1DaYACB9BYebKo6uz",
-    "poolXnt": 4465934798776
    }
   },
   "last_trades": [
-   {
-    "event": "start",
-    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
-    "pools": 8,
-    "rule": {
-     "BUY_XNT": 3,
-     "MAX_POS": 5,
-     "RESERVE_XNT": 10,
-     "DIP_PCT": 6,
-     "TP_PCT": 8,
-     "SL_PCT": 12,
-     "MAX_HOLD_H": 72
-    },
-    "at": "2026-10-29T09:32:11.487Z"
-   },
    {
     "event": "start",
     "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
@@ -663,9 +639,20 @@
     "price": 3.3856100938982114e-10,
     "sig": "rvnvh7wqtydKcKnzwqLQQsQBt6NbWHyQ5CeYWzeF2iUbLfgbAVNLr6PQAGavDSPoUKerLR1DaYACB9BYebKo6uz",
     "at": "2026-11-03T22:34:40.902Z"
+   },
+   {
+    "event": "sell",
+    "why": "tp",
+    "pool": "F2hs1Tbc5CHk4vcda6UTQtaN8ZrbhuTt15MCPgDveU6G",
+    "mint": "y1KEaaWVoEfX2gH7X1Vougmc9yD1Bi2c9VHeD7bDnNC",
+    "xntBack": 3.78592625,
+    "cost": 3.374286412,
+    "pnlPct": 12.2,
+    "sig": "5Ykke9fknD6sXi5Pm6ZCteDCpphwmYGJarjUr6G2vuNSg9GWuGUWgYJWz8rwuhaEeyvWA1wwo2DDkzySK6ehwXx9",
+    "at": "2026-11-03T22:37:31.416Z"
    }
   ],
-  "realised_xnt": 7.25472
+  "realised_xnt": 7.66636
  },
  "last_apply": "unchanged"
 }
