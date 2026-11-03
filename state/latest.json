@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T16:35:07Z",
+ "at": "2026-11-03T17:05:03Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.416223,
@@ -61,12 +61,6 @@
    "fees": 0.09106,
    "net": -0.26525
   },
-  "kPEPE": {
-   "fills": 6,
-   "closed_pnl": -0.17681,
-   "fees": 0.06843,
-   "net": -0.24524
-  },
   "AVAX": {
    "fills": 8,
    "closed_pnl": -0.20237,
@@ -74,10 +68,10 @@
    "net": -0.23857
   },
   "ZEC": {
-   "fills": 6,
-   "closed_pnl": -0.104,
-   "fees": 0.04716,
-   "net": -0.15116
+   "fills": 4,
+   "closed_pnl": -0.164,
+   "fees": 0.02364,
+   "net": -0.18764
   },
   "XRP": {
    "fills": 10,
@@ -114,6 +108,12 @@
    "closed_pnl": -0.02048,
    "fees": 0.04581,
    "net": -0.06628
+  },
+  "NEAR": {
+   "fills": 11,
+   "closed_pnl": 0.00275,
+   "fees": 0.0676,
+   "net": -0.06485
   },
   "UNI": {
    "fills": 4,
@@ -156,12 +156,6 @@
    "closed_pnl": 0.02459,
    "fees": 0.0099,
    "net": 0.01469
-  },
-  "NEAR": {
-   "fills": 14,
-   "closed_pnl": 0.13035,
-   "fees": 0.10184,
-   "net": 0.02851
   },
   "ETH": {
    "fills": 10,
