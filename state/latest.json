@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T05:05:05Z",
+ "at": "2026-11-03T05:35:05Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.536285,
@@ -235,161 +235,152 @@
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T04:50:08Z"
+   "at": "2026-11-03T05:19:59Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T04:50:38Z"
+   "at": "2026-11-03T05:20:29Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T04:51:09Z"
+   "at": "2026-11-03T05:21:01Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T04:51:38Z"
+   "at": "2026-11-03T05:21:31Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T04:52:09Z"
+   "at": "2026-11-03T05:22:04Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T04:52:39Z"
+   "at": "2026-11-03T05:22:34Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T04:53:11Z"
+   "at": "2026-11-03T05:23:04Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T04:53:44Z"
+   "at": "2026-11-03T05:23:34Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T04:54:14Z"
+   "at": "2026-11-03T05:24:04Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T04:54:44Z"
+   "at": "2026-11-03T05:24:34Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T04:55:14Z"
+   "at": "2026-11-03T05:25:04Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T04:55:44Z"
+   "at": "2026-11-03T05:25:36Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T04:56:14Z"
+   "at": "2026-11-03T05:26:09Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T04:56:44Z"
+   "at": "2026-11-03T05:26:39Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T04:57:14Z"
+   "at": "2026-11-03T05:27:09Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T04:57:44Z"
+   "at": "2026-11-03T05:27:39Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T04:58:14Z"
+   "at": "2026-11-03T05:28:09Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T04:58:44Z"
+   "at": "2026-11-03T05:28:39Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T04:59:16Z"
+   "at": "2026-11-03T05:29:11Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T04:59:46Z"
+   "at": "2026-11-03T05:29:43Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T05:00:16Z"
+   "at": "2026-11-03T05:30:13Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T05:00:46Z"
+   "at": "2026-11-03T05:30:46Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T05:01:16Z"
+   "at": "2026-11-03T05:31:16Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T05:01:46Z"
+   "at": "2026-11-03T05:31:46Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T05:02:16Z"
+   "at": "2026-11-03T05:32:17Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T05:02:49Z"
+   "at": "2026-11-03T05:32:46Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T05:03:19Z"
+   "at": "2026-11-03T05:33:16Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T05:03:49Z"
-  },
-  {
-   "event": "start",
-   "coins": 40,
-   "floor": 7.0,
-   "rule": {
-    "z": 8.0,
-    "tp": 0.8,
-    "sl": 3.0,
-    "hold_s": 300.0,
-    "notional": 30.0,
-    "lev": 50
-   },
-   "at": "2026-11-03T05:04:45Z"
+   "at": "2026-11-03T05:33:46Z"
   },
   {
    "event": "FLOOR_STOP",
    "account": 3.536285,
-   "at": "2026-11-03T05:04:46Z"
+   "at": "2026-11-03T05:34:16Z"
+  },
+  {
+   "event": "FLOOR_STOP",
+   "account": 3.536285,
+   "at": "2026-11-03T05:34:46Z"
   }
  ],
  "scalper_params_now": {
@@ -421,7 +412,8 @@
     "costLamports": 1938349680,
     "t": 1793297189824,
     "entry": 0.019005638968275243,
-    "sig": "3V41GFJULeXhqCJf7jgUY2pA2acKQo4ZABmUSTeNsPayiVVLTyDcU71SWTnaAkWAZfApAHSYso5A6YLGzNeXPef8"
+    "sig": "3V41GFJULeXhqCJf7jgUY2pA2acKQo4ZABmUSTeNsPayiVVLTyDcU71SWTnaAkWAZfApAHSYso5A6YLGzNeXPef8",
+    "poolXnt": 131086547059
    },
    "F2hs1Tbc5CHk4vcda6UTQtaN8ZrbhuTt15MCPgDveU6G": {
     "mint": "y1KEaaWVoEfX2gH7X1Vougmc9yD1Bi2c9VHeD7bDnNC",
@@ -429,7 +421,8 @@
     "costLamports": 3000000000,
     "t": 1793346233714,
     "entry": 5.826362432547804e-11,
-    "sig": "3HN6SMvJypJJmKtqFT7PbE2ANiZKVJHqNMLQ7AH99KsFCDzcCkpFaCXkEFQag9zB6LVtWAG3EnqEY8hySQuTJbw1"
+    "sig": "3HN6SMvJypJJmKtqFT7PbE2ANiZKVJHqNMLQ7AH99KsFCDzcCkpFaCXkEFQag9zB6LVtWAG3EnqEY8hySQuTJbw1",
+    "poolXnt": 1373362474351
    },
    "CJywFfsfgoo5GS4KeAtFfb1hqQbJuBRuTi3wD6tGP59u": {
     "mint": "6To4f6r9X3WFsLwWLFdj7ju8BNquzZwupVHUc8oS5pgP",
@@ -437,7 +430,8 @@
     "costLamports": 3000000000,
     "t": 1793405014446,
     "entry": 1.0389803651469178e-06,
-    "sig": "5jD5Zur4R2ZUYZ91wPCP4yEtWsCi9HQy4wwbzLwmFH1Gs7QF7BKWRg93Da98CQivqvgiGvez6g8mVudNz1PaCFmQ"
+    "sig": "5jD5Zur4R2ZUYZ91wPCP4yEtWsCi9HQy4wwbzLwmFH1Gs7QF7BKWRg93Da98CQivqvgiGvez6g8mVudNz1PaCFmQ",
+    "poolXnt": 216906736652
    },
    "8hEhKFmb43qkcctdV94VjwQxUubZ7zCTyG7Hsb1BWcsq": {
     "mint": "XBLKLmxhADMVX3DsdwymvHyYbBYfKa5eKhtpiQ2kj7T",
@@ -445,7 +439,8 @@
     "costLamports": 3000000000,
     "t": 1793634409240,
     "entry": 4.526268403109432,
-    "sig": "4WRbmEy8HdLYYcu1XvSzXeLWcer7NUAemG8n1oTWVjWYZoAwsHN7tMNS8TrxzwdP5DST3scdJ5f4Nr4wE1VcuKr"
+    "sig": "4WRbmEy8HdLYYcu1XvSzXeLWcer7NUAemG8n1oTWVjWYZoAwsHN7tMNS8TrxzwdP5DST3scdJ5f4Nr4wE1VcuKr",
+    "poolXnt": 2084098718497
    },
    "VmZfZnHzFTKSf19ZvAxa4duzChve3JYHVCPq1FvezhN": {
     "mint": "81LkybSBLvXYMTF6azXohUWyBvDGUXznm4yiXPkYkDTJ",
@@ -453,25 +448,11 @@
     "costLamports": 3000000000,
     "t": 1793655386990,
     "entry": 1.656478623042303e-06,
-    "sig": "v1LrTjzGGbKEBU29AFMoRj2m4egAweviwfPh913r38RGaChkRLhWkJvu3G1bW2d5o8hCkxCjQaCVnhKBWtk2peQ"
+    "sig": "v1LrTjzGGbKEBU29AFMoRj2m4egAweviwfPh913r38RGaChkRLhWkJvu3G1bW2d5o8hCkxCjQaCVnhKBWtk2peQ",
+    "poolXnt": 7579973793474
    }
   },
   "last_trades": [
-   {
-    "event": "start",
-    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
-    "pools": 9,
-    "rule": {
-     "BUY_XNT": 2,
-     "MAX_POS": 4,
-     "RESERVE_XNT": 10,
-     "DIP_PCT": 6,
-     "TP_PCT": 8,
-     "SL_PCT": 12,
-     "MAX_HOLD_H": 72
-    },
-    "at": "2026-10-27T21:56:04.235Z"
-   },
    {
     "event": "sell",
     "why": "tp",
@@ -692,6 +673,21 @@
     "price": 1.656478623042303e-06,
     "sig": "v1LrTjzGGbKEBU29AFMoRj2m4egAweviwfPh913r38RGaChkRLhWkJvu3G1bW2d5o8hCkxCjQaCVnhKBWtk2peQ",
     "at": "2026-11-02T21:36:30.369Z"
+   },
+   {
+    "event": "start",
+    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
+    "pools": 24,
+    "rule": {
+     "BUY_XNT": 3,
+     "MAX_POS": 12,
+     "RESERVE_XNT": 4,
+     "DIP_PCT": 8,
+     "TP_PCT": 8,
+     "SL_PCT": 100,
+     "MAX_HOLD_H": 720
+    },
+    "at": "2026-11-03T05:18:54.367Z"
    }
   ],
   "realised_xnt": 1.99607
