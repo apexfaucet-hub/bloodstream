@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T21:35:03Z",
+ "at": "2026-11-03T22:05:03Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.416223,
@@ -43,17 +43,17 @@
    "fees": 0.04594,
    "net": -0.68234
   },
-  "ARB": {
-   "fills": 9,
-   "closed_pnl": -0.36057,
-   "fees": 0.04725,
-   "net": -0.40781
-  },
   "BTC": {
-   "fills": 4,
-   "closed_pnl": -0.25127,
-   "fees": 0.07856,
-   "net": -0.32983
+   "fills": 3,
+   "closed_pnl": -0.225,
+   "fees": 0.06504,
+   "net": -0.29004
+  },
+  "ARB": {
+   "fills": 8,
+   "closed_pnl": -0.24475,
+   "fees": 0.03611,
+   "net": -0.28086
   },
   "AVAX": {
    "fills": 8,
@@ -79,6 +79,12 @@
    "fees": 0.04311,
    "net": -0.16191
   },
+  "NEAR": {
+   "fills": 7,
+   "closed_pnl": -0.09568,
+   "fees": 0.03045,
+   "net": -0.12613
+  },
   "RUNE": {
    "fills": 2,
    "closed_pnl": -0.10136,
@@ -98,22 +104,10 @@
    "net": -0.04467
   },
   "BNB": {
-   "fills": 3,
-   "closed_pnl": -0.02265,
-   "fees": 0.02126,
-   "net": -0.04391
-  },
-  "ENA": {
-   "fills": 5,
-   "closed_pnl": -0.00982,
-   "fees": 0.03223,
-   "net": -0.04205
-  },
-  "NEAR": {
-   "fills": 9,
-   "closed_pnl": 0.01193,
-   "fees": 0.04509,
-   "net": -0.03316
+   "fills": 2,
+   "closed_pnl": -0.0144,
+   "fees": 0.01013,
+   "net": -0.02453
   },
   "ATOM": {
    "fills": 2,
@@ -127,23 +121,23 @@
    "fees": 0.00996,
    "net": -0.0094
   },
+  "ENA": {
+   "fills": 2,
+   "closed_pnl": 0.00108,
+   "fees": 0.01006,
+   "net": -0.00898
+  },
   "WLFI": {
    "fills": 2,
    "closed_pnl": 0.02459,
    "fees": 0.0099,
    "net": 0.01469
   },
-  "LIT": {
-   "fills": 2,
-   "closed_pnl": 0.0276,
-   "fees": 0.01125,
-   "net": 0.01635
-  },
   "ETH": {
-   "fills": 10,
-   "closed_pnl": 0.11763,
-   "fees": 0.05803,
-   "net": 0.0596
+   "fills": 8,
+   "closed_pnl": 0.07191,
+   "fees": 0.04006,
+   "net": 0.03185
   },
   "STRK": {
    "fills": 4,
