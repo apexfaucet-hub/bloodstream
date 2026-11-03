@@ -1,16 +1,16 @@
 {
- "at": "2026-11-03T13:35:07Z",
+ "at": "2026-11-03T14:05:05Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 3.621166,
+  "account_value": 3.608186,
   "open_positions": [],
   "deposited_usdc": 8.974045,
   "floor_usdc": 7.0
  },
  "last_24h": {
-  "closed_pnl": -6.05822,
-  "fees": 0.06656,
-  "fills": 14
+  "closed_pnl": -6.0613,
+  "fees": 0.07646,
+  "fills": 16
  },
  "per_coin_7d": {
   "PYTH": {
@@ -26,10 +26,10 @@
    "net": -1.48241
   },
   "WLD": {
-   "fills": 13,
-   "closed_pnl": -0.7149,
-   "fees": 0.06792,
-   "net": -0.78282
+   "fills": 12,
+   "closed_pnl": -0.83113,
+   "fees": 0.05601,
+   "net": -0.88714
   },
   "HYPE": {
    "fills": 8,
@@ -67,17 +67,17 @@
    "fees": 0.09106,
    "net": -0.26525
   },
-  "XMR": {
-   "fills": 18,
-   "closed_pnl": -0.13624,
-   "fees": 0.10521,
-   "net": -0.24145
-  },
   "AVAX": {
    "fills": 8,
    "closed_pnl": -0.20237,
    "fees": 0.0362,
    "net": -0.23857
+  },
+  "XMR": {
+   "fills": 16,
+   "closed_pnl": -0.13256,
+   "fees": 0.09292,
+   "net": -0.22548
   },
   "ZEC": {
    "fills": 6,
@@ -109,12 +109,6 @@
    "fees": 0.06131,
    "net": -0.08316
   },
-  "DOGE": {
-   "fills": 7,
-   "closed_pnl": -0.01931,
-   "fees": 0.05769,
-   "net": -0.077
-  },
   "ZRO": {
    "fills": 2,
    "closed_pnl": -0.0585,
@@ -144,6 +138,18 @@
    "closed_pnl": -0.00982,
    "fees": 0.03223,
    "net": -0.04205
+  },
+  "DOGE": {
+   "fills": 5,
+   "closed_pnl": -0.00734,
+   "fees": 0.03312,
+   "net": -0.04046
+  },
+  "ATOM": {
+   "fills": 2,
+   "closed_pnl": -0.00308,
+   "fees": 0.0099,
+   "net": -0.01298
   },
   "WLFI": {
    "fills": 2,
@@ -176,10 +182,10 @@
    "net": 0.11292
   },
   "SOL": {
-   "fills": 11,
-   "closed_pnl": 0.2061,
-   "fees": 0.07794,
-   "net": 0.12816
+   "fills": 8,
+   "closed_pnl": 0.1551,
+   "fees": 0.03733,
+   "net": 0.11777
   },
   "SUI": {
    "fills": 4,
@@ -205,6 +211,12 @@
    "fees": 0.03248,
    "net": 0.21502
   },
+  "FARTCOIN": {
+   "fills": 16,
+   "closed_pnl": 0.51574,
+   "fees": 0.12856,
+   "net": 0.38718
+  },
   "MON": {
    "fills": 4,
    "closed_pnl": 0.41229,
@@ -222,165 +234,159 @@
    "closed_pnl": 0.44198,
    "fees": 0.00669,
    "net": 0.43529
-  },
-  "FARTCOIN": {
-   "fills": 17,
-   "closed_pnl": 0.65561,
-   "fees": 0.14047,
-   "net": 0.51514
   }
  },
  "scalper_exits_recent": {},
  "scalper_last_events": [
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:20:02Z"
+   "account": 3.620835,
+   "at": "2026-11-03T13:50:24Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:20:32Z"
+   "account": 3.621605,
+   "at": "2026-11-03T13:50:54Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:21:02Z"
+   "account": 3.621605,
+   "at": "2026-11-03T13:51:24Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:21:32Z"
+   "account": 3.610825,
+   "at": "2026-11-03T13:51:54Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:22:03Z"
+   "account": 3.613135,
+   "at": "2026-11-03T13:52:25Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:22:32Z"
+   "account": 3.613135,
+   "at": "2026-11-03T13:52:54Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:23:02Z"
+   "account": 3.618525,
+   "at": "2026-11-03T13:53:24Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:23:32Z"
+   "account": 3.623915,
+   "at": "2026-11-03T13:53:54Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:24:05Z"
+   "account": 3.615445,
+   "at": "2026-11-03T13:54:27Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:24:37Z"
+   "account": 3.614675,
+   "at": "2026-11-03T13:54:57Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:25:08Z"
+   "account": 3.621605,
+   "at": "2026-11-03T13:55:27Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:25:37Z"
+   "account": 3.621605,
+   "at": "2026-11-03T13:55:57Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:26:07Z"
+   "account": 3.621605,
+   "at": "2026-11-03T13:56:27Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:26:38Z"
+   "account": 3.620835,
+   "at": "2026-11-03T13:56:57Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:27:08Z"
+   "account": 3.620835,
+   "at": "2026-11-03T13:57:27Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:27:37Z"
+   "account": 3.624685,
+   "at": "2026-11-03T13:57:57Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:28:10Z"
+   "account": 3.624685,
+   "at": "2026-11-03T13:58:27Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:28:40Z"
+   "account": 3.633925,
+   "at": "2026-11-03T13:58:57Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:29:12Z"
+   "account": 3.623915,
+   "at": "2026-11-03T13:59:27Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:29:42Z"
+   "account": 3.608186,
+   "at": "2026-11-03T13:59:57Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:30:13Z"
+   "account": 3.608186,
+   "at": "2026-11-03T14:00:28Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:30:43Z"
+   "account": 3.608186,
+   "at": "2026-11-03T14:00:58Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:31:13Z"
+   "account": 3.608186,
+   "at": "2026-11-03T14:01:28Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:31:43Z"
+   "account": 3.608186,
+   "at": "2026-11-03T14:01:58Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:32:13Z"
+   "account": 3.608186,
+   "at": "2026-11-03T14:02:28Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:32:43Z"
+   "account": 3.608186,
+   "at": "2026-11-03T14:02:58Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:33:14Z"
+   "account": 3.608186,
+   "at": "2026-11-03T14:03:28Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:33:44Z"
+   "account": 3.608186,
+   "at": "2026-11-03T14:03:58Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:34:13Z"
+   "account": 3.608186,
+   "at": "2026-11-03T14:04:28Z"
   },
   {
    "event": "FLOOR_STOP",
-   "account": 3.621166,
-   "at": "2026-11-03T13:34:44Z"
+   "account": 3.608186,
+   "at": "2026-11-03T14:05:01Z"
   }
  ],
  "scalper_params_now": {
@@ -406,15 +412,6 @@
  "money_desk": "MONEY DESK 2026-11-03\nOutside income: 24 h $0.021 (~0.02 EUR), 7 d $0.273 from 16 payers (11 new), 30 d $2.035\nTop products 7 d: page-markdown $0.06 (8 payers), web-read $0.054 (2 payers), page-extract $0.027 (3 payers), web-search $0.015 (1 payers), chat-completions $0.012 (4 payers)\nCosts 7 d: spent outside $0.068, Arc faucet payouts $0.96 + gas $0.194. Net 7 d: $-0.949\nBazaar ranks: token verdict 7; base token verdict 3; decode transaction 1; web search not in top 20; honeypot check base 4; token price not in top 20\nExperiment post-verdict: no payers before or after: did not move money, try a different lever\nExperiment relist-all-cdp: too few payers to judge (1 -> 2): leave it as it is, no undo, no repeat\nExperiment listing-text: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment base-price: no payers before or after: did not move money, try a different lever\nExperiment multichain-verdict: no payers before or after: did not move money, try a different lever\nExperiment payai-listing: too few payers to judge (3 -> 1): leave it as it is, no undo, no repeat\nExperiment chat-listing-words: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment new-tools-listing-words: no payers before or after: did not move money, try a different lever\nExperiment prediction-tools: running (judge on 2026-11-04)\nExperiment rwa-tools: running (judge on 2026-11-04)\nExperiment web-listing-words: running (judge on 2026-11-04)\nExperiment prediction-names-fit-32: no payers before or after: did not move money, try a different lever\nTrading 24 h, Hyperliquid (all bots, HL fills): net $-6.21 after fees (~-5.34 EUR), 7 closes, 1 wins\nTrading 24 h, X1 dip trader: 0 sells, realised 0 XNT (before tx fees)\nFree capital: $0. Hyperliquid carry (no price risk): BTC 11% APR ($null/day), ETH 11% APR ($null/day), DOGE 11% APR ($null/day)\nArc launches: 69.4% lost their exit (9289 settled)\nBusiest paid agent markets: www.ax1.vc 1107 payers $497.84/day; keyring-agent.blockchhub.link 51 payers $54.6/day; blockrun.ai 34 payers $32.02/day; api.botpay.network 26 payers $30.53/day\n",
  "x1_dip_trader": {
   "open": {
-   "7iWbFz8YRuDeL8wqBRTCJp8NrbRPnmCsF8833nkEXUH5": {
-    "mint": "2HsCLiaXm2efKzTfLD5hcVeiMU3txS7xFCQtGsmDzWLZ",
-    "tokRaw": 100233422,
-    "costLamports": 1938349680,
-    "t": 1793297189824,
-    "entry": 0.019005638968275243,
-    "sig": "3V41GFJULeXhqCJf7jgUY2pA2acKQo4ZABmUSTeNsPayiVVLTyDcU71SWTnaAkWAZfApAHSYso5A6YLGzNeXPef8",
-    "poolXnt": 131086547059
-   },
    "F2hs1Tbc5CHk4vcda6UTQtaN8ZrbhuTt15MCPgDveU6G": {
     "mint": "y1KEaaWVoEfX2gH7X1Vougmc9yD1Bi2c9VHeD7bDnNC",
     "tokRaw": 512462682635062,
@@ -453,17 +450,6 @@
    }
   },
   "last_trades": [
-   {
-    "event": "sell",
-    "why": "tp",
-    "pool": "7deZorr98nLdZhpmSdUgu8WY4NAjSpeLDGxHzaTAxrUg",
-    "mint": "EpKRiKwbCKZDZE9pgH48HcXqQkBunXUK5axC1EHUBtPN",
-    "xntBack": 2.169920345,
-    "cost": 2,
-    "pnlPct": 8.5,
-    "sig": "5snVvtLVRt9gdfUiuGDhQDzEXzcj1tbrauNNDckjN7A6Qe943PRPt4P5vkNvBjH3LVWJZryPFn9S4NLfm4VQECyR",
-    "at": "2026-10-27T22:26:08.790Z"
-   },
    {
     "event": "start",
     "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
@@ -692,9 +678,20 @@
      "MAX_HOLD_H": 720
     },
     "at": "2026-11-03T09:21:19.200Z"
+   },
+   {
+    "event": "sell",
+    "why": "tp",
+    "pool": "7iWbFz8YRuDeL8wqBRTCJp8NrbRPnmCsF8833nkEXUH5",
+    "mint": "2HsCLiaXm2efKzTfLD5hcVeiMU3txS7xFCQtGsmDzWLZ",
+    "xntBack": 2.991186092,
+    "cost": 1.93834968,
+    "pnlPct": 54.32,
+    "sig": "3ZoRVJxreZ67YMXgk8Nhh5SNXRh2zLMFfCNdkx4g2k3vnGtARVqR6MAFBcsoscYUGDZyHgfqkNSZwdrfwKEYAtyy",
+    "at": "2026-11-03T13:38:55.243Z"
    }
   ],
-  "realised_xnt": 1.18587
+  "realised_xnt": 2.06879
  },
  "last_apply": "unchanged"
 }
