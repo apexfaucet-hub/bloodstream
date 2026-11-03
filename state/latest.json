@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T21:05:03Z",
+ "at": "2026-11-03T21:35:03Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.416223,
@@ -44,16 +44,16 @@
    "net": -0.68234
   },
   "ARB": {
-   "fills": 10,
+   "fills": 9,
    "closed_pnl": -0.36057,
-   "fees": 0.05833,
-   "net": -0.4189
+   "fees": 0.04725,
+   "net": -0.40781
   },
   "BTC": {
-   "fills": 5,
+   "fills": 4,
    "closed_pnl": -0.25127,
-   "fees": 0.09206,
-   "net": -0.34333
+   "fees": 0.07856,
+   "net": -0.32983
   },
   "AVAX": {
    "fills": 8,
@@ -91,29 +91,29 @@
    "fees": 0.02066,
    "net": -0.06466
   },
-  "BNB": {
-   "fills": 4,
-   "closed_pnl": -0.02265,
-   "fees": 0.03238,
-   "net": -0.05503
-  },
-  "NEAR": {
-   "fills": 10,
-   "closed_pnl": 0.00275,
-   "fees": 0.05635,
-   "net": -0.0536
-  },
   "LINK": {
    "fills": 2,
    "closed_pnl": -0.034,
    "fees": 0.01067,
    "net": -0.04467
   },
+  "BNB": {
+   "fills": 3,
+   "closed_pnl": -0.02265,
+   "fees": 0.02126,
+   "net": -0.04391
+  },
   "ENA": {
    "fills": 5,
    "closed_pnl": -0.00982,
    "fees": 0.03223,
    "net": -0.04205
+  },
+  "NEAR": {
+   "fills": 9,
+   "closed_pnl": 0.01193,
+   "fees": 0.04509,
+   "net": -0.03316
   },
   "ATOM": {
    "fills": 2,
@@ -175,17 +175,17 @@
    "fees": 0.03733,
    "net": 0.11777
   },
+  "AAVE": {
+   "fills": 2,
+   "closed_pnl": 0.1404,
+   "fees": 0.01078,
+   "net": 0.12962
+  },
   "SUI": {
    "fills": 4,
    "closed_pnl": 0.15819,
    "fees": 0.01982,
    "net": 0.13838
-  },
-  "AAVE": {
-   "fills": 4,
-   "closed_pnl": 0.2373,
-   "fees": 0.03334,
-   "net": 0.20396
   },
   "FARTCOIN": {
    "fills": 8,
