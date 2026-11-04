@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04T08:35:06Z",
+ "at": "2026-11-04T09:05:04Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.416223,
@@ -26,22 +26,28 @@
    "net": -1.48241
   },
   "WLD": {
-   "fills": 11,
-   "closed_pnl": -0.83113,
-   "fees": 0.05104,
-   "net": -0.88218
+   "fills": 10,
+   "closed_pnl": -0.94144,
+   "fees": 0.04937,
+   "net": -0.99081
   },
   "HYPE": {
-   "fills": 8,
+   "fills": 7,
    "closed_pnl": -0.68389,
-   "fees": 0.04137,
-   "net": -0.72526
+   "fees": 0.03623,
+   "net": -0.72012
   },
   "XPL": {
-   "fills": 9,
-   "closed_pnl": -0.6364,
-   "fees": 0.04096,
-   "net": -0.67737
+   "fills": 8,
+   "closed_pnl": -0.59859,
+   "fees": 0.03601,
+   "net": -0.6346
+  },
+  "ARB": {
+   "fills": 6,
+   "closed_pnl": -0.35511,
+   "fees": 0.02949,
+   "net": -0.3846
   },
   "BTC": {
    "fills": 2,
@@ -49,23 +55,17 @@
    "fees": 0.05412,
    "net": -0.27912
   },
-  "ARB": {
-   "fills": 7,
-   "closed_pnl": -0.24475,
-   "fees": 0.03116,
-   "net": -0.27591
-  },
   "AVAX": {
-   "fills": 7,
-   "closed_pnl": -0.20237,
-   "fees": 0.03122,
-   "net": -0.23359
+   "fills": 6,
+   "closed_pnl": -0.22623,
+   "fees": 0.02622,
+   "net": -0.25245
   },
   "ADA": {
-   "fills": 6,
+   "fills": 5,
    "closed_pnl": -0.19722,
-   "fees": 0.02981,
-   "net": -0.22703
+   "fees": 0.02484,
+   "net": -0.22206
   },
   "ZEC": {
    "fills": 4,
@@ -74,10 +74,10 @@
    "net": -0.18764
   },
   "XRP": {
-   "fills": 8,
+   "fills": 7,
    "closed_pnl": -0.1188,
-   "fees": 0.04311,
-   "net": -0.16191
+   "fees": 0.0377,
+   "net": -0.1565
   },
   "NEAR": {
    "fills": 7,
@@ -104,10 +104,10 @@
    "net": -0.04467
   },
   "BNB": {
-   "fills": 2,
+   "fills": 1,
    "closed_pnl": -0.0144,
-   "fees": 0.01013,
-   "net": -0.02453
+   "fees": 0.00506,
+   "net": -0.01946
   },
   "ATOM": {
    "fills": 2,
@@ -127,17 +127,23 @@
    "fees": 0.01006,
    "net": -0.00898
   },
+  "ETH": {
+   "fills": 6,
+   "closed_pnl": 0.03196,
+   "fees": 0.03004,
+   "net": 0.00192
+  },
+  "SOL": {
+   "fills": 6,
+   "closed_pnl": 0.0429,
+   "fees": 0.03055,
+   "net": 0.01235
+  },
   "WLFI": {
    "fills": 2,
    "closed_pnl": 0.02459,
    "fees": 0.0099,
    "net": 0.01469
-  },
-  "ETH": {
-   "fills": 7,
-   "closed_pnl": 0.07191,
-   "fees": 0.03506,
-   "net": 0.03685
   },
   "STRK": {
    "fills": 4,
@@ -163,12 +169,6 @@
    "fees": 0.00996,
    "net": 0.11292
   },
-  "SOL": {
-   "fills": 7,
-   "closed_pnl": 0.1551,
-   "fees": 0.03226,
-   "net": 0.12284
-  },
   "AAVE": {
    "fills": 2,
    "closed_pnl": 0.1404,
@@ -181,17 +181,17 @@
    "fees": 0.01982,
    "net": 0.13838
   },
-  "FARTCOIN": {
-   "fills": 8,
-   "closed_pnl": 0.38743,
-   "fees": 0.03635,
-   "net": 0.35108
-  },
   "MON": {
    "fills": 4,
    "closed_pnl": 0.36928,
    "fees": 0.01659,
    "net": 0.35269
+  },
+  "FARTCOIN": {
+   "fills": 7,
+   "closed_pnl": 0.38743,
+   "fees": 0.0314,
+   "net": 0.35603
   },
   "BLUR": {
    "fills": 2,
