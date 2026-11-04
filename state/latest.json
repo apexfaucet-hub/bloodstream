@@ -1,16 +1,23 @@
 {
- "at": "2026-11-04T13:35:06Z",
+ "at": "2026-11-04T14:05:05Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 3.413326,
-  "open_positions": [],
+  "account_value": 3.453242,
+  "open_positions": [
+   {
+    "coin": "UNI",
+    "szi": "1.4",
+    "entry": "7.2581",
+    "upnl": "0.04144"
+   }
+  ],
   "deposited_usdc": 8.974045,
   "floor_usdc": 2.5
  },
  "last_24h": {
-  "closed_pnl": -0.14377,
-  "fees": 0.06435,
-  "fills": 22
+  "closed_pnl": -0.14069,
+  "fees": 0.05597,
+  "fills": 21
  },
  "per_coin_7d": {
   "PYTH": {
@@ -98,10 +105,10 @@
    "net": 0.01335
   },
   "UNI": {
-   "fills": 2,
+   "fills": 3,
    "closed_pnl": 0.0315,
-   "fees": 0.00312,
-   "net": 0.02838
+   "fees": 0.00464,
+   "net": 0.02686
   },
   "WLFI": {
    "fills": 4,
@@ -182,36 +189,6 @@
   }
  },
  "scalper_last_events": [
-  {
-   "event": "entry-resting",
-   "coin": "ETH",
-   "side": "long",
-   "px": 2324.4,
-   "sz": 0.0046,
-   "lev": 4,
-   "at": "2026-11-04T10:18:22Z"
-  },
-  {
-   "event": "entry-resting",
-   "coin": "ETH",
-   "side": "short",
-   "px": 2330.8,
-   "sz": 0.0046,
-   "lev": 4,
-   "at": "2026-11-04T10:25:40Z"
-  },
-  {
-   "event": "entry",
-   "coin": "ETH",
-   "side": "short",
-   "px": 2330.8,
-   "sz": 0.0046,
-   "lev": 4,
-   "notional": 10.72,
-   "move60s": 0.00185,
-   "how": "maker",
-   "at": "2026-11-04T10:25:56Z"
-  },
   {
    "event": "exit",
    "coin": "ETH",
@@ -506,6 +483,36 @@
    "pnl_gross": 0.0315,
    "held_s": 45,
    "at": "2026-11-04T12:31:46Z"
+  },
+  {
+   "event": "entry-resting",
+   "coin": "WLFI",
+   "side": "long",
+   "px": 0.049746,
+   "sz": 211.0,
+   "lev": 4,
+   "at": "2026-11-04T13:37:54Z"
+  },
+  {
+   "event": "entry-resting",
+   "coin": "UNI",
+   "side": "long",
+   "px": 7.2581,
+   "sz": 1.4,
+   "lev": 4,
+   "at": "2026-11-04T14:03:22Z"
+  },
+  {
+   "event": "entry",
+   "coin": "UNI",
+   "side": "long",
+   "px": 7.2581,
+   "sz": 1.4,
+   "lev": 4,
+   "notional": 10.16,
+   "move60s": -0.00642,
+   "how": "maker",
+   "at": "2026-11-04T14:03:37Z"
   }
  ],
  "scalper_params_now": {
