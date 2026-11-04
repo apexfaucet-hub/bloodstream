@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04T00:35:06Z",
+ "at": "2026-11-04T01:05:02Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.416223,
@@ -417,24 +417,18 @@
     "entry": 1.656478623042303e-06,
     "sig": "v1LrTjzGGbKEBU29AFMoRj2m4egAweviwfPh913r38RGaChkRLhWkJvu3G1bW2d5o8hCkxCjQaCVnhKBWtk2peQ",
     "poolXnt": 7579973793474
+   },
+   "F2hs1Tbc5CHk4vcda6UTQtaN8ZrbhuTt15MCPgDveU6G": {
+    "mint": "y1KEaaWVoEfX2gH7X1Vougmc9yD1Bi2c9VHeD7bDnNC",
+    "tokRaw": 89593917752523,
+    "costLamports": 3432604246,
+    "t": 1793753349861,
+    "entry": 3.819136264644436e-10,
+    "sig": "2ePn8ajgBmUNxipKEGgk3UTK5ENsgmDeoJUXsG6B816KVpynazyKye81poZu5LPXtDXrJiJw8kmGufZZT1xNyQiC",
+    "poolXnt": 5074219585397
    }
   },
   "last_trades": [
-   {
-    "event": "start",
-    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
-    "pools": 24,
-    "rule": {
-     "BUY_XNT": 3,
-     "MAX_POS": 12,
-     "RESERVE_XNT": 10,
-     "DIP_PCT": 8,
-     "TP_PCT": 8,
-     "SL_PCT": 12,
-     "MAX_HOLD_H": 72
-    },
-    "at": "2026-10-29T09:36:21.284Z"
-   },
    {
     "event": "start",
     "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
@@ -650,9 +644,19 @@
     "pnlPct": 12.2,
     "sig": "5Ykke9fknD6sXi5Pm6ZCteDCpphwmYGJarjUr6G2vuNSg9GWuGUWgYJWz8rwuhaEeyvWA1wwo2DDkzySK6ehwXx9",
     "at": "2026-11-03T22:37:31.416Z"
+   },
+   {
+    "event": "buy",
+    "pool": "F2hs1Tbc5CHk4vcda6UTQtaN8ZrbhuTt15MCPgDveU6G",
+    "mint": "y1KEaaWVoEfX2gH7X1Vougmc9yD1Bi2c9VHeD7bDnNC",
+    "xnt": 3,
+    "dipPct": 46.86,
+    "price": 3.819136264644436e-10,
+    "sig": "2ePn8ajgBmUNxipKEGgk3UTK5ENsgmDeoJUXsG6B816KVpynazyKye81poZu5LPXtDXrJiJw8kmGufZZT1xNyQiC",
+    "at": "2026-11-04T00:49:10.463Z"
    }
   ],
   "realised_xnt": 7.66636
  },
- "last_apply": "applied {\"z\": 8, \"tp\": 0.8, \"sl\": 3.0, \"hold_s\": 300, \"notional\": 10.5, \"max_pos\": 1, \"confirm_s\": 180, \"paused\": false, \"block_coins\": [\"NIL\", \"kPEPE\", \"XMR\", \"ZRO\", \"DOGE\", \"TRUMP\", \"CRV\"], \"why\": \"rule 4: acct 3.416 < 7.6 (and below 7.0 floor, FLOOR_STOP repeating) so max_pos 1 and notional 10.5; 24h clo"
+ "last_apply": "unchanged"
 }
