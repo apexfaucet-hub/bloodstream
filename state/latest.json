@@ -1,23 +1,16 @@
 {
- "at": "2026-11-04T17:35:09Z",
+ "at": "2026-11-04T18:05:07Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 3.357261,
-  "open_positions": [
-   {
-    "coin": "WLFI",
-    "szi": "224.0",
-    "entry": "0.046781",
-    "upnl": "-0.022848"
-   }
-  ],
+  "account_value": 3.306197,
+  "open_positions": [],
   "deposited_usdc": 8.974045,
   "floor_usdc": 2.5
  },
  "last_24h": {
-  "closed_pnl": 0.04386,
-  "fees": 0.08009,
-  "fills": 39
+  "closed_pnl": -0.02849,
+  "fees": 0.08165,
+  "fills": 40
  },
  "per_coin_7d": {
   "PYTH": {
@@ -51,10 +44,10 @@
    "net": -0.66282
   },
   "ARB": {
-   "fills": 4,
+   "fills": 3,
    "closed_pnl": -0.38956,
-   "fees": 0.01957,
-   "net": -0.40913
+   "fees": 0.01461,
+   "net": -0.40417
   },
   "BTC": {
    "fills": 2,
@@ -110,6 +103,12 @@
    "fees": 0.00314,
    "net": -0.00368
   },
+  "WLFI": {
+   "fills": 10,
+   "closed_pnl": 0.04945,
+   "fees": 0.02565,
+   "net": 0.02381
+  },
   "UNI": {
    "fills": 6,
    "closed_pnl": 0.06132,
@@ -128,17 +127,11 @@
    "fees": 0.01974,
    "net": 0.07019
   },
-  "WLFI": {
-   "fills": 9,
-   "closed_pnl": 0.12181,
-   "fees": 0.02409,
-   "net": 0.09772
-  },
   "PUMP": {
-   "fills": 2,
+   "fills": 1,
    "closed_pnl": 0.10811,
-   "fees": 0.00987,
-   "net": 0.09824
+   "fees": 0.00491,
+   "net": 0.1032
   },
   "ETHFI": {
    "fills": 2,
@@ -147,16 +140,16 @@
    "net": 0.11292
   },
   "SUI": {
-   "fills": 2,
+   "fills": 1,
    "closed_pnl": 0.12532,
-   "fees": 0.00989,
-   "net": 0.11543
+   "fees": 0.00492,
+   "net": 0.1204
   },
   "AAVE": {
-   "fills": 2,
+   "fills": 1,
    "closed_pnl": 0.1404,
-   "fees": 0.01078,
-   "net": 0.12962
+   "fees": 0.00536,
+   "net": 0.13504
   },
   "FARTCOIN": {
    "fills": 8,
@@ -185,9 +178,9 @@
  },
  "scalper_exits_recent": {
   "time-maker": {
-   "n": 7,
-   "pnl_gross": -0.14346,
-   "avg_held_s": 320
+   "n": 8,
+   "pnl_gross": -0.21424,
+   "avg_held_s": 318
   },
   "time": {
    "n": 5,
@@ -206,18 +199,6 @@
   }
  },
  "scalper_last_events": [
-  {
-   "event": "entry",
-   "coin": "UNI",
-   "side": "short",
-   "px": 7.4713,
-   "sz": 1.4,
-   "lev": 4,
-   "notional": 10.46,
-   "move60s": 0.00767,
-   "how": "maker",
-   "at": "2026-11-04T14:49:04Z"
-  },
   {
    "event": "exit",
    "coin": "UNI",
@@ -518,6 +499,17 @@
    "move60s": -0.00877,
    "how": "maker",
    "at": "2026-11-04T17:34:00Z"
+  },
+  {
+   "event": "exit",
+   "coin": "WLFI",
+   "why": "time-maker",
+   "entry": 0.046781,
+   "exit": 0.046465,
+   "sz": 224.0,
+   "pnl_gross": -0.07078,
+   "held_s": 306,
+   "at": "2026-11-04T17:39:06Z"
   }
  ],
  "scalper_params_now": {
@@ -578,28 +570,9 @@
     "entry": 3.1988772465887197e-10,
     "sig": "3yeJvphZBsoD6TTebEyhJAZea6ZKkzwBDbCiwn8vHzrKihncc812HxbuZkSjgX1tLTxWGPpo4sVdW73czJfruRky",
     "poolXnt": 4820096812508
-   },
-   "VmZfZnHzFTKSf19ZvAxa4duzChve3JYHVCPq1FvezhN": {
-    "mint": "81LkybSBLvXYMTF6azXohUWyBvDGUXznm4yiXPkYkDTJ",
-    "tokRaw": 188148293925514,
-    "costLamports": 3125931373,
-    "t": 1793779308312,
-    "entry": 1.6565799094218917e-06,
-    "sig": "5C4LjUcUc9KJHmLbtG9u7w6HWkiUKT3ALqdNxwuz2xRQXuGqNdPTG1DNM5Q8YLwuaG6D441WKmUXD3H2TCeBwCm",
-    "poolXnt": 7535529953739
    }
   },
   "last_trades": [
-   {
-    "event": "buy",
-    "pool": "F2hs1Tbc5CHk4vcda6UTQtaN8ZrbhuTt15MCPgDveU6G",
-    "mint": "y1KEaaWVoEfX2gH7X1Vougmc9yD1Bi2c9VHeD7bDnNC",
-    "xnt": 3,
-    "dipPct": 10.06,
-    "price": 5.826362432547804e-11,
-    "sig": "3HN6SMvJypJJmKtqFT7PbE2ANiZKVJHqNMLQ7AH99KsFCDzcCkpFaCXkEFQag9zB6LVtWAG3EnqEY8hySQuTJbw1",
-    "at": "2026-10-30T07:43:58.078Z"
-   },
    {
     "event": "buy",
     "pool": "CJywFfsfgoo5GS4KeAtFfb1hqQbJuBRuTi3wD6tGP59u",
@@ -811,9 +784,20 @@
      "MAX_HOLD_H": 720
     },
     "at": "2026-11-04T09:14:32.970Z"
+   },
+   {
+    "event": "sell",
+    "why": "tp",
+    "pool": "VmZfZnHzFTKSf19ZvAxa4duzChve3JYHVCPq1FvezhN",
+    "mint": "81LkybSBLvXYMTF6azXohUWyBvDGUXznm4yiXPkYkDTJ",
+    "xntBack": 3.452349249,
+    "cost": 3.125931373,
+    "pnlPct": 10.44,
+    "sig": "4Kzqgkh6vaTMGYNYDDuooJyTVvi2VGGR12YUpmhAFRGX9j3CZhEaNsV4yvDUdKAdqiCmRin6EAXfmbLkrN9Um6PF",
+    "at": "2026-11-04T17:54:04.121Z"
    }
   ],
-  "realised_xnt": 8.34302
+  "realised_xnt": 8.66943
  },
  "last_apply": "unchanged"
 }
