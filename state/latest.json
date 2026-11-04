@@ -1,16 +1,23 @@
 {
- "at": "2026-11-04T14:35:09Z",
+ "at": "2026-11-04T15:05:08Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 3.46249,
-  "open_positions": [],
+  "account_value": 3.210799,
+  "open_positions": [
+   {
+    "coin": "FARTCOIN",
+    "szi": "-84.8",
+    "entry": "0.1239",
+    "upnl": "-0.147552"
+   }
+  ],
   "deposited_usdc": 8.974045,
   "floor_usdc": 2.5
  },
  "last_24h": {
-  "closed_pnl": -0.08847,
-  "fees": 0.0575,
-  "fills": 22
+  "closed_pnl": -0.07055,
+  "fees": 0.06813,
+  "fills": 29
  },
  "per_coin_7d": {
   "PYTH": {
@@ -67,17 +74,23 @@
    "fees": 0.01621,
    "net": -0.13965
   },
-  "ADA": {
+  "ETH": {
    "fills": 4,
-   "closed_pnl": -0.08248,
-   "fees": 0.01318,
-   "net": -0.09566
+   "closed_pnl": -0.12699,
+   "fees": 0.00958,
+   "net": -0.13657
   },
   "NEAR": {
    "fills": 3,
    "closed_pnl": -0.06736,
    "fees": 0.01018,
    "net": -0.07754
+  },
+  "ADA": {
+   "fills": 6,
+   "closed_pnl": -0.03874,
+   "fees": 0.01635,
+   "net": -0.05509
   },
   "XRP": {
    "fills": 2,
@@ -91,29 +104,23 @@
    "fees": 0.0099,
    "net": -0.01298
   },
-  "ETH": {
-   "fills": 2,
-   "closed_pnl": 0.01656,
-   "fees": 0.00321,
-   "net": 0.01335
+  "UNI": {
+   "fills": 6,
+   "closed_pnl": 0.06132,
+   "fees": 0.01246,
+   "net": 0.04886
   },
   "WLFI": {
-   "fills": 4,
-   "closed_pnl": 0.04165,
-   "fees": 0.01305,
-   "net": 0.0286
+   "fills": 6,
+   "closed_pnl": 0.08041,
+   "fees": 0.01621,
+   "net": 0.06421
   },
   "STRK": {
    "fills": 4,
    "closed_pnl": 0.08993,
    "fees": 0.01974,
    "net": 0.07019
-  },
-  "UNI": {
-   "fills": 4,
-   "closed_pnl": 0.08372,
-   "fees": 0.00618,
-   "net": 0.07754
   },
   "PUMP": {
    "fills": 2,
@@ -146,10 +153,10 @@
    "net": 0.35269
   },
   "FARTCOIN": {
-   "fills": 4,
+   "fills": 5,
    "closed_pnl": 0.44296,
-   "fees": 0.01657,
-   "net": 0.42639
+   "fees": 0.01815,
+   "net": 0.42481
   },
   "BLUR": {
    "fills": 2,
@@ -171,173 +178,22 @@
    "avg_held_s": 329
   },
   "time": {
-   "n": 3,
-   "pnl_gross": 0.00217,
-   "avg_held_s": 341
+   "n": 4,
+   "pnl_gross": -0.02023,
+   "avg_held_s": 330
   },
   "tp-maker": {
-   "n": 2,
-   "pnl_gross": 0.08372,
-   "avg_held_s": 100
+   "n": 4,
+   "pnl_gross": 0.16623,
+   "avg_held_s": 157
+  },
+  "sl": {
+   "n": 1,
+   "pnl_gross": -0.14355,
+   "avg_held_s": 327
   }
  },
  "scalper_last_events": [
-  {
-   "event": "entry",
-   "coin": "RUNE",
-   "side": "long",
-   "px": 0.63102,
-   "sz": 16.6,
-   "lev": 4,
-   "notional": 10.47,
-   "move60s": -0.00783,
-   "how": "maker",
-   "at": "2026-11-04T10:38:22Z"
-  },
-  {
-   "event": "exit",
-   "coin": "RUNE",
-   "why": "time",
-   "entry": 0.63102,
-   "exit": 0.62969,
-   "sz": 16.6,
-   "pnl_gross": -0.02208,
-   "held_s": 360,
-   "at": "2026-11-04T10:44:25Z"
-  },
-  {
-   "event": "start",
-   "coins": 40,
-   "floor": 2.5,
-   "rule": {
-    "z": 8.0,
-    "tp": 0.8,
-    "sl": 3.0,
-    "hold_s": 300.0,
-    "notional": 10.5,
-    "lev": 4
-   },
-   "at": "2026-11-04T10:46:51Z"
-  },
-  {
-   "event": "entry-resting",
-   "coin": "WLFI",
-   "side": "short",
-   "px": 0.05051,
-   "sz": 208.0,
-   "lev": 4,
-   "at": "2026-11-04T10:52:10Z"
-  },
-  {
-   "event": "entry",
-   "coin": "WLFI",
-   "side": "short",
-   "px": 0.05051,
-   "sz": 208.0,
-   "lev": 4,
-   "notional": 10.51,
-   "move60s": 0.01034,
-   "how": "maker",
-   "at": "2026-11-04T10:52:22Z"
-  },
-  {
-   "event": "exit",
-   "coin": "WLFI",
-   "why": "time-maker",
-   "entry": 0.05051,
-   "exit": 0.050432,
-   "sz": 208.0,
-   "pnl_gross": 0.01622,
-   "held_s": 309,
-   "at": "2026-11-04T10:57:30Z"
-  },
-  {
-   "event": "start",
-   "coins": 40,
-   "floor": 2.5,
-   "rule": {
-    "z": 8.0,
-    "tp": 0.8,
-    "sl": 3.0,
-    "hold_s": 300.0,
-    "notional": 10.5,
-    "lev": 4
-   },
-   "at": "2026-11-04T11:06:36Z"
-  },
-  {
-   "event": "entry-resting",
-   "coin": "AVAX",
-   "side": "short",
-   "px": 8.7211,
-   "sz": 1.2,
-   "lev": 4,
-   "at": "2026-11-04T11:28:17Z"
-  },
-  {
-   "event": "entry",
-   "coin": "AVAX",
-   "side": "short",
-   "px": 8.7211,
-   "sz": 1.2,
-   "lev": 4,
-   "notional": 10.47,
-   "move60s": 0.00307,
-   "how": "maker",
-   "at": "2026-11-04T11:28:38Z"
-  },
-  {
-   "event": "exit",
-   "coin": "AVAX",
-   "why": "time",
-   "entry": 8.7211,
-   "exit": 8.7182,
-   "sz": 1.2,
-   "pnl_gross": 0.00348,
-   "held_s": 361,
-   "at": "2026-11-04T11:34:42Z"
-  },
-  {
-   "event": "entry-resting",
-   "coin": "WLFI",
-   "side": "long",
-   "px": 0.049242,
-   "sz": 212.0,
-   "lev": 4,
-   "at": "2026-11-04T11:44:11Z"
-  },
-  {
-   "event": "entry-resting",
-   "coin": "XRP",
-   "side": "long",
-   "px": 1.2923,
-   "sz": 8.0,
-   "lev": 4,
-   "at": "2026-11-04T11:49:53Z"
-  },
-  {
-   "event": "entry",
-   "coin": "XRP",
-   "side": "long",
-   "px": 1.2923,
-   "sz": 8.0,
-   "lev": 4,
-   "notional": 10.34,
-   "move60s": -0.00208,
-   "how": "maker",
-   "at": "2026-11-04T11:50:15Z"
-  },
-  {
-   "event": "exit",
-   "coin": "XRP",
-   "why": "time-maker",
-   "entry": 1.2923,
-   "exit": 1.29055,
-   "sz": 8.0,
-   "pnl_gross": -0.014,
-   "held_s": 318,
-   "at": "2026-11-04T11:55:32Z"
-  },
   {
    "event": "entry-resting",
    "coin": "ADA",
@@ -501,6 +357,155 @@
    "sz": 27.5,
    "lev": 4,
    "at": "2026-11-04T14:32:49Z"
+  },
+  {
+   "event": "entry-resting",
+   "coin": "WLFI",
+   "side": "long",
+   "px": 0.049399,
+   "sz": 213.0,
+   "lev": 4,
+   "at": "2026-11-04T14:37:00Z"
+  },
+  {
+   "event": "entry",
+   "coin": "WLFI",
+   "side": "long",
+   "px": 0.049399,
+   "sz": 213.0,
+   "lev": 4,
+   "notional": 10.52,
+   "move60s": -0.0046,
+   "how": "maker",
+   "at": "2026-11-04T14:37:55Z"
+  },
+  {
+   "event": "exit",
+   "coin": "WLFI",
+   "why": "tp-maker",
+   "entry": 0.049399,
+   "exit": 0.049581,
+   "sz": 213.0,
+   "pnl_gross": 0.03877,
+   "held_s": 144,
+   "at": "2026-11-04T14:40:19Z"
+  },
+  {
+   "event": "entry-resting",
+   "coin": "ETH",
+   "side": "short",
+   "px": 2334.9,
+   "sz": 0.0045,
+   "lev": 4,
+   "at": "2026-11-04T14:42:10Z"
+  },
+  {
+   "event": "entry",
+   "coin": "ETH",
+   "side": "short",
+   "px": 2334.9,
+   "sz": 0.0045,
+   "lev": 4,
+   "notional": 10.51,
+   "move60s": 0.00404,
+   "how": "maker",
+   "at": "2026-11-04T14:42:31Z"
+  },
+  {
+   "event": "exit",
+   "coin": "ETH",
+   "why": "sl",
+   "entry": 2334.9,
+   "exit": 2366.8,
+   "sz": 0.0045,
+   "pnl_gross": -0.14355,
+   "held_s": 327,
+   "at": "2026-11-04T14:48:01Z"
+  },
+  {
+   "event": "entry-resting",
+   "coin": "UNI",
+   "side": "short",
+   "px": 7.4713,
+   "sz": 1.4,
+   "lev": 4,
+   "at": "2026-11-04T14:48:57Z"
+  },
+  {
+   "event": "entry",
+   "coin": "UNI",
+   "side": "short",
+   "px": 7.4713,
+   "sz": 1.4,
+   "lev": 4,
+   "notional": 10.46,
+   "move60s": 0.00767,
+   "how": "maker",
+   "at": "2026-11-04T14:49:04Z"
+  },
+  {
+   "event": "exit",
+   "coin": "UNI",
+   "why": "time",
+   "entry": 7.4713,
+   "exit": 7.4873,
+   "sz": 1.4,
+   "pnl_gross": -0.0224,
+   "held_s": 300,
+   "at": "2026-11-04T14:54:09Z"
+  },
+  {
+   "event": "entry-resting",
+   "coin": "ADA",
+   "side": "long",
+   "px": 0.19551,
+   "sz": 54.0,
+   "lev": 4,
+   "at": "2026-11-04T14:55:24Z"
+  },
+  {
+   "event": "entry",
+   "coin": "ADA",
+   "side": "long",
+   "px": 0.19551,
+   "sz": 54.0,
+   "lev": 4,
+   "notional": 10.56,
+   "move60s": -0.00515,
+   "how": "maker",
+   "at": "2026-11-04T14:55:46Z"
+  },
+  {
+   "event": "exit",
+   "coin": "ADA",
+   "why": "tp-maker",
+   "entry": 0.19551,
+   "exit": 0.19632,
+   "sz": 54.0,
+   "pnl_gross": 0.04374,
+   "held_s": 282,
+   "at": "2026-11-04T15:00:29Z"
+  },
+  {
+   "event": "entry-resting",
+   "coin": "FARTCOIN",
+   "side": "short",
+   "px": 0.1239,
+   "sz": 84.8,
+   "lev": 4,
+   "at": "2026-11-04T15:02:00Z"
+  },
+  {
+   "event": "entry",
+   "coin": "FARTCOIN",
+   "side": "short",
+   "px": 0.1239,
+   "sz": 84.8,
+   "lev": 4,
+   "notional": 10.51,
+   "move60s": 0.00797,
+   "how": "maker",
+   "at": "2026-11-04T15:02:12Z"
   }
  ],
  "scalper_params_now": {
