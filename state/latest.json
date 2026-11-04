@@ -1,15 +1,15 @@
 {
- "at": "2026-11-04T15:35:06Z",
+ "at": "2026-11-04T16:05:03Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 3.277474,
+  "account_value": 3.312803,
   "open_positions": [],
   "deposited_usdc": 8.974045,
   "floor_usdc": 2.5
  },
  "last_24h": {
-  "closed_pnl": -0.14355,
-  "fees": 0.076,
+  "closed_pnl": -0.03114,
+  "fees": 0.07239,
   "fills": 34
  },
  "per_coin_7d": {
@@ -109,12 +109,6 @@
    "fees": 0.01246,
    "net": 0.04886
   },
-  "WLFI": {
-   "fills": 6,
-   "closed_pnl": 0.08041,
-   "fees": 0.01621,
-   "net": 0.06421
-  },
   "STRK": {
    "fills": 4,
    "closed_pnl": 0.08993,
@@ -126,6 +120,12 @@
    "closed_pnl": 0.10811,
    "fees": 0.00987,
    "net": 0.09824
+  },
+  "WLFI": {
+   "fills": 8,
+   "closed_pnl": 0.12181,
+   "fees": 0.02252,
+   "net": 0.09929
   },
   "ETHFI": {
    "fills": 2,
@@ -177,9 +177,9 @@
    "avg_held_s": 323
   },
   "time": {
-   "n": 4,
-   "pnl_gross": -0.02023,
-   "avg_held_s": 330
+   "n": 5,
+   "pnl_gross": 0.02116,
+   "avg_held_s": 336
   },
   "tp-maker": {
    "n": 5,
@@ -193,35 +193,6 @@
   }
  },
  "scalper_last_events": [
-  {
-   "event": "exit",
-   "coin": "UNI",
-   "why": "tp-maker",
-   "entry": 7.4191,
-   "exit": 7.4416,
-   "sz": 1.4,
-   "pnl_gross": 0.0315,
-   "held_s": 45,
-   "at": "2026-11-04T12:31:46Z"
-  },
-  {
-   "event": "entry-resting",
-   "coin": "WLFI",
-   "side": "long",
-   "px": 0.049746,
-   "sz": 211.0,
-   "lev": 4,
-   "at": "2026-11-04T13:37:54Z"
-  },
-  {
-   "event": "entry-resting",
-   "coin": "UNI",
-   "side": "long",
-   "px": 7.2581,
-   "sz": 1.4,
-   "lev": 4,
-   "at": "2026-11-04T14:03:22Z"
-  },
   {
    "event": "entry",
    "coin": "UNI",
@@ -504,6 +475,38 @@
    "pnl_gross": -0.00724,
    "held_s": 312,
    "at": "2026-11-04T15:33:26Z"
+  },
+  {
+   "event": "entry-resting",
+   "coin": "WLFI",
+   "side": "long",
+   "px": 0.047865,
+   "sz": 219.0,
+   "lev": 4,
+   "at": "2026-11-04T15:55:40Z"
+  },
+  {
+   "event": "entry",
+   "coin": "WLFI",
+   "side": "long",
+   "px": 0.047865,
+   "sz": 219.0,
+   "lev": 4,
+   "notional": 10.48,
+   "move60s": -0.01396,
+   "how": "maker",
+   "at": "2026-11-04T15:55:55Z"
+  },
+  {
+   "event": "exit",
+   "coin": "WLFI",
+   "why": "time",
+   "entry": 0.047865,
+   "exit": 0.048054,
+   "sz": 219.0,
+   "pnl_gross": 0.04139,
+   "held_s": 360,
+   "at": "2026-11-04T16:01:59Z"
   }
  ],
  "scalper_params_now": {
