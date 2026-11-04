@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04T16:35:06Z",
+ "at": "2026-11-04T17:05:04Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.312803,
@@ -26,10 +26,10 @@
    "net": -1.48241
   },
   "WLD": {
-   "fills": 8,
-   "closed_pnl": -1.01499,
-   "fees": 0.03577,
-   "net": -1.05076
+   "fills": 6,
+   "closed_pnl": -1.17858,
+   "fees": 0.02579,
+   "net": -1.20437
   },
   "HYPE": {
    "fills": 6,
