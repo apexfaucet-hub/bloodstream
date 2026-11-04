@@ -1,16 +1,16 @@
 {
- "at": "2026-11-04T18:05:07Z",
+ "at": "2026-11-04T18:35:08Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 3.306197,
+  "account_value": 3.192204,
   "open_positions": [],
   "deposited_usdc": 8.974045,
   "floor_usdc": 2.5
  },
  "last_24h": {
-  "closed_pnl": -0.02849,
-  "fees": 0.08165,
-  "fills": 40
+  "closed_pnl": -0.13619,
+  "fees": 0.08794,
+  "fills": 42
  },
  "per_coin_7d": {
   "PYTH": {
@@ -26,10 +26,10 @@
    "net": -1.48241
   },
   "WLD": {
-   "fills": 6,
+   "fills": 5,
    "closed_pnl": -1.17858,
-   "fees": 0.02579,
-   "net": -1.20437
+   "fees": 0.02082,
+   "net": -1.1994
   },
   "HYPE": {
    "fills": 6,
@@ -44,10 +44,10 @@
    "net": -0.66282
   },
   "ARB": {
-   "fills": 3,
-   "closed_pnl": -0.38956,
-   "fees": 0.01461,
-   "net": -0.40417
+   "fills": 2,
+   "closed_pnl": -0.47053,
+   "fees": 0.00969,
+   "net": -0.48023
   },
   "BTC": {
    "fills": 2,
@@ -85,6 +85,12 @@
    "fees": 0.01635,
    "net": -0.05509
   },
+  "LIT": {
+   "fills": 6,
+   "closed_pnl": -0.0327,
+   "fees": 0.01242,
+   "net": -0.04512
+  },
   "XRP": {
    "fills": 2,
    "closed_pnl": -0.0136,
@@ -115,41 +121,17 @@
    "fees": 0.01246,
    "net": 0.04886
   },
-  "LIT": {
-   "fills": 4,
-   "closed_pnl": 0.075,
-   "fees": 0.00612,
-   "net": 0.06888
-  },
   "STRK": {
    "fills": 4,
    "closed_pnl": 0.08993,
    "fees": 0.01974,
    "net": 0.07019
   },
-  "PUMP": {
-   "fills": 1,
-   "closed_pnl": 0.10811,
-   "fees": 0.00491,
-   "net": 0.1032
-  },
   "ETHFI": {
    "fills": 2,
    "closed_pnl": 0.12288,
    "fees": 0.00996,
    "net": 0.11292
-  },
-  "SUI": {
-   "fills": 1,
-   "closed_pnl": 0.12532,
-   "fees": 0.00492,
-   "net": 0.1204
-  },
-  "AAVE": {
-   "fills": 1,
-   "closed_pnl": 0.1404,
-   "fees": 0.00536,
-   "net": 0.13504
   },
   "FARTCOIN": {
    "fills": 8,
@@ -183,9 +165,9 @@
    "avg_held_s": 318
   },
   "time": {
-   "n": 5,
-   "pnl_gross": 0.02116,
-   "avg_held_s": 336
+   "n": 6,
+   "pnl_gross": -0.08654,
+   "avg_held_s": 330
   },
   "tp-maker": {
    "n": 6,
@@ -199,49 +181,6 @@
   }
  },
  "scalper_last_events": [
-  {
-   "event": "exit",
-   "coin": "UNI",
-   "why": "time",
-   "entry": 7.4713,
-   "exit": 7.4873,
-   "sz": 1.4,
-   "pnl_gross": -0.0224,
-   "held_s": 300,
-   "at": "2026-11-04T14:54:09Z"
-  },
-  {
-   "event": "entry-resting",
-   "coin": "ADA",
-   "side": "long",
-   "px": 0.19551,
-   "sz": 54.0,
-   "lev": 4,
-   "at": "2026-11-04T14:55:24Z"
-  },
-  {
-   "event": "entry",
-   "coin": "ADA",
-   "side": "long",
-   "px": 0.19551,
-   "sz": 54.0,
-   "lev": 4,
-   "notional": 10.56,
-   "move60s": -0.00515,
-   "how": "maker",
-   "at": "2026-11-04T14:55:46Z"
-  },
-  {
-   "event": "exit",
-   "coin": "ADA",
-   "why": "tp-maker",
-   "entry": 0.19551,
-   "exit": 0.19632,
-   "sz": 54.0,
-   "pnl_gross": 0.04374,
-   "held_s": 282,
-   "at": "2026-11-04T15:00:29Z"
-  },
   {
    "event": "entry-resting",
    "coin": "FARTCOIN",
@@ -510,6 +449,47 @@
    "pnl_gross": -0.07078,
    "held_s": 306,
    "at": "2026-11-04T17:39:06Z"
+  },
+  {
+   "event": "entry-resting",
+   "coin": "LIT",
+   "side": "long",
+   "px": 3.5234,
+   "sz": 3.0,
+   "lev": 4,
+   "at": "2026-11-04T18:08:08Z"
+  },
+  {
+   "event": "entry",
+   "coin": "LIT",
+   "side": "long",
+   "px": 3.5234,
+   "sz": 3.0,
+   "lev": 4,
+   "notional": 10.57,
+   "move60s": -0.01033,
+   "how": "maker",
+   "at": "2026-11-04T18:08:50Z"
+  },
+  {
+   "event": "exit",
+   "coin": "LIT",
+   "why": "time",
+   "entry": 3.5234,
+   "exit": 3.4875,
+   "sz": 3.0,
+   "pnl_gross": -0.1077,
+   "held_s": 300,
+   "at": "2026-11-04T18:13:53Z"
+  },
+  {
+   "event": "entry-resting",
+   "coin": "RUNE",
+   "side": "long",
+   "px": 0.64343,
+   "sz": 16.3,
+   "lev": 4,
+   "at": "2026-11-04T18:18:05Z"
   }
  ],
  "scalper_params_now": {
@@ -528,7 +508,11 @@
    "ZRO",
    "DOGE",
    "TRUMP",
-   "CRV"
+   "CRV",
+   "WLD",
+   "HYPE",
+   "XPL",
+   "AVAX"
   ],
   "why": "Floor is $2.50. Size may rise when the account can margin it."
  },
@@ -570,19 +554,18 @@
     "entry": 3.1988772465887197e-10,
     "sig": "3yeJvphZBsoD6TTebEyhJAZea6ZKkzwBDbCiwn8vHzrKihncc812HxbuZkSjgX1tLTxWGPpo4sVdW73czJfruRky",
     "poolXnt": 4820096812508
+   },
+   "VmZfZnHzFTKSf19ZvAxa4duzChve3JYHVCPq1FvezhN": {
+    "mint": "81LkybSBLvXYMTF6azXohUWyBvDGUXznm4yiXPkYkDTJ",
+    "tokRaw": 188237596812766,
+    "costLamports": 3168310457,
+    "t": 1793815988955,
+    "entry": 1.6782375741479561e-06,
+    "sig": "4Xnq51YdkuJyANv3NAS7SNdvASSfXKZfN8PFat8LHd59UewtsVCDu87achR1Ubhfar9aJJjpyzKTyRLeHmxUqV3P",
+    "poolXnt": 7588846423581
    }
   },
   "last_trades": [
-   {
-    "event": "buy",
-    "pool": "CJywFfsfgoo5GS4KeAtFfb1hqQbJuBRuTi3wD6tGP59u",
-    "mint": "6To4f6r9X3WFsLwWLFdj7ju8BNquzZwupVHUc8oS5pgP",
-    "xnt": 3,
-    "dipPct": 19.95,
-    "price": 1.0389803651469178e-06,
-    "sig": "5jD5Zur4R2ZUYZ91wPCP4yEtWsCi9HQy4wwbzLwmFH1Gs7QF7BKWRg93Da98CQivqvgiGvez6g8mVudNz1PaCFmQ",
-    "at": "2026-10-31T00:03:41.888Z"
-   },
    {
     "event": "buy",
     "pool": "VmZfZnHzFTKSf19ZvAxa4duzChve3JYHVCPq1FvezhN",
@@ -795,9 +778,19 @@
     "pnlPct": 10.44,
     "sig": "4Kzqgkh6vaTMGYNYDDuooJyTVvi2VGGR12YUpmhAFRGX9j3CZhEaNsV4yvDUdKAdqiCmRin6EAXfmbLkrN9Um6PF",
     "at": "2026-11-04T17:54:04.121Z"
+   },
+   {
+    "event": "buy",
+    "pool": "VmZfZnHzFTKSf19ZvAxa4duzChve3JYHVCPq1FvezhN",
+    "mint": "81LkybSBLvXYMTF6azXohUWyBvDGUXznm4yiXPkYkDTJ",
+    "xnt": 3,
+    "dipPct": 9.63,
+    "price": 1.6782375741479561e-06,
+    "sig": "4Xnq51YdkuJyANv3NAS7SNdvASSfXKZfN8PFat8LHd59UewtsVCDu87achR1Ubhfar9aJJjpyzKTyRLeHmxUqV3P",
+    "at": "2026-11-04T18:13:09.438Z"
    }
   ],
   "realised_xnt": 8.66943
  },
- "last_apply": "unchanged"
+ "last_apply": "applied {\"z\": 8, \"tp\": 0.8, \"sl\": 3.0, \"hold_s\": 300, \"notional\": 10.5, \"max_pos\": 1, \"confirm_s\": 180, \"paused\": false, \"block_coins\": [\"NIL\", \"kPEPE\", \"XMR\", \"ZRO\", \"DOGE\", \"TRUMP\", \"CRV\", \"WLD\", \"HYPE\", \"XPL\", \"AVAX\"], \"why\": \"Floor is $2.50. Size may rise when the account can margin it.\"}"
 }
