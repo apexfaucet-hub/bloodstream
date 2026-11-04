@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04T12:35:05Z",
+ "at": "2026-11-04T13:05:03Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.413326,
@@ -114,12 +114,6 @@
    "closed_pnl": 0.08993,
    "fees": 0.01974,
    "net": 0.07019
-  },
-  "ONDO": {
-   "fills": 2,
-   "closed_pnl": 0.09531,
-   "fees": 0.01017,
-   "net": 0.08514
   },
   "PUMP": {
    "fills": 2,
