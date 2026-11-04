@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04T16:05:03Z",
+ "at": "2026-11-04T16:35:06Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.312803,
@@ -193,18 +193,6 @@
   }
  },
  "scalper_last_events": [
-  {
-   "event": "entry",
-   "coin": "UNI",
-   "side": "long",
-   "px": 7.2581,
-   "sz": 1.4,
-   "lev": 4,
-   "notional": 10.16,
-   "move60s": -0.00642,
-   "how": "maker",
-   "at": "2026-11-04T14:03:37Z"
-  },
   {
    "event": "exit",
    "coin": "UNI",
@@ -507,6 +495,15 @@
    "pnl_gross": 0.04139,
    "held_s": 360,
    "at": "2026-11-04T16:01:59Z"
+  },
+  {
+   "event": "entry-resting",
+   "coin": "RUNE",
+   "side": "short",
+   "px": 0.64392,
+   "sz": 16.3,
+   "lev": 4,
+   "at": "2026-11-04T16:21:43Z"
   }
  ],
  "scalper_params_now": {
