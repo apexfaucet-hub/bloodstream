@@ -1,16 +1,16 @@
 {
- "at": "2026-11-04T22:05:11Z",
+ "at": "2026-11-04T22:35:19Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 3.240075,
+  "account_value": 3.224719,
   "open_positions": [],
   "deposited_usdc": 8.974045,
   "floor_usdc": 2.5
  },
  "last_24h": {
-  "closed_pnl": -0.04421,
-  "fees": 0.13205,
-  "fills": 64
+  "closed_pnl": -0.05643,
+  "fees": 0.13518,
+  "fills": 66
  },
  "per_coin_7d": {
   "PYTH": {
@@ -50,10 +50,10 @@
    "net": -0.48023
   },
   "BTC": {
-   "fills": 2,
-   "closed_pnl": -0.225,
-   "fees": 0.05412,
-   "net": -0.27912
+   "fills": 4,
+   "closed_pnl": -0.23722,
+   "fees": 0.05725,
+   "net": -0.29447
   },
   "AVAX": {
    "fills": 6,
@@ -166,9 +166,9 @@
  },
  "scalper_exits_recent": {
   "time-maker": {
-   "n": 11,
-   "pnl_gross": -0.18256,
-   "avg_held_s": 316
+   "n": 12,
+   "pnl_gross": -0.19484,
+   "avg_held_s": 315
   },
   "time": {
    "n": 9,
@@ -187,38 +187,6 @@
   }
  },
  "scalper_last_events": [
-  {
-   "event": "entry-resting",
-   "coin": "ADA",
-   "side": "long",
-   "px": 0.19618,
-   "sz": 54.0,
-   "lev": 4,
-   "at": "2026-11-04T18:49:05Z"
-  },
-  {
-   "event": "entry",
-   "coin": "ADA",
-   "side": "long",
-   "px": 0.19618,
-   "sz": 54.0,
-   "lev": 4,
-   "notional": 10.59,
-   "move60s": -0.00391,
-   "how": "maker",
-   "at": "2026-11-04T18:49:24Z"
-  },
-  {
-   "event": "exit",
-   "coin": "ADA",
-   "why": "time",
-   "entry": 0.19618,
-   "exit": 0.19541,
-   "sz": 54.0,
-   "pnl_gross": -0.04158,
-   "held_s": 360,
-   "at": "2026-11-04T18:55:28Z"
-  },
   {
    "event": "entry-resting",
    "coin": "RUNE",
@@ -501,6 +469,38 @@
    "sz": 0.9,
    "lev": 4,
    "at": "2026-11-04T21:45:51Z"
+  },
+  {
+   "event": "entry-resting",
+   "coin": "BTC",
+   "side": "short",
+   "px": 80406.0,
+   "sz": 0.00013,
+   "lev": 4,
+   "at": "2026-11-04T22:11:27Z"
+  },
+  {
+   "event": "entry",
+   "coin": "BTC",
+   "side": "short",
+   "px": 80406.0,
+   "sz": 0.00013,
+   "lev": 4,
+   "notional": 10.45,
+   "move60s": 0.00164,
+   "how": "maker",
+   "at": "2026-11-04T22:12:21Z"
+  },
+  {
+   "event": "exit",
+   "coin": "BTC",
+   "why": "time-maker",
+   "entry": 80406.0,
+   "exit": 80500.5,
+   "sz": 0.00013,
+   "pnl_gross": -0.01228,
+   "held_s": 309,
+   "at": "2026-11-04T22:17:31Z"
   }
  ],
  "scalper_params_now": {
