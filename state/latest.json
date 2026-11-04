@@ -1,15 +1,15 @@
 {
- "at": "2026-11-04T11:05:03Z",
+ "at": "2026-11-04T11:35:06Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 3.415126,
+  "account_value": 3.41233,
   "open_positions": [],
   "deposited_usdc": 8.974045,
   "floor_usdc": 2.5
  },
  "last_24h": {
-  "closed_pnl": -0.0494,
-  "fees": 0.07203,
+  "closed_pnl": -0.05368,
+  "fees": 0.06842,
   "fills": 18
  },
  "per_coin_7d": {
@@ -26,10 +26,10 @@
    "net": -1.48241
   },
   "WLD": {
-   "fills": 8,
+   "fills": 7,
    "closed_pnl": -0.96185,
-   "fees": 0.03943,
-   "net": -1.00129
+   "fees": 0.03447,
+   "net": -0.99632
   },
   "HYPE": {
    "fills": 6,
@@ -38,10 +38,10 @@
    "net": -0.79251
   },
   "XPL": {
-   "fills": 6,
+   "fills": 5,
    "closed_pnl": -0.58059,
-   "fees": 0.02609,
-   "net": -0.60668
+   "fees": 0.02113,
+   "net": -0.60172
   },
   "ARB": {
    "fills": 4,
@@ -56,10 +56,10 @@
    "net": -0.27912
   },
   "AVAX": {
-   "fills": 5,
-   "closed_pnl": -0.22623,
-   "fees": 0.02127,
-   "net": -0.2475
+   "fills": 6,
+   "closed_pnl": -0.16992,
+   "fees": 0.02261,
+   "net": -0.19254
   },
   "RUNE": {
    "fills": 4,
@@ -67,29 +67,17 @@
    "fees": 0.01621,
    "net": -0.13965
   },
-  "ZEC": {
-   "fills": 1,
-   "closed_pnl": -0.133,
-   "fees": 0.00586,
-   "net": -0.13886
-  },
   "ADA": {
-   "fills": 3,
-   "closed_pnl": -0.11295,
-   "fees": 0.01495,
-   "net": -0.1279
+   "fills": 2,
+   "closed_pnl": -0.06048,
+   "fees": 0.01002,
+   "net": -0.0705
   },
   "NEAR": {
-   "fills": 5,
+   "fills": 4,
    "closed_pnl": -0.03448,
-   "fees": 0.02025,
-   "net": -0.05473
-  },
-  "XRP": {
-   "fills": 1,
-   "closed_pnl": -0.0432,
-   "fees": 0.00537,
-   "net": -0.04857
+   "fees": 0.01522,
+   "net": -0.0497
   },
   "ATOM": {
    "fills": 2,
@@ -98,16 +86,16 @@
    "net": -0.01298
   },
   "SOL": {
-   "fills": 2,
+   "fills": 1,
    "closed_pnl": 0.0198,
-   "fees": 0.01018,
-   "net": 0.00962
+   "fees": 0.00509,
+   "net": 0.01471
   },
   "ETH": {
-   "fills": 4,
+   "fills": 3,
    "closed_pnl": 0.02972,
-   "fees": 0.01321,
-   "net": 0.01651
+   "fees": 0.00821,
+   "net": 0.02151
   },
   "WLFI": {
    "fills": 4,
@@ -158,10 +146,10 @@
    "net": 0.35269
   },
   "FARTCOIN": {
-   "fills": 5,
-   "closed_pnl": 0.39737,
-   "fees": 0.0215,
-   "net": 0.37586
+   "fills": 4,
+   "closed_pnl": 0.44296,
+   "fees": 0.01657,
+   "net": 0.42639
   },
   "BLUR": {
    "fills": 2,
@@ -183,32 +171,12 @@
    "avg_held_s": 335
   },
   "time": {
-   "n": 1,
-   "pnl_gross": -0.02208,
+   "n": 2,
+   "pnl_gross": -0.0186,
    "avg_held_s": 360
   }
  },
  "scalper_last_events": [
-  {
-   "event": "FLOOR_STOP",
-   "account": 3.487099,
-   "at": "2026-11-03T15:57:18Z"
-  },
-  {
-   "event": "FLOOR_STOP",
-   "account": 3.488968,
-   "at": "2026-11-03T15:57:48Z"
-  },
-  {
-   "event": "FLOOR_STOP",
-   "account": 3.483984,
-   "at": "2026-11-03T15:58:18Z"
-  },
-  {
-   "event": "FLOOR_STOP",
-   "account": 3.470278,
-   "at": "2026-11-03T15:58:48Z"
-  },
   {
    "event": "FLOOR_STOP",
    "account": 3.457195,
@@ -437,6 +405,52 @@
    "pnl_gross": 0.01622,
    "held_s": 309,
    "at": "2026-11-04T10:57:30Z"
+  },
+  {
+   "event": "start",
+   "coins": 40,
+   "floor": 2.5,
+   "rule": {
+    "z": 8.0,
+    "tp": 0.8,
+    "sl": 3.0,
+    "hold_s": 300.0,
+    "notional": 10.5,
+    "lev": 4
+   },
+   "at": "2026-11-04T11:06:36Z"
+  },
+  {
+   "event": "entry-resting",
+   "coin": "AVAX",
+   "side": "short",
+   "px": 8.7211,
+   "sz": 1.2,
+   "lev": 4,
+   "at": "2026-11-04T11:28:17Z"
+  },
+  {
+   "event": "entry",
+   "coin": "AVAX",
+   "side": "short",
+   "px": 8.7211,
+   "sz": 1.2,
+   "lev": 4,
+   "notional": 10.47,
+   "move60s": 0.00307,
+   "how": "maker",
+   "at": "2026-11-04T11:28:38Z"
+  },
+  {
+   "event": "exit",
+   "coin": "AVAX",
+   "why": "time",
+   "entry": 8.7211,
+   "exit": 8.7182,
+   "sz": 1.2,
+   "pnl_gross": 0.00348,
+   "held_s": 361,
+   "at": "2026-11-04T11:34:42Z"
   }
  ],
  "scalper_params_now": {
@@ -457,7 +471,7 @@
    "TRUMP",
    "CRV"
   ],
-  "why": "Server floor is $2.50. One $10.50 position. A remote pause is not applied."
+  "why": "Floor is $2.50. Size may rise when the account can margin it."
  },
  "money_desk": "MONEY DESK 2026-11-04\nOutside income: 24 h $0.033 (~0.03 EUR), 7 d $0.252 from 16 payers (11 new), 30 d $2.068\nTop products 7 d: page-markdown $0.058 (7 payers), web-read $0.054 (2 payers), page-extract $0.018 (2 payers), chat-completions $0.012 (4 payers), base-token-verdict $0.01 (1 payers)\nCosts 7 d: spent outside $0.034, Arc faucet payouts $1.15 + gas $0.227. Net 7 d: $-1.159\nBazaar ranks: token verdict 6; base token verdict 2; decode transaction 2; web search not in top 20; honeypot check base 5; token price not in top 20\nExperiment post-verdict: no payers before or after: did not move money, try a different lever\nExperiment relist-all-cdp: too few payers to judge (1 -> 2): leave it as it is, no undo, no repeat\nExperiment listing-text: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment base-price: no payers before or after: did not move money, try a different lever\nExperiment multichain-verdict: no payers before or after: did not move money, try a different lever\nExperiment payai-listing: too few payers to judge (3 -> 1): leave it as it is, no undo, no repeat\nExperiment chat-listing-words: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment new-tools-listing-words: no payers before or after: did not move money, try a different lever\nExperiment prediction-tools: running (judge on 2026-11-04)\nExperiment rwa-tools: running (judge on 2026-11-04)\nExperiment web-listing-words: running (judge on 2026-11-04)\nExperiment prediction-names-fit-32: no payers before or after: did not move money, try a different lever\nTrading 24 h, Hyperliquid (all bots, HL fills): net $-0.12 after fees (~-0.10 EUR), 6 closes, 3 wins\nTrading 24 h, X1 dip trader: 5 sells, realised 7.622 XNT (before tx fees)\nFree capital: $0. Hyperliquid carry (no price risk): ZEC 20.4% APR ($null/day), BTC 11% APR ($null/day), ETH 11% APR ($null/day)\nArc launches: 71% lost their exit (9913 settled)\nBusiest paid agent markets: www.ax1.vc 1107 payers $497.84/day; keyring-agent.blockchhub.link 51 payers $54.6/day; blockrun.ai 34 payers $32.02/day; api.botpay.network 26 payers $30.53/day\n",
  "x1_dip_trader": {
