@@ -1,16 +1,16 @@
 {
- "at": "2026-11-04T10:05:04Z",
+ "at": "2026-11-04T10:35:07Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 3.416223,
+  "account_value": 3.42957,
   "open_positions": [],
   "deposited_usdc": 8.974045,
   "floor_usdc": 2.5
  },
  "last_24h": {
-  "closed_pnl": -0.06094,
-  "fees": 0.0594,
-  "fills": 12
+  "closed_pnl": -0.04438,
+  "fees": 0.06261,
+  "fills": 14
  },
  "per_coin_7d": {
   "PYTH": {
@@ -26,10 +26,10 @@
    "net": -1.48241
   },
   "WLD": {
-   "fills": 10,
+   "fills": 9,
    "closed_pnl": -0.94144,
-   "fees": 0.04937,
-   "net": -0.99081
+   "fees": 0.04441,
+   "net": -0.98585
   },
   "HYPE": {
    "fills": 6,
@@ -38,10 +38,10 @@
    "net": -0.79251
   },
   "XPL": {
-   "fills": 8,
+   "fills": 7,
    "closed_pnl": -0.59859,
-   "fees": 0.03601,
-   "net": -0.6346
+   "fees": 0.03105,
+   "net": -0.62963
   },
   "ARB": {
    "fills": 4,
@@ -62,22 +62,16 @@
    "net": -0.25245
   },
   "ZEC": {
-   "fills": 3,
-   "closed_pnl": -0.164,
-   "fees": 0.0177,
-   "net": -0.1817
+   "fills": 2,
+   "closed_pnl": -0.133,
+   "fees": 0.01178,
+   "net": -0.14478
   },
   "ADA": {
    "fills": 4,
    "closed_pnl": -0.11295,
    "fees": 0.01991,
    "net": -0.13286
-  },
-  "NEAR": {
-   "fills": 6,
-   "closed_pnl": -0.09568,
-   "fees": 0.02534,
-   "net": -0.12102
   },
   "RUNE": {
    "fills": 2,
@@ -86,22 +80,16 @@
    "net": -0.1113
   },
   "XRP": {
-   "fills": 4,
+   "fills": 3,
    "closed_pnl": -0.054,
-   "fees": 0.02153,
-   "net": -0.07553
+   "fees": 0.01614,
+   "net": -0.07014
   },
-  "UNI": {
-   "fills": 1,
-   "closed_pnl": -0.04016,
-   "fees": 0.00516,
-   "net": -0.04532
-  },
-  "LINK": {
-   "fills": 1,
-   "closed_pnl": -0.034,
-   "fees": 0.00532,
-   "net": -0.03932
+  "NEAR": {
+   "fills": 5,
+   "closed_pnl": -0.03448,
+   "fees": 0.02025,
+   "net": -0.05473
   },
   "ATOM": {
    "fills": 2,
@@ -110,28 +98,28 @@
    "net": -0.01298
   },
   "ENA": {
-   "fills": 2,
+   "fills": 1,
    "closed_pnl": 0.00108,
-   "fees": 0.01006,
-   "net": -0.00898
+   "fees": 0.00503,
+   "net": -0.00395
   },
   "SOL": {
-   "fills": 4,
+   "fills": 3,
    "closed_pnl": 0.0209,
-   "fees": 0.02038,
-   "net": 0.00052
-  },
-  "ETH": {
-   "fills": 5,
-   "closed_pnl": 0.03196,
-   "fees": 0.02503,
-   "net": 0.00693
+   "fees": 0.01528,
+   "net": 0.00562
   },
   "WLFI": {
    "fills": 2,
    "closed_pnl": 0.02459,
    "fees": 0.0099,
    "net": 0.01469
+  },
+  "ETH": {
+   "fills": 5,
+   "closed_pnl": 0.03395,
+   "fees": 0.01822,
+   "net": 0.01573
   },
   "STRK": {
    "fills": 4,
@@ -194,33 +182,14 @@
    "net": 0.43529
   }
  },
- "scalper_exits_recent": {},
+ "scalper_exits_recent": {
+  "time-maker": {
+   "n": 1,
+   "pnl_gross": 0.01265,
+   "avg_held_s": 361
+  }
+ },
  "scalper_last_events": [
-  {
-   "event": "FLOOR_STOP",
-   "account": 3.497026,
-   "at": "2026-11-03T15:50:43Z"
-  },
-  {
-   "event": "FLOOR_STOP",
-   "account": 3.497026,
-   "at": "2026-11-03T15:51:13Z"
-  },
-  {
-   "event": "FLOOR_STOP",
-   "account": 3.497026,
-   "at": "2026-11-03T15:51:43Z"
-  },
-  {
-   "event": "FLOOR_STOP",
-   "account": 3.497026,
-   "at": "2026-11-03T15:52:13Z"
-  },
-  {
-   "event": "FLOOR_STOP",
-   "account": 3.497026,
-   "at": "2026-11-03T15:52:43Z"
-  },
   {
    "event": "FLOOR_STOP",
    "account": 3.497026,
@@ -367,6 +336,61 @@
    "sz": 215.0,
    "lev": 4,
    "at": "2026-11-04T09:47:14Z"
+  },
+  {
+   "event": "entry-resting",
+   "coin": "ETH",
+   "side": "long",
+   "px": 2324.4,
+   "sz": 0.0046,
+   "lev": 4,
+   "at": "2026-11-04T10:18:22Z"
+  },
+  {
+   "event": "entry-resting",
+   "coin": "ETH",
+   "side": "short",
+   "px": 2330.8,
+   "sz": 0.0046,
+   "lev": 4,
+   "at": "2026-11-04T10:25:40Z"
+  },
+  {
+   "event": "entry",
+   "coin": "ETH",
+   "side": "short",
+   "px": 2330.8,
+   "sz": 0.0046,
+   "lev": 4,
+   "notional": 10.72,
+   "move60s": 0.00185,
+   "how": "maker",
+   "at": "2026-11-04T10:25:56Z"
+  },
+  {
+   "event": "exit",
+   "coin": "ETH",
+   "why": "time-maker",
+   "entry": 2330.8,
+   "exit": 2328.05,
+   "sz": 0.0046,
+   "pnl_gross": 0.01265,
+   "held_s": 361,
+   "at": "2026-11-04T10:31:57Z"
+  },
+  {
+   "event": "start",
+   "coins": 40,
+   "floor": 2.5,
+   "rule": {
+    "z": 8.0,
+    "tp": 0.8,
+    "sl": 3.0,
+    "hold_s": 300.0,
+    "notional": 10.5,
+    "lev": 4
+   },
+   "at": "2026-11-04T10:32:42Z"
   }
  ],
  "scalper_params_now": {
