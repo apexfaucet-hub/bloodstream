@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04T09:35:08Z",
+ "at": "2026-11-04T10:05:04Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.416223,
@@ -44,10 +44,10 @@
    "net": -0.6346
   },
   "ARB": {
-   "fills": 5,
-   "closed_pnl": -0.35511,
-   "fees": 0.02454,
-   "net": -0.37965
+   "fills": 4,
+   "closed_pnl": -0.38956,
+   "fees": 0.01957,
+   "net": -0.40913
   },
   "BTC": {
    "fills": 2,
@@ -62,10 +62,10 @@
    "net": -0.25245
   },
   "ZEC": {
-   "fills": 4,
+   "fills": 3,
    "closed_pnl": -0.164,
-   "fees": 0.02364,
-   "net": -0.18764
+   "fees": 0.0177,
+   "net": -0.1817
   },
   "ADA": {
    "fills": 4,
@@ -74,10 +74,10 @@
    "net": -0.13286
   },
   "NEAR": {
-   "fills": 7,
+   "fills": 6,
    "closed_pnl": -0.09568,
-   "fees": 0.03045,
-   "net": -0.12613
+   "fees": 0.02534,
+   "net": -0.12102
   },
   "RUNE": {
    "fills": 2,
@@ -86,22 +86,22 @@
    "net": -0.1113
   },
   "XRP": {
-   "fills": 5,
-   "closed_pnl": -0.0603,
-   "fees": 0.02692,
-   "net": -0.08722
+   "fills": 4,
+   "closed_pnl": -0.054,
+   "fees": 0.02153,
+   "net": -0.07553
   },
   "UNI": {
-   "fills": 3,
-   "closed_pnl": -0.044,
-   "fees": 0.0155,
-   "net": -0.0595
+   "fills": 1,
+   "closed_pnl": -0.04016,
+   "fees": 0.00516,
+   "net": -0.04532
   },
   "LINK": {
-   "fills": 2,
+   "fills": 1,
    "closed_pnl": -0.034,
-   "fees": 0.01067,
-   "net": -0.04467
+   "fees": 0.00532,
+   "net": -0.03932
   },
   "ATOM": {
    "fills": 2,
@@ -115,29 +115,23 @@
    "fees": 0.01006,
    "net": -0.00898
   },
-  "DOGE": {
-   "fills": 1,
-   "closed_pnl": 0.00055,
-   "fees": 0.00498,
-   "net": -0.00443
+  "SOL": {
+   "fills": 4,
+   "closed_pnl": 0.0209,
+   "fees": 0.02038,
+   "net": 0.00052
   },
   "ETH": {
-   "fills": 6,
+   "fills": 5,
    "closed_pnl": 0.03196,
-   "fees": 0.03004,
-   "net": 0.00192
+   "fees": 0.02503,
+   "net": 0.00693
   },
   "WLFI": {
    "fills": 2,
    "closed_pnl": 0.02459,
    "fees": 0.0099,
    "net": 0.01469
-  },
-  "SOL": {
-   "fills": 5,
-   "closed_pnl": 0.0429,
-   "fees": 0.02547,
-   "net": 0.01743
   },
   "STRK": {
    "fills": 4,
@@ -163,17 +157,17 @@
    "fees": 0.00996,
    "net": 0.11292
   },
+  "SUI": {
+   "fills": 2,
+   "closed_pnl": 0.12532,
+   "fees": 0.00989,
+   "net": 0.11543
+  },
   "AAVE": {
    "fills": 2,
    "closed_pnl": 0.1404,
    "fees": 0.01078,
    "net": 0.12962
-  },
-  "SUI": {
-   "fills": 3,
-   "closed_pnl": 0.15819,
-   "fees": 0.01486,
-   "net": 0.14333
   },
   "MON": {
    "fills": 4,
@@ -202,11 +196,6 @@
  },
  "scalper_exits_recent": {},
  "scalper_last_events": [
-  {
-   "event": "FLOOR_STOP",
-   "account": 3.497026,
-   "at": "2026-11-03T15:50:13Z"
-  },
   {
    "event": "FLOOR_STOP",
    "account": 3.497026,
@@ -369,6 +358,15 @@
     "lev": 4
    },
    "at": "2026-11-04T09:34:42Z"
+  },
+  {
+   "event": "entry-resting",
+   "coin": "WLFI",
+   "side": "short",
+   "px": 0.048944,
+   "sz": 215.0,
+   "lev": 4,
+   "at": "2026-11-04T09:47:14Z"
   }
  ],
  "scalper_params_now": {
