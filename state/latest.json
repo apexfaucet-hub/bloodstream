@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04T21:35:06Z",
+ "at": "2026-11-04T22:05:11Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.240075,
@@ -187,17 +187,6 @@
   }
  },
  "scalper_last_events": [
-  {
-   "event": "exit",
-   "coin": "RUNE",
-   "why": "time-maker",
-   "entry": 0.63883,
-   "exit": 0.63812,
-   "sz": 16.4,
-   "pnl_gross": -0.01164,
-   "held_s": 306,
-   "at": "2026-11-04T18:48:11Z"
-  },
   {
    "event": "entry-resting",
    "coin": "ADA",
@@ -503,6 +492,15 @@
    "pnl_gross": 0.0208,
    "held_s": 186,
    "at": "2026-11-04T21:04:30Z"
+  },
+  {
+   "event": "entry-resting",
+   "coin": "LINK",
+   "side": "long",
+   "px": 11.373,
+   "sz": 0.9,
+   "lev": 4,
+   "at": "2026-11-04T21:45:51Z"
   }
  ],
  "scalper_params_now": {
