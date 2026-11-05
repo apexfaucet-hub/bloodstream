@@ -1,16 +1,16 @@
 {
- "at": "2026-11-05T01:35:07Z",
+ "at": "2026-11-05T02:05:03Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 3.243931,
+  "account_value": 3.040433,
   "open_positions": [],
   "deposited_usdc": 8.974045,
   "floor_usdc": 2.5
  },
  "last_24h": {
-  "closed_pnl": -0.00566,
-  "fees": 0.16661,
-  "fills": 84
+  "closed_pnl": -0.19023,
+  "fees": 0.18567,
+  "fills": 92
  },
  "per_coin_7d": {
   "PYTH": {
@@ -49,6 +49,12 @@
    "fees": 0.00969,
    "net": -0.48023
   },
+  "RUNE": {
+   "fills": 24,
+   "closed_pnl": -0.3354,
+   "fees": 0.06047,
+   "net": -0.39587
+  },
   "BTC": {
    "fills": 4,
    "closed_pnl": -0.23722,
@@ -61,12 +67,6 @@
    "fees": 0.02261,
    "net": -0.19254
   },
-  "RUNE": {
-   "fills": 18,
-   "closed_pnl": -0.11703,
-   "fees": 0.04457,
-   "net": -0.1616
-  },
   "ETH": {
    "fills": 4,
    "closed_pnl": -0.12699,
@@ -74,16 +74,16 @@
    "net": -0.13657
   },
   "ADA": {
-   "fills": 10,
-   "closed_pnl": -0.10364,
-   "fees": 0.02586,
-   "net": -0.1295
+   "fills": 8,
+   "closed_pnl": -0.04316,
+   "fees": 0.01584,
+   "net": -0.059
   },
   "NEAR": {
-   "fills": 3,
-   "closed_pnl": -0.06736,
-   "fees": 0.01018,
-   "net": -0.07754
+   "fills": 5,
+   "closed_pnl": -0.03356,
+   "fees": 0.01334,
+   "net": -0.0469
   },
   "LIT": {
    "fills": 6,
@@ -164,10 +164,10 @@
    "net": 0.33813
   },
   "FARTCOIN": {
-   "fills": 8,
-   "closed_pnl": 0.3705,
-   "fees": 0.02288,
-   "net": 0.34762
+   "fills": 6,
+   "closed_pnl": 0.36793,
+   "fees": 0.01298,
+   "net": 0.35495
   },
   "BLUR": {
    "fills": 2,
@@ -189,145 +189,22 @@
    "avg_held_s": 321
   },
   "time": {
-   "n": 10,
-   "pnl_gross": -0.12481,
-   "avg_held_s": 342
+   "n": 11,
+   "pnl_gross": -0.18316,
+   "avg_held_s": 338
   },
   "tp-maker": {
-   "n": 14,
-   "pnl_gross": 0.49262,
-   "avg_held_s": 154
+   "n": 15,
+   "pnl_gross": 0.52642,
+   "avg_held_s": 153
   },
   "sl": {
-   "n": 1,
-   "pnl_gross": -0.14355,
-   "avg_held_s": 327
+   "n": 3,
+   "pnl_gross": -0.38148,
+   "avg_held_s": 271
   }
  },
  "scalper_last_events": [
-  {
-   "event": "exit",
-   "coin": "ADA",
-   "why": "time-maker",
-   "entry": 0.19945,
-   "exit": 0.19988,
-   "sz": 53.0,
-   "pnl_gross": -0.02279,
-   "held_s": 333,
-   "at": "2026-11-04T22:42:10Z"
-  },
-  {
-   "event": "entry-resting",
-   "coin": "WLFI",
-   "side": "long",
-   "px": 0.047827,
-   "sz": 220.0,
-   "lev": 4,
-   "at": "2026-11-04T22:45:50Z"
-  },
-  {
-   "event": "entry-resting",
-   "coin": "SUI",
-   "side": "short",
-   "px": 0.94031,
-   "sz": 11.2,
-   "lev": 4,
-   "at": "2026-11-04T22:55:02Z"
-  },
-  {
-   "event": "entry",
-   "coin": "SUI",
-   "side": "short",
-   "px": 0.94031,
-   "sz": 11.2,
-   "lev": 4,
-   "notional": 10.53,
-   "move60s": 0.00311,
-   "how": "maker",
-   "at": "2026-11-04T22:55:17Z"
-  },
-  {
-   "event": "exit",
-   "coin": "SUI",
-   "why": "tp-maker",
-   "entry": 0.94031,
-   "exit": 0.93797,
-   "sz": 11.2,
-   "pnl_gross": 0.02621,
-   "held_s": 286,
-   "at": "2026-11-04T23:00:04Z"
-  },
-  {
-   "event": "entry-resting",
-   "coin": "ENA",
-   "side": "long",
-   "px": 0.18312,
-   "sz": 57.0,
-   "lev": 4,
-   "at": "2026-11-04T23:01:41Z"
-  },
-  {
-   "event": "entry",
-   "coin": "ENA",
-   "side": "long",
-   "px": 0.18312,
-   "sz": 57.0,
-   "lev": 4,
-   "notional": 10.44,
-   "move60s": -0.00449,
-   "how": "maker",
-   "at": "2026-11-04T23:01:47Z"
-  },
-  {
-   "event": "exit",
-   "coin": "ENA",
-   "why": "tp-maker",
-   "entry": 0.18312,
-   "exit": 0.18378,
-   "sz": 57.0,
-   "pnl_gross": 0.03762,
-   "held_s": 153,
-   "at": "2026-11-04T23:04:20Z"
-  },
-  {
-   "event": "entry-resting",
-   "coin": "WLFI",
-   "side": "short",
-   "px": 0.04822,
-   "sz": 218.0,
-   "lev": 4,
-   "at": "2026-11-04T23:05:11Z"
-  },
-  {
-   "event": "entry-resting",
-   "coin": "XRP",
-   "side": "short",
-   "px": 1.3102,
-   "sz": 8.0,
-   "lev": 4,
-   "at": "2026-11-04T23:07:13Z"
-  },
-  {
-   "event": "entry-resting",
-   "coin": "WLFI",
-   "side": "long",
-   "px": 0.04765,
-   "sz": 220.0,
-   "lev": 4,
-   "at": "2026-11-04T23:12:43Z"
-  },
-  {
-   "event": "entry",
-   "coin": "WLFI",
-   "side": "long",
-   "px": 0.04765,
-   "sz": 220.0,
-   "lev": 4,
-   "notional": 10.48,
-   "move60s": -0.00457,
-   "how": "maker",
-   "at": "2026-11-04T23:14:03Z"
-  },
   {
    "event": "exit",
    "coin": "WLFI",
@@ -516,6 +393,134 @@
    "pnl_gross": 0.01452,
    "held_s": 361,
    "at": "2026-11-05T00:45:43Z"
+  },
+  {
+   "event": "entry-resting",
+   "coin": "RUNE",
+   "side": "short",
+   "px": 0.65878,
+   "sz": 16.0,
+   "lev": 4,
+   "at": "2026-11-05T01:40:46Z"
+  },
+  {
+   "event": "entry",
+   "coin": "RUNE",
+   "side": "short",
+   "px": 0.65878,
+   "sz": 16.0,
+   "lev": 4,
+   "notional": 10.54,
+   "move60s": 0.00297,
+   "how": "maker",
+   "at": "2026-11-05T01:41:05Z"
+  },
+  {
+   "event": "exit",
+   "coin": "RUNE",
+   "why": "sl",
+   "entry": 0.65878,
+   "exit": 0.6658,
+   "sz": 16.0,
+   "pnl_gross": -0.11232,
+   "held_s": 213,
+   "at": "2026-11-05T01:44:40Z"
+  },
+  {
+   "event": "entry-resting",
+   "coin": "RUNE",
+   "side": "short",
+   "px": 0.66037,
+   "sz": 15.9,
+   "lev": 4,
+   "at": "2026-11-05T01:46:30Z"
+  },
+  {
+   "event": "entry",
+   "coin": "RUNE",
+   "side": "short",
+   "px": 0.66037,
+   "sz": 15.9,
+   "lev": 4,
+   "notional": 10.5,
+   "move60s": 0.00286,
+   "how": "maker",
+   "at": "2026-11-05T01:46:37Z"
+  },
+  {
+   "event": "exit",
+   "coin": "RUNE",
+   "why": "time",
+   "entry": 0.66037,
+   "exit": 0.66404,
+   "sz": 15.9,
+   "pnl_gross": -0.05835,
+   "held_s": 300,
+   "at": "2026-11-05T01:51:38Z"
+  },
+  {
+   "event": "entry-resting",
+   "coin": "NEAR",
+   "side": "short",
+   "px": 4.059,
+   "sz": 2.6,
+   "lev": 4,
+   "at": "2026-11-05T01:53:16Z"
+  },
+  {
+   "event": "entry",
+   "coin": "NEAR",
+   "side": "short",
+   "px": 4.059,
+   "sz": 2.6,
+   "lev": 4,
+   "notional": 10.55,
+   "move60s": 0.00493,
+   "how": "maker",
+   "at": "2026-11-05T01:53:47Z"
+  },
+  {
+   "event": "exit",
+   "coin": "NEAR",
+   "why": "tp-maker",
+   "entry": 4.059,
+   "exit": 4.046,
+   "sz": 2.6,
+   "pnl_gross": 0.0338,
+   "held_s": 138,
+   "at": "2026-11-05T01:56:04Z"
+  },
+  {
+   "event": "entry-resting",
+   "coin": "RUNE",
+   "side": "short",
+   "px": 0.66262,
+   "sz": 15.9,
+   "lev": 4,
+   "at": "2026-11-05T01:57:19Z"
+  },
+  {
+   "event": "entry",
+   "coin": "RUNE",
+   "side": "short",
+   "px": 0.66262,
+   "sz": 15.9,
+   "lev": 4,
+   "notional": 10.54,
+   "move60s": 0.00381,
+   "how": "maker",
+   "at": "2026-11-05T01:57:30Z"
+  },
+  {
+   "event": "exit",
+   "coin": "RUNE",
+   "why": "sl",
+   "entry": 0.66262,
+   "exit": 0.67052,
+   "sz": 15.9,
+   "pnl_gross": -0.12561,
+   "held_s": 274,
+   "at": "2026-11-05T02:02:07Z"
   }
  ],
  "scalper_params_now": {
@@ -589,19 +594,18 @@
     "entry": 1.6782375741479561e-06,
     "sig": "4Xnq51YdkuJyANv3NAS7SNdvASSfXKZfN8PFat8LHd59UewtsVCDu87achR1Ubhfar9aJJjpyzKTyRLeHmxUqV3P",
     "poolXnt": 7588846423581
+   },
+   "7deZorr98nLdZhpmSdUgu8WY4NAjSpeLDGxHzaTAxrUg": {
+    "mint": "EpKRiKwbCKZDZE9pgH48HcXqQkBunXUK5axC1EHUBtPN",
+    "tokRaw": 229894771031,
+    "costLamports": 3000000000,
+    "t": 1793842596852,
+    "entry": 0.013013730876040087,
+    "sig": "4vHhnLpERXQSRrRcqq4HooLLxH3m3aBUc19c9WaZaVW4ZJgWHVGWAeRKBKNtg7rFmP68Uu6bu9riffzjeuFSxuUw",
+    "poolXnt": 12586357416118
    }
   },
   "last_trades": [
-   {
-    "event": "buy",
-    "pool": "VmZfZnHzFTKSf19ZvAxa4duzChve3JYHVCPq1FvezhN",
-    "mint": "81LkybSBLvXYMTF6azXohUWyBvDGUXznm4yiXPkYkDTJ",
-    "xnt": 3,
-    "dipPct": 14.93,
-    "price": 1.0984519739773916e-06,
-    "sig": "5oXVsbUvwgo7z6rJDHLE22xZtK78jB9WdJpDUzeU5PpHE78WshwkKhxo3mx7JkVajzdvAdZMDyARmPgjbyRaqX2B",
-    "at": "2026-10-31T09:33:32.148Z"
-   },
    {
     "event": "sell",
     "why": "tp",
@@ -814,6 +818,16 @@
     "price": 1.6782375741479561e-06,
     "sig": "4Xnq51YdkuJyANv3NAS7SNdvASSfXKZfN8PFat8LHd59UewtsVCDu87achR1Ubhfar9aJJjpyzKTyRLeHmxUqV3P",
     "at": "2026-11-04T18:13:09.438Z"
+   },
+   {
+    "event": "buy",
+    "pool": "7deZorr98nLdZhpmSdUgu8WY4NAjSpeLDGxHzaTAxrUg",
+    "mint": "EpKRiKwbCKZDZE9pgH48HcXqQkBunXUK5axC1EHUBtPN",
+    "xnt": 3,
+    "dipPct": 8.03,
+    "price": 0.013013730876040087,
+    "sig": "4vHhnLpERXQSRrRcqq4HooLLxH3m3aBUc19c9WaZaVW4ZJgWHVGWAeRKBKNtg7rFmP68Uu6bu9riffzjeuFSxuUw",
+    "at": "2026-11-05T01:36:37.555Z"
    }
   ],
   "realised_xnt": 8.66943
