@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05T21:05:04Z",
+ "at": "2026-11-05T21:35:06Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -549,15 +549,6 @@
     "sig": "4WRbmEy8HdLYYcu1XvSzXeLWcer7NUAemG8n1oTWVjWYZoAwsHN7tMNS8TrxzwdP5DST3scdJ5f4Nr4wE1VcuKr",
     "poolXnt": 2084098718497
    },
-   "GdKcXA1Q78Bquke5jyZUR1C8YMN6VYT9AUheN1RwKLfe": {
-    "mint": "AnvCcvnY4DLRW42EZBEAb1QeU6Pt9aab3r3D75GtgJUU",
-    "tokRaw": 51057373237916,
-    "costLamports": 3518804748,
-    "t": 1793765513208,
-    "entry": 6.870706989640257e-05,
-    "sig": "BDvWuntLG2xcQu8A2ZEvyAo4N1sogAHPWijeZLzayH5aUd7iPP9Rgrm7e1UorBsuoLtfSw3aMxm5UMyHEttCyAG",
-    "poolXnt": 6140517883002
-   },
    "F2hs1Tbc5CHk4vcda6UTQtaN8ZrbhuTt15MCPgDveU6G": {
     "mint": "y1KEaaWVoEfX2gH7X1Vougmc9yD1Bi2c9VHeD7bDnNC",
     "tokRaw": 96493879671419,
@@ -587,17 +578,6 @@
    }
   },
   "last_trades": [
-   {
-    "event": "sell",
-    "why": "tp",
-    "pool": "VmZfZnHzFTKSf19ZvAxa4duzChve3JYHVCPq1FvezhN",
-    "mint": "81LkybSBLvXYMTF6azXohUWyBvDGUXznm4yiXPkYkDTJ",
-    "xntBack": 3.408501183,
-    "cost": 3,
-    "pnlPct": 13.62,
-    "sig": "237D1atpjTZYdZFg3ERFTJtVhJgA3BaUgcdeaM16Y9fKmEbqhZruvHJU6cUWVwZdi8caC58eUoKokGc5Hjm9JRC5",
-    "at": "2026-11-02T00:13:17.445Z"
-   },
    {
     "event": "buy",
     "pool": "8hEhKFmb43qkcctdV94VjwQxUubZ7zCTyG7Hsb1BWcsq",
@@ -809,9 +789,20 @@
     "pnlPct": 8.78,
     "sig": "2sxhaAHrK2FvQJZz5ZLrvzgBe59BrqThADHibEtPpnTjRZRPeW5eszQVC5SHWXFfBEd1pxq7z8Y4ssNDCthTPJs1",
     "at": "2026-11-05T02:53:05.192Z"
+   },
+   {
+    "event": "sell",
+    "why": "tp",
+    "pool": "GdKcXA1Q78Bquke5jyZUR1C8YMN6VYT9AUheN1RwKLfe",
+    "mint": "AnvCcvnY4DLRW42EZBEAb1QeU6Pt9aab3r3D75GtgJUU",
+    "xntBack": 3.862833706,
+    "cost": 3.518804748,
+    "pnlPct": 9.78,
+    "sig": "3PHqbc2dSS1nLq3obcv5sgfda6au2EskEYZLwsS8m9aj21fb38WCcp4xBjAVv4WwT5PkL9nX3v9xnCm1VYidobLe",
+    "at": "2026-11-05T21:28:45.191Z"
    }
   ],
-  "realised_xnt": 8.6202
+  "realised_xnt": 8.55572
  },
  "last_apply": "unchanged"
 }
