@@ -1,16 +1,23 @@
 {
- "at": "2026-11-04T23:35:08Z",
+ "at": "2026-11-05T00:05:05Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 3.273076,
-  "open_positions": [],
+  "account_value": 3.266739,
+  "open_positions": [
+   {
+    "coin": "LINK",
+    "szi": "0.9",
+    "entry": "11.427",
+    "upnl": "0.0099"
+   }
+  ],
   "deposited_usdc": 8.974045,
   "floor_usdc": 2.5
  },
  "last_24h": {
-  "closed_pnl": 0.00453,
-  "fees": 0.1478,
-  "fills": 74
+  "closed_pnl": -0.00689,
+  "fees": 0.15248,
+  "fills": 77
  },
  "per_coin_7d": {
   "PYTH": {
@@ -103,6 +110,12 @@
    "fees": 0.00314,
    "net": -0.00368
   },
+  "LINK": {
+   "fills": 1,
+   "closed_pnl": 0.0,
+   "fees": 0.00154,
+   "net": -0.00154
+  },
   "SUI": {
    "fills": 2,
    "closed_pnl": 0.02621,
@@ -151,17 +164,17 @@
    "fees": 0.00996,
    "net": 0.11292
   },
+  "MON": {
+   "fills": 6,
+   "closed_pnl": 0.35786,
+   "fees": 0.01973,
+   "net": 0.33813
+  },
   "FARTCOIN": {
    "fills": 8,
    "closed_pnl": 0.3705,
    "fees": 0.02288,
    "net": 0.34762
-  },
-  "MON": {
-   "fills": 4,
-   "closed_pnl": 0.36928,
-   "fees": 0.01659,
-   "net": 0.35269
   },
   "BLUR": {
    "fills": 2,
@@ -178,9 +191,9 @@
  },
  "scalper_exits_recent": {
   "time-maker": {
-   "n": 14,
-   "pnl_gross": -0.19739,
-   "avg_held_s": 318
+   "n": 15,
+   "pnl_gross": -0.21166,
+   "avg_held_s": 317
   },
   "time": {
    "n": 9,
@@ -199,58 +212,6 @@
   }
  },
  "scalper_last_events": [
-  {
-   "event": "exit",
-   "coin": "RUNE",
-   "why": "time",
-   "entry": 0.6383,
-   "exit": 0.63883,
-   "sz": 16.5,
-   "pnl_gross": -0.00875,
-   "held_s": 360,
-   "at": "2026-11-04T20:14:43Z"
-  },
-  {
-   "event": "entry-resting",
-   "coin": "WLFI",
-   "side": "short",
-   "px": 0.047723,
-   "sz": 220.0,
-   "lev": 4,
-   "at": "2026-11-04T20:16:39Z"
-  },
-  {
-   "event": "entry-resting",
-   "coin": "RUNE",
-   "side": "long",
-   "px": 0.63902,
-   "sz": 16.4,
-   "lev": 4,
-   "at": "2026-11-04T20:37:52Z"
-  },
-  {
-   "event": "entry",
-   "coin": "RUNE",
-   "side": "long",
-   "px": 0.63902,
-   "sz": 16.4,
-   "lev": 4,
-   "notional": 10.48,
-   "move60s": -0.002,
-   "how": "maker",
-   "at": "2026-11-04T20:39:50Z"
-  },
-  {
-   "event": "exit",
-   "coin": "RUNE",
-   "why": "time",
-   "entry": 0.63902,
-   "exit": 0.63887,
-   "sz": 16.4,
-   "pnl_gross": -0.00246,
-   "held_s": 360,
-   "at": "2026-11-04T20:45:53Z"
-  },
   {
    "event": "entry-resting",
    "coin": "RUNE",
@@ -510,6 +471,59 @@
    "pnl_gross": 0.02024,
    "held_s": 332,
    "at": "2026-11-04T23:19:34Z"
+  },
+  {
+   "event": "entry-resting",
+   "coin": "MON",
+   "side": "long",
+   "px": 0.01837,
+   "sz": 571.0,
+   "lev": 4,
+   "at": "2026-11-04T23:55:47Z"
+  },
+  {
+   "event": "entry",
+   "coin": "MON",
+   "side": "long",
+   "px": 0.01837,
+   "sz": 571.0,
+   "lev": 4,
+   "notional": 10.49,
+   "move60s": -0.00407,
+   "how": "maker",
+   "at": "2026-11-04T23:56:14Z"
+  },
+  {
+   "event": "exit",
+   "coin": "MON",
+   "why": "time-maker",
+   "entry": 0.01837,
+   "exit": 0.018345,
+   "sz": 571.0,
+   "pnl_gross": -0.01427,
+   "held_s": 312,
+   "at": "2026-11-05T00:01:26Z"
+  },
+  {
+   "event": "entry-resting",
+   "coin": "LINK",
+   "side": "long",
+   "px": 11.427,
+   "sz": 0.9,
+   "lev": 4,
+   "at": "2026-11-05T00:02:51Z"
+  },
+  {
+   "event": "entry",
+   "coin": "LINK",
+   "side": "long",
+   "px": 11.427,
+   "sz": 0.9,
+   "lev": 4,
+   "notional": 10.28,
+   "move60s": -0.00244,
+   "how": "maker",
+   "at": "2026-11-05T00:03:46Z"
   }
  ],
  "scalper_params_now": {
