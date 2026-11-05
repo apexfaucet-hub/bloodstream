@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05T10:05:08Z",
+ "at": "2026-11-05T10:35:08Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -8,9 +8,9 @@
   "floor_usdc": 2.5
  },
  "last_24h": {
-  "closed_pnl": -0.19023,
-  "fees": 0.18567,
-  "fills": 92
+  "closed_pnl": -0.20679,
+  "fees": 0.18246,
+  "fills": 90
  },
  "per_coin_7d": {
   "PYTH": {
@@ -31,12 +31,6 @@
    "fees": 0.01578,
    "net": -1.02181
   },
-  "HYPE": {
-   "fills": 6,
-   "closed_pnl": -0.76145,
-   "fees": 0.03106,
-   "net": -0.79251
-  },
   "XPL": {
    "fills": 4,
    "closed_pnl": -0.64668,
@@ -48,6 +42,12 @@
    "closed_pnl": -0.47053,
    "fees": 0.00969,
    "net": -0.48023
+  },
+  "HYPE": {
+   "fills": 4,
+   "closed_pnl": -0.37827,
+   "fees": 0.02081,
+   "net": -0.39908
   },
   "RUNE": {
    "fills": 24,
