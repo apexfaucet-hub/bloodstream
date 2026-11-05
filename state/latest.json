@@ -1,16 +1,16 @@
 {
- "at": "2026-11-05T00:35:12Z",
+ "at": "2026-11-05T01:05:04Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 3.235688,
+  "account_value": 3.243931,
   "open_positions": [],
   "deposited_usdc": 8.974045,
   "floor_usdc": 2.5
  },
  "last_24h": {
-  "closed_pnl": -0.02018,
-  "fees": 0.16034,
-  "fills": 82
+  "closed_pnl": -0.00566,
+  "fees": 0.16661,
+  "fills": 84
  },
  "per_coin_7d": {
   "PYTH": {
@@ -104,10 +104,10 @@
    "net": -0.00578
   },
   "DOT": {
-   "fills": 2,
-   "closed_pnl": -0.00054,
-   "fees": 0.00314,
-   "net": -0.00368
+   "fills": 4,
+   "closed_pnl": 0.01398,
+   "fees": 0.00942,
+   "net": 0.00456
   },
   "SUI": {
    "fills": 2,
@@ -189,9 +189,9 @@
    "avg_held_s": 321
   },
   "time": {
-   "n": 9,
-   "pnl_gross": -0.13933,
-   "avg_held_s": 340
+   "n": 10,
+   "pnl_gross": -0.12481,
+   "avg_held_s": 342
   },
   "tp-maker": {
    "n": 14,
@@ -205,38 +205,6 @@
   }
  },
  "scalper_last_events": [
-  {
-   "event": "exit",
-   "coin": "BTC",
-   "why": "time-maker",
-   "entry": 80406.0,
-   "exit": 80500.5,
-   "sz": 0.00013,
-   "pnl_gross": -0.01228,
-   "held_s": 309,
-   "at": "2026-11-04T22:17:31Z"
-  },
-  {
-   "event": "entry-resting",
-   "coin": "ADA",
-   "side": "short",
-   "px": 0.19945,
-   "sz": 53.0,
-   "lev": 4,
-   "at": "2026-11-04T22:36:16Z"
-  },
-  {
-   "event": "entry",
-   "coin": "ADA",
-   "side": "short",
-   "px": 0.19945,
-   "sz": 53.0,
-   "lev": 4,
-   "notional": 10.57,
-   "move60s": 0.00317,
-   "how": "maker",
-   "at": "2026-11-04T22:36:37Z"
-  },
   {
    "event": "exit",
    "coin": "ADA",
@@ -516,6 +484,38 @@
    "sz": 83.5,
    "lev": 4,
    "at": "2026-11-05T00:34:22Z"
+  },
+  {
+   "event": "entry-resting",
+   "coin": "DOT",
+   "side": "long",
+   "px": 0.9502,
+   "sz": 11.0,
+   "lev": 4,
+   "at": "2026-11-05T00:38:43Z"
+  },
+  {
+   "event": "entry",
+   "coin": "DOT",
+   "side": "long",
+   "px": 0.9502,
+   "sz": 11.0,
+   "lev": 4,
+   "notional": 10.45,
+   "move60s": -0.00302,
+   "how": "maker",
+   "at": "2026-11-05T00:39:38Z"
+  },
+  {
+   "event": "exit",
+   "coin": "DOT",
+   "why": "time",
+   "entry": 0.9502,
+   "exit": 0.95152,
+   "sz": 11.0,
+   "pnl_gross": 0.01452,
+   "held_s": 361,
+   "at": "2026-11-05T00:45:43Z"
   }
  ],
  "scalper_params_now": {
@@ -818,5 +818,5 @@
   ],
   "realised_xnt": 8.66943
  },
- "last_apply": "applied {\"z\": 8, \"tp\": 0.65, \"sl\": 3.0, \"hold_s\": 300, \"notional\": 10.5, \"max_pos\": 1, \"confirm_s\": 180, \"paused\": false, \"block_coins\": [\"NIL\", \"kPEPE\", \"XMR\", \"ZRO\", \"DOGE\", \"TRUMP\", \"CRV\", \"WLD\", \"HYPE\", \"XPL\", \"AVAX\"], \"why\": \"Floor is $2.50. Size may rise when the account can margin it.\"}"
+ "last_apply": "unchanged"
 }
