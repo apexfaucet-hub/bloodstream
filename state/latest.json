@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05T06:35:09Z",
+ "at": "2026-11-05T07:05:03Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -79,12 +79,6 @@
    "fees": 0.01584,
    "net": -0.059
   },
-  "NEAR": {
-   "fills": 5,
-   "closed_pnl": -0.03356,
-   "fees": 0.01334,
-   "net": -0.0469
-  },
   "LIT": {
    "fills": 6,
    "closed_pnl": -0.0327,
@@ -120,6 +114,12 @@
    "closed_pnl": 0.0264,
    "fees": 0.00312,
    "net": 0.02328
+  },
+  "NEAR": {
+   "fills": 2,
+   "closed_pnl": 0.0338,
+   "fees": 0.00316,
+   "net": 0.03064
   },
   "XRP": {
    "fills": 6,
@@ -825,5 +825,5 @@
   ],
   "realised_xnt": 8.6202
  },
- "last_apply": "applied {\"z\": 9, \"tp\": 0.65, \"sl\": 3.0, \"hold_s\": 300, \"notional\": 10.5, \"max_pos\": 1, \"confirm_s\": 180, \"paused\": false, \"block_coins\": [\"NIL\", \"kPEPE\", \"XMR\", \"ZRO\", \"DOGE\", \"TRUMP\", \"CRV\", \"WLD\", \"HYPE\", \"XPL\", \"AVAX\", \"RUNE\", \"BTC\"], \"why\": \"Floor is $2.50. Size may rise when the account can margin it.\""
+ "last_apply": "unchanged"
 }
