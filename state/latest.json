@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05T15:35:10Z",
+ "at": "2026-11-05T16:05:04Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -8,16 +8,16 @@
   "floor_usdc": 2.5
  },
  "last_24h": {
-  "closed_pnl": -0.1177,
-  "fees": 0.11958,
-  "fills": 60
+  "closed_pnl": -0.15909,
+  "fees": 0.11328,
+  "fills": 58
  },
  "per_coin_7d": {
   "PYTH": {
-   "fills": 2,
+   "fills": 1,
    "closed_pnl": -1.62397,
-   "fees": 0.00923,
-   "net": -1.6332
+   "fees": 0.00425,
+   "net": -1.62822
   },
   "kBONK": {
    "fills": 2,
@@ -60,6 +60,12 @@
    "closed_pnl": -0.12699,
    "fees": 0.00958,
    "net": -0.13657
+  },
+  "MON": {
+   "fills": 4,
+   "closed_pnl": -0.08244,
+   "fees": 0.01306,
+   "net": -0.0955
   },
   "ADA": {
    "fills": 8,
@@ -150,12 +156,6 @@
    "closed_pnl": 0.12288,
    "fees": 0.00996,
    "net": 0.11292
-  },
-  "MON": {
-   "fills": 5,
-   "closed_pnl": 0.35786,
-   "fees": 0.01478,
-   "net": 0.34308
   },
   "FARTCOIN": {
    "fills": 6,
