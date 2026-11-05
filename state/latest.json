@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05T22:05:06Z",
+ "at": "2026-11-05T22:35:06Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -8,9 +8,9 @@
   "floor_usdc": 2.5
  },
  "last_24h": {
-  "closed_pnl": -0.14602,
-  "fees": 0.05362,
-  "fills": 28
+  "closed_pnl": -0.1338,
+  "fees": 0.05049,
+  "fills": 26
  },
  "per_coin_7d": {
   "PYTH": {
