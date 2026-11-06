@@ -1,5 +1,5 @@
 {
- "at": "2026-11-06T08:35:09Z",
+ "at": "2026-11-06T09:05:04Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -50,10 +50,10 @@
    "net": -0.39587
   },
   "AVAX": {
-   "fills": 6,
+   "fills": 5,
    "closed_pnl": -0.16992,
-   "fees": 0.02261,
-   "net": -0.19254
+   "fees": 0.01765,
+   "net": -0.18758
   },
   "ETH": {
    "fills": 4,
@@ -158,16 +158,10 @@
    "net": 0.11292
   },
   "FARTCOIN": {
-   "fills": 6,
+   "fills": 5,
    "closed_pnl": 0.36793,
-   "fees": 0.01298,
-   "net": 0.35495
-  },
-  "BLUR": {
-   "fills": 1,
-   "closed_pnl": 0.44063,
-   "fees": 0.00172,
-   "net": 0.43891
+   "fees": 0.00803,
+   "net": 0.3599
   }
  },
  "scalper_exits_recent": {
