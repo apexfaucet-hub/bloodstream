@@ -1,5 +1,5 @@
 {
- "at": "2026-11-06T19:35:07Z",
+ "at": "2026-11-06T20:05:04Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -26,10 +26,10 @@
    "net": -1.47746
   },
   "WLD": {
-   "fills": 4,
+   "fills": 3,
    "closed_pnl": -1.00604,
-   "fees": 0.01578,
-   "net": -1.02181
+   "fees": 0.01081,
+   "net": -1.01685
   },
   "XPL": {
    "fills": 4,
@@ -534,15 +534,6 @@
  "money_desk": "MONEY DESK 2026-11-06\nOutside income: 24 h $0.029 (~0.02 EUR), 7 d $0.209 from 19 payers (9 new), 30 d $1.796\nTop products 7 d: page-markdown $0.06 (7 payers), page-extract $0.018 (2 payers), arc-gas $0.012 (1 payers), chat-completions $0.01 (5 payers), base-token-verdict $0.01 (1 payers)\nCosts 7 d: spent outside $0.024, Arc faucet payouts $1.17 + gas $0.224. Net 7 d: $-1.209\nBazaar ranks: token verdict not in top 20; base token verdict 2; decode transaction 3; web search not in top 20; honeypot check base 5; token price not in top 20\nExperiment post-verdict: no payers before or after: did not move money, try a different lever\nExperiment relist-all-cdp: too few payers to judge (1 -> 2): leave it as it is, no undo, no repeat\nExperiment listing-text: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment base-price: no payers before or after: did not move money, try a different lever\nExperiment multichain-verdict: no payers before or after: did not move money, try a different lever\nExperiment payai-listing: too few payers to judge (3 -> 1): leave it as it is, no undo, no repeat\nExperiment chat-listing-words: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment new-tools-listing-words: no payers before or after: did not move money, try a different lever\nExperiment prediction-tools: no payers before or after: did not move money, try a different lever\nExperiment rwa-tools: no payers before or after: did not move money, try a different lever\nExperiment web-listing-words: MORE payers after (6 -> 10): keep, try the same move elsewhere\nExperiment prediction-names-fit-32: no payers before or after: did not move money, try a different lever\nExperiment gas-refill-target-045: running (judge on 2026-11-06)\nExperiment funding-gap: running (judge on 2026-11-11)\nExperiment funding-gap-premium: running (judge on 2026-11-11)\nExperiment token-safety-words: running (judge on 2026-11-12)\nTrading 24 h, Hyperliquid (all bots, HL fills): net $0 after fees (~0.00 EUR), 0 closes, 0 wins\nTrading 24 h, X1 dip trader: 1 sells, realised 0.344 XNT (before tx fees)\nFree capital: $0.04. Hyperliquid carry (no price risk): ZEC 40.2% APR ($0/day), BTC 11% APR ($0/day), ETH 11% APR ($0/day)\nArc launches: 73.2% lost their exit (10930 settled)\nBusiest paid agent markets: www.ax1.vc 1107 payers $497.84/day; keyring-agent.blockchhub.link 51 payers $54.6/day; blockrun.ai 34 payers $32.02/day; api.botpay.network 26 payers $30.53/day\n",
  "x1_dip_trader": {
   "open": {
-   "8hEhKFmb43qkcctdV94VjwQxUubZ7zCTyG7Hsb1BWcsq": {
-    "mint": "XBLKLmxhADMVX3DsdwymvHyYbBYfKa5eKhtpiQ2kj7T",
-    "tokRaw": 660190676,
-    "costLamports": 3000000000,
-    "t": 1793634409240,
-    "entry": 4.526268403109432,
-    "sig": "4WRbmEy8HdLYYcu1XvSzXeLWcer7NUAemG8n1oTWVjWYZoAwsHN7tMNS8TrxzwdP5DST3scdJ5f4Nr4wE1VcuKr",
-    "poolXnt": 2084098718497
-   },
    "F2hs1Tbc5CHk4vcda6UTQtaN8ZrbhuTt15MCPgDveU6G": {
     "mint": "y1KEaaWVoEfX2gH7X1Vougmc9yD1Bi2c9VHeD7bDnNC",
     "tokRaw": 96493879671419,
@@ -572,16 +563,6 @@
    }
   },
   "last_trades": [
-   {
-    "event": "buy",
-    "pool": "8hEhKFmb43qkcctdV94VjwQxUubZ7zCTyG7Hsb1BWcsq",
-    "mint": "XBLKLmxhADMVX3DsdwymvHyYbBYfKa5eKhtpiQ2kj7T",
-    "xnt": 3,
-    "dipPct": 8.05,
-    "price": 4.526268403109432,
-    "sig": "4WRbmEy8HdLYYcu1XvSzXeLWcer7NUAemG8n1oTWVjWYZoAwsHN7tMNS8TrxzwdP5DST3scdJ5f4Nr4wE1VcuKr",
-    "at": "2026-11-02T15:46:54.804Z"
-   },
    {
     "event": "buy",
     "pool": "VmZfZnHzFTKSf19ZvAxa4duzChve3JYHVCPq1FvezhN",
@@ -794,9 +775,20 @@
     "pnlPct": 9.78,
     "sig": "3PHqbc2dSS1nLq3obcv5sgfda6au2EskEYZLwsS8m9aj21fb38WCcp4xBjAVv4WwT5PkL9nX3v9xnCm1VYidobLe",
     "at": "2026-11-05T21:28:45.191Z"
+   },
+   {
+    "event": "sell",
+    "why": "tp",
+    "pool": "8hEhKFmb43qkcctdV94VjwQxUubZ7zCTyG7Hsb1BWcsq",
+    "mint": "XBLKLmxhADMVX3DsdwymvHyYbBYfKa5eKhtpiQ2kj7T",
+    "xntBack": 3.191187117,
+    "cost": 3,
+    "pnlPct": 6.37,
+    "sig": "42XWyBwDe8qGJmybRhM1edMVHnPgTjaUcZmimn5iSK6oELwL7moKE9AsYif5iTDfLV3xUxucTd7H3Eudip7T7CXU",
+    "at": "2026-11-06T20:01:38.207Z"
    }
   ],
-  "realised_xnt": 8.55572
+  "realised_xnt": 8.74691
  },
  "last_apply": "unchanged"
 }
