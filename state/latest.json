@@ -1,5 +1,5 @@
 {
- "at": "2026-11-08T04:35:06Z",
+ "at": "2026-11-08T05:05:05Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -32,10 +32,16 @@
    "net": -1.01685
   },
   "XPL": {
-   "fills": 4,
+   "fills": 3,
    "closed_pnl": -0.64668,
-   "fees": 0.01614,
-   "net": -0.66282
+   "fees": 0.01119,
+   "net": -0.65788
+  },
+  "AVAX": {
+   "fills": 4,
+   "closed_pnl": -0.61114,
+   "fees": 0.01593,
+   "net": -0.62708
   },
   "ARB": {
    "fills": 1,
@@ -48,12 +54,6 @@
    "closed_pnl": -0.3354,
    "fees": 0.06047,
    "net": -0.39587
-  },
-  "AVAX": {
-   "fills": 5,
-   "closed_pnl": -0.16992,
-   "fees": 0.01765,
-   "net": -0.18758
   },
   "ETH": {
    "fills": 4,
