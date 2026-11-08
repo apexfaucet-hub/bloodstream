@@ -1,5 +1,5 @@
 {
- "at": "2026-11-08T01:35:03Z",
+ "at": "2026-11-08T02:05:03Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -551,28 +551,9 @@
     "entry": 1.6782375741479561e-06,
     "sig": "4Xnq51YdkuJyANv3NAS7SNdvASSfXKZfN8PFat8LHd59UewtsVCDu87achR1Ubhfar9aJJjpyzKTyRLeHmxUqV3P",
     "poolXnt": 7588846423581
-   },
-   "7deZorr98nLdZhpmSdUgu8WY4NAjSpeLDGxHzaTAxrUg": {
-    "mint": "EpKRiKwbCKZDZE9pgH48HcXqQkBunXUK5axC1EHUBtPN",
-    "tokRaw": 229894771031,
-    "costLamports": 3000000000,
-    "t": 1793842596852,
-    "entry": 0.013013730876040087,
-    "sig": "4vHhnLpERXQSRrRcqq4HooLLxH3m3aBUc19c9WaZaVW4ZJgWHVGWAeRKBKNtg7rFmP68Uu6bu9riffzjeuFSxuUw",
-    "poolXnt": 12586357416118
    }
   },
   "last_trades": [
-   {
-    "event": "buy",
-    "pool": "VmZfZnHzFTKSf19ZvAxa4duzChve3JYHVCPq1FvezhN",
-    "mint": "81LkybSBLvXYMTF6azXohUWyBvDGUXznm4yiXPkYkDTJ",
-    "xnt": 3,
-    "dipPct": 11.44,
-    "price": 1.656478623042303e-06,
-    "sig": "v1LrTjzGGbKEBU29AFMoRj2m4egAweviwfPh913r38RGaChkRLhWkJvu3G1bW2d5o8hCkxCjQaCVnhKBWtk2peQ",
-    "at": "2026-11-02T21:36:30.369Z"
-   },
    {
     "event": "start",
     "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
@@ -786,9 +767,20 @@
     "pnlPct": 6.37,
     "sig": "42XWyBwDe8qGJmybRhM1edMVHnPgTjaUcZmimn5iSK6oELwL7moKE9AsYif5iTDfLV3xUxucTd7H3Eudip7T7CXU",
     "at": "2026-11-06T20:01:38.207Z"
+   },
+   {
+    "event": "sell",
+    "why": "tp",
+    "pool": "7deZorr98nLdZhpmSdUgu8WY4NAjSpeLDGxHzaTAxrUg",
+    "mint": "EpKRiKwbCKZDZE9pgH48HcXqQkBunXUK5axC1EHUBtPN",
+    "xntBack": 3.236558243,
+    "cost": 3,
+    "pnlPct": 7.89,
+    "sig": "2HxmiR9WvnHZoFMCRQqKNRQpyvJEtkY3MLtSeyFexseRKrovWGktDQcoYLRnqQrSdQeGvg46RsxWXZJJPxNKooV7",
+    "at": "2026-11-08T01:51:35.007Z"
    }
   ],
-  "realised_xnt": 8.74691
+  "realised_xnt": 8.98347
  },
  "last_apply": "unchanged"
 }
