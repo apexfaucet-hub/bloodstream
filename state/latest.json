@@ -1,5 +1,5 @@
 {
- "at": "2026-11-09T19:05:07Z",
+ "at": "2026-11-09T19:35:08Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -13,42 +13,6 @@
   "fills": 0
  },
  "per_coin_7d": {
-  "PYTH": {
-   "fills": 1,
-   "closed_pnl": -1.62397,
-   "fees": 0.00425,
-   "net": -1.62822
-  },
-  "kBONK": {
-   "fills": 1,
-   "closed_pnl": -1.47318,
-   "fees": 0.00428,
-   "net": -1.47746
-  },
-  "XPL": {
-   "fills": 1,
-   "closed_pnl": -1.08651,
-   "fees": 0.00449,
-   "net": -1.091
-  },
-  "WLD": {
-   "fills": 3,
-   "closed_pnl": -1.00604,
-   "fees": 0.01081,
-   "net": -1.01685
-  },
-  "AVAX": {
-   "fills": 3,
-   "closed_pnl": -0.61114,
-   "fees": 0.01096,
-   "net": -0.62211
-  },
-  "ARB": {
-   "fills": 1,
-   "closed_pnl": -0.47053,
-   "fees": 0.00474,
-   "net": -0.47527
-  },
   "RUNE": {
    "fills": 24,
    "closed_pnl": -0.3354,
@@ -103,11 +67,23 @@
    "fees": 0.00308,
    "net": -0.00578
   },
+  "AVAX": {
+   "fills": 2,
+   "closed_pnl": 0.00348,
+   "fees": 0.00628,
+   "net": -0.0028
+  },
   "DOT": {
    "fills": 4,
    "closed_pnl": 0.01398,
    "fees": 0.00942,
    "net": 0.00456
+  },
+  "WLD": {
+   "fills": 2,
+   "closed_pnl": 0.02077,
+   "fees": 0.00631,
+   "net": 0.01447
   },
   "SUI": {
    "fills": 2,
@@ -158,10 +134,10 @@
    "net": 0.07155
   },
   "ETHFI": {
-   "fills": 2,
+   "fills": 1,
    "closed_pnl": 0.12288,
-   "fees": 0.00996,
-   "net": 0.11292
+   "fees": 0.00501,
+   "net": 0.11787
   }
  },
  "scalper_exits_recent": {
