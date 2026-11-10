@@ -1,5 +1,5 @@
 {
- "at": "2026-11-10T05:35:07Z",
+ "at": "2026-11-10T06:05:05Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -544,27 +544,6 @@
   "last_trades": [
    {
     "event": "buy",
-    "pool": "F2hs1Tbc5CHk4vcda6UTQtaN8ZrbhuTt15MCPgDveU6G",
-    "mint": "y1KEaaWVoEfX2gH7X1Vougmc9yD1Bi2c9VHeD7bDnNC",
-    "xnt": 3,
-    "dipPct": 46.86,
-    "price": 3.819136264644436e-10,
-    "sig": "2ePn8ajgBmUNxipKEGgk3UTK5ENsgmDeoJUXsG6B816KVpynazyKye81poZu5LPXtDXrJiJw8kmGufZZT1xNyQiC",
-    "at": "2026-11-04T00:49:10.463Z"
-   },
-   {
-    "event": "sell",
-    "why": "tp",
-    "pool": "F2hs1Tbc5CHk4vcda6UTQtaN8ZrbhuTt15MCPgDveU6G",
-    "mint": "y1KEaaWVoEfX2gH7X1Vougmc9yD1Bi2c9VHeD7bDnNC",
-    "xntBack": 4.06573368,
-    "cost": 3.432604246,
-    "pnlPct": 18.44,
-    "sig": "5cerdfopQz9MKD7q7KdBzrEF77YWNFjLcA5WGmQqqG6X6Jaeeefbh3ASm51whVuahp8J7gpvkX5rac7dRQsKPxtv",
-    "at": "2026-11-04T04:06:02.957Z"
-   },
-   {
-    "event": "buy",
     "pool": "GdKcXA1Q78Bquke5jyZUR1C8YMN6VYT9AUheN1RwKLfe",
     "mint": "AnvCcvnY4DLRW42EZBEAb1QeU6Pt9aab3r3D75GtgJUU",
     "xnt": 3,
@@ -755,9 +734,39 @@
     "price": 9.005889822502618e-11,
     "sig": "3Y6DS2J3MVq2YPcVEEXa5NM1KV7dVoSRaFekjNzS1zn7CKhB4RnZxDKcCqAP3sedQREHmbAxoB3A1gXL8FE5SHRJ",
     "at": "2026-11-10T05:05:19.749Z"
+   },
+   {
+    "event": "start",
+    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
+    "pools": 24,
+    "rule": {
+     "BUY_XNT": 3,
+     "MAX_POS": 12,
+     "RESERVE_XNT": 4,
+     "DIP_PCT": 8,
+     "TP_PCT": 8,
+     "SL_PCT": 100,
+     "MAX_HOLD_H": 720
+    },
+    "at": "2026-11-10T05:57:17.334Z"
+   },
+   {
+    "event": "start",
+    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
+    "pools": 24,
+    "rule": {
+     "BUY_XNT": 3,
+     "MAX_POS": 12,
+     "RESERVE_XNT": 4,
+     "DIP_PCT": 8,
+     "TP_PCT": 8,
+     "SL_PCT": 100,
+     "MAX_HOLD_H": 720
+    },
+    "at": "2026-11-10T06:02:42.356Z"
    }
   ],
-  "realised_xnt": 1.2174
+  "realised_xnt": 0.58427
  },
  "last_apply": "unchanged"
 }
