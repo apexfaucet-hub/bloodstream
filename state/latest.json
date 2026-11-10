@@ -1,5 +1,5 @@
 {
- "at": "2026-11-10T11:05:05Z",
+ "at": "2026-11-10T11:35:08Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -121,17 +121,17 @@
    "fees": 0.03194,
    "net": 0.04863
   },
-  "STRK": {
-   "fills": 4,
-   "closed_pnl": 0.08993,
-   "fees": 0.01974,
-   "net": 0.07019
-  },
   "UNI": {
    "fills": 8,
    "closed_pnl": 0.08722,
    "fees": 0.01567,
    "net": 0.07155
+  },
+  "STRK": {
+   "fills": 2,
+   "closed_pnl": 0.08217,
+   "fees": 0.00985,
+   "net": 0.07232
   }
  },
  "scalper_exits_recent": {
