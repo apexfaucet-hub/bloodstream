@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T10:05:03Z",
+ "at": "2026-11-11T10:35:04Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -20,10 +20,10 @@
    "net": -0.28457
   },
   "ETH": {
-   "fills": 4,
-   "closed_pnl": -0.12699,
-   "fees": 0.00958,
-   "net": -0.13657
+   "fills": 2,
+   "closed_pnl": -0.14355,
+   "fees": 0.00637,
+   "net": -0.14992
   },
   "FARTCOIN": {
    "fills": 4,
@@ -534,17 +534,6 @@
   },
   "last_trades": [
    {
-    "event": "sell",
-    "why": "tp",
-    "pool": "VmZfZnHzFTKSf19ZvAxa4duzChve3JYHVCPq1FvezhN",
-    "mint": "81LkybSBLvXYMTF6azXohUWyBvDGUXznm4yiXPkYkDTJ",
-    "xntBack": 3.452349249,
-    "cost": 3.125931373,
-    "pnlPct": 10.44,
-    "sig": "4Kzqgkh6vaTMGYNYDDuooJyTVvi2VGGR12YUpmhAFRGX9j3CZhEaNsV4yvDUdKAdqiCmRin6EAXfmbLkrN9Um6PF",
-    "at": "2026-11-04T17:54:04.121Z"
-   },
-   {
     "event": "buy",
     "pool": "VmZfZnHzFTKSf19ZvAxa4duzChve3JYHVCPq1FvezhN",
     "mint": "81LkybSBLvXYMTF6azXohUWyBvDGUXznm4yiXPkYkDTJ",
@@ -756,9 +745,24 @@
     "price": 7.427441216195989e-05,
     "sig": "2xFuKYTH5t4mDUZDE4mXVkugncVvRa1pGYsa3ThKCPbErr1vGXXmeWUQx5XpmHfGy6eHeVwE3vPL7pyQdb8KHY64",
     "at": "2026-11-11T09:02:27.352Z"
+   },
+   {
+    "event": "start",
+    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
+    "pools": 24,
+    "rule": {
+     "BUY_XNT": 3,
+     "MAX_POS": 12,
+     "RESERVE_XNT": 4,
+     "DIP_PCT": 8,
+     "TP_PCT": 8,
+     "SL_PCT": 100,
+     "MAX_HOLD_H": 720
+    },
+    "at": "2026-11-11T10:05:13.014Z"
    }
   ],
-  "realised_xnt": 1.17504
+  "realised_xnt": 0.84862
  },
  "last_apply": "unchanged"
 }
