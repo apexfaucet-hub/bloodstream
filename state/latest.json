@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T14:35:04Z",
+ "at": "2026-11-11T15:05:04Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -19,17 +19,17 @@
    "fees": 0.04426,
    "net": -0.25622
   },
-  "ETH": {
-   "fills": 2,
-   "closed_pnl": -0.14355,
-   "fees": 0.00637,
-   "net": -0.14992
-  },
   "FARTCOIN": {
-   "fills": 4,
+   "fills": 3,
    "closed_pnl": -0.07246,
-   "fees": 0.00631,
-   "net": -0.07877
+   "fees": 0.00474,
+   "net": -0.0772
+  },
+  "ADA": {
+   "fills": 4,
+   "closed_pnl": -0.0649,
+   "fees": 0.00951,
+   "net": -0.07441
   },
   "LIT": {
    "fills": 6,
@@ -37,11 +37,11 @@
    "fees": 0.01242,
    "net": -0.04512
   },
-  "ADA": {
-   "fills": 6,
-   "closed_pnl": -0.02116,
-   "fees": 0.01268,
-   "net": -0.03384
+  "WLFI": {
+   "fills": 8,
+   "closed_pnl": 0.00015,
+   "fees": 0.01573,
+   "net": -0.01558
   },
   "BTC": {
    "fills": 2,
@@ -55,12 +55,6 @@
    "fees": 0.00314,
    "net": -0.01456
   },
-  "UNI": {
-   "fills": 4,
-   "closed_pnl": 0.0035,
-   "fees": 0.00949,
-   "net": -0.00599
-  },
   "LINK": {
    "fills": 2,
    "closed_pnl": -0.0027,
@@ -73,11 +67,11 @@
    "fees": 0.00942,
    "net": 0.00456
   },
-  "WLFI": {
-   "fills": 10,
-   "closed_pnl": 0.03892,
-   "fees": 0.01889,
-   "net": 0.02003
+  "UNI": {
+   "fills": 2,
+   "closed_pnl": 0.0259,
+   "fees": 0.00321,
+   "net": 0.02269
   },
   "SUI": {
    "fills": 2,
