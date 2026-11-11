@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T13:35:04Z",
+ "at": "2026-11-11T14:05:03Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -98,10 +98,10 @@
    "net": 0.03448
   },
   "UNI": {
-   "fills": 6,
+   "fills": 5,
    "closed_pnl": 0.05572,
-   "fees": 0.01255,
-   "net": 0.04317
+   "fees": 0.01102,
+   "net": 0.0447
   },
   "XRP": {
    "fills": 4,
