@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T15:05:04Z",
+ "at": "2026-11-11T15:35:07Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -18,12 +18,6 @@
    "closed_pnl": -0.21197,
    "fees": 0.04426,
    "net": -0.25622
-  },
-  "FARTCOIN": {
-   "fills": 3,
-   "closed_pnl": -0.07246,
-   "fees": 0.00474,
-   "net": -0.0772
   },
   "ADA": {
    "fills": 4,
@@ -62,10 +56,10 @@
    "net": -0.00578
   },
   "DOT": {
-   "fills": 4,
-   "closed_pnl": 0.01398,
-   "fees": 0.00942,
-   "net": 0.00456
+   "fills": 2,
+   "closed_pnl": 0.01452,
+   "fees": 0.00628,
+   "net": 0.00824
   },
   "UNI": {
    "fills": 2,
