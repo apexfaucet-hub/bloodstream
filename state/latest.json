@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T12:05:03Z",
+ "at": "2026-11-11T12:35:04Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -31,17 +31,17 @@
    "fees": 0.00631,
    "net": -0.07877
   },
-  "ADA": {
-   "fills": 7,
-   "closed_pnl": -0.04316,
-   "fees": 0.01426,
-   "net": -0.05742
-  },
   "LIT": {
    "fills": 6,
    "closed_pnl": -0.0327,
    "fees": 0.01242,
    "net": -0.04512
+  },
+  "ADA": {
+   "fills": 6,
+   "closed_pnl": -0.02116,
+   "fees": 0.01268,
+   "net": -0.03384
   },
   "BTC": {
    "fills": 2,
@@ -66,12 +66,6 @@
    "closed_pnl": 0.01398,
    "fees": 0.00942,
    "net": 0.00456
-  },
-  "WLD": {
-   "fills": 2,
-   "closed_pnl": 0.02077,
-   "fees": 0.00631,
-   "net": 0.01447
   },
   "WLFI": {
    "fills": 10,
@@ -103,17 +97,17 @@
    "fees": 0.00314,
    "net": 0.03448
   },
+  "UNI": {
+   "fills": 6,
+   "closed_pnl": 0.05572,
+   "fees": 0.01255,
+   "net": 0.04317
+  },
   "XRP": {
    "fills": 4,
    "closed_pnl": 0.0536,
    "fees": 0.00625,
    "net": 0.04735
-  },
-  "UNI": {
-   "fills": 8,
-   "closed_pnl": 0.08722,
-   "fees": 0.01567,
-   "net": 0.07155
   }
  },
  "scalper_exits_recent": {
