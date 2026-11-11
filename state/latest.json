@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T19:35:03Z",
+ "at": "2026-11-11T20:05:05Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -49,6 +49,12 @@
    "fees": 0.00628,
    "net": 0.00824
   },
+  "WLFI": {
+   "fills": 2,
+   "closed_pnl": 0.02046,
+   "fees": 0.00315,
+   "net": 0.01731
+  },
   "XRP": {
    "fills": 2,
    "closed_pnl": 0.0208,
@@ -62,16 +68,10 @@
    "net": 0.02305
   },
   "AAVE": {
-   "fills": 2,
+   "fills": 1,
    "closed_pnl": 0.0264,
-   "fees": 0.00312,
-   "net": 0.02328
-  },
-  "WLFI": {
-   "fills": 4,
-   "closed_pnl": 0.03112,
-   "fees": 0.00629,
-   "net": 0.02482
+   "fees": 0.00156,
+   "net": 0.02484
   },
   "NEAR": {
    "fills": 2,
