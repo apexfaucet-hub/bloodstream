@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T11:35:06Z",
+ "at": "2026-11-11T12:05:03Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -32,10 +32,10 @@
    "net": -0.07877
   },
   "ADA": {
-   "fills": 8,
+   "fills": 7,
    "closed_pnl": -0.04316,
-   "fees": 0.01584,
-   "net": -0.059
+   "fees": 0.01426,
+   "net": -0.05742
   },
   "LIT": {
    "fills": 6,
@@ -97,17 +97,17 @@
    "fees": 0.00316,
    "net": 0.03064
   },
-  "XRP": {
-   "fills": 6,
-   "closed_pnl": 0.04,
-   "fees": 0.00935,
-   "net": 0.03065
-  },
   "ENA": {
    "fills": 2,
    "closed_pnl": 0.03762,
    "fees": 0.00314,
    "net": 0.03448
+  },
+  "XRP": {
+   "fills": 4,
+   "closed_pnl": 0.0536,
+   "fees": 0.00625,
+   "net": 0.04735
   },
   "UNI": {
    "fills": 8,
