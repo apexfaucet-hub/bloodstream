@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T22:35:02Z",
+ "at": "2026-11-11T23:05:02Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -18,12 +18,6 @@
    "closed_pnl": -0.22897,
    "fees": 0.02221,
    "net": -0.25118
-  },
-  "ADA": {
-   "fills": 2,
-   "closed_pnl": -0.02332,
-   "fees": 0.00317,
-   "net": -0.02649
   },
   "MON": {
    "fills": 2,
@@ -49,23 +43,11 @@
    "fees": 0.00315,
    "net": 0.01731
   },
-  "SUI": {
-   "fills": 2,
-   "closed_pnl": 0.02621,
-   "fees": 0.00315,
-   "net": 0.02305
-  },
   "NEAR": {
    "fills": 2,
    "closed_pnl": 0.0338,
    "fees": 0.00316,
    "net": 0.03064
-  },
-  "ENA": {
-   "fills": 2,
-   "closed_pnl": 0.03762,
-   "fees": 0.00314,
-   "net": 0.03448
   }
  },
  "scalper_exits_recent": {
