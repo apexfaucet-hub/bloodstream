@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T19:05:04Z",
+ "at": "2026-11-11T19:35:03Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -49,6 +49,12 @@
    "fees": 0.00628,
    "net": 0.00824
   },
+  "XRP": {
+   "fills": 2,
+   "closed_pnl": 0.0208,
+   "fees": 0.00313,
+   "net": 0.01767
+  },
   "SUI": {
    "fills": 2,
    "closed_pnl": 0.02621,
@@ -78,12 +84,6 @@
    "closed_pnl": 0.03762,
    "fees": 0.00314,
    "net": 0.03448
-  },
-  "XRP": {
-   "fills": 3,
-   "closed_pnl": 0.0536,
-   "fees": 0.00469,
-   "net": 0.04891
   }
  },
  "scalper_exits_recent": {
