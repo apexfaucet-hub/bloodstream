@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T20:05:05Z",
+ "at": "2026-11-11T20:35:05Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -14,10 +14,10 @@
  },
  "per_coin_7d": {
   "RUNE": {
-   "fills": 16,
-   "closed_pnl": -0.22656,
-   "fees": 0.03797,
-   "net": -0.26453
+   "fills": 14,
+   "closed_pnl": -0.21782,
+   "fees": 0.03165,
+   "net": -0.24946
   },
   "ADA": {
    "fills": 2,
@@ -66,12 +66,6 @@
    "closed_pnl": 0.02621,
    "fees": 0.00315,
    "net": 0.02305
-  },
-  "AAVE": {
-   "fills": 1,
-   "closed_pnl": 0.0264,
-   "fees": 0.00156,
-   "net": 0.02484
   },
   "NEAR": {
    "fills": 2,
