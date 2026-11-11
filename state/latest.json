@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T20:35:05Z",
+ "at": "2026-11-11T21:05:02Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -14,10 +14,10 @@
  },
  "per_coin_7d": {
   "RUNE": {
-   "fills": 14,
-   "closed_pnl": -0.21782,
-   "fees": 0.03165,
-   "net": -0.24946
+   "fills": 10,
+   "closed_pnl": -0.22897,
+   "fees": 0.02221,
+   "net": -0.25118
   },
   "ADA": {
    "fills": 2,
@@ -54,12 +54,6 @@
    "closed_pnl": 0.02046,
    "fees": 0.00315,
    "net": 0.01731
-  },
-  "XRP": {
-   "fills": 2,
-   "closed_pnl": 0.0208,
-   "fees": 0.00313,
-   "net": 0.01767
   },
   "SUI": {
    "fills": 2,
