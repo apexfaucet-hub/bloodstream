@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T15:35:07Z",
+ "at": "2026-11-11T16:05:07Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -25,17 +25,17 @@
    "fees": 0.00951,
    "net": -0.07441
   },
+  "WLFI": {
+   "fills": 6,
+   "closed_pnl": -0.04124,
+   "fees": 0.00942,
+   "net": -0.05066
+  },
   "LIT": {
    "fills": 6,
    "closed_pnl": -0.0327,
    "fees": 0.01242,
    "net": -0.04512
-  },
-  "WLFI": {
-   "fills": 8,
-   "closed_pnl": 0.00015,
-   "fees": 0.01573,
-   "net": -0.01558
   },
   "BTC": {
    "fills": 2,
