@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T10:35:04Z",
+ "at": "2026-11-11T11:05:06Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -14,10 +14,10 @@
  },
  "per_coin_7d": {
   "RUNE": {
-   "fills": 22,
-   "closed_pnl": -0.23404,
-   "fees": 0.05053,
-   "net": -0.28457
+   "fills": 20,
+   "closed_pnl": -0.21197,
+   "fees": 0.04426,
+   "net": -0.25622
   },
   "ETH": {
    "fills": 2,
@@ -79,6 +79,12 @@
    "fees": 0.00631,
    "net": 0.01447
   },
+  "WLFI": {
+   "fills": 10,
+   "closed_pnl": 0.03892,
+   "fees": 0.01889,
+   "net": 0.02003
+  },
   "SUI": {
    "fills": 2,
    "closed_pnl": 0.02621,
@@ -102,12 +108,6 @@
    "closed_pnl": 0.04,
    "fees": 0.00935,
    "net": 0.03065
-  },
-  "WLFI": {
-   "fills": 12,
-   "closed_pnl": 0.05598,
-   "fees": 0.02204,
-   "net": 0.03394
   },
   "ENA": {
    "fills": 2,
