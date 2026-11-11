@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T12:35:04Z",
+ "at": "2026-11-11T13:05:05Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -133,15 +133,6 @@
   }
  },
  "scalper_last_events": [
-  {
-   "event": "entry-resting",
-   "coin": "MON",
-   "side": "long",
-   "px": 0.01837,
-   "sz": 571.0,
-   "lev": 4,
-   "at": "2026-11-04T23:55:47Z"
-  },
   {
    "event": "entry",
    "coin": "MON",
@@ -452,6 +443,20 @@
     "lev": 4
    },
    "at": "2026-11-10T15:40:19Z"
+  },
+  {
+   "event": "start",
+   "coins": 40,
+   "floor": 2.5,
+   "rule": {
+    "z": 9.0,
+    "tp": 0.65,
+    "sl": 3.0,
+    "hold_s": 300.0,
+    "notional": 10.5,
+    "lev": 4
+   },
+   "at": "2026-11-11T12:36:28Z"
   }
  ],
  "scalper_params_now": {
@@ -521,16 +526,6 @@
    }
   },
   "last_trades": [
-   {
-    "event": "buy",
-    "pool": "VmZfZnHzFTKSf19ZvAxa4duzChve3JYHVCPq1FvezhN",
-    "mint": "81LkybSBLvXYMTF6azXohUWyBvDGUXznm4yiXPkYkDTJ",
-    "xnt": 3,
-    "dipPct": 9.63,
-    "price": 1.6782375741479561e-06,
-    "sig": "4Xnq51YdkuJyANv3NAS7SNdvASSfXKZfN8PFat8LHd59UewtsVCDu87achR1Ubhfar9aJJjpyzKTyRLeHmxUqV3P",
-    "at": "2026-11-04T18:13:09.438Z"
-   },
    {
     "event": "buy",
     "pool": "7deZorr98nLdZhpmSdUgu8WY4NAjSpeLDGxHzaTAxrUg",
@@ -748,6 +743,21 @@
      "MAX_HOLD_H": 720
     },
     "at": "2026-11-11T10:05:13.014Z"
+   },
+   {
+    "event": "start",
+    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
+    "pools": 24,
+    "rule": {
+     "BUY_XNT": 3,
+     "MAX_POS": 12,
+     "RESERVE_XNT": 4,
+     "DIP_PCT": 8,
+     "TP_PCT": 8,
+     "SL_PCT": 100,
+     "MAX_HOLD_H": 720
+    },
+    "at": "2026-11-11T12:35:49.435Z"
    }
   ],
   "realised_xnt": 0.84862
