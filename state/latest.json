@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T01:35:03Z",
+ "at": "2026-11-12T02:05:03Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -12,20 +12,7 @@
   "fees": 0.0,
   "fills": 0
  },
- "per_coin_7d": {
-  "RUNE": {
-   "fills": 6,
-   "closed_pnl": -0.21837,
-   "fees": 0.0159,
-   "net": -0.23427
-  },
-  "NEAR": {
-   "fills": 2,
-   "closed_pnl": 0.0338,
-   "fees": 0.00316,
-   "net": 0.03064
-  }
- },
+ "per_coin_7d": {},
  "scalper_exits_recent": {
   "time-maker": {
    "n": 17,
