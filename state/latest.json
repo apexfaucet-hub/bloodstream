@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T00:05:03Z",
+ "at": "2026-11-12T00:35:06Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -14,16 +14,10 @@
  },
  "per_coin_7d": {
   "RUNE": {
-   "fills": 10,
-   "closed_pnl": -0.22897,
-   "fees": 0.02221,
-   "net": -0.25118
-  },
-  "LINK": {
-   "fills": 1,
-   "closed_pnl": -0.0027,
-   "fees": 0.00154,
-   "net": -0.00424
+   "fills": 6,
+   "closed_pnl": -0.21837,
+   "fees": 0.0159,
+   "net": -0.23427
   },
   "DOT": {
    "fills": 2,
