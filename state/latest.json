@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T23:35:07Z",
+ "at": "2026-11-12T00:05:03Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -19,17 +19,11 @@
    "fees": 0.02221,
    "net": -0.25118
   },
-  "MON": {
-   "fills": 2,
-   "closed_pnl": -0.01142,
-   "fees": 0.00314,
-   "net": -0.01456
-  },
   "LINK": {
-   "fills": 2,
+   "fills": 1,
    "closed_pnl": -0.0027,
-   "fees": 0.00308,
-   "net": -0.00578
+   "fees": 0.00154,
+   "net": -0.00424
   },
   "DOT": {
    "fills": 2,
