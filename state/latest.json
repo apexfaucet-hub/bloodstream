@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13T19:35:10Z",
+ "at": "2026-11-13T20:05:02Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -438,36 +438,15 @@
    },
    "7iWbFz8YRuDeL8wqBRTCJp8NrbRPnmCsF8833nkEXUH5": {
     "mint": "2HsCLiaXm2efKzTfLD5hcVeiMU3txS7xFCQtGsmDzWLZ",
-    "tokRaw": 84737560,
-    "costLamports": 2294879910,
-    "t": 1794596769070,
-    "entry": 0.026616252837110697,
-    "sig": "5pptm6b4KJ7jsAN2FeJxmh32eUtb8tk2vxZRrA4oDC4czJvJkc1jg2SZ9DM16xVD4qmPMHXzF21svFtK73g9qRSd",
-    "poolXnt": 152991994030
+    "tokRaw": 69339041,
+    "costLamports": 2799938260,
+    "t": 1794599973419,
+    "entry": 0.03968565292397797,
+    "sig": "5AAztdQJcPyfxomvbA1jT7rtR3eTSpjiD9ETCknbWvrXZa3MDPVj9GvrXaoHqN67XyjMvjdeQRvXfCoJHFxb17d4",
+    "poolXnt": 186662550716
    }
   },
   "last_trades": [
-   {
-    "event": "buy",
-    "pool": "CJywFfsfgoo5GS4KeAtFfb1hqQbJuBRuTi3wD6tGP59u",
-    "mint": "6To4f6r9X3WFsLwWLFdj7ju8BNquzZwupVHUc8oS5pgP",
-    "xnt": 3,
-    "dipPct": 16.84,
-    "price": 1.6257811607172946e-06,
-    "sig": "3wv6nhcuodC4aGf2cUae8vsw23tzBjbtj5cYpHh31D8BjZiwXcnZrowWhwpaomFLZhE7hYkSsvAi8HRgwdktiPsg",
-    "at": "2026-11-09T20:55:27.973Z"
-   },
-   {
-    "event": "sell",
-    "why": "rug",
-    "pool": "F2hs1Tbc5CHk4vcda6UTQtaN8ZrbhuTt15MCPgDveU6G",
-    "mint": "y1KEaaWVoEfX2gH7X1Vougmc9yD1Bi2c9VHeD7bDnNC",
-    "xntBack": 1.591636072,
-    "cost": 3.096439819,
-    "pnlPct": -48.6,
-    "sig": "hryJTMubLTkCmwf2jF9SQP5iXHbJBGX3FFZ4RecjdYexFjaA2CwU9WhvYntsUAK14pcbFPBwPFjy8d6S447enFz",
-    "at": "2026-11-10T04:12:27.766Z"
-   },
    {
     "event": "buy",
     "pool": "F2hs1Tbc5CHk4vcda6UTQtaN8ZrbhuTt15MCPgDveU6G",
@@ -687,9 +666,30 @@
     "price": 0.026616252837110697,
     "sig": "5pptm6b4KJ7jsAN2FeJxmh32eUtb8tk2vxZRrA4oDC4czJvJkc1jg2SZ9DM16xVD4qmPMHXzF21svFtK73g9qRSd",
     "at": "2026-11-13T19:06:09.750Z"
+   },
+   {
+    "event": "sell",
+    "why": "tp",
+    "pool": "7iWbFz8YRuDeL8wqBRTCJp8NrbRPnmCsF8833nkEXUH5",
+    "mint": "2HsCLiaXm2efKzTfLD5hcVeiMU3txS7xFCQtGsmDzWLZ",
+    "xntBack": 3.450017985,
+    "cost": 2.29487991,
+    "pnlPct": 50.34,
+    "sig": "2JxxeBUf9uGoEq1MGKD4vgm12odBp8vSxMUq9bSYHH8G4hRg53dLrHGz6iWnG7Dy35ft9SD4MTT14dX55PLRhGbK",
+    "at": "2026-11-13T19:59:24.037Z"
+   },
+   {
+    "event": "buy",
+    "pool": "7iWbFz8YRuDeL8wqBRTCJp8NrbRPnmCsF8833nkEXUH5",
+    "mint": "2HsCLiaXm2efKzTfLD5hcVeiMU3txS7xFCQtGsmDzWLZ",
+    "xnt": 2.7999,
+    "dipPct": 17.98,
+    "price": 0.03968565292397797,
+    "sig": "5AAztdQJcPyfxomvbA1jT7rtR3eTSpjiD9ETCknbWvrXZa3MDPVj9GvrXaoHqN67XyjMvjdeQRvXfCoJHFxb17d4",
+    "at": "2026-11-13T19:59:33.993Z"
    }
   ],
-  "realised_xnt": 0.11261
+  "realised_xnt": 2.77255
  },
  "last_apply": "unchanged"
 }
