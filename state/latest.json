@@ -1,5 +1,5 @@
 {
- "at": "2026-11-14T10:05:06Z",
+ "at": "2026-11-14T10:35:07Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
   "account_value": 3.040433,
@@ -388,7 +388,7 @@
   ],
   "why": "Floor is $2.50. Size may rise when the account can margin it."
  },
- "money_desk": "MONEY DESK 2026-11-14\nOutside income: 24 h $0.025 (~0.02 EUR), 7 d $0.275 from 19 payers (11 new), 30 d $1.027\nTop products 7 d: web-read $0.042 (3 payers), pay-safe-batch $0.03 (1 payers), page-extract $0.027 (3 payers), email-verify-bulk $0.027 (1 payers), arc-graveyard $0.025 (1 payers)\nCosts 7 d: spent outside $0, Arc faucet payouts $1.02 + gas $0.196. Net 7 d: $-0.941\nBazaar ranks: token verdict 7; base token verdict 2; decode transaction 3; web search not in top 20; honeypot check base 8; token price not in top 20\nExperiment post-verdict: no payers before or after: did not move money, try a different lever\nExperiment relist-all-cdp: too few payers to judge (1 -> 2): leave it as it is, no undo, no repeat\nExperiment listing-text: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment base-price: no payers before or after: did not move money, try a different lever\nExperiment multichain-verdict: no payers before or after: did not move money, try a different lever\nExperiment payai-listing: too few payers to judge (3 -> 1): leave it as it is, no undo, no repeat\nExperiment chat-listing-words: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment new-tools-listing-words: no payers before or after: did not move money, try a different lever\nExperiment prediction-tools: no payers before or after: did not move money, try a different lever\nExperiment rwa-tools: no payers before or after: did not move money, try a different lever\nExperiment web-listing-words: MORE payers after (6 -> 10): keep, try the same move elsewhere\nExperiment prediction-names-fit-32: no payers before or after: did not move money, try a different lever\nExperiment gas-refill-target-045: no payers before or after: did not move money, try a different lever\nExperiment funding-gap: no payers before or after: did not move money, try a different lever\nExperiment funding-gap-premium: too few payers to judge (0 -> 1): leave it as it is, no undo, no repeat\nExperiment token-safety-words: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment named-the-unnamed-6: running (judge on 2026-11-17)\nExperiment email-listing-words: running (judge on 2026-11-19)\nExperiment bazaar-seo-2026-11-13: running (judge on 2026-11-20)\nExperiment defi-dex-suite-2026-11-14: running (judge on 2026-11-20)\nExperiment html-markdown-seo-2026-11-14: running (judge on 2026-11-21)\nExperiment hl-sol-trend-dip-2026-11-14: running (judge on 2026-11-21)\nTrading 24 h, Hyperliquid (all bots, HL fills): net $0 after fees (~0.00 EUR), 0 closes, 0 wins\nTrading 24 h, X1 dip trader: 3 sells, realised 1.729 XNT (before tx fees)\nFree capital: $1.41. Hyperliquid carry (no price risk): PUMP 11% APR ($0.0002/day), XPL 11% APR ($0.0002/day), ZEC 11% APR ($0.0002/day)\nArc launches: 79.8% lost their exit (15333 settled)\nBusiest paid agent markets: www.ax1.vc 1107 payers $497.84/day; keyring-agent.blockchhub.link 51 payers $54.6/day; blockrun.ai 34 payers $32",
+ "money_desk": "MONEY DESK 2026-11-14\nOutside income: 24 h $0.025 (~0.02 EUR), 7 d $0.275 from 19 payers (11 new), 30 d $1.019\nTop products 7 d: web-read $0.042 (3 payers), pay-safe-batch $0.03 (1 payers), page-extract $0.027 (3 payers), email-verify-bulk $0.027 (1 payers), arc-graveyard $0.025 (1 payers)\nCosts 7 d: spent outside $0, Arc faucet payouts $1.02 + gas $0.196. Net 7 d: $-0.941\nBazaar ranks: token verdict 7; base token verdict 2; decode transaction 3; web search not in top 20; honeypot check base 8; token price not in top 20\nExperiment post-verdict: no payers before or after: did not move money, try a different lever\nExperiment relist-all-cdp: too few payers to judge (1 -> 2): leave it as it is, no undo, no repeat\nExperiment listing-text: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment base-price: no payers before or after: did not move money, try a different lever\nExperiment multichain-verdict: no payers before or after: did not move money, try a different lever\nExperiment payai-listing: too few payers to judge (3 -> 1): leave it as it is, no undo, no repeat\nExperiment chat-listing-words: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment new-tools-listing-words: no payers before or after: did not move money, try a different lever\nExperiment prediction-tools: no payers before or after: did not move money, try a different lever\nExperiment rwa-tools: no payers before or after: did not move money, try a different lever\nExperiment web-listing-words: MORE payers after (6 -> 10): keep, try the same move elsewhere\nExperiment prediction-names-fit-32: no payers before or after: did not move money, try a different lever\nExperiment gas-refill-target-045: no payers before or after: did not move money, try a different lever\nExperiment funding-gap: no payers before or after: did not move money, try a different lever\nExperiment funding-gap-premium: too few payers to judge (0 -> 1): leave it as it is, no undo, no repeat\nExperiment token-safety-words: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment named-the-unnamed-6: running (judge on 2026-11-17)\nExperiment email-listing-words: running (judge on 2026-11-19)\nExperiment bazaar-seo-2026-11-13: running (judge on 2026-11-20)\nExperiment defi-dex-suite-2026-11-14: running (judge on 2026-11-20)\nExperiment html-markdown-seo-2026-11-14: running (judge on 2026-11-21)\nExperiment hl-sol-trend-dip-2026-11-14: running (judge on 2026-11-21)\nTrading 24 h, Hyperliquid (all bots, HL fills): net $0 after fees (~0.00 EUR), 0 closes, 0 wins\nTrading 24 h, X1 dip trader: 3 sells, realised 1.729 XNT (before tx fees)\nFree capital: $1.41. Hyperliquid carry (no price risk): PUMP 11% APR ($0.0002/day), XPL 11% APR ($0.0002/day), ZEC 11% APR ($0.0002/day)\nArc launches: 79.8% lost their exit (15333 settled)\nBusiest paid agent markets: www.ax1.vc 1107 payers $497.84/day; keyring-agent.blockchhub.link 51 payers $54.6/day; blockrun.ai 34 payers $32",
  "x1_dip_trader": {
   "open": {
    "VmZfZnHzFTKSf19ZvAxa4duzChve3JYHVCPq1FvezhN": {
@@ -456,21 +456,6 @@
    }
   },
   "last_trades": [
-   {
-    "event": "start",
-    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
-    "pools": 24,
-    "rule": {
-     "BUY_XNT": 3,
-     "MAX_POS": 12,
-     "RESERVE_XNT": 4,
-     "DIP_PCT": 8,
-     "TP_PCT": 8,
-     "SL_PCT": 100,
-     "MAX_HOLD_H": 720
-    },
-    "at": "2026-11-10T05:57:17.334Z"
-   },
    {
     "event": "start",
     "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
@@ -696,6 +681,22 @@
     "price": 0.0033494170593108366,
     "sig": "4A9uUV75fzNQG44NPLNLvTChkSUgXwW9amf3wugTcNweDa8JXcwzToG93j4ikv4S5cFYW1ETQp9owxmJ2rpkGkpf",
     "at": "2026-11-14T09:41:59.703Z"
+   },
+   {
+    "event": "start",
+    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
+    "pools": 23,
+    "rule": {
+     "BUY_XNT": 3,
+     "MAX_POS": 12,
+     "RESERVE_XNT": 4,
+     "DIP_PCT": 8,
+     "TP_PCT": 8,
+     "SL_PCT": 100,
+     "MAX_HOLD_H": 720,
+     "sizeMult": 1.25
+    },
+    "at": "2026-11-14T10:31:35.748Z"
    }
   ],
   "realised_xnt": 2.63591
