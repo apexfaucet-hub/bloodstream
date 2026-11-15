@@ -1,14 +1,14 @@
 {
- "at": "2026-11-15T23:05:04Z",
+ "at": "2026-11-15T23:35:05Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 3.02877,
+  "account_value": 2.95332,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.5",
     "entry": "7.3054",
-    "upnl": "-0.0081"
+    "upnl": "-0.08355"
    }
   ],
   "deposited_usdc": 8.974045,
