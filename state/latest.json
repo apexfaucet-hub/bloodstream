@@ -1,18 +1,32 @@
 {
- "at": "2026-11-15T12:05:02Z",
+ "at": "2026-11-15T12:35:03Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 3.040433,
-  "open_positions": [],
+  "account_value": 3.047502,
+  "open_positions": [
+   {
+    "coin": "AVAX",
+    "szi": "1.5",
+    "entry": "7.3054",
+    "upnl": "0.012"
+   }
+  ],
   "deposited_usdc": 8.974045,
   "floor_usdc": 2.5
  },
  "last_24h": {
   "closed_pnl": 0.0,
-  "fees": 0.0,
-  "fills": 0
+  "fees": 0.00493,
+  "fills": 1
  },
- "per_coin_7d": {},
+ "per_coin_7d": {
+  "AVAX": {
+   "fills": 1,
+   "closed_pnl": 0.0,
+   "fees": 0.00493,
+   "net": -0.00493
+  }
+ },
  "scalper_exits_recent": {
   "time-maker": {
    "n": 17,
@@ -448,16 +462,6 @@
   },
   "last_trades": [
    {
-    "event": "buy",
-    "pool": "GdKcXA1Q78Bquke5jyZUR1C8YMN6VYT9AUheN1RwKLfe",
-    "mint": "AnvCcvnY4DLRW42EZBEAb1QeU6Pt9aab3r3D75GtgJUU",
-    "xnt": 3,
-    "dipPct": 12.41,
-    "price": 7.427441216195989e-05,
-    "sig": "2xFuKYTH5t4mDUZDE4mXVkugncVvRa1pGYsa3ThKCPbErr1vGXXmeWUQx5XpmHfGy6eHeVwE3vPL7pyQdb8KHY64",
-    "at": "2026-11-11T09:02:27.352Z"
-   },
-   {
     "event": "start",
     "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
     "pools": 24,
@@ -704,6 +708,24 @@
      "sizeMult": 1.25
     },
     "at": "2026-11-15T11:01:26.220Z"
+   },
+   {
+    "event": "start",
+    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
+    "pools": 26,
+    "smartWallets": 16,
+    "smartPools": 4,
+    "rule": {
+     "BUY_XNT": 5,
+     "MAX_POS": 16,
+     "RESERVE_XNT": 4,
+     "DIP_PCT": 7,
+     "TP_PCT": 8,
+     "SL_PCT": 100,
+     "MAX_HOLD_H": 720,
+     "sizeMult": 1.25
+    },
+    "at": "2026-11-15T12:34:30.155Z"
    }
   ],
   "realised_xnt": 0.91069
