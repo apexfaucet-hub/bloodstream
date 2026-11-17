@@ -1,14 +1,14 @@
 {
- "at": "2026-11-17T18:05:09Z",
+ "at": "2026-11-17T18:35:05Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 2.716652,
+  "account_value": 2.743502,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.5",
     "entry": "7.3054",
-    "upnl": "-0.32295"
+    "upnl": "-0.2961"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -453,20 +453,20 @@
     "poolXnt": 2098515184836,
     "tpPct": 6.5,
     "tier": "deep"
+   },
+   "F2hs1Tbc5CHk4vcda6UTQtaN8ZrbhuTt15MCPgDveU6G": {
+    "mint": "y1KEaaWVoEfX2gH7X1Vougmc9yD1Bi2c9VHeD7bDnNC",
+    "tokRaw": 1389991261305258,
+    "costLamports": 21152630135,
+    "t": 1794940478812,
+    "entry": 1.5040735756848287e-10,
+    "sig": "4QdSmyP8pQwB1pRufX5hqN5ihTJ6rrjtB8xDbmkpCPkvVdLcH91sNQmXMeUPjc7buPYgEZ9MasWWc3PLL6xzY9dr",
+    "poolXnt": 2282561758698,
+    "tpPct": 6.5,
+    "tier": "deep"
    }
   },
   "last_trades": [
-   {
-    "event": "sell",
-    "why": "tp",
-    "pool": "8hEhKFmb43qkcctdV94VjwQxUubZ7zCTyG7Hsb1BWcsq",
-    "mint": "XBLKLmxhADMVX3DsdwymvHyYbBYfKa5eKhtpiQ2kj7T",
-    "xntBack": 4.488747279,
-    "cost": 4.189705101,
-    "pnlPct": 7.14,
-    "sig": "5wuBwWrg66oHMHJDb1MWSr6z31G8v7nt2Nn7KefPPjVNsyz2PuCC8dvPpm96y5vZ2jc4pvRrM9xsSvmBFG5ye2LC",
-    "at": "2026-11-13T17:17:06.315Z"
-   },
    {
     "event": "buy",
     "pool": "8hEhKFmb43qkcctdV94VjwQxUubZ7zCTyG7Hsb1BWcsq",
@@ -710,9 +710,21 @@
     "tier": "deep",
     "sig": "2XuRYsC56Jgew7WiKa4miL4m3ubgbpBjLJrDRxejfBvHTe7Pp8WrDAhLceM1cTiGStUBoybEmcjFMR8xaaWtmSRY",
     "at": "2026-11-17T09:47:48.762Z"
+   },
+   {
+    "event": "buy",
+    "pool": "F2hs1Tbc5CHk4vcda6UTQtaN8ZrbhuTt15MCPgDveU6G",
+    "mint": "y1KEaaWVoEfX2gH7X1Vougmc9yD1Bi2c9VHeD7bDnNC",
+    "xnt": 21.1526,
+    "dipPct": 12.03,
+    "price": 1.5040735756848287e-10,
+    "tier": "deep",
+    "smartNetXnt": 0,
+    "sig": "4QdSmyP8pQwB1pRufX5hqN5ihTJ6rrjtB8xDbmkpCPkvVdLcH91sNQmXMeUPjc7buPYgEZ9MasWWc3PLL6xzY9dr",
+    "at": "2026-11-17T18:34:41.288Z"
    }
   ],
-  "realised_xnt": 1.84082
+  "realised_xnt": 1.54178
  },
  "last_apply": "unchanged"
 }
