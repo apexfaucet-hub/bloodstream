@@ -1,14 +1,14 @@
 {
- "at": "2026-11-17T09:35:16Z",
+ "at": "2026-11-17T10:05:13Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 2.781439,
+  "account_value": 2.859965,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.5",
     "entry": "7.3054",
-    "upnl": "-0.25845"
+    "upnl": "-0.18"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -423,15 +423,6 @@
     "sig": "3wv6nhcuodC4aGf2cUae8vsw23tzBjbtj5cYpHh31D8BjZiwXcnZrowWhwpaomFLZhE7hYkSsvAi8HRgwdktiPsg",
     "poolXnt": 349754057368
    },
-   "GdKcXA1Q78Bquke5jyZUR1C8YMN6VYT9AUheN1RwKLfe": {
-    "mint": "AnvCcvnY4DLRW42EZBEAb1QeU6Pt9aab3r3D75GtgJUU",
-    "tokRaw": 51242477061856,
-    "costLamports": 3817747435,
-    "t": 1794387746543,
-    "entry": 7.427441216195989e-05,
-    "sig": "2xFuKYTH5t4mDUZDE4mXVkugncVvRa1pGYsa3ThKCPbErr1vGXXmeWUQx5XpmHfGy6eHeVwE3vPL7pyQdb8KHY64",
-    "poolXnt": 6593579720309
-   },
    "7iWbFz8YRuDeL8wqBRTCJp8NrbRPnmCsF8833nkEXUH5": {
     "mint": "2HsCLiaXm2efKzTfLD5hcVeiMU3txS7xFCQtGsmDzWLZ",
     "tokRaw": 69339041,
@@ -465,16 +456,6 @@
    }
   },
   "last_trades": [
-   {
-    "event": "buy",
-    "pool": "8hEhKFmb43qkcctdV94VjwQxUubZ7zCTyG7Hsb1BWcsq",
-    "mint": "XBLKLmxhADMVX3DsdwymvHyYbBYfKa5eKhtpiQ2kj7T",
-    "xnt": 4.1897,
-    "dipPct": 15.89,
-    "price": 4.145521376550826,
-    "sig": "QTvvrPM6WZtJtWL1d7DhWREiRVZTpdaLWCM3fu7FJxPfQV2pnTRY6JbREyP4C6XafQdW4nDKog5efpKVxEcZtbP",
-    "at": "2026-11-13T15:39:21.457Z"
-   },
    {
     "event": "sell",
     "why": "tp",
@@ -717,9 +698,21 @@
     "smartNetXnt": 0,
     "sig": "3ea3fubmbmdKBb8VfRe69T6vj2QeuZWju5kKdb5uU5sX2r8Ne8bxhv8WC2oqTMzuMFeAUVBXApM7xYb7V2h6vu4o",
     "at": "2026-11-15T17:29:30.650Z"
+   },
+   {
+    "event": "sell",
+    "why": "tp",
+    "pool": "GdKcXA1Q78Bquke5jyZUR1C8YMN6VYT9AUheN1RwKLfe",
+    "mint": "AnvCcvnY4DLRW42EZBEAb1QeU6Pt9aab3r3D75GtgJUU",
+    "xntBack": 4.074026138,
+    "cost": 3.817747435,
+    "pnlPct": 6.71,
+    "tier": "deep",
+    "sig": "2XuRYsC56Jgew7WiKa4miL4m3ubgbpBjLJrDRxejfBvHTe7Pp8WrDAhLceM1cTiGStUBoybEmcjFMR8xaaWtmSRY",
+    "at": "2026-11-17T09:47:48.762Z"
    }
   ],
-  "realised_xnt": 1.58454
+  "realised_xnt": 1.84082
  },
  "last_apply": "unchanged"
 }
