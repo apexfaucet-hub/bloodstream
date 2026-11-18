@@ -1,14 +1,14 @@
 {
- "at": "2026-11-18T19:05:01Z",
+ "at": "2026-11-18T19:35:01Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 2.551588,
+  "account_value": 2.536438,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.5",
     "entry": "7.3054",
-    "upnl": "-0.48765"
+    "upnl": "-0.5028"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -464,19 +464,20 @@
     "poolXnt": 2282561758698,
     "tpPct": 6.5,
     "tier": "deep"
+   },
+   "8hEhKFmb43qkcctdV94VjwQxUubZ7zCTyG7Hsb1BWcsq": {
+    "mint": "XBLKLmxhADMVX3DsdwymvHyYbBYfKa5eKhtpiQ2kj7T",
+    "tokRaw": 3189100993,
+    "costLamports": 14862239791,
+    "t": 1795029387847,
+    "entry": 4.616314552438152,
+    "sig": "3YwHnUxU3PzToPtzCmCbjqp7xVrBoL3w3HznxWq2xHQ2aSKJxj69qypJFqVmqAC81V9sTj4N5kBviSXMZYZxzBej",
+    "poolXnt": 2115044838067,
+    "tpPct": 8,
+    "tier": "std"
    }
   },
   "last_trades": [
-   {
-    "event": "buy",
-    "pool": "7iWbFz8YRuDeL8wqBRTCJp8NrbRPnmCsF8833nkEXUH5",
-    "mint": "2HsCLiaXm2efKzTfLD5hcVeiMU3txS7xFCQtGsmDzWLZ",
-    "xnt": 2.2949,
-    "dipPct": 44.99,
-    "price": 0.026616252837110697,
-    "sig": "5pptm6b4KJ7jsAN2FeJxmh32eUtb8tk2vxZRrA4oDC4czJvJkc1jg2SZ9DM16xVD4qmPMHXzF21svFtK73g9qRSd",
-    "at": "2026-11-13T19:06:09.750Z"
-   },
    {
     "event": "sell",
     "why": "tp",
@@ -730,6 +731,18 @@
      "sizeMult": 1.25
     },
     "at": "2026-11-18T12:42:43.283Z"
+   },
+   {
+    "event": "buy",
+    "pool": "8hEhKFmb43qkcctdV94VjwQxUubZ7zCTyG7Hsb1BWcsq",
+    "mint": "XBLKLmxhADMVX3DsdwymvHyYbBYfKa5eKhtpiQ2kj7T",
+    "xnt": 14.8622,
+    "dipPct": 11.82,
+    "price": 4.616314552438152,
+    "tier": "std",
+    "smartNetXnt": 0,
+    "sig": "3YwHnUxU3PzToPtzCmCbjqp7xVrBoL3w3HznxWq2xHQ2aSKJxj69qypJFqVmqAC81V9sTj4N5kBviSXMZYZxzBej",
+    "at": "2026-11-18T19:16:28.101Z"
    }
   ],
   "realised_xnt": 1.54178
