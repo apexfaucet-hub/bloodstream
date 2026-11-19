@@ -1,14 +1,14 @@
 {
- "at": "2026-11-19T21:05:01Z",
+ "at": "2026-11-19T21:35:01Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 2.471602,
+  "account_value": 2.422702,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.5",
     "entry": "7.3054",
-    "upnl": "-0.5661"
+    "upnl": "-0.615"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -431,19 +431,20 @@
     "entry": 0.03968565292397797,
     "sig": "5AAztdQJcPyfxomvbA1jT7rtR3eTSpjiD9ETCknbWvrXZa3MDPVj9GvrXaoHqN67XyjMvjdeQRvXfCoJHFxb17d4",
     "poolXnt": 186662550716
+   },
+   "5dxTkjAzMffSJaaCFv9vrKXiJfTsfBToBggkEFxpxpxU": {
+    "mint": "fTfXmcxg3p5qYU3jp5kiaMAca9sVkwcHyY7YBS5Qp5K",
+    "tokRaw": 3911696948,
+    "costLamports": 2168515360,
+    "t": 1795123412904,
+    "entry": 0.5395265518785608,
+    "sig": "2Mk4byJ2mtXPSFe3gwTSfSDWZh7gyv1txhmaRWwo7fqCwktK7XhtsHUTbPspKiAMKFw82efW42gGyp2BdjSWqWei",
+    "poolXnt": 86740614404,
+    "tpPct": 8,
+    "tier": "std"
    }
   },
   "last_trades": [
-   {
-    "event": "buy",
-    "pool": "8EUkm5ChdmLm9pxKX3Q99APck1URfVqP9m9R3FQcP6Tb",
-    "mint": "XNMbEwZFFBKQhqyW3taa8cAUp1xBUHfyzRFJQvZET4m",
-    "xnt": 3.75,
-    "dipPct": 8.55,
-    "price": 0.0033494170593108366,
-    "sig": "4A9uUV75fzNQG44NPLNLvTChkSUgXwW9amf3wugTcNweDa8JXcwzToG93j4ikv4S5cFYW1ETQp9owxmJ2rpkGkpf",
-    "at": "2026-11-14T09:41:59.703Z"
-   },
    {
     "event": "start",
     "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
@@ -705,6 +706,18 @@
     "tier": "deep",
     "sig": "2ba2yrNxt8xodd3PmZbC5yPKm9CMT6bG7EjfZH5Zh9uhFSdGhWA5TCr59kMqBwkaVxSFT1W47onRc31wREc4Z4QQ",
     "at": "2026-11-19T14:37:59.323Z"
+   },
+   {
+    "event": "buy",
+    "pool": "5dxTkjAzMffSJaaCFv9vrKXiJfTsfBToBggkEFxpxpxU",
+    "mint": "fTfXmcxg3p5qYU3jp5kiaMAca9sVkwcHyY7YBS5Qp5K",
+    "xnt": 2.1685,
+    "dipPct": 7.09,
+    "price": 0.5395265518785608,
+    "tier": "std",
+    "smartNetXnt": 0,
+    "sig": "2Mk4byJ2mtXPSFe3gwTSfSDWZh7gyv1txhmaRWwo7fqCwktK7XhtsHUTbPspKiAMKFw82efW42gGyp2BdjSWqWei",
+    "at": "2026-11-19T21:23:33.452Z"
    }
   ],
   "realised_xnt": 7.77662
