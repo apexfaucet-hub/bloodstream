@@ -1,14 +1,14 @@
 {
- "at": "2026-11-22T22:05:01Z",
+ "at": "2026-11-22T22:35:01Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 2.100292,
+  "account_value": 2.057092,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.5",
     "entry": "7.3054",
-    "upnl": "-0.95055"
+    "upnl": "-0.99375"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -918,20 +918,6 @@
   "last_trades": [
    {
     "event": "buy",
-    "pool": "42L71tiJR69Y8jDx9jGCivoxMkyS22LVAANeRS7smH5R",
-    "mint": "XNMbEwZFFBKQhqyW3taa8cAUp1xBUHfyzRFJQvZET4m",
-    "xnt": 2.9909,
-    "dipPct": 19.98,
-    "price": 0.0032630226462298613,
-    "tier": "deep",
-    "smartNetXnt": 0,
-    "score": 0.1817,
-    "brainMult": 1,
-    "sig": "3GAUcyfmaM2YZ9QnVW6TQFfA8cq4a6Y1JgdKdjUiABQHiNjtxWeyYBKw2oKH5q2fKd2UZ9jRsQGo634NXJCFbJUz",
-    "at": "2026-11-22T21:55:40.360Z"
-   },
-   {
-    "event": "buy",
     "pool": "8hEhKFmb43qkcctdV94VjwQxUubZ7zCTyG7Hsb1BWcsq",
     "mint": "XBLKLmxhADMVX3DsdwymvHyYbBYfKa5eKhtpiQ2kj7T",
     "xnt": 5.9817,
@@ -1150,6 +1136,11 @@
     "brainMult": 1,
     "sig": "4vRdWfxAajztsvTcY4reGZmngiKtoCqp3iGU6GsVVqfp7v8D1s66ke69tGNcwYFkuPLakX4eEgN55ByUmKkwG24U",
     "at": "2026-11-22T22:04:42.228Z"
+   },
+   {
+    "event": "sell-skip",
+    "why": "sim",
+    "at": "2026-11-22T22:16:44.633Z"
    }
   ],
   "realised_xnt": 5.88763
