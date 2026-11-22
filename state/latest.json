@@ -1,14 +1,14 @@
 {
- "at": "2026-11-21T23:35:01Z",
+ "at": "2026-11-22T00:05:01Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 1.957281,
+  "account_value": 1.949975,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.5",
     "entry": "7.3054",
-    "upnl": "-1.08885"
+    "upnl": "-1.0962"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -695,53 +695,6 @@
   },
   "last_trades": [
    {
-    "event": "buy",
-    "pool": "5zXFVRupqKmA4yb8Ro54xVhoebNjYWFcYRtzjiyi1apT",
-    "mint": "GKv3Ct12pCUhXdWhkEqDbLBpEJ52kFWeGQwTHPpFanmn",
-    "xnt": 6,
-    "dipPct": 7.74,
-    "price": 1.4222153746199154e-05,
-    "tier": "probe",
-    "smartNetXnt": 0,
-    "score": -0.0827,
-    "brainMult": 1,
-    "sig": "5wnxp8RN2yUarq4RaMacvESD8TZCEywEACJXQeNk2XxN8T91PeChvrqnKprHQzdh1dJnXfvo5aGLzGzZwJwm3LUo",
-    "at": "2026-11-21T12:12:05.665Z"
-   },
-   {
-    "event": "exit-want",
-    "why": "fair",
-    "at": "2026-11-21T12:31:40.245Z"
-   },
-   {
-    "event": "sell",
-    "why": "fair",
-    "pool": "5zXFVRupqKmA4yb8Ro54xVhoebNjYWFcYRtzjiyi1apT",
-    "mint": "GKv3Ct12pCUhXdWhkEqDbLBpEJ52kFWeGQwTHPpFanmn",
-    "xntBack": 6.090117481,
-    "cost": 6,
-    "pnlPct": 1.5,
-    "tier": "probe",
-    "dipPct": 7.74,
-    "tpPct": 8,
-    "sig": "4aUfkpi1yg4U95E1ZY12ug9iR1grGvuVgS1NvfY4dmCKewnFhJBy4hfKchk9bzs5C2YfmBt3Dhcsf2nLBjLCBmAj",
-    "at": "2026-11-21T12:31:40.488Z"
-   },
-   {
-    "event": "buy",
-    "pool": "5zXFVRupqKmA4yb8Ro54xVhoebNjYWFcYRtzjiyi1apT",
-    "mint": "GKv3Ct12pCUhXdWhkEqDbLBpEJ52kFWeGQwTHPpFanmn",
-    "xnt": 6,
-    "dipPct": 8.16,
-    "price": 1.415686471605851e-05,
-    "tier": "probe",
-    "smartNetXnt": 0,
-    "score": -0.0497,
-    "brainMult": 1,
-    "sig": "3wGGwNaDLzSD4BB2ozVUZA9oQqxK4rVJRCXVEAagk7Fr5Buc2mUE9G3MmjuAsqRcD2tXhwPygged13pz8Y34WdMv",
-    "at": "2026-11-21T12:46:13.999Z"
-   },
-   {
     "event": "exit-want",
     "why": "recycle",
     "at": "2026-11-21T14:46:22.652Z"
@@ -898,9 +851,29 @@
     "event": "sell-skip",
     "why": "sim",
     "at": "2026-11-21T23:27:58.130Z"
+   },
+   {
+    "event": "exit-want",
+    "why": "tp",
+    "at": "2026-11-21T23:43:07.897Z"
+   },
+   {
+    "event": "sell-skip",
+    "why": "sim",
+    "at": "2026-11-21T23:43:07.919Z"
+   },
+   {
+    "event": "exit-want",
+    "why": "tp",
+    "at": "2026-11-21T23:58:11.300Z"
+   },
+   {
+    "event": "sell-skip",
+    "why": "sim",
+    "at": "2026-11-21T23:58:11.322Z"
    }
   ],
-  "realised_xnt": 0.82779
+  "realised_xnt": 0.73767
  },
  "last_apply": "unchanged"
 }
