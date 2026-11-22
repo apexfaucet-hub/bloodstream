@@ -1,14 +1,14 @@
 {
- "at": "2026-11-22T20:05:56Z",
+ "at": "2026-11-22T20:35:01Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 2.120201,
+  "account_value": 2.089751,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.5",
     "entry": "7.3054",
-    "upnl": "-0.9297"
+    "upnl": "-0.96015"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -822,23 +822,34 @@
      "ent": 0.0092,
      "gap": 0.0005
     }
+   },
+   "F2hs1Tbc5CHk4vcda6UTQtaN8ZrbhuTt15MCPgDveU6G": {
+    "mint": "y1KEaaWVoEfX2gH7X1Vougmc9yD1Bi2c9VHeD7bDnNC",
+    "tokRaw": 304052477118190,
+    "costLamports": 4218725062,
+    "t": 1795378342781,
+    "entry": 1.3806836816166292e-10,
+    "sig": "2c5oPKX1C5g4eNbKb44UXSrSQ9hb7uzmLgVzCJ3oGuM5XBxzab2wS7kwfyUSbxQ58wxNbmeSXCvRtYtmtLnPQUkf",
+    "poolXnt": 2189089422597,
+    "tpPct": 6.5,
+    "tier": "deep",
+    "dipPct": 6.95,
+    "brain": {
+     "w": 0,
+     "f": -0.8989,
+     "l": 0,
+     "c": 0,
+     "h": 0.0411,
+     "score": -0.1716,
+     "mult": 1,
+     "hurst": 0.5091,
+     "half": 32.53,
+     "ent": 0.0187,
+     "gap": 0.0591
+    }
    }
   },
   "last_trades": [
-   {
-    "event": "sell",
-    "why": "recycle",
-    "pool": "7jDUExC8K6WLr2kk8mw7vZN6JwZFCHmcr7qtzFRJ25LX",
-    "mint": "CCqoyVud4QNCccV9EJtWEFPaC6jBaGJsaFTnyD8Ss47m",
-    "xntBack": 6.025143155,
-    "cost": 6,
-    "pnlPct": 0.42,
-    "tier": "probe",
-    "dipPct": 7.18,
-    "tpPct": 8,
-    "sig": "5WCCL73tzFgXCu21Ybigrpf68rDXsGzagH1jeY2ebmqEdxUUp7JpWRZjKfRdXqn6AF6dt5nvVhEbxVV4qxD9B4rm",
-    "at": "2026-11-22T12:19:59.547Z"
-   },
    {
     "event": "buy",
     "pool": "7TnHuKQc5KEZPqp4NfrzARXpH9XfweVnjyzg1QL7nWs2",
@@ -1050,9 +1061,23 @@
     "tpPct": 6.5,
     "sig": "5TvbS68HPHzPfZ6ihur6y44kC2YXQXu89b7SdJLaWJvKniZm16Qbd7H65Z2GhWT6VWMcYLSBsv9dsW2s9impfnmX",
     "at": "2026-11-22T19:33:44.456Z"
+   },
+   {
+    "event": "buy",
+    "pool": "F2hs1Tbc5CHk4vcda6UTQtaN8ZrbhuTt15MCPgDveU6G",
+    "mint": "y1KEaaWVoEfX2gH7X1Vougmc9yD1Bi2c9VHeD7bDnNC",
+    "xnt": 4.2187,
+    "dipPct": 6.95,
+    "price": 1.3806836816166292e-10,
+    "tier": "deep",
+    "smartNetXnt": 0,
+    "score": -0.1716,
+    "brainMult": 1,
+    "sig": "2c5oPKX1C5g4eNbKb44UXSrSQ9hb7uzmLgVzCJ3oGuM5XBxzab2wS7kwfyUSbxQ58wxNbmeSXCvRtYtmtLnPQUkf",
+    "at": "2026-11-22T20:12:23.717Z"
    }
   ],
-  "realised_xnt": 1.48698
+  "realised_xnt": 1.46184
  },
  "last_apply": "unchanged"
 }
