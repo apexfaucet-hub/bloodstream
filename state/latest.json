@@ -1,14 +1,14 @@
 {
- "at": "2026-11-22T05:05:01Z",
+ "at": "2026-11-22T05:35:01Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 1.870854,
+  "account_value": 1.825254,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.5",
     "entry": "7.3054",
-    "upnl": "-1.1757"
+    "upnl": "-1.2213"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -542,31 +542,6 @@
      "gap": 0.5602
     }
    },
-   "2MxUjTEcvb9wpEQT796wkjy2KGjWtW7SxqxJTQzYqSAX": {
-    "mint": "4VzDVZM15a8YNQ5nvSfiSueEpxjQudoZnwhex4GeD5WQ",
-    "tokRaw": 60163441902512850,
-    "costLamports": 300679586,
-    "t": 1795207288846,
-    "entry": 4.8639241171117536e-14,
-    "sig": "3fb3KQXsSKCRBKvMUvpTbk4Emx4S4rx2L2MyjxRn1JypzcvAmxwX1bLMVoEzkJzmTwfh8GqfsXWAi7mKiaX5rfj",
-    "poolXnt": 12027183445,
-    "tpPct": 8,
-    "tier": "probe",
-    "dipPct": 9.72,
-    "brain": {
-     "w": 0,
-     "f": 1,
-     "l": 0,
-     "c": 0,
-     "h": 0.0588,
-     "score": 0.2118,
-     "mult": 1,
-     "hurst": 0.5498,
-     "half": 113.33,
-     "ent": 0.0098,
-     "gap": 0.0884
-    }
-   },
    "6NybZ4YzaF7Wmk7TYF4q82yFPAdvaT6FHAL3tZUvqpvy": {
     "mint": "H6Vj2EJ71NgDjzPpTeLCvhuS3YRsVaS2nNDjimLagrqf",
     "tokRaw": 780324278405865,
@@ -720,21 +695,6 @@
   },
   "last_trades": [
    {
-    "event": "sell-skip",
-    "why": "sim",
-    "at": "2026-11-22T02:58:52.303Z"
-   },
-   {
-    "event": "exit-want",
-    "why": "tp",
-    "at": "2026-11-22T03:13:55.756Z"
-   },
-   {
-    "event": "sell-skip",
-    "why": "sim",
-    "at": "2026-11-22T03:13:55.780Z"
-   },
-   {
     "event": "exit-want",
     "why": "tp",
     "at": "2026-11-22T03:28:59.048Z"
@@ -836,9 +796,54 @@
     "event": "sell-skip",
     "why": "sim",
     "at": "2026-11-22T04:59:18.881Z"
+   },
+   {
+    "event": "start",
+    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
+    "pools": 313,
+    "probes": 286,
+    "smartWallets": 17,
+    "smartPools": 2,
+    "rule": {
+     "BUY_XNT": 5,
+     "MAX_POS": 160,
+     "RESERVE_XNT": 4,
+     "DIP_PCT": 7,
+     "TP_PCT": 8,
+     "SL_PCT": 100,
+     "MAX_HOLD_H": 720,
+     "sizeMult": 1.25,
+     "watchLimit": 1000,
+     "probeXnt": 6,
+     "maxNewBuys": 12,
+     "maxProbe": 120,
+     "deepPool": 0.04,
+     "deepCap": 0.3,
+     "recycleH": 2
+    },
+    "at": "2026-11-22T05:06:06.060Z"
+   },
+   {
+    "event": "exit-want",
+    "why": "tp",
+    "at": "2026-11-22T05:06:13.589Z"
+   },
+   {
+    "event": "sell",
+    "why": "tp",
+    "pool": "2MxUjTEcvb9wpEQT796wkjy2KGjWtW7SxqxJTQzYqSAX",
+    "mint": "4VzDVZM15a8YNQ5nvSfiSueEpxjQudoZnwhex4GeD5WQ",
+    "xntBack": 0.367680067,
+    "cost": 0.300679586,
+    "pnlPct": 22.28,
+    "tier": "probe",
+    "dipPct": 9.72,
+    "tpPct": 8,
+    "sig": "vfYNLvetSzv25JJLkQQVVDVU9GHFwFcFqETtK9dC9fLGJv1FxnNXax3Wg2ke1kV7SXdGXWqVrUrz1aJPwDN8pgf",
+    "at": "2026-11-22T05:06:13.930Z"
    }
   ],
-  "realised_xnt": 0.06635
+  "realised_xnt": 0.13335
  },
  "last_apply": "unchanged"
 }
