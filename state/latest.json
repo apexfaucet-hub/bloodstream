@@ -1,14 +1,14 @@
 {
- "at": "2026-11-23T14:35:01Z",
+ "at": "2026-11-23T15:05:02Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 2.820379,
+  "account_value": 2.661098,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.5",
     "entry": "7.3054",
-    "upnl": "-0.23385"
+    "upnl": "-0.393"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -919,11 +919,6 @@
    {
     "event": "sell-skip",
     "why": "sim",
-    "at": "2026-11-23T10:57:51.439Z"
-   },
-   {
-    "event": "sell-skip",
-    "why": "sim",
     "at": "2026-11-23T11:12:54.990Z"
    },
    {
@@ -1087,6 +1082,11 @@
     "event": "sell-skip",
     "why": "sim",
     "at": "2026-11-23T14:33:41.794Z"
+   },
+   {
+    "event": "sell-skip",
+    "why": "sim",
+    "at": "2026-11-23T14:48:45.620Z"
    }
   ],
   "realised_xnt": 0.35129
