@@ -1,14 +1,14 @@
 {
- "at": "2026-11-23T07:35:01Z",
+ "at": "2026-11-23T08:05:01Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 2.166653,
+  "account_value": 2.171708,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.5",
     "entry": "7.3054",
-    "upnl": "-0.8874"
+    "upnl": "-0.8823"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -844,25 +844,6 @@
    {
     "event": "sell",
     "why": "recycle",
-    "pool": "7jDUExC8K6WLr2kk8mw7vZN6JwZFCHmcr7qtzFRJ25LX",
-    "mint": "CCqoyVud4QNCccV9EJtWEFPaC6jBaGJsaFTnyD8Ss47m",
-    "xntBack": 6.00031085,
-    "cost": 6,
-    "pnlPct": 0.01,
-    "tier": "probe",
-    "dipPct": 7.5,
-    "tpPct": 8,
-    "sig": "671jMAfpvvN4c4i3XbiY3KN5Hto7zeTzerwq449GkF6zzTokSYpDhv59mXPqXJuVQGu5TtTDm5nBj79r47i8REwk",
-    "at": "2026-11-23T06:56:46.101Z"
-   },
-   {
-    "event": "exit-want",
-    "why": "recycle",
-    "at": "2026-11-23T06:56:46.557Z"
-   },
-   {
-    "event": "sell",
-    "why": "recycle",
     "pool": "HqKGLmKZ2r8qVbnwdQ5n9bYoyRKjwX25oebtuuAEn5b8",
     "mint": "E3v5m81RLR3ZAjNuCeMjbniCmwBUd1j2iWsvtpXiBVe5",
     "xntBack": 6.011369478,
@@ -1039,9 +1020,19 @@
     "event": "sell-skip",
     "why": "sim",
     "at": "2026-11-23T07:27:02.693Z"
+   },
+   {
+    "event": "sell-skip",
+    "why": "sim",
+    "at": "2026-11-23T07:42:06.090Z"
+   },
+   {
+    "event": "sell-skip",
+    "why": "sim",
+    "at": "2026-11-23T07:57:09.539Z"
    }
   ],
-  "realised_xnt": 4.23318
+  "realised_xnt": 4.23287
  },
  "last_apply": "unchanged"
 }
