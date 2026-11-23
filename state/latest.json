@@ -1,14 +1,14 @@
 {
- "at": "2026-11-23T00:05:01Z",
+ "at": "2026-11-23T00:35:01Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 2.111463,
+  "account_value": 2.101113,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.5",
     "entry": "7.3054",
-    "upnl": "-0.94035"
+    "upnl": "-0.9507"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -395,7 +395,7 @@
   ],
   "why": "Floor is $2.50. Size may rise when the account can margin it."
  },
- "money_desk": "MONEY DESK 2026-11-22\nOutside income: 24 h $0.004 (~0.00 EUR), 7 d $2.172 from 11 payers (4 new), 30 d $2.926\nTop products 7 d: domain-check $2.014 (3 payers), arc-whale-feed $0.02 (1 payers), arc-gas $0.016 (1 payers), arc-agent-watch $0.016 (1 payers), web-read $0.012 (3 payers)\nCosts 7 d: spent outside $0, Arc faucet payouts $0.17 + gas $0.031. Net 7 d: $1.971\nBazaar ranks: token verdict 10; base token verdict 1; decode transaction 2; web search not in top 20; honeypot check base 7; token price not in top 20\nExperiment post-verdict: no payers before or after: did not move money, try a different lever\nExperiment relist-all-cdp: too few payers to judge (1 -> 2): leave it as it is, no undo, no repeat\nExperiment listing-text: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment base-price: no payers before or after: did not move money, try a different lever\nExperiment multichain-verdict: no payers before or after: did not move money, try a different lever\nExperiment payai-listing: too few payers to judge (3 -> 1): leave it as it is, no undo, no repeat\nExperiment chat-listing-words: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment new-tools-listing-words: no payers before or after: did not move money, try a different lever\nExperiment prediction-tools: no payers before or after: did not move money, try a different lever\nExperiment rwa-tools: no payers before or after: did not move money, try a different lever\nExperiment web-listing-words: MORE payers after (6 -> 10): keep, try the same move elsewhere\nExperiment prediction-names-fit-32: no payers before or after: did not move money, try a different lever\nExperiment gas-refill-target-045: no payers before or after: did not move money, try a different lever\nExperiment funding-gap: no payers before or after: did not move money, try a different lever\nExperiment funding-gap-premium: too few payers to judge (0 -> 1): leave it as it is, no undo, no repeat\nExperiment token-safety-words: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment named-the-unnamed-6: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment email-listing-words: too few payers to judge (1 -> 1): leave it as it is, no undo, no repeat\nExperiment bazaar-seo-2026-11-13: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment defi-dex-suite-2026-11-14: no payers before or after: did not move money, try a different lever\nExperiment html-markdown-seo-2026-11-14: too few payers to judge (3 -> 4): leave it as it is, no undo, no repeat\nExperiment hl-sol-trend-dip-2026-11-14: no payers before or after: did not move money, try a different lever\nTrading 24 h, Hyperliquid (all bots, HL fills): net $0 after fees (~0.00 EUR), 0 closes, 0 wins\nTrading 24 h, X1 dip trader: 8 sells, realised 1.153 XNT (before tx fees)\nFree capital: $0.95. Hyperliquid carry (no price risk): BTC 11% APR ($0.0001/day), ENA 11% A",
+ "money_desk": "MONEY DESK 2026-11-23\nOutside income: 24 h $0.17 (~0.15 EUR), 7 d $2.312 from 12 payers (5 new), 30 d $3.084\nTop products 7 d: domain-check $2.014 (3 payers), ai-readiness-pack $0.05 (1 payers), b2b-lead-audit $0.02 (1 payers), agent-launch-audit $0.02 (1 payers), workflow-run $0.015 (1 payers)\nCosts 7 d: spent outside $0, Arc faucet payouts $0.14 + gas $0.026. Net 7 d: $2.146\nBazaar ranks: token verdict 14; base token verdict 1; decode transaction 2; web search not in top 20; honeypot check base 8; token price not in top 20\nExperiment post-verdict: no payers before or after: did not move money, try a different lever\nExperiment relist-all-cdp: too few payers to judge (1 -> 2): leave it as it is, no undo, no repeat\nExperiment listing-text: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment base-price: no payers before or after: did not move money, try a different lever\nExperiment multichain-verdict: no payers before or after: did not move money, try a different lever\nExperiment payai-listing: too few payers to judge (3 -> 1): leave it as it is, no undo, no repeat\nExperiment chat-listing-words: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment new-tools-listing-words: no payers before or after: did not move money, try a different lever\nExperiment prediction-tools: no payers before or after: did not move money, try a different lever\nExperiment rwa-tools: no payers before or after: did not move money, try a different lever\nExperiment web-listing-words: MORE payers after (6 -> 10): keep, try the same move elsewhere\nExperiment prediction-names-fit-32: no payers before or after: did not move money, try a different lever\nExperiment gas-refill-target-045: no payers before or after: did not move money, try a different lever\nExperiment funding-gap: no payers before or after: did not move money, try a different lever\nExperiment funding-gap-premium: too few payers to judge (0 -> 1): leave it as it is, no undo, no repeat\nExperiment token-safety-words: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment named-the-unnamed-6: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment email-listing-words: too few payers to judge (1 -> 1): leave it as it is, no undo, no repeat\nExperiment bazaar-seo-2026-11-13: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment defi-dex-suite-2026-11-14: no payers before or after: did not move money, try a different lever\nExperiment html-markdown-seo-2026-11-14: too few payers to judge (3 -> 4): leave it as it is, no undo, no repeat\nExperiment hl-sol-trend-dip-2026-11-14: no payers before or after: did not move money, try a different lever\nTrading 24 h, Hyperliquid (all bots, HL fills): net $0 after fees (~0.00 EUR), 0 closes, 0 wins\nTrading 24 h, X1 dip trader: 23 sells, realised 8.668 XNT (before tx fees)\nFree capital: $0.94. Hyperliquid carry (no price risk): BTC 11% APR ($0.0001/",
  "x1_dip_trader": {
   "open": {
    "CJywFfsfgoo5GS4KeAtFfb1hqQbJuBRuTi3wD6tGP59u": {
@@ -888,28 +888,59 @@
      "ent": 0.0944,
      "gap": 0.0216
     }
+   },
+   "2QRS3RSkmD6DdKSy5jPdNrfUbtu1mQpApLUiobMvC5so": {
+    "mint": "JDqX4vau2P5zJmLpuNitvR6vMURr9kYjex6oZQXz3Ja8",
+    "tokRaw": 13132633,
+    "costLamports": 6000000000,
+    "t": 1795392309070,
+    "entry": 454.1906138034418,
+    "sig": "4KqgZmPquDvjEmagbTBhSgM8GLaxL2aJYXZXMkPENX96HiG1WJEL9ePFWN37E6KiPBdVm2pv5dZZfu6AKbdvoSzK",
+    "poolXnt": 2064708192064,
+    "tpPct": 8,
+    "tier": "probe",
+    "dipPct": 7.16,
+    "brain": {
+     "w": 0,
+     "f": 0,
+     "l": 0.2268,
+     "c": 0,
+     "h": 0,
+     "score": 0.0454,
+     "mult": 1,
+     "hurst": 0.4456,
+     "half": 24.35,
+     "ent": 0.0763,
+     "gap": 0.0304
+    }
+   },
+   "HqKGLmKZ2r8qVbnwdQ5n9bYoyRKjwX25oebtuuAEn5b8": {
+    "mint": "E3v5m81RLR3ZAjNuCeMjbniCmwBUd1j2iWsvtpXiBVe5",
+    "tokRaw": 338128,
+    "costLamports": 6000000000,
+    "t": 1795392309070,
+    "entry": 1765.8864876380976,
+    "sig": "2GA8TrdQ8cqyBt6cZtATrJwUKr44bdLFFSZCDwt6Duj6FX1Nc1YHUXQm8cStahgsAVqUJCXFZosyBDiixJXKSkeR",
+    "poolXnt": 3237598854465,
+    "tpPct": 8,
+    "tier": "probe",
+    "dipPct": 9.2,
+    "brain": {
+     "w": 0,
+     "f": 0,
+     "l": 0,
+     "c": 0,
+     "h": 0,
+     "score": 0,
+     "mult": 1,
+     "hurst": 0.5334,
+     "half": 6.11,
+     "ent": 0.1177,
+     "gap": 0.0163
+    }
    }
   },
   "last_trades": [
-   {
-    "event": "buy",
-    "pool": "9Yef5bCLr2N2ad6YhiAhU3yE2DAcs9TvaAwuXNELYM9b",
-    "mint": "7FsciYm7uhctq2qti5LRGJY7ZdnbyiEhGqVqE2tAtcYb",
-    "xnt": 6,
-    "dipPct": 37.99,
-    "price": 1.697009525591122e-06,
-    "tier": "probe",
-    "smartNetXnt": 0,
-    "score": 0.0123,
-    "brainMult": 1,
-    "sig": "5P4sBKuupFGxYBqWgDyjrxnxA13FgePtcWyvZPHDi4fk1DGq92iSGsP7U5Nqe5RAxzhmNqQL4J1DCNaGUNMspVZd",
-    "at": "2026-11-22T22:00:41.212Z"
-   },
-   {
-    "event": "sell-skip",
-    "why": "sim",
-    "at": "2026-11-22T22:01:41.414Z"
-   },
    {
     "event": "buy",
     "pool": "Gov3biAW4FJkpeqHp3NX4rLvzwFc11fgKGZomy7ii4dN",
@@ -1080,6 +1111,34 @@
     "event": "sell-skip",
     "why": "sim",
     "at": "2026-11-22T23:54:16.965Z"
+   },
+   {
+    "event": "buy",
+    "pool": "2QRS3RSkmD6DdKSy5jPdNrfUbtu1mQpApLUiobMvC5so",
+    "mint": "JDqX4vau2P5zJmLpuNitvR6vMURr9kYjex6oZQXz3Ja8",
+    "xnt": 6,
+    "dipPct": 7.16,
+    "price": 454.1906138034418,
+    "tier": "probe",
+    "smartNetXnt": 0,
+    "score": 0.0454,
+    "brainMult": 1,
+    "sig": "4KqgZmPquDvjEmagbTBhSgM8GLaxL2aJYXZXMkPENX96HiG1WJEL9ePFWN37E6KiPBdVm2pv5dZZfu6AKbdvoSzK",
+    "at": "2026-11-23T00:05:10.068Z"
+   },
+   {
+    "event": "buy",
+    "pool": "HqKGLmKZ2r8qVbnwdQ5n9bYoyRKjwX25oebtuuAEn5b8",
+    "mint": "E3v5m81RLR3ZAjNuCeMjbniCmwBUd1j2iWsvtpXiBVe5",
+    "xnt": 6,
+    "dipPct": 9.2,
+    "price": 1765.8864876380976,
+    "tier": "probe",
+    "smartNetXnt": 0,
+    "score": 0,
+    "brainMult": 1,
+    "sig": "2GA8TrdQ8cqyBt6cZtATrJwUKr44bdLFFSZCDwt6Duj6FX1Nc1YHUXQm8cStahgsAVqUJCXFZosyBDiixJXKSkeR",
+    "at": "2026-11-23T00:05:11.187Z"
    }
   ],
   "realised_xnt": 5.69341
