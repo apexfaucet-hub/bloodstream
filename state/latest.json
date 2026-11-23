@@ -1,14 +1,14 @@
 {
- "at": "2026-11-23T22:35:01Z",
+ "at": "2026-11-23T23:05:02Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 2.236905,
+  "account_value": 2.243375,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.5",
     "entry": "7.3054",
-    "upnl": "-0.81795"
+    "upnl": "-0.81165"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -744,31 +744,6 @@
      "gap": 0
     }
    },
-   "9Yef5bCLr2N2ad6YhiAhU3yE2DAcs9TvaAwuXNELYM9b": {
-    "mint": "7FsciYm7uhctq2qti5LRGJY7ZdnbyiEhGqVqE2tAtcYb",
-    "tokRaw": 2882958126918910,
-    "costLamports": 6000000000,
-    "t": 1795429172440,
-    "entry": 2.056257659684133e-06,
-    "sig": "txbtVbPxJu4HK9HHA7eLPmxZMu8iiL12UjgN3BtiWVpoGeTfH1Zd8Y7api1Q6JpntJbKmuzwfnCCqq4kTG9QuAz",
-    "poolXnt": 657978393574,
-    "tpPct": 8,
-    "tier": "probe",
-    "dipPct": 28.76,
-    "brain": {
-     "w": 0,
-     "f": -1,
-     "l": 0,
-     "c": 0,
-     "h": 0,
-     "score": -0.2,
-     "mult": 1,
-     "hurst": 0.5217,
-     "half": 71.3,
-     "ent": 0.0185,
-     "gap": 0.2642
-    }
-   },
    "HYNRFcWYucxNvMRWkm6NRK9jZo4KnV9sg3SVq84WkP6Z": {
     "mint": "4kmzYc5SAGRmHi7St7TENtXXSnCZGB4CWhTKm7QhDVcY",
     "tokRaw": 9210,
@@ -917,31 +892,6 @@
      "half": 33.38,
      "ent": 0.1229,
      "gap": 0.002
-    }
-   },
-   "Ec3Keyy1yemycLRjh8PgkKiDJaD3w77UBLViwtB5zmSJ": {
-    "mint": "6qcfgsnzo2s1UpkVhKN9i79B4eibj2iEaREsbYcbyVgM",
-    "tokRaw": 63435114291599,
-    "costLamports": 4000000000,
-    "t": 1795469540755,
-    "entry": 6.280221662661634e-05,
-    "sig": "2GiSddSBHhM9n2xwradywFsoP5Q2vAWExoLjESkmv6LqxRZ7AJvk41dz2YtTpAT91gJbDEUvUH6g7tWVDLpW5Vec",
-    "poolXnt": 3842972357871,
-    "tpPct": 8,
-    "tier": "probe",
-    "dipPct": 13.68,
-    "brain": {
-     "w": 0,
-     "f": 0.3909,
-     "l": 0,
-     "c": 0,
-     "h": -0.1444,
-     "score": 0.0493,
-     "mult": 1,
-     "hurst": 0.5069,
-     "half": 4.13,
-     "ent": 0.0388,
-     "gap": 0.1142
     }
    },
    "5J4hECH58eYQzuxpfrDyBrNr83G6Q7eMSbBhiymj8S3K": {
@@ -1096,44 +1046,6 @@
    }
   },
   "last_trades": [
-   {
-    "event": "buy",
-    "pool": "DY9uWCwiue23mmq14G2YVYWyXHSYn8ZjSvYJ36CAvmq1",
-    "mint": "4o4UheANLdqF4gSV4zWTbCTCercQNSaTm6nVcDetzPb2",
-    "xnt": 10.6432,
-    "dipPct": 13.79,
-    "price": 0.004082270093424482,
-    "tier": "std",
-    "smartNetXnt": 0,
-    "score": 0.0508,
-    "brainMult": 1,
-    "sig": "xrXxXDKkFZ67fkAL2taVzFTjLpsFv9dgBKW4mH3USPREkqtXo97SaE7HG2ouTVVeF4rXH4sRGzvmKK9zroihB2S",
-    "at": "2026-11-23T21:10:07.312Z"
-   },
-   {
-    "event": "exit-want",
-    "why": "recycle",
-    "at": "2026-11-23T21:21:58.353Z"
-   },
-   {
-    "event": "sell-skip",
-    "why": "sim",
-    "at": "2026-11-23T21:21:58.374Z"
-   },
-   {
-    "event": "buy",
-    "pool": "Ec3Keyy1yemycLRjh8PgkKiDJaD3w77UBLViwtB5zmSJ",
-    "mint": "6qcfgsnzo2s1UpkVhKN9i79B4eibj2iEaREsbYcbyVgM",
-    "xnt": 4,
-    "dipPct": 13.68,
-    "price": 6.280221662661634e-05,
-    "tier": "probe",
-    "smartNetXnt": 0,
-    "score": 0.0493,
-    "brainMult": 1,
-    "sig": "2GiSddSBHhM9n2xwradywFsoP5Q2vAWExoLjESkmv6LqxRZ7AJvk41dz2YtTpAT91gJbDEUvUH6g7tWVDLpW5Vec",
-    "at": "2026-11-23T21:32:21.488Z"
-   },
    {
     "event": "exit-want",
     "why": "tp",
@@ -1339,9 +1251,47 @@
      "recycleH": 2
     },
     "at": "2026-11-23T22:18:56.255Z"
+   },
+   {
+    "event": "exit-want",
+    "why": "fair",
+    "at": "2026-11-23T22:39:32.118Z"
+   },
+   {
+    "event": "sell",
+    "why": "fair",
+    "pool": "Ec3Keyy1yemycLRjh8PgkKiDJaD3w77UBLViwtB5zmSJ",
+    "mint": "6qcfgsnzo2s1UpkVhKN9i79B4eibj2iEaREsbYcbyVgM",
+    "xntBack": 4.064954421,
+    "cost": 4,
+    "pnlPct": 1.62,
+    "tier": "probe",
+    "dipPct": 13.68,
+    "tpPct": 8,
+    "sig": "471uTy5QnrexppdM6mzzW4XqwxGxxbJzKufV7dudLiPRsQns7a6ccjLT6wCPhRkkNmf8T9uD96Rf5Y1ZXdp5bNmj",
+    "at": "2026-11-23T22:39:32.775Z"
+   },
+   {
+    "event": "exit-want",
+    "why": "tp",
+    "at": "2026-11-23T22:48:04.591Z"
+   },
+   {
+    "event": "sell",
+    "why": "tp",
+    "pool": "9Yef5bCLr2N2ad6YhiAhU3yE2DAcs9TvaAwuXNELYM9b",
+    "mint": "7FsciYm7uhctq2qti5LRGJY7ZdnbyiEhGqVqE2tAtcYb",
+    "xntBack": 8.178379339,
+    "cost": 6,
+    "pnlPct": 36.31,
+    "tier": "probe",
+    "dipPct": 28.76,
+    "tpPct": 8,
+    "sig": "62jWjuBFuakKfpY5JBNGB9HMgY3zAHQdvv9xq1uAm8S2446vZVHPin1tEwBHHscFf5toeNY7Na3sH8bdJrCUTfUj",
+    "at": "2026-11-23T22:48:05.300Z"
    }
   ],
-  "realised_xnt": 3.71687
+  "realised_xnt": 5.9602
  },
  "last_apply": "unchanged"
 }
