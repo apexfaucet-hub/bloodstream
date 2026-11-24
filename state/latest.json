@@ -1,14 +1,14 @@
 {
- "at": "2026-11-24T19:35:01Z",
+ "at": "2026-11-24T20:05:01Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 1.934518,
+  "account_value": 1.90009,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.5",
     "entry": "7.3054",
-    "upnl": "-1.12155"
+    "upnl": "-1.15605"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -885,20 +885,6 @@
   },
   "last_trades": [
    {
-    "event": "buy",
-    "pool": "Fq4PGJgsHGu573k2PCujbo6PdYSTz7Ttc5riGHLdjPCC",
-    "mint": "WtzXxHGcCuHDsyXbCtrkKTZgGfV9WQMaojvTQGEfARt",
-    "xnt": 13.9982,
-    "dipPct": 20.58,
-    "price": 2.3846378530957564e-05,
-    "tier": "deep",
-    "smartNetXnt": 0,
-    "score": 0.0098,
-    "brainMult": 1,
-    "sig": "56FTCr2ziANGZDFd1PMCarNMckqn2bK5TRSsEwXL13zeuWXnx5bdCterMLfHjU3nGJ42czs6nQ5k6JcYu1d5pYGt",
-    "at": "2026-11-24T07:36:54.088Z"
-   },
-   {
     "event": "exit-want",
     "why": "tp",
     "at": "2026-11-24T07:37:44.024Z"
@@ -1124,6 +1110,32 @@
      "recycleH": 2
     },
     "at": "2026-11-24T19:21:21.233Z"
+   },
+   {
+    "event": "start",
+    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
+    "pools": 81,
+    "probes": 14,
+    "smartWallets": 17,
+    "smartPools": 3,
+    "rule": {
+     "BUY_XNT": 5,
+     "MAX_POS": 160,
+     "RESERVE_XNT": 20,
+     "DIP_PCT": 7,
+     "TP_PCT": 8,
+     "SL_PCT": 100,
+     "MAX_HOLD_H": 720,
+     "sizeMult": 1.25,
+     "watchLimit": 1000,
+     "probeXnt": 4,
+     "maxNewBuys": 12,
+     "maxProbe": 80,
+     "deepPool": 0.04,
+     "deepCap": 0.3,
+     "recycleH": 2
+    },
+    "at": "2026-11-24T19:58:03.879Z"
    }
   ],
   "realised_xnt": 7.21034
