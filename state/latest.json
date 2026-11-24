@@ -1,14 +1,14 @@
 {
- "at": "2026-11-24T07:35:01Z",
+ "at": "2026-11-24T08:05:01Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 2.206611,
+  "account_value": 2.176928,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.5",
     "entry": "7.3054",
-    "upnl": "-0.849"
+    "upnl": "-0.8787"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -956,103 +956,59 @@
      "ent": 0.4286,
      "gap": 0.0122
     }
+   },
+   "Fq4PGJgsHGu573k2PCujbo6PdYSTz7Ttc5riGHLdjPCC": {
+    "mint": "WtzXxHGcCuHDsyXbCtrkKTZgGfV9WQMaojvTQGEfARt",
+    "tokRaw": 607538608398862,
+    "costLamports": 14712998164,
+    "t": 1795505964160,
+    "entry": 2.3691271966593164e-05,
+    "sig": "5vUF7f5Q3qDuxR4vWWTFDXzf3Y2AuBDkd8tLZRGRN7uMf9xuZiPqCUqgmyPYiKb7Y9XDP3rrv1oGiy2ww8uqMJrp",
+    "poolXnt": 761476806847,
+    "tpPct": 8,
+    "tier": "deep",
+    "dipPct": 21.09,
+    "brain": {
+     "w": 0,
+     "f": -0.0583,
+     "l": 0,
+     "c": 0,
+     "h": 0.0488,
+     "score": -0.0019,
+     "mult": 1,
+     "hurst": 0.5633,
+     "half": 171.92,
+     "ent": 0.0352,
+     "gap": 0.0089
+    }
+   },
+   "CJywFfsfgoo5GS4KeAtFfb1hqQbJuBRuTi3wD6tGP59u": {
+    "mint": "6To4f6r9X3WFsLwWLFdj7ju8BNquzZwupVHUc8oS5pgP",
+    "tokRaw": 473653241,
+    "costLamports": 10277291257,
+    "t": 1795506315902,
+    "entry": 2.1419831431318033e-06,
+    "sig": "5Rw6QYJFcoMGHkiCNoQDv2nWZ2RaVMkKuTidg2SUPLYuh5tCDvuFvuuTceGskx4asxyNEhfJihmdbm9mdfQwVguZ",
+    "poolXnt": 1005203302541,
+    "tpPct": 8,
+    "tier": "deep",
+    "dipPct": 7.31,
+    "brain": {
+     "w": 0,
+     "f": -0.5919,
+     "l": 0,
+     "c": 0,
+     "h": 0.0484,
+     "score": -0.1087,
+     "mult": 1,
+     "hurst": 0.5971,
+     "half": null,
+     "ent": 0.0093,
+     "gap": 0.053
+    }
    }
   },
   "last_trades": [
-   {
-    "event": "sell",
-    "why": "tp",
-    "pool": "F2hs1Tbc5CHk4vcda6UTQtaN8ZrbhuTt15MCPgDveU6G",
-    "mint": "y1KEaaWVoEfX2gH7X1Vougmc9yD1Bi2c9VHeD7bDnNC",
-    "xntBack": 16.115311995,
-    "cost": 10.059948586,
-    "pnlPct": 60.19,
-    "tier": "deep",
-    "dipPct": 8.5,
-    "tpPct": 8,
-    "sig": "58rVTE2cykgCFYFR4X9HBKsC5AmPuEbJesU4dBXvDjiSHebgT4wM51inscoHqVUvGdqpFnASzdqoP2xHcih4GzbE",
-    "at": "2026-11-24T00:11:20.903Z"
-   },
-   {
-    "event": "exit-want",
-    "why": "fair",
-    "at": "2026-11-24T01:07:27.746Z"
-   },
-   {
-    "event": "sell",
-    "why": "fair",
-    "pool": "CJywFfsfgoo5GS4KeAtFfb1hqQbJuBRuTi3wD6tGP59u",
-    "mint": "6To4f6r9X3WFsLwWLFdj7ju8BNquzZwupVHUc8oS5pgP",
-    "xntBack": 8.655680244,
-    "cost": 8.384380604,
-    "pnlPct": 3.24,
-    "tier": "std",
-    "dipPct": 26.05,
-    "tpPct": 8,
-    "sig": "58NzPKy65p7E8HUfLz2ajxu2mTkGKrxw66FrXZjC2d32GBCqNvo88JYF4BfKw9F4frRE3egvvYjmyA9b2EyrRmUr",
-    "at": "2026-11-24T01:07:28.188Z"
-   },
-   {
-    "event": "buy",
-    "pool": "F2hs1Tbc5CHk4vcda6UTQtaN8ZrbhuTt15MCPgDveU6G",
-    "mint": "y1KEaaWVoEfX2gH7X1Vougmc9yD1Bi2c9VHeD7bDnNC",
-    "xnt": 39.5766,
-    "dipPct": 9.41,
-    "price": 2.8969910346487457e-10,
-    "tier": "deep",
-    "smartNetXnt": 0,
-    "score": -0.1425,
-    "brainMult": 1,
-    "sig": "2Sh3bELPBrwze2zP5wBVXa6dzxpNQMdDXSUuSJW4H7x2h5booUxKx6aTdxgBn9ZoQKVap3GtgDsHfr2RMRuAfbFP",
-    "at": "2026-11-24T01:53:21.968Z"
-   },
-   {
-    "event": "exit-want",
-    "why": "recycle",
-    "at": "2026-11-24T02:36:44.636Z"
-   },
-   {
-    "event": "sell",
-    "why": "recycle",
-    "pool": "9oNpPyK6z1S2VCNZeAT1NfEXoLi2poMsxsycLbQdYrQe",
-    "mint": "XUNigZPoe8f657NkRf7KF8tqj9ekouT4SoECsD6G2Bm",
-    "xntBack": 16.127105279,
-    "cost": 16.091613583,
-    "pnlPct": 0.22,
-    "tier": "std",
-    "dipPct": 9.9,
-    "tpPct": 8,
-    "sig": "5JrgNJk8Nuvv2KTfTgWujnHJ3A8sRQNH8bAdVLxErSBj946caDYTzJNxV3Vru8KKiryAiZ9zHGNYSDaBiSASjb4Q",
-    "at": "2026-11-24T02:36:45.177Z"
-   },
-   {
-    "event": "buy",
-    "pool": "299C7dz5WKy7gkP8ncautiSzV5G2qKyaTiDRneWXLBjd",
-    "mint": "G6BVEkb6qeK8v7LSn25sWWiY7keJHvoTZruCJHHaaaPW",
-    "xnt": 1.5874,
-    "dipPct": 61.5,
-    "price": 4.000422258637674e-07,
-    "tier": "std",
-    "smartNetXnt": 0,
-    "score": 0.0102,
-    "brainMult": 1,
-    "sig": "2qR8KdGL4L94GbYKKoVsKAPoGLR1Dk76v4ch7WDLRDg6GrN468CJqMqz4Ah9uizcD8sf1b9GddE2ktnrzT1rTEmV",
-    "at": "2026-11-24T02:55:00.218Z"
-   },
-   {
-    "event": "buy",
-    "pool": "VmZfZnHzFTKSf19ZvAxa4duzChve3JYHVCPq1FvezhN",
-    "mint": "81LkybSBLvXYMTF6azXohUWyBvDGUXznm4yiXPkYkDTJ",
-    "xnt": 31.3144,
-    "dipPct": 7.91,
-    "price": 1.5574224041775039e-06,
-    "tier": "deep",
-    "smartNetXnt": 0,
-    "score": -0.1725,
-    "brainMult": 1,
-    "sig": "4Ea8PiZsMUUMgJrSNfweYmGhW4SsFBBy2DVmwq9eCYnY35fUiQQi46D4ThsH77KJEvHi1tHSUtg17AP721MzujBi",
-    "at": "2026-11-24T03:47:06.117Z"
-   },
    {
     "event": "exit-want",
     "why": "fair",
@@ -1184,9 +1140,103 @@
     "brainMult": 1,
     "sig": "5ReaBdpban8U5mhBZtk8LE3L9pPpcLGogmiY3T56cBtmHLH9udc5AgQgwYAWxwg8fujAFTvTmSavuhCgCg9P7PsH",
     "at": "2026-11-24T07:06:14.858Z"
+   },
+   {
+    "event": "buy",
+    "pool": "Fq4PGJgsHGu573k2PCujbo6PdYSTz7Ttc5riGHLdjPCC",
+    "mint": "WtzXxHGcCuHDsyXbCtrkKTZgGfV9WQMaojvTQGEfARt",
+    "xnt": 13.9982,
+    "dipPct": 20.58,
+    "price": 2.3846378530957564e-05,
+    "tier": "deep",
+    "smartNetXnt": 0,
+    "score": 0.0098,
+    "brainMult": 1,
+    "sig": "56FTCr2ziANGZDFd1PMCarNMckqn2bK5TRSsEwXL13zeuWXnx5bdCterMLfHjU3nGJ42czs6nQ5k6JcYu1d5pYGt",
+    "at": "2026-11-24T07:36:54.088Z"
+   },
+   {
+    "event": "exit-want",
+    "why": "tp",
+    "at": "2026-11-24T07:37:44.024Z"
+   },
+   {
+    "event": "sell",
+    "why": "tp",
+    "pool": "Fq4PGJgsHGu573k2PCujbo6PdYSTz7Ttc5riGHLdjPCC",
+    "mint": "WtzXxHGcCuHDsyXbCtrkKTZgGfV9WQMaojvTQGEfARt",
+    "xntBack": 16.380668935,
+    "cost": 13.9981815,
+    "pnlPct": 17.02,
+    "tier": "deep",
+    "dipPct": 20.58,
+    "tpPct": 8,
+    "sig": "3SUZiVfx82WF1BugGJ7dhZ5dSVezFyfsSJ84b2wdwedBZkNWdgKXHj2ps47a3SH5AZUCuNGCyd5TPWcu3tDP7oPA",
+    "at": "2026-11-24T07:37:44.658Z"
+   },
+   {
+    "event": "buy",
+    "pool": "Fq4PGJgsHGu573k2PCujbo6PdYSTz7Ttc5riGHLdjPCC",
+    "mint": "WtzXxHGcCuHDsyXbCtrkKTZgGfV9WQMaojvTQGEfARt",
+    "xnt": 14.713,
+    "dipPct": 21.09,
+    "price": 2.3691271966593164e-05,
+    "tier": "deep",
+    "smartNetXnt": 0,
+    "score": -0.0019,
+    "brainMult": 1,
+    "sig": "5vUF7f5Q3qDuxR4vWWTFDXzf3Y2AuBDkd8tLZRGRN7uMf9xuZiPqCUqgmyPYiKb7Y9XDP3rrv1oGiy2ww8uqMJrp",
+    "at": "2026-11-24T07:39:25.030Z"
+   },
+   {
+    "event": "buy",
+    "pool": "CJywFfsfgoo5GS4KeAtFfb1hqQbJuBRuTi3wD6tGP59u",
+    "mint": "6To4f6r9X3WFsLwWLFdj7ju8BNquzZwupVHUc8oS5pgP",
+    "xnt": 9.5472,
+    "dipPct": 7.03,
+    "price": 2.152494064514966e-06,
+    "tier": "deep",
+    "smartNetXnt": 0,
+    "score": -0.1592,
+    "brainMult": 1,
+    "sig": "4wfPXpc3jNs91W6CCxZm4zEa6qv3BqZtdL1nmNbKucqTXsTBWVD7Jx7TJLxTcLywBSQ1i8fYBehLxakN8Tyms8Lt",
+    "at": "2026-11-24T07:43:16.300Z"
+   },
+   {
+    "event": "exit-want",
+    "why": "tp",
+    "at": "2026-11-24T07:44:05.968Z"
+   },
+   {
+    "event": "sell",
+    "why": "tp",
+    "pool": "CJywFfsfgoo5GS4KeAtFfb1hqQbJuBRuTi3wD6tGP59u",
+    "mint": "6To4f6r9X3WFsLwWLFdj7ju8BNquzZwupVHUc8oS5pgP",
+    "xntBack": 11.980502904,
+    "cost": 9.547242789,
+    "pnlPct": 25.49,
+    "tier": "deep",
+    "dipPct": 7.03,
+    "tpPct": 8,
+    "sig": "2yoxZ1YLXURskbDnTrtqHWHr2XysCXT4yPXk9CzfGqnSK4u9vk1ZTC4e8JnLoGtaahDLH1S4x1FcePU8ocsYzJNG",
+    "at": "2026-11-24T07:44:06.430Z"
+   },
+   {
+    "event": "buy",
+    "pool": "CJywFfsfgoo5GS4KeAtFfb1hqQbJuBRuTi3wD6tGP59u",
+    "mint": "6To4f6r9X3WFsLwWLFdj7ju8BNquzZwupVHUc8oS5pgP",
+    "xnt": 10.2773,
+    "dipPct": 7.31,
+    "price": 2.1419831431318033e-06,
+    "tier": "deep",
+    "smartNetXnt": 0,
+    "score": -0.1087,
+    "brainMult": 1,
+    "sig": "5Rw6QYJFcoMGHkiCNoQDv2nWZ2RaVMkKuTidg2SUPLYuh5tCDvuFvuuTceGskx4asxyNEhfJihmdbm9mdfQwVguZ",
+    "at": "2026-11-24T07:45:16.877Z"
    }
   ],
-  "realised_xnt": 11.13289
+  "realised_xnt": 9.58648
  },
  "last_apply": "unchanged"
 }
