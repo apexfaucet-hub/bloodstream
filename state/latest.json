@@ -1,14 +1,14 @@
 {
- "at": "2026-11-24T06:35:01Z",
+ "at": "2026-11-24T07:05:02Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 2.268299,
+  "account_value": 2.238261,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.5",
     "entry": "7.3054",
-    "upnl": "-0.78735"
+    "upnl": "-0.81735"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -935,39 +935,6 @@
   },
   "last_trades": [
    {
-    "event": "sell",
-    "why": "tp",
-    "pool": "9NjEWAzQ9Tshp8gm5K3bwJf7rdJ1GQdcT4vXRk3uouWP",
-    "mint": "DQrvmjGZNXegbpdfRaLAGtm49SEmnVnaebf3pT6cD4Dt",
-    "xntBack": 7.209001395,
-    "cost": 5.144196408,
-    "pnlPct": 40.14,
-    "tier": "probe",
-    "dipPct": 10,
-    "tpPct": 8,
-    "sig": "Xe9aTbYWXJ6BG4eNRuNMx64pG2peZKqH2wVHPZo5ATX8x5QvLhhhxYiNNdj4nFSKeKANbsZX6tNR39zQQbDXCVp",
-    "at": "2026-11-23T23:28:07.612Z"
-   },
-   {
-    "event": "exit-want",
-    "why": "tp",
-    "at": "2026-11-23T23:28:47.245Z"
-   },
-   {
-    "event": "sell",
-    "why": "tp",
-    "pool": "5HzGC4yhfJwfZERkuTCpAgeECUMStRXJoYRSduSrbfHc",
-    "mint": "34YHP5rgnjHexdcgXzEHQ8M6dLvtLd121ekmW6JnnAJ8",
-    "xntBack": 7.247617014,
-    "cost": 5.188672489,
-    "pnlPct": 39.68,
-    "tier": "probe",
-    "dipPct": 9.89,
-    "tpPct": 8,
-    "sig": "5bHXJdKr1rkGWp4UqkjF7NeizKLZyUefHkYi7LrPNcVK4hCnn7XYEWo4W2yh8MV66wv5edKGKx1JHvhvVfPU5mAx",
-    "at": "2026-11-23T23:28:47.652Z"
-   },
-   {
     "event": "exit-want",
     "why": "tp",
     "at": "2026-11-24T00:11:20.329Z"
@@ -1150,9 +1117,42 @@
     "tpPct": 10,
     "sig": "2vbfMGe2MwmpfWGdTM8yvGLYTqE1bnNFqsXNDxNNKZz8Z86vGfHdLyREqpPtqvVfP6FnD9riWdpgw6j8MqMt2aod",
     "at": "2026-11-24T06:06:57.253Z"
+   },
+   {
+    "event": "buy",
+    "pool": "5zXFVRupqKmA4yb8Ro54xVhoebNjYWFcYRtzjiyi1apT",
+    "mint": "GKv3Ct12pCUhXdWhkEqDbLBpEJ52kFWeGQwTHPpFanmn",
+    "xnt": 19.3181,
+    "dipPct": 6.71,
+    "price": 1.7617114401210626e-05,
+    "tier": "deep",
+    "smartNetXnt": 0,
+    "score": -0.0591,
+    "brainMult": 1,
+    "sig": "5dmpbZeNCTKimaGCPBaRNvvDqvvzASkvjYDwebjUKmqP7BLkBB3RFwS2e11q1dpXo4XAAoGuvpf2wKy3fNo7ii7T",
+    "at": "2026-11-24T07:03:13.778Z"
+   },
+   {
+    "event": "exit-want",
+    "why": "tp",
+    "at": "2026-11-24T07:04:03.804Z"
+   },
+   {
+    "event": "sell",
+    "why": "tp",
+    "pool": "5zXFVRupqKmA4yb8Ro54xVhoebNjYWFcYRtzjiyi1apT",
+    "mint": "GKv3Ct12pCUhXdWhkEqDbLBpEJ52kFWeGQwTHPpFanmn",
+    "xntBack": 21.586501682,
+    "cost": 19.31806665,
+    "pnlPct": 11.74,
+    "tier": "deep",
+    "dipPct": 6.71,
+    "tpPct": 8,
+    "sig": "2dksMWXLb6vmaCFAz7xuGy1cfDy3L3i8kTduGFiQMmdmA9L4QqpQJWGsJnU1TXRCRG7RLS2mjLQU9kbWKJNT4R6D",
+    "at": "2026-11-24T07:04:04.399Z"
    }
   ],
-  "realised_xnt": 12.9882
+  "realised_xnt": 11.13289
  },
  "last_apply": "unchanged"
 }
