@@ -1,14 +1,14 @@
 {
- "at": "2026-11-24T18:05:01Z",
+ "at": "2026-11-24T18:35:01Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 2.006929,
+  "account_value": 1.981879,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.5",
     "entry": "7.3054",
-    "upnl": "-1.0491"
+    "upnl": "-1.07415"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -555,32 +555,10 @@
      "half": null,
      "ent": 0.0093,
      "gap": 0.0971
-    }
-   },
-   "13EhJs5rPcbhrjUBQP6wcxJMqvUrpVLszmu2S32w1VmG": {
-    "mint": "2EPkJGy9C4CwdXFc7zpa4VxeansMRcRVdPnR52nBVZbW",
-    "tokRaw": 607263,
-    "costLamports": 6000000000,
-    "t": 1795351133158,
-    "entry": 979.0851892146002,
-    "sig": "3Lrcd1Vg1sxr9gExHnZmSDvpG5BqkRyr5CtymSDVX7FBzNCTpjNyJMVdivFVzDupHVJgMjU2opd6vBU7ahSQbidv",
-    "poolXnt": 977913429851,
-    "tpPct": 8,
-    "tier": "probe",
-    "dipPct": 12.41,
-    "brain": {
-     "w": 0,
-     "f": 0,
-     "l": 0,
-     "c": 0,
-     "h": 0.0448,
-     "score": 0.009,
-     "mult": 1,
-     "hurst": null,
-     "half": null,
-     "ent": 0.0093,
-     "gap": 0.113
-    }
+    },
+    "tpArmed": true,
+    "tpPeakPnl": 8.508819383333343,
+    "tpPeakAt": 1795545296709
    },
    "AEXiz5cobhrwRxQRdtXJi2pr2Tyn8br6BwWUjL6Mt6VG": {
     "mint": "67DhUYvSmsoyHh4CaYNMxZQSqZvHwrwWYb6vg2w3AQ3Q",
@@ -960,25 +938,6 @@
   },
   "last_trades": [
    {
-    "event": "buy",
-    "pool": "7XUfMr5x44u9gyexEwGCwUKoZLN8xSDQmqSvJ8xHHyz2",
-    "mint": "BvURdhTm79PU4KT8MkgaEYetpQj8QjDJqfymWdR7eYDG",
-    "xnt": 16.0693,
-    "dipPct": 10.88,
-    "price": 6.008529137475844e-06,
-    "tier": "std",
-    "smartNetXnt": 0,
-    "score": -0.1893,
-    "brainMult": 1,
-    "sig": "67NKgVGWziWWwh5Tw1msDR1dHnTkvgTPz9UbnuExmfYpnBLLDidUryrG1KJjFdb1pfX5WKBwD4kpGLxySFXgzb69",
-    "at": "2026-11-24T06:05:26.746Z"
-   },
-   {
-    "event": "exit-want",
-    "why": "tp",
-    "at": "2026-11-24T06:06:56.741Z"
-   },
-   {
     "event": "sell",
     "why": "tp",
     "pool": "299C7dz5WKy7gkP8ncautiSzV5G2qKyaTiDRneWXLBjd",
@@ -1196,9 +1155,28 @@
     "tpPct": 8,
     "sig": "41FLcJCXGW4iAq9xRApymHrppMtLEUC1YjiB9rSjTAu2Y6YrsFfLZZoY4aW5Dib8SyzRqqpj5tkRc9KJ3cMVR39x",
     "at": "2026-11-24T16:06:16.563Z"
+   },
+   {
+    "event": "exit-want",
+    "why": "tp",
+    "at": "2026-11-24T18:34:46.941Z"
+   },
+   {
+    "event": "sell",
+    "why": "tp",
+    "pool": "13EhJs5rPcbhrjUBQP6wcxJMqvUrpVLszmu2S32w1VmG",
+    "mint": "2EPkJGy9C4CwdXFc7zpa4VxeansMRcRVdPnR52nBVZbW",
+    "xntBack": 6.56435454,
+    "cost": 6,
+    "pnlPct": 9.41,
+    "tier": "probe",
+    "dipPct": 12.41,
+    "tpPct": 8,
+    "sig": "3HhKvwqFT22AyHQR6DpRqusvKA9555kabL8K1BLS7Csahr8SSLzGdgHBLdk1DHV4H4ZnCDDGFMTtaVieHJ9GCHuL",
+    "at": "2026-11-24T18:34:47.448Z"
    }
   ],
-  "realised_xnt": 8.60316
+  "realised_xnt": 9.16752
  },
  "last_apply": "unchanged"
 }
