@@ -1,14 +1,14 @@
 {
- "at": "2026-11-25T20:35:01Z",
+ "at": "2026-11-25T21:05:01Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 2.008493,
+  "account_value": 2.061652,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.5",
     "entry": "7.3054",
-    "upnl": "-1.0485"
+    "upnl": "-0.99525"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -806,89 +806,84 @@
      "ent": 0.0093,
      "gap": 0.053
     }
+   },
+   "X5hVEp1L1qcs8N7vye8nkAp43BkLaKQzUejEgD2VbS3": {
+    "mint": "6vtMp6ZTxF8inonR2cnxBN1HUHYL8CDaGfiqnCkvXXaC",
+    "tokRaw": 34225164,
+    "costLamports": 6168911454,
+    "t": 1795639193080,
+    "entry": 0.01738027342446115,
+    "sig": "42JgkA24N2kzyMkTGo9mNDAX3Gtx2fLeWT2GHM2pHmsR857mPDmxdwJFPZ1edKXedQRsf9DQxuwheo2xxQobgi9w",
+    "poolXnt": 246756458188,
+    "tpPct": 10,
+    "tier": "std",
+    "dipPct": 7.4,
+    "brain": {
+     "w": 0,
+     "f": 0,
+     "l": 0,
+     "c": 0,
+     "h": 0.0444,
+     "score": 0.0089,
+     "mult": 1,
+     "hurst": 0.5217,
+     "half": null,
+     "ent": 0.0442,
+     "gap": 0.0489
+    }
+   },
+   "9oNpPyK6z1S2VCNZeAT1NfEXoLi2poMsxsycLbQdYrQe": {
+    "mint": "XUNigZPoe8f657NkRf7KF8tqj9ekouT4SoECsD6G2Bm",
+    "tokRaw": 16744918614041,
+    "costLamports": 16000000000,
+    "t": 1795639223203,
+    "entry": 0.0009363828040762082,
+    "sig": "pLKw6vRsgLXAUFdTG5oU9cPM5W2rXmetFGWEyb6ce466TiJFBKVid5LQPGy4LgZRqep9UusYikyauU58wb5YNpU",
+    "poolXnt": 1527336168096,
+    "tpPct": 10,
+    "tier": "std",
+    "dipPct": 10.55,
+    "brain": {
+     "w": 0,
+     "f": 1,
+     "l": 0,
+     "c": 0,
+     "h": 0.0444,
+     "score": 0.2089,
+     "mult": 1,
+     "hurst": 0.5223,
+     "half": null,
+     "ent": 0.0371,
+     "gap": 0.074
+    }
+   },
+   "7rMyWpgXzmoZnZVdXk4AUaKc7tnnbZcvFFFUCNK79W8S": {
+    "mint": "9RLrQAaCYf9LxuWYaREDzFtxcXyhFxFFVD6qSgnzbfX2",
+    "tokRaw": 1771986264875252,
+    "costLamports": 13933009820,
+    "t": 1795639705462,
+    "entry": 7.761986838252388e-06,
+    "sig": "23jCmhuqpXJ6ucdFnhpnkRykZCWq4o3cdDfC9fW4hSC7SSZkMJQfCGzQeWYqebTYt8joidRZTjY1JNUspjhuftH8",
+    "poolXnt": 1485558139685,
+    "tpPct": 10,
+    "tier": "std",
+    "dipPct": 28.88,
+    "brain": {
+     "w": 0,
+     "f": -1,
+     "l": 0,
+     "c": 0,
+     "h": 0.0444,
+     "score": -0.1911,
+     "mult": 1,
+     "hurst": 0.5217,
+     "half": null,
+     "ent": 0.0093,
+     "gap": 0.2654
+    }
    }
   },
   "last_trades": [
-   {
-    "event": "start",
-    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
-    "pools": 81,
-    "probes": 14,
-    "smartWallets": 17,
-    "smartPools": 3,
-    "rule": {
-     "BUY_XNT": 5,
-     "MAX_POS": 160,
-     "RESERVE_XNT": 20,
-     "DIP_PCT": 7,
-     "TP_PCT": 8,
-     "SL_PCT": 100,
-     "MAX_HOLD_H": 720,
-     "sizeMult": 1.25,
-     "watchLimit": 1000,
-     "probeXnt": 4,
-     "maxNewBuys": 12,
-     "maxProbe": 80,
-     "deepPool": 0.04,
-     "deepCap": 0.3,
-     "recycleH": 2
-    },
-    "at": "2026-11-24T19:21:21.233Z"
-   },
-   {
-    "event": "start",
-    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
-    "pools": 81,
-    "probes": 14,
-    "smartWallets": 17,
-    "smartPools": 3,
-    "rule": {
-     "BUY_XNT": 5,
-     "MAX_POS": 160,
-     "RESERVE_XNT": 20,
-     "DIP_PCT": 7,
-     "TP_PCT": 8,
-     "SL_PCT": 100,
-     "MAX_HOLD_H": 720,
-     "sizeMult": 1.25,
-     "watchLimit": 1000,
-     "probeXnt": 4,
-     "maxNewBuys": 12,
-     "maxProbe": 80,
-     "deepPool": 0.04,
-     "deepCap": 0.3,
-     "recycleH": 2
-    },
-    "at": "2026-11-24T19:58:03.879Z"
-   },
-   {
-    "event": "buy",
-    "pool": "7rMyWpgXzmoZnZVdXk4AUaKc7tnnbZcvFFFUCNK79W8S",
-    "mint": "9RLrQAaCYf9LxuWYaREDzFtxcXyhFxFFVD6qSgnzbfX2",
-    "xnt": 5.8425,
-    "dipPct": 16.44,
-    "price": 9.317059419066605e-06,
-    "tier": "std",
-    "smartNetXnt": 0,
-    "score": -0.1907,
-    "brainMult": 1,
-    "sig": "55NtNSfYWeuGGqTejFWKRUs8NA93yxyftjccPogQFGXSEiq7XmK9qCCyAiwYFrecXDkwU8ee8cQ3pCsGuzK9AZYP",
-    "at": "2026-11-24T20:24:00.992Z"
-   },
-   {
-    "event": "buy",
-    "pool": "GdKcXA1Q78Bquke5jyZUR1C8YMN6VYT9AUheN1RwKLfe",
-    "mint": "AnvCcvnY4DLRW42EZBEAb1QeU6Pt9aab3r3D75GtgJUU",
-    "xnt": 5.2169,
-    "dipPct": 30.5,
-    "price": 7.604249701979076e-05,
-    "tier": "deep",
-    "smartNetXnt": 0,
-    "score": -0.0271,
-    "brainMult": 1,
-    "sig": "4aL7VcgC63iddH5ai7wMvbQXxJVuazGuQwHkN5yWEtWfr2JC2CFeaPCZrYt8cZX8Xbm1X2gbbcAj1dMxPLFbrVg1",
-    "at": "2026-11-24T21:06:11.585Z"
-   },
    {
     "event": "exit-want",
     "why": "tp",
@@ -1106,6 +1101,74 @@
      "recycleH": 2
     },
     "at": "2026-11-25T20:25:52.460Z"
+   },
+   {
+    "event": "buy",
+    "pool": "X5hVEp1L1qcs8N7vye8nkAp43BkLaKQzUejEgD2VbS3",
+    "mint": "6vtMp6ZTxF8inonR2cnxBN1HUHYL8CDaGfiqnCkvXXaC",
+    "xnt": 6.1689,
+    "dipPct": 7.4,
+    "price": 0.01738027342446115,
+    "tier": "std",
+    "smartNetXnt": 0,
+    "score": 0.0089,
+    "brainMult": 1,
+    "sig": "42JgkA24N2kzyMkTGo9mNDAX3Gtx2fLeWT2GHM2pHmsR857mPDmxdwJFPZ1edKXedQRsf9DQxuwheo2xxQobgi9w",
+    "at": "2026-11-25T20:39:54.060Z"
+   },
+   {
+    "event": "buy",
+    "pool": "9oNpPyK6z1S2VCNZeAT1NfEXoLi2poMsxsycLbQdYrQe",
+    "mint": "XUNigZPoe8f657NkRf7KF8tqj9ekouT4SoECsD6G2Bm",
+    "xnt": 16,
+    "dipPct": 10.55,
+    "price": 0.0009363828040762082,
+    "tier": "std",
+    "smartNetXnt": 0,
+    "score": 0.2089,
+    "brainMult": 1,
+    "sig": "pLKw6vRsgLXAUFdTG5oU9cPM5W2rXmetFGWEyb6ce466TiJFBKVid5LQPGy4LgZRqep9UusYikyauU58wb5YNpU",
+    "at": "2026-11-25T20:40:24.424Z"
+   },
+   {
+    "event": "buy",
+    "pool": "7rMyWpgXzmoZnZVdXk4AUaKc7tnnbZcvFFFUCNK79W8S",
+    "mint": "9RLrQAaCYf9LxuWYaREDzFtxcXyhFxFFVD6qSgnzbfX2",
+    "xnt": 13.933,
+    "dipPct": 28.88,
+    "price": 7.761986838252388e-06,
+    "tier": "std",
+    "smartNetXnt": 0,
+    "score": -0.1911,
+    "brainMult": 1,
+    "sig": "23jCmhuqpXJ6ucdFnhpnkRykZCWq4o3cdDfC9fW4hSC7SSZkMJQfCGzQeWYqebTYt8joidRZTjY1JNUspjhuftH8",
+    "at": "2026-11-25T20:48:26.342Z"
+   },
+   {
+    "event": "start",
+    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
+    "pools": 155,
+    "probes": 91,
+    "smartWallets": 17,
+    "smartPools": 5,
+    "rule": {
+     "BUY_XNT": 5,
+     "MAX_POS": 160,
+     "RESERVE_XNT": 20,
+     "DIP_PCT": 7,
+     "TP_PCT": 8,
+     "SL_PCT": 100,
+     "MAX_HOLD_H": 720,
+     "sizeMult": 1.25,
+     "watchLimit": 1000,
+     "probeXnt": 4,
+     "maxNewBuys": 12,
+     "maxProbe": 80,
+     "deepPool": 0.04,
+     "deepCap": 0.3,
+     "recycleH": 2
+    },
+    "at": "2026-11-25T20:51:52.987Z"
    }
   ],
   "realised_xnt": 22.22866
