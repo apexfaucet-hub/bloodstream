@@ -1,14 +1,14 @@
 {
- "at": "2026-11-26T00:05:01Z",
+ "at": "2026-11-26T00:35:01Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 2.032278,
+  "account_value": 2.093778,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.5",
     "entry": "7.3054",
-    "upnl": "-1.0245"
+    "upnl": "-0.963"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -395,7 +395,7 @@
   ],
   "why": "Floor is $2.50. Size may rise when the account can margin it."
  },
- "money_desk": "MONEY DESK 2026-11-25\nOutside income: 24 h $0.157 (~0.14 EUR), 7 d $1.333 from 14 payers (6 new), 30 d $3.22\nTop products 7 d: domain-check $0.896 (3 payers), ai-readiness-pack $0.1 (2 payers), workflow-run $0.03 (2 payers), b2b-lead-audit $0.02 (1 payers), agent-launch-audit $0.02 (1 payers)\nCosts 7 d: spent outside $0, Arc faucet payouts $0.084 + gas $0.018. Net 7 d: $1.231\nBazaar ranks: token verdict 13; base token verdict 1; decode transaction 3; web search not in top 20; honeypot check base 9; token price not in top 20\nExperiment post-verdict: no payers before or after: did not move money, try a different lever\nExperiment relist-all-cdp: too few payers to judge (1 -> 2): leave it as it is, no undo, no repeat\nExperiment listing-text: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment base-price: no payers before or after: did not move money, try a different lever\nExperiment multichain-verdict: no payers before or after: did not move money, try a different lever\nExperiment payai-listing: too few payers to judge (3 -> 1): leave it as it is, no undo, no repeat\nExperiment chat-listing-words: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment new-tools-listing-words: no payers before or after: did not move money, try a different lever\nExperiment prediction-tools: no payers before or after: did not move money, try a different lever\nExperiment rwa-tools: no payers before or after: did not move money, try a different lever\nExperiment web-listing-words: MORE payers after (6 -> 10): keep, try the same move elsewhere\nExperiment prediction-names-fit-32: no payers before or after: did not move money, try a different lever\nExperiment gas-refill-target-045: no payers before or after: did not move money, try a different lever\nExperiment funding-gap: no payers before or after: did not move money, try a different lever\nExperiment funding-gap-premium: too few payers to judge (0 -> 1): leave it as it is, no undo, no repeat\nExperiment token-safety-words: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment named-the-unnamed-6: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment email-listing-words: too few payers to judge (1 -> 1): leave it as it is, no undo, no repeat\nExperiment bazaar-seo-2026-11-13: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment defi-dex-suite-2026-11-14: no payers before or after: did not move money, try a different lever\nExperiment html-markdown-seo-2026-11-14: too few payers to judge (3 -> 4): leave it as it is, no undo, no repeat\nExperiment hl-sol-trend-dip-2026-11-14: no payers before or after: did not move money, try a different lever\nTrading 24 h, Hyperliquid (all bots, HL fills): net $0 after fees (~0.00 EUR), 0 closes, 0 wins\nTrading 24 h, X1 dip trader: 18 sells, realised 39.698 XNT (before tx fees)\nFree capital: $0.89. Hyperliquid carry (no price risk): HYPE 11% APR ($0.0001",
+ "money_desk": "MONEY DESK 2026-11-26\nOutside income: 24 h $0.046 (~0.04 EUR), 7 d $0.89 from 15 payers (8 new), 30 d $3.265\nTop products 7 d: domain-check $0.43 (3 payers), ai-readiness-pack $0.1 (2 payers), page-extract $0.045 (1 payers), workflow-run $0.03 (2 payers), b2b-lead-audit $0.02 (1 payers)\nCosts 7 d: spent outside $0, Arc faucet payouts $0.068 + gas $0.018. Net 7 d: $0.804\nBazaar ranks: token verdict 14; base token verdict 1; decode transaction 4; web search not in top 20; honeypot check base 6; token price not in top 20\nExperiment post-verdict: no payers before or after: did not move money, try a different lever\nExperiment relist-all-cdp: too few payers to judge (1 -> 2): leave it as it is, no undo, no repeat\nExperiment listing-text: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment base-price: no payers before or after: did not move money, try a different lever\nExperiment multichain-verdict: no payers before or after: did not move money, try a different lever\nExperiment payai-listing: too few payers to judge (3 -> 1): leave it as it is, no undo, no repeat\nExperiment chat-listing-words: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment new-tools-listing-words: no payers before or after: did not move money, try a different lever\nExperiment prediction-tools: no payers before or after: did not move money, try a different lever\nExperiment rwa-tools: no payers before or after: did not move money, try a different lever\nExperiment web-listing-words: MORE payers after (6 -> 10): keep, try the same move elsewhere\nExperiment prediction-names-fit-32: no payers before or after: did not move money, try a different lever\nExperiment gas-refill-target-045: no payers before or after: did not move money, try a different lever\nExperiment funding-gap: no payers before or after: did not move money, try a different lever\nExperiment funding-gap-premium: too few payers to judge (0 -> 1): leave it as it is, no undo, no repeat\nExperiment token-safety-words: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment named-the-unnamed-6: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment email-listing-words: too few payers to judge (1 -> 1): leave it as it is, no undo, no repeat\nExperiment bazaar-seo-2026-11-13: too few payers to judge (1 -> 0): leave it as it is, no undo, no repeat\nExperiment defi-dex-suite-2026-11-14: no payers before or after: did not move money, try a different lever\nExperiment html-markdown-seo-2026-11-14: too few payers to judge (3 -> 4): leave it as it is, no undo, no repeat\nExperiment hl-sol-trend-dip-2026-11-14: no payers before or after: did not move money, try a different lever\nTrading 24 h, Hyperliquid (all bots, HL fills): net $0 after fees (~0.00 EUR), 0 closes, 0 wins\nTrading 24 h, X1 dip trader: 3 sells, realised 1.544 XNT (before tx fees)\nFree capital: $0.86. Hyperliquid carry (no price risk): ETH 11% APR ($0.0001/day), EN",
  "x1_dip_trader": {
   "open": {
    "C23tcis8tdtrfZmX2g2svHFJD9EFW3uaD2WiEKZUdeXD": {
@@ -707,31 +707,6 @@
      "gap": 0.001
     }
    },
-   "7XUfMr5x44u9gyexEwGCwUKoZLN8xSDQmqSvJ8xHHyz2": {
-    "mint": "BvURdhTm79PU4KT8MkgaEYetpQj8QjDJqfymWdR7eYDG",
-    "tokRaw": 2605972099764873,
-    "costLamports": 16069273507,
-    "t": 1795500326059,
-    "entry": 6.008529137475844e-06,
-    "sig": "67NKgVGWziWWwh5Tw1msDR1dHnTkvgTPz9UbnuExmfYpnBLLDidUryrG1KJjFdb1pfX5WKBwD4kpGLxySFXgzb69",
-    "poolXnt": 1137104838927,
-    "tpPct": 10,
-    "tier": "std",
-    "dipPct": 10.88,
-    "brain": {
-     "w": 0,
-     "f": -0.9963,
-     "l": 0,
-     "c": 0,
-     "h": 0.05,
-     "score": -0.1893,
-     "mult": 1,
-     "hurst": 0.5279,
-     "half": 10.15,
-     "ent": 0.0296,
-     "gap": 0.0492
-    }
-   },
    "Fq4PGJgsHGu573k2PCujbo6PdYSTz7Ttc5riGHLdjPCC": {
     "mint": "WtzXxHGcCuHDsyXbCtrkKTZgGfV9WQMaojvTQGEfARt",
     "tokRaw": 607538608398862,
@@ -805,31 +780,6 @@
      "half": null,
      "ent": 0.0442,
      "gap": 0.0489
-    }
-   },
-   "9oNpPyK6z1S2VCNZeAT1NfEXoLi2poMsxsycLbQdYrQe": {
-    "mint": "XUNigZPoe8f657NkRf7KF8tqj9ekouT4SoECsD6G2Bm",
-    "tokRaw": 16744918614041,
-    "costLamports": 16000000000,
-    "t": 1795639223203,
-    "entry": 0.0009363828040762082,
-    "sig": "pLKw6vRsgLXAUFdTG5oU9cPM5W2rXmetFGWEyb6ce466TiJFBKVid5LQPGy4LgZRqep9UusYikyauU58wb5YNpU",
-    "poolXnt": 1527336168096,
-    "tpPct": 10,
-    "tier": "std",
-    "dipPct": 10.55,
-    "brain": {
-     "w": 0,
-     "f": 1,
-     "l": 0,
-     "c": 0,
-     "h": 0.0444,
-     "score": 0.2089,
-     "mult": 1,
-     "hurst": 0.5223,
-     "half": null,
-     "ent": 0.0371,
-     "gap": 0.074
     }
    },
    "7rMyWpgXzmoZnZVdXk4AUaKc7tnnbZcvFFFUCNK79W8S": {
@@ -981,88 +931,34 @@
      "ent": 0.4394,
      "gap": 0.0141
     }
+   },
+   "EKFGXJabhC5BsN8uRSdDAZGJnQCDQXendGTbXXCHYrxt": {
+    "mint": "HjnfqiWr64FAk8kKBcXLzvmAnAGYbRTfjbccqeWnNJPQ",
+    "tokRaw": 6417697647209423,
+    "costLamports": 5000000000,
+    "t": 1795652909398,
+    "entry": 7.704108709336699e-07,
+    "sig": "qSwmEFuH2UNpdBahNXAE5G2MSXjuepzxnxTkG2FjC7jBpDDDkWjwRTXEGDrB1oFX4j5ARFg9GUv3MDDo6Wtbq2i",
+    "poolXnt": 399969624783,
+    "tpPct": 10,
+    "tier": "std",
+    "dipPct": 22.86,
+    "brain": {
+     "w": 0,
+     "f": -0.9847,
+     "l": 0,
+     "c": 0,
+     "h": 0,
+     "score": -0.1969,
+     "mult": 1,
+     "hurst": 0.5547,
+     "half": 0.41,
+     "ent": 0.0093,
+     "gap": 0.2093
+    }
    }
   },
   "last_trades": [
-   {
-    "event": "exit-want",
-    "why": "tp",
-    "piggySkim": 0.14587,
-    "at": "2026-11-24T22:25:00.154Z"
-   },
-   {
-    "event": "sell",
-    "why": "tp",
-    "pool": "7rMyWpgXzmoZnZVdXk4AUaKc7tnnbZcvFFFUCNK79W8S",
-    "mint": "9RLrQAaCYf9LxuWYaREDzFtxcXyhFxFFVD6qSgnzbfX2",
-    "xntBack": 6.669651879,
-    "cost": 5.842516511,
-    "pnlPct": 14.16,
-    "tier": "std",
-    "dipPct": 16.44,
-    "tpPct": 10,
-    "piggyXnt": 0.14587,
-    "sig": "2nqSe3i4uLF6M1o9PTdtis1UqotAwSEXeNGUtjRp6JT8yxMQi6ZcTKunESa29G6mQ2aFRjBwiomnqbyHN6wU5UZe",
-    "at": "2026-11-24T22:25:00.705Z"
-   },
-   {
-    "event": "start",
-    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
-    "pools": 49,
-    "probes": 6,
-    "smartWallets": 17,
-    "smartPools": 2,
-    "rule": {
-     "BUY_XNT": 5,
-     "MAX_POS": 160,
-     "RESERVE_XNT": 20,
-     "DIP_PCT": 7,
-     "TP_PCT": 8,
-     "SL_PCT": 100,
-     "MAX_HOLD_H": 720,
-     "sizeMult": 1.25,
-     "watchLimit": 1000,
-     "probeXnt": 4,
-     "maxNewBuys": 12,
-     "maxProbe": 80,
-     "deepPool": 0.04,
-     "deepCap": 0.3,
-     "recycleH": 2
-    },
-    "at": "2026-11-25T02:53:29.582Z"
-   },
-   {
-    "event": "start",
-    "wallet": "4zGbuYScnzb4Xe4ffiyfjufvpr6W1AN8jQdTyJV7Ly1M",
-    "pools": 49,
-    "probes": 6,
-    "smartWallets": 17,
-    "smartPools": 2,
-    "rule": {
-     "BUY_XNT": 5,
-     "MAX_POS": 160,
-     "RESERVE_XNT": 20,
-     "DIP_PCT": 7,
-     "TP_PCT": 8,
-     "SL_PCT": 100,
-     "MAX_HOLD_H": 720,
-     "sizeMult": 1.25,
-     "watchLimit": 1000,
-     "probeXnt": 4,
-     "maxNewBuys": 12,
-     "maxProbe": 80,
-     "deepPool": 0.04,
-     "deepCap": 0.3,
-     "recycleH": 2
-    },
-    "at": "2026-11-25T03:05:06.499Z"
-   },
-   {
-    "event": "exit-want",
-    "why": "recycle",
-    "piggySkim": 0,
-    "at": "2026-11-25T15:28:12.802Z"
-   },
    {
     "event": "sell",
     "why": "recycle",
@@ -1283,9 +1179,65 @@
     "brainMult": 1,
     "sig": "5koFQv4GWFtQLs8vDDfepxepKytg27XWdjjU2pk4b8BWvkbKeiQpCVheA3JD9vXES6pYiPqKie8tjxZFRCfCEejR",
     "at": "2026-11-25T22:46:33.100Z"
+   },
+   {
+    "event": "buy",
+    "pool": "EKFGXJabhC5BsN8uRSdDAZGJnQCDQXendGTbXXCHYrxt",
+    "mint": "HjnfqiWr64FAk8kKBcXLzvmAnAGYbRTfjbccqeWnNJPQ",
+    "xnt": 5,
+    "dipPct": 22.86,
+    "price": 7.704108709336699e-07,
+    "tier": "std",
+    "smartNetXnt": 0,
+    "score": -0.1969,
+    "brainMult": 1,
+    "sig": "qSwmEFuH2UNpdBahNXAE5G2MSXjuepzxnxTkG2FjC7jBpDDDkWjwRTXEGDrB1oFX4j5ARFg9GUv3MDDo6Wtbq2i",
+    "at": "2026-11-26T00:28:30.529Z"
+   },
+   {
+    "event": "exit-want",
+    "why": "recycle",
+    "piggySkim": 0,
+    "at": "2026-11-26T00:28:39.758Z"
+   },
+   {
+    "event": "sell",
+    "why": "recycle",
+    "pool": "9oNpPyK6z1S2VCNZeAT1NfEXoLi2poMsxsycLbQdYrQe",
+    "mint": "XUNigZPoe8f657NkRf7KF8tqj9ekouT4SoECsD6G2Bm",
+    "xntBack": 16.288946195,
+    "cost": 16,
+    "pnlPct": 1.81,
+    "tier": "std",
+    "dipPct": 10.55,
+    "tpPct": 10,
+    "piggyXnt": 0,
+    "sig": "2WJjDaPtxsdjACUbzFgnkicM8yUmwwvY3KW7CvgAAGFreJqHdxr8wCfux38834sXadj7jFnVWseMnwzrn4NGknWS",
+    "at": "2026-11-26T00:28:39.955Z"
+   },
+   {
+    "event": "exit-want",
+    "why": "recycle",
+    "piggySkim": 0,
+    "at": "2026-11-26T00:29:00.052Z"
+   },
+   {
+    "event": "sell",
+    "why": "recycle",
+    "pool": "7XUfMr5x44u9gyexEwGCwUKoZLN8xSDQmqSvJ8xHHyz2",
+    "mint": "BvURdhTm79PU4KT8MkgaEYetpQj8QjDJqfymWdR7eYDG",
+    "xntBack": 16.846930858,
+    "cost": 16.069273507,
+    "pnlPct": 4.84,
+    "tier": "std",
+    "dipPct": 10.88,
+    "tpPct": 10,
+    "piggyXnt": 0,
+    "sig": "5HG4SMh9V6SZfrje85sCyDVxMJyiNanKCfy6uxTKVnEJnNJa5u6SYLTzAZfQfXFx817RAfsacapEsznevjxPVmCt",
+    "at": "2026-11-26T00:29:00.290Z"
    }
   ],
-  "realised_xnt": 2.37065
+  "realised_xnt": 2.61012
  },
  "last_apply": "unchanged"
 }
