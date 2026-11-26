@@ -1,14 +1,14 @@
 {
- "at": "2026-11-26T17:35:01Z",
+ "at": "2026-11-26T18:05:01Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 2.013632,
+  "account_value": 2.035236,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.5",
     "entry": "7.3054",
-    "upnl": "-1.04265"
+    "upnl": "-1.02105"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -796,31 +796,6 @@
      "gap": 0.2654
     }
    },
-   "GRYbq732zobr8fwDkqnjnaNCg5Qf5Y7vgRWBhKLFRu3j": {
-    "mint": "memoX1sJsBY6od7CfQ58XooRALwnocAZen4L7mW1ick",
-    "tokRaw": 53993629645,
-    "costLamports": 16000000000,
-    "t": 1795644963827,
-    "entry": 0.00029197366744352764,
-    "sig": "3U7YFUB75w7PBSFyf1PqgtCHpzFBg79KAexgUqrTFnGpazQ8hz4Fh4xbpUYwjxpeSqkBVaU9ziibTBCiL3RQNBDv",
-    "poolXnt": 1177912593995,
-    "tpPct": 8,
-    "tier": "deep",
-    "dipPct": 31.57,
-    "brain": {
-     "w": 0,
-     "f": 0,
-     "l": 0,
-     "c": 0,
-     "h": 0.0444,
-     "score": 0.0089,
-     "mult": 1,
-     "hurst": 0.4579,
-     "half": 34.72,
-     "ent": 0.0696,
-     "gap": 0.3077
-    }
-   },
    "992wxr3UE6JA4htatU2zVmFknmu4dtPcxfh2MMoavnW1": {
     "mint": "7GDKo7zkfyrXTfRec2ApvG7TXydxEMoyEYEjDmp8aP26",
     "tokRaw": 1076923698600853,
@@ -1102,27 +1077,6 @@
     "event": "exit-want",
     "why": "recycle",
     "piggySkim": 0,
-    "at": "2026-11-26T00:28:39.758Z"
-   },
-   {
-    "event": "sell",
-    "why": "recycle",
-    "pool": "9oNpPyK6z1S2VCNZeAT1NfEXoLi2poMsxsycLbQdYrQe",
-    "mint": "XUNigZPoe8f657NkRf7KF8tqj9ekouT4SoECsD6G2Bm",
-    "xntBack": 16.288946195,
-    "cost": 16,
-    "pnlPct": 1.81,
-    "tier": "std",
-    "dipPct": 10.55,
-    "tpPct": 10,
-    "piggyXnt": 0,
-    "sig": "2WJjDaPtxsdjACUbzFgnkicM8yUmwwvY3KW7CvgAAGFreJqHdxr8wCfux38834sXadj7jFnVWseMnwzrn4NGknWS",
-    "at": "2026-11-26T00:28:39.955Z"
-   },
-   {
-    "event": "exit-want",
-    "why": "recycle",
-    "piggySkim": 0,
     "at": "2026-11-26T00:29:00.052Z"
    },
    {
@@ -1366,9 +1320,30 @@
     "piggyXnt": 0.10641,
     "sig": "4XbBWxpHyhid5YNKfe4VhyacR3B93AvXrnvExQSmxC6JenkZHcpgY9r3bgx7kNF4zcS2oB2U8aDxnYTggTJPqhDt",
     "at": "2026-11-26T16:58:19.851Z"
+   },
+   {
+    "event": "exit-want",
+    "why": "recycle",
+    "piggySkim": 0,
+    "at": "2026-11-26T17:42:11.829Z"
+   },
+   {
+    "event": "sell",
+    "why": "recycle",
+    "pool": "GRYbq732zobr8fwDkqnjnaNCg5Qf5Y7vgRWBhKLFRu3j",
+    "mint": "memoX1sJsBY6od7CfQ58XooRALwnocAZen4L7mW1ick",
+    "xntBack": 16.217548389,
+    "cost": 16,
+    "pnlPct": 1.36,
+    "tier": "deep",
+    "dipPct": 31.57,
+    "tpPct": 8,
+    "piggyXnt": 0,
+    "sig": "33uYN7anYoFswmcHX5hkkh5K7p2mBwXi86spvfqyZWeSiwNgth3bsbuNQaRsX1BPiwnWto2NCUbiqp5a9PeQ9DJu",
+    "at": "2026-11-26T17:42:12.293Z"
    }
   ],
-  "realised_xnt": 4.76717
+  "realised_xnt": 4.69578
  },
  "last_apply": "unchanged"
 }
