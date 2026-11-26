@@ -1,14 +1,14 @@
 {
- "at": "2026-11-26T03:05:01Z",
+ "at": "2026-11-26T03:35:01Z",
  "hl_account": {
   "address": "0x0BA8d43e0176324B5a6Ae68e64c37f64e734aE73",
-  "account_value": 2.101756,
+  "account_value": 2.099956,
   "open_positions": [
    {
     "coin": "AVAX",
     "szi": "1.5",
     "entry": "7.3054",
-    "upnl": "-0.95475"
+    "upnl": "-0.95655"
    }
   ],
   "deposited_usdc": 8.974045,
@@ -981,15 +981,34 @@
      "ent": 0.1299,
      "gap": 0.004
     }
+   },
+   "4CGCkyLRqUcVLe6B4orAruiKzrQBXChPKUT1UpMpgTXP": {
+    "mint": "GdQNfRcy4XhxmLAU1A2LHs8ApNkFu8N89xCbWP16xaj5",
+    "tokRaw": 2093659311727131,
+    "costLamports": 11098802329,
+    "t": 1795663708968,
+    "entry": 5.223681582700373e-10,
+    "sig": "2tbA2omb2oweB8nr3wNhpCDaVGLpYkrpLWccuCdtLw9XHViQ5BeMCF7eknh9TLGtuDJAywTpGBrmbqWWhL2qsGbE",
+    "poolXnt": 2099683380458,
+    "tpPct": 10,
+    "tier": "std",
+    "dipPct": 38.23,
+    "brain": {
+     "w": 0,
+     "f": 0,
+     "l": 0,
+     "c": 0,
+     "h": 0,
+     "score": 0,
+     "mult": 1,
+     "hurst": 0.5911,
+     "half": 93.17,
+     "ent": 0.0585,
+     "gap": 0
+    }
    }
   },
   "last_trades": [
-   {
-    "event": "exit-want",
-    "why": "recycle",
-    "piggySkim": 0,
-    "at": "2026-11-25T15:36:15.153Z"
-   },
    {
     "event": "sell",
     "why": "recycle",
@@ -1259,6 +1278,20 @@
     "brainMult": 1,
     "sig": "29XhTC1wjd5iAduBmSzoNCwqFC59uBPQCi22AGqN2f17NVngHEM5zSBnj7CxVSb9X8XKPwSEnphvNZvd5eJvRMUd",
     "at": "2026-11-26T01:51:13.442Z"
+   },
+   {
+    "event": "buy",
+    "pool": "4CGCkyLRqUcVLe6B4orAruiKzrQBXChPKUT1UpMpgTXP",
+    "mint": "GdQNfRcy4XhxmLAU1A2LHs8ApNkFu8N89xCbWP16xaj5",
+    "xnt": 11.0988,
+    "dipPct": 38.23,
+    "price": 5.223681582700373e-10,
+    "tier": "std",
+    "smartNetXnt": 0,
+    "score": 0,
+    "brainMult": 1,
+    "sig": "2tbA2omb2oweB8nr3wNhpCDaVGLpYkrpLWccuCdtLw9XHViQ5BeMCF7eknh9TLGtuDJAywTpGBrmbqWWhL2qsGbE",
+    "at": "2026-11-26T03:28:30.077Z"
    }
   ],
   "realised_xnt": 2.60056
